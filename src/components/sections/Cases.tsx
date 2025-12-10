@@ -2,6 +2,15 @@ import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
+const tagColors = [
+  "bg-primary/20 text-primary border-primary/30",
+  "bg-accent/40 text-accent-foreground border-accent/50",
+  "bg-sage-200 text-sage-800 border-sage-300",
+  "bg-earth-200 text-earth-800 border-earth-300",
+  "bg-cream-300 text-earth-700 border-cream-400",
+];
+
+const getTagColor = (index: number) => tagColors[index % tagColors.length];
 const mainCases = [
   {
     slug: "faq-5m-organicos",
@@ -70,13 +79,13 @@ export function Cases() {
                 {caseItem.title}
               </h3>
               <div className="flex flex-wrap gap-2">
-                {caseItem.tags.slice(0, 3).map((tag) => (
-                  <Badge key={tag} variant="secondary" className="text-xs">
+                {caseItem.tags.slice(0, 3).map((tag, tagIndex) => (
+                  <Badge key={tag} variant="outline" className={`text-xs ${getTagColor(tagIndex)}`}>
                     {tag}
                   </Badge>
                 ))}
                 {caseItem.tags.length > 3 && (
-                  <Badge variant="outline" className="text-xs">
+                  <Badge variant="outline" className="text-xs bg-muted/50 text-muted-foreground">
                     +{caseItem.tags.length - 3}
                   </Badge>
                 )}
