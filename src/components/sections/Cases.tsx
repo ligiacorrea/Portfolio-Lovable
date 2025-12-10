@@ -64,31 +64,22 @@ export function Cases() {
             <Link
               key={caseItem.slug}
               to={`/case/${caseItem.slug}`}
-              className="group bg-background rounded-xl overflow-hidden card-shadow hover:card-shadow-hover transition-all duration-300 border border-border hover:border-primary/20"
+              className="group bg-background rounded-xl p-5 card-shadow hover:card-shadow-hover transition-all duration-300 border border-border hover:border-primary/20"
             >
-              <div className="aspect-[16/10] overflow-hidden bg-muted">
-                <img
-                  src={caseItem.image}
-                  alt={caseItem.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-              </div>
-              <div className="p-5">
-                <h3 className="font-display text-lg font-semibold text-foreground mb-3 group-hover:text-primary transition-colors line-clamp-2">
-                  {caseItem.title}
-                </h3>
-                <div className="flex flex-wrap gap-2">
-                  {caseItem.tags.slice(0, 3).map((tag) => (
-                    <Badge key={tag} variant="secondary" className="text-xs">
-                      {tag}
-                    </Badge>
-                  ))}
-                  {caseItem.tags.length > 3 && (
-                    <Badge variant="outline" className="text-xs">
-                      +{caseItem.tags.length - 3}
-                    </Badge>
-                  )}
-                </div>
+              <h3 className="font-display text-lg font-semibold text-foreground mb-3 group-hover:text-primary transition-colors line-clamp-2">
+                {caseItem.title}
+              </h3>
+              <div className="flex flex-wrap gap-2">
+                {caseItem.tags.slice(0, 3).map((tag) => (
+                  <Badge key={tag} variant="secondary" className="text-xs">
+                    {tag}
+                  </Badge>
+                ))}
+                {caseItem.tags.length > 3 && (
+                  <Badge variant="outline" className="text-xs">
+                    +{caseItem.tags.length - 3}
+                  </Badge>
+                )}
               </div>
             </Link>
           ))}
