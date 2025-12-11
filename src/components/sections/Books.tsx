@@ -28,14 +28,17 @@ export function Books() {
         </h2>
         <p className="text-muted-foreground mb-6">Livros mais recentes</p>
 
-        <ul className="space-y-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {books.map((book, index) => (
-            <li key={index} className="flex items-baseline gap-2">
-              <span className="font-medium text-foreground">{book.title}</span>
-              <span className="text-muted-foreground text-sm">— {book.author}</span>
-            </li>
+            <div
+              key={index}
+              className="p-5 rounded-lg border border-border bg-card hover:border-primary/30 hover:shadow-md transition-all duration-300"
+            >
+              <h3 className="font-medium text-foreground mb-2">{book.title}</h3>
+              <p className="text-sm text-muted-foreground">{book.author}</p>
+            </div>
           ))}
-        </ul>
+        </div>
       </div>
     </section>
   );
