@@ -59,6 +59,7 @@ const volunteering = [
     org: "Jovens UX&UI e VagasUX",
     role: "UX Writer | Líder de grupo no projeto \"Desafio apoie uma ONG\"",
     period: "Dez 2021 - Mai 2022",
+    honorableMention: true,
   },
   {
     org: "Playbook da Cris Luckner",
@@ -113,8 +114,13 @@ export function Experience() {
             {volunteering.map((vol, index) => (
               <div
                 key={index}
-                className="bg-card p-5 rounded-lg border border-border hover:border-primary/20 transition-colors"
+                className="relative bg-card p-5 rounded-lg border border-border hover:border-primary/20 transition-colors"
               >
+                {vol.honorableMention && (
+                  <span className="absolute top-3 right-3 bg-primary/10 text-primary text-xs font-medium px-2 py-1 rounded-full border border-primary/20">
+                    Menção Honrosa
+                  </span>
+                )}
                 <h3 className="font-medium text-foreground">{vol.org}</h3>
                 <p className="text-sm text-muted-foreground mt-1">{vol.role}</p>
                 <p className="text-sm text-primary mt-2">{vol.period}</p>
