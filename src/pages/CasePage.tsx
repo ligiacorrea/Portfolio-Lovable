@@ -17,6 +17,7 @@ import faqBannerLateral from "@/assets/cases/faq-banner-lateral.webp";
 import faqBannerRodape from "@/assets/cases/faq-banner-rodape.webp";
 import faqVotos2023 from "@/assets/cases/faq-votos-2023.webp";
 import faqVotos2024 from "@/assets/cases/faq-votos-2024.webp";
+import faqComparativoTrimestres from "@/assets/cases/faq-comparativo-trimestres.webp";
 
 interface CaseSection {
   title: string;
@@ -295,7 +296,7 @@ const casesData: Record<string, CaseData> = {
 
               <figure>
                 <img 
-                  src="https://ligiacorrea.notion.site/image/attachment%3A598cd157-8ba8-4d30-9884-519a5c99d108%3ACaptura_de_Tela_2025-12-02_as_20.17.33.png?table=block&id=2228ba4d-245e-80e0-a0c7-dea755cd0829&spaceId=a4c5fb53-7256-4287-8559-d9881c87a210&width=2000&userId=&cache=v2" 
+                  src={faqComparativoTrimestres} 
                   alt="Comparativo do desempenho dos trimestres de 2024 e 2025"
                   className="w-full rounded-lg border border-border"
                 />
