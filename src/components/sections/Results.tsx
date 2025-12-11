@@ -35,7 +35,7 @@ const results = [
 
 export function Results() {
   return (
-    <section className="py-16 md:py-24 bg-background">
+    <section id="resultados" className="py-16 md:py-24 bg-background">
       <div className="container mx-auto px-4">
         <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground mb-10 text-center">
           Resultados e impactos

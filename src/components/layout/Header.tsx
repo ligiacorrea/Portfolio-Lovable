@@ -72,11 +72,6 @@ export function Header() {
                 {item.label}
               </a>
             ))}
-            <Button asChild variant="default" size="sm">
-              <a href="https://www.linkedin.com/in/ligia-correa-ux-writer/" target="_blank" rel="noopener noreferrer">
-                LinkedIn
-              </a>
-            </Button>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -110,11 +105,6 @@ export function Header() {
                 {item.label}
               </a>
             ))}
-            <Button asChild variant="default" className="mt-2">
-              <a href="https://www.linkedin.com/in/ligia-correa-ux-writer/" target="_blank" rel="noopener noreferrer">
-                LinkedIn
-              </a>
-            </Button>
           </nav>
         </div>
       )}
