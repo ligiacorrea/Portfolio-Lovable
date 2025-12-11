@@ -15,6 +15,22 @@ const books = [
     title: "Conversational Design",
     author: "Erika Hall",
   },
+  {
+    title: "Don't Make Me Think",
+    author: "Steve Krug",
+  },
+  {
+    title: "The Design of Everyday Things",
+    author: "Don Norman",
+  },
+  {
+    title: "Microcopy: The Complete Guide",
+    author: "Kinneret Yifrah",
+  },
+  {
+    title: "Content Design",
+    author: "Sarah Winters",
+  },
 ];
 
 export function Books() {
