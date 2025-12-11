@@ -1,13 +1,11 @@
-
-
 const books = [
   {
-    title: "Redação Estratégica para UX",
-    author: "Torrey Podmajersky",
+    title: "Things are what you make of them - Life advice for creatives",
+    author: "Adam J. Kurtz",
   },
   {
-    title: "Microcopy: The Complete Guide",
-    author: "Kinneret Yifrah",
+    title: "Redação estratégica para UX",
+    author: "Torrey Podmajersky",
   },
   {
     title: "Writing is Designing",
@@ -23,9 +21,7 @@ export function Books() {
   return (
     <section id="livros" className="py-16 md:py-24 bg-background">
       <div className="container mx-auto px-4">
-        <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground mb-2">
-          Sessão leitura
-        </h2>
+        <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground mb-2">Sessão leitura</h2>
         <p className="text-muted-foreground mb-10">Livros mais recentes</p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
