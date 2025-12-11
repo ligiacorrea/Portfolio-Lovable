@@ -23,7 +23,7 @@ const courses = [
   { name: "UX Inclusivo Além da Acessibilidade Técnica", org: "UX Brasília", period: "Jul 2025" },
   { name: "Inteligência Artificial para líderes", org: "Escola Conquer", period: "Abr 2025" },
   { name: "Redação para Mídias Digitais na Era da IA", org: "CESAR School", period: "Out 2024" },
-  { name: "Product Growth", org: "PM3", period: "Jul 2024" },
+  { name: "Product Growth", org: "PM3", period: "Jul 2024", honorableMention: true },
   { name: "Mergulho em Produtos Digitais", org: "PM3", period: "Nov 2023" },
   { name: "Curso Intensivo de UX Writing", org: "Awari", period: "Out 2023" },
   { name: "Desenvolvimento de Carreira em UX", org: "Alura", period: "Out 2022" },
@@ -59,8 +59,13 @@ export function Education() {
               {courses.map((course, index) => (
                 <div
                   key={index}
-                  className="bg-background p-4 rounded-lg border border-border hover:border-primary/20 transition-colors"
+                  className="relative bg-background p-4 rounded-lg border border-border hover:border-primary/20 transition-colors"
                 >
+                  {course.honorableMention && (
+                    <span className="absolute top-2 right-2 bg-primary/10 text-primary text-[10px] font-medium px-2 py-0.5 rounded-full border border-primary/20">
+                      Menção Honrosa
+                    </span>
+                  )}
                   <p className="font-medium text-foreground text-sm">{course.name}</p>
                   <p className="text-xs text-muted-foreground mt-1">{course.org}</p>
                   <p className="text-xs text-primary mt-1">{course.period}</p>
