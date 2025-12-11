@@ -1,5 +1,3 @@
-
-
 const education = [
   {
     institution: "Universidade Anhembi Morumbi 🇧🇷",
@@ -24,13 +22,13 @@ const courses = [
   { name: "Introdução ao n8n e agentes de IA", org: "Tera", period: "Jul 2025" },
   { name: "UX Inclusivo Além da Acessibilidade Técnica", org: "UX Brasília", period: "Jul 2025" },
   { name: "Inteligência Artificial para líderes", org: "Escola Conquer", period: "Abr 2025" },
-  { name: "Abrindo a cozinha do iFood", org: "iFood", period: "Mar 2025" },
   { name: "Redação para Mídias Digitais na Era da IA", org: "CESAR School", period: "Out 2024" },
-  { name: "Product Growth - Certificado com Menção Honrosa", org: "PM3", period: "Jul 2024" },
-  { name: "Take The Lead - Mulheres Líderes", org: "eCornell University", period: "Mar 2024" },
+  { name: "Product Growth", org: "PM3", period: "Jul 2024" },
   { name: "Mergulho em Produtos Digitais", org: "PM3", period: "Nov 2023" },
   { name: "Curso Intensivo de UX Writing", org: "Awari", period: "Out 2023" },
+  { name: "Desenvolvimento de Carreira em UX", org: "Alura", period: "Out 2022" },
   { name: "Bootcamp UX Writer e Conteúdo Digital", org: "Aldeia.cc", period: "Out 2021" },
+  { name: "Masterclass: Tom de Voz", org: "Mergo", period: "Out 2021" },
 ];
 
 export function Education() {
@@ -40,15 +38,10 @@ export function Education() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
           {/* Education */}
           <div>
-            <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground mb-8">
-              Formação
-            </h2>
+            <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground mb-8">Formação</h2>
             <div className="space-y-4">
               {education.map((edu, index) => (
-                <div
-                  key={index}
-                  className="bg-background p-5 rounded-lg border border-border"
-                >
+                <div key={index} className="bg-background p-5 rounded-lg border border-border">
                   <h3 className="font-medium text-foreground">{edu.institution}</h3>
                   <p className="text-muted-foreground mt-1">{edu.degree}</p>
                   <p className="text-sm text-primary mt-2">{edu.period}</p>
