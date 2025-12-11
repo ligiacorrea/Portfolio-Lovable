@@ -211,11 +211,9 @@ const casesData: Record<string, CaseData> = {
               Em pouco mais de dois anos, a central de ajuda se tornou um dos maiores motores orgânicos de conversão do iCasei, com <strong>crescimento exponencial em receita, cadastros e engajamento</strong>.
             </p>
 
-            <div className="grid gap-6 md:grid-cols-2">
-              <div className="bg-primary/10 p-6 rounded-xl border border-primary/20">
-                <div className="text-3xl font-bold text-primary mb-2">🚀 R$ 5 milhões</div>
-                <p className="text-muted-foreground">transacionados somente pela central de ajuda, em transações da lista de presentes, sem mídia paga.</p>
-              </div>
+            <div className="bg-primary/10 p-6 rounded-xl border border-primary/20">
+              <div className="text-3xl font-bold text-primary mb-2">🚀 R$ 5 milhões</div>
+              <p className="text-muted-foreground">transacionados somente pela central de ajuda, em transações da lista de presentes, sem mídia paga.</p>
             </div>
 
             <div>
