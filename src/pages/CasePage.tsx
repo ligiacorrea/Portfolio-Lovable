@@ -15,6 +15,7 @@ import {
 import faqCentralAjudaHome from "@/assets/cases/faq-central-ajuda-home.webp";
 import faqBannerLateral from "@/assets/cases/faq-banner-lateral.webp";
 import faqBannerRodape from "@/assets/cases/faq-banner-rodape.webp";
+import faqVotos2023 from "@/assets/cases/faq-votos-2023.webp";
 
 interface CaseSection {
   title: string;
@@ -258,7 +259,7 @@ const casesData: Record<string, CaseData> = {
               <div className="grid gap-6 md:grid-cols-2">
                 <figure>
                   <img 
-                    src="https://ligiacorrea.notion.site/image/attachment%3A5ccdf1a8-8982-4c54-ba0f-9b6707c5a62d%3ACaptura_de_Tela_2025-08-08_as_16.40.04.png?table=block&id=2228ba4d-245e-80e0-a0c7-dea755cd0829&spaceId=a4c5fb53-7256-4287-8559-d9881c87a210&width=2000&userId=&cache=v2" 
+                    src={faqVotos2023} 
                     alt="Gráfico da análise de votos positivos e negativos de 2023"
                     className="w-full rounded-lg border border-border"
                   />
