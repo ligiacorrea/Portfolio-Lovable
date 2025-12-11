@@ -13,6 +13,7 @@ import {
 
 // Case images
 import faqCentralAjudaHome from "@/assets/cases/faq-central-ajuda-home.webp";
+import faqBannerLateral from "@/assets/cases/faq-banner-lateral.webp";
 
 interface CaseSection {
   title: string;
@@ -176,7 +177,7 @@ const casesData: Record<string, CaseData> = {
 
             <figure className="my-8">
               <img 
-                src="https://ligiacorrea.notion.site/image/attachment%3A67db9c86-3cb3-476f-8d37-55d2441c0d9f%3ACaptura_de_Tela_2025-08-08_as_16.12.42.png?table=block&id=2228ba4d-245e-80e0-a0c7-dea755cd0829&spaceId=a4c5fb53-7256-4287-8559-d9881c87a210&width=2000&userId=&cache=v2" 
+                src={faqBannerLateral} 
                 alt="Captura de tela com exemplo do banner lateral e hiperlinks na central de ajuda"
                 className="w-full rounded-lg border border-border"
               />
