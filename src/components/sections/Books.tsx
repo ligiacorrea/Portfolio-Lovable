@@ -1,4 +1,4 @@
-import { BookOpen } from "lucide-react";
+
 
 const books = [
   {
@@ -27,12 +27,9 @@ export function Books() {
   return (
     <section id="livros" className="py-16 md:py-24 bg-background">
       <div className="container mx-auto px-4">
-        <div className="flex items-center gap-3 mb-10">
-          <BookOpen className="h-6 w-6 text-primary" />
-          <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground">
-            Sessão leitura
-          </h2>
-        </div>
+        <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground mb-10">
+          Sessão leitura
+        </h2>
         <p className="text-muted-foreground mb-8">Livros mais recentes</p>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">

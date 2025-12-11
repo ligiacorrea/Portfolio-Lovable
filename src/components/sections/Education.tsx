@@ -1,4 +1,4 @@
-import { GraduationCap, Award } from "lucide-react";
+
 
 const education = [
   {
@@ -40,12 +40,9 @@ export function Education() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
           {/* Education */}
           <div>
-            <div className="flex items-center gap-3 mb-8">
-              <GraduationCap className="h-6 w-6 text-primary" />
-              <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground">
-                Formação
-              </h2>
-            </div>
+            <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground mb-8">
+              Formação
+            </h2>
             <div className="space-y-4">
               {education.map((edu, index) => (
                 <div
@@ -62,12 +59,9 @@ export function Education() {
 
           {/* Courses */}
           <div>
-            <div className="flex items-center gap-3 mb-8">
-              <Award className="h-6 w-6 text-primary" />
-              <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground">
-                Cursos e especializações
-              </h2>
-            </div>
+            <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground mb-8">
+              Cursos e especializações
+            </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {courses.map((course, index) => (
                 <div
