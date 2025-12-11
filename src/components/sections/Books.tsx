@@ -8,28 +8,28 @@ const books = [
     author: "Torrey Podmajersky",
   },
   {
-    title: "Writing is Designing",
-    author: "Michael J. Metts & Andy Welfle",
+    title: "UX Writing - Métrica textual comparativa",
+    author: "Andressa Ferrugem Bandeira",
   },
   {
-    title: "Conversational Design",
-    author: "Erika Hall",
+    title: "A biblioteca da meia-noite",
+    author: "Matt Haig",
   },
   {
-    title: "Don't Make Me Think",
-    author: "Steve Krug",
+    title: "Em busca de mim",
+    author: "Viola Davis",
   },
   {
-    title: "The Design of Everyday Things",
-    author: "Don Norman",
+    title: "Ponto de inflexão - Uma decisão muda tudo",
+    author: "Flávio Augusto da Silva",
   },
   {
-    title: "Microcopy: The Complete Guide",
-    author: "Kinneret Yifrah",
+    title: "A arte da felicidade - Um manual para a vida",
+    author: "Dalai Lama e Howard C. Cutler",
   },
   {
-    title: "Content Design",
-    author: "Sarah Winters",
+    title: "O profissional do futuro",
+    author: "Michelle Schneider",
   },
 ];
 
