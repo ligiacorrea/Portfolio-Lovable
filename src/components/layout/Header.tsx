@@ -50,6 +50,12 @@ export function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link
             to="/"
+            onClick={(e) => {
+              if (location.pathname === "/") {
+                e.preventDefault();
+                window.scrollTo({ top: 0, behavior: "smooth" });
+              }
+            }}
             className="font-display text-xl md:text-2xl font-semibold text-foreground hover:text-primary transition-colors"
           >
             Ligia Corrêa <span className="text-accent">🌿</span>
