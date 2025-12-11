@@ -1,5 +1,3 @@
-import { Heart } from "lucide-react";
-
 const experiences = [
   {
     company: "iCasei",
@@ -108,12 +106,9 @@ export function Experience() {
 
         {/* Volunteering */}
         <div>
-          <div className="flex items-center gap-3 mb-8">
-            <Heart className="h-6 w-6 text-primary" strokeWidth={1.5} />
-            <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground">
-              Voluntariado
-            </h2>
-          </div>
+          <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground mb-8">
+            Voluntariado
+          </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {volunteering.map((vol, index) => (
               <div
