@@ -258,7 +258,7 @@ const casesData: Record<string, CaseData> = {
                 <li>2024: <strong>75,7% positivos</strong> (+60,4%) e apenas <strong>24,3% negativos</strong> (–54%)</li>
               </ul>
 
-              <div className="grid gap-6 md:grid-cols-2">
+              <div className="space-y-6">
                 <figure>
                   <img 
                     src={faqVotos2023} 
