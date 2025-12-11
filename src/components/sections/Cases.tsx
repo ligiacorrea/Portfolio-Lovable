@@ -51,12 +51,12 @@ const mainCases = [
 ];
 
 const otherCases = [
-  { title: "Melhorando a navegação no painel e reduzindo tickets" },
-  { title: "Elevando a experiência da revista digital com um processo de redesign" },
-  { title: "Como redesenhamos a central de ajuda para aumentar autonomia e reduzir tickets" },
-  { title: "Criando uma landing page de captação com a Lovable" },
-  { title: "Conquistando mais de 1k parceiros e transacionando mais de R$ 100M em projeto" },
-  { title: "Aumentando a proposta de valor do aplicativo" },
+  { slug: "navegacao-painel", title: "Melhorando a navegação no painel e reduzindo tickets" },
+  { slug: "revista-digital", title: "Elevando a experiência da revista digital com um processo de redesign" },
+  { slug: "redesign-central-ajuda", title: "Como redesenhamos a central de ajuda para aumentar autonomia e reduzir tickets" },
+  { slug: "landing-page-lovable", title: "Criando uma landing page de captação com a Lovable" },
+  { slug: "parceiros-100m", title: "Conquistando mais de 1k parceiros e transacionando mais de R$ 100M em projeto" },
+  { slug: "proposta-valor-app", title: "Aumentando a proposta de valor do aplicativo" },
 ];
 
 export function Cases() {
@@ -100,16 +100,17 @@ export function Cases() {
             Outros cases
           </h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-            {otherCases.map((caseItem, index) => (
-              <div
-                key={index}
+            {otherCases.map((caseItem) => (
+              <Link
+                key={caseItem.slug}
+                to={`/case/${caseItem.slug}`}
                 className="group flex items-center gap-3 p-4 bg-background rounded-lg border border-border hover:border-primary/20 transition-colors"
               >
                 <ArrowRight className="h-4 w-4 text-muted-foreground group-hover:text-primary transition-colors flex-shrink-0" />
                 <span className="text-sm text-muted-foreground group-hover:text-foreground transition-colors">
                   {caseItem.title}
                 </span>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
