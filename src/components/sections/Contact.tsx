@@ -10,12 +10,8 @@ export function Contact() {
             <Coffee />
             <MessageSquare />
           </div>
-          <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground mb-4">
-            Contato
-          </h2>
-          <p className="text-muted-foreground mb-8">
-            Que tal um café virtual? Posso te contar mais sobre meu trabalho e trocar ideias sobre livros também!
-          </p>
+          <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground mb-4">Contato</h2>
+          <p className="text-muted-foreground mb-8">Que tal um café virtual?</p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
             <Button asChild variant="default" size="lg">
