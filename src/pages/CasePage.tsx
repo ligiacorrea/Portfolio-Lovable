@@ -651,7 +651,7 @@ export default function CasePage() {
               Voltar para cases
             </Link>
             
-            <div className="max-w-3xl mx-auto text-center">
+            <div className="max-w-3xl mx-auto">
               {/* Tags row */}
               <div className="flex flex-wrap gap-2 mb-6">
                 <Badge variant="default" className="bg-primary text-primary-foreground">
