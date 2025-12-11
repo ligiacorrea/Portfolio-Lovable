@@ -325,14 +325,6 @@ const casesData: Record<string, CaseData> = {
         )
       }
     ],
-    closing: (
-      <div className="text-center space-y-4">
-        <p className="text-2xl">Obrigada! 😊 🌿</p>
-        <p className="text-muted-foreground">
-          Fico muito feliz de saber que chegou até aqui e espero que tenha gostado do projeto.
-        </p>
-      </div>
-    )
   },
   "bot-90-satisfacao": {
     title: "Como construímos fluxos de bot com 90% de satisfação e redução de 73% nos tickets",
@@ -659,7 +651,7 @@ export default function CasePage() {
               Voltar para cases
             </Link>
             
-            <div className="max-w-4xl">
+            <div className="max-w-3xl mx-auto text-center">
               {/* Tags row */}
               <div className="flex flex-wrap gap-2 mb-6">
                 <Badge variant="default" className="bg-primary text-primary-foreground">
