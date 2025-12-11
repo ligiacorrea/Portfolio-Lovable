@@ -4,12 +4,12 @@ const books = [
     author: "Adam J. Kurtz",
   },
   {
-    title: "Redação estratégica para UX",
-    author: "Torrey Podmajersky",
+    title: "Pai rico pai pobre",
+    author: "Robert T. Kiyosaki",
   },
   {
-    title: "UX Writing - Métrica textual comparativa",
-    author: "Andressa Ferrugem Bandeira",
+    title: "A troca",
+    author: "Beth O'Leary",
   },
   {
     title: "A biblioteca da meia-noite",
@@ -38,7 +38,7 @@ export function Books() {
     <section id="livros" className="py-16 md:py-24 bg-background">
       <div className="container mx-auto px-4">
         <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground mb-2">Sessão leitura</h2>
-        <p className="text-muted-foreground mb-10">Favoritos da estante</p>
+        <p className="text-muted-foreground mb-10">Os livros favoritos da estante</p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {books.map((book, index) => (
