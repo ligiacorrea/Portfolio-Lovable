@@ -35,6 +35,7 @@ import opsGuiaPesquisas from "@/assets/cases/ops-guia-pesquisas.webp";
 import opsGuiaUxWriting from "@/assets/cases/ops-guia-ux-writing.webp";
 import opsGuiaGrowth from "@/assets/cases/ops-guia-growth.webp";
 import opsBoardMetricas from "@/assets/cases/ops-board-metricas.webp";
+import opsBoardGeo from "@/assets/cases/ops-board-geo.webp";
 
 interface CaseSection {
   title: string;
@@ -1037,6 +1038,16 @@ const casesData: Record<string, CaseData> = {
                 />
                 <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
                   Captura do board visual (livro sobre métricas de UXW)
+                </figcaption>
+              </figure>
+              <figure className="mt-4">
+                <img
+                  src={opsBoardGeo}
+                  alt="Captura do board visual (curso/artigos sobre GEO)"
+                  className="w-full rounded-lg border border-border"
+                />
+                <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                  Captura do board visual (curso/artigos sobre GEO)
                 </figcaption>
               </figure>
             </div>
