@@ -29,6 +29,7 @@ import botFeedbacks2 from "@/assets/cases/bot-feedbacks-2.webp";
 import botMetabaseFunil from "@/assets/cases/bot-metabase-funil.webp";
 import opsDocAlertas from "@/assets/cases/ops-doc-alertas.webp";
 import opsDocStatus from "@/assets/cases/ops-doc-status.webp";
+import opsDocCopy from "@/assets/cases/ops-doc-copy.webp";
 
 interface CaseSection {
   title: string;
@@ -909,7 +910,7 @@ const casesData: Record<string, CaseData> = {
                 </figcaption>
               </figure>
 
-              <figure>
+              <figure className="mb-6">
                 <img
                   src={opsDocStatus}
                   alt="Exemplo de documentação dos status da contratação de plano no painel"
@@ -917,6 +918,17 @@ const casesData: Record<string, CaseData> = {
                 />
                 <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
                   Exemplo de documentação dos status da contratação de plano no painel
+                </figcaption>
+              </figure>
+
+              <figure>
+                <img
+                  src={opsDocCopy}
+                  alt="Exemplo de documentação de copy para interface de novo painel/sistema"
+                  className="w-full rounded-lg border border-border"
+                />
+                <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                  Exemplo de documentação de copy para interface de novo painel/sistema
                 </figcaption>
               </figure>
             </div>
