@@ -14,6 +14,7 @@ import faqVotos2023 from "@/assets/cases/faq-votos-2023.webp";
 import faqVotos2024 from "@/assets/cases/faq-votos-2024.webp";
 import faqComparativoTrimestres from "@/assets/cases/faq-comparativo-trimestres.webp";
 import botRsvpMockup from "@/assets/cases/bot-rsvp-mockup.webp";
+import botFluxoMiroV1 from "@/assets/cases/bot-fluxo-miro-v1.webp";
 
 interface CaseSection {
   title: string;
@@ -464,6 +465,16 @@ const casesData: Record<string, CaseData> = {
                     />
                     <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
                       Mockup da conversa de confirmação de presença pelo WhatsApp
+                    </figcaption>
+                  </figure>
+                  <figure className="mt-4">
+                    <img
+                      src={botFluxoMiroV1}
+                      alt="Fluxo conversacional no Miro (versão inicial para testes)"
+                      className="w-full rounded-lg border border-border"
+                    />
+                    <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                      Fluxo conversacional no Miro (versão inicial para testes)
                     </figcaption>
                   </figure>
                 </div>
