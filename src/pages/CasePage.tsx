@@ -72,6 +72,7 @@ import ongFluxoSite from "@/assets/cases/ong-fluxo-site.webp";
 import npsBrandingSweetCannelle from "@/assets/cases/nps-branding-sweet-cannelle.webp";
 import npsDeskResearch from "@/assets/cases/nps-desk-research.webp";
 import npsDefinicao from "@/assets/cases/nps-definicao.webp";
+import npsEntregar from "@/assets/cases/nps-entregar.webp";
 
 interface CaseSection {
   title: string;
@@ -1907,6 +1908,14 @@ const casesData: Record<string, CaseData> = {
                 <p>
                   Também foi criado o fluxo atualizado, inserindo a etapa do NPS entre <em>confirmação de compra</em> e <em>recebimento do pedido</em>.
                 </p>
+
+                <figure className="my-6">
+                  <img
+                    src={npsEntregar}
+                    alt="Design da pesquisa NPS e jornada do usuário"
+                    className="w-full rounded-lg border border-border"
+                  />
+                </figure>
               </div>
             </div>
           </div>
