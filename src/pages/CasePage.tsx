@@ -23,6 +23,7 @@ import botZendesk1 from "@/assets/cases/bot-zendesk-1.webp";
 import botZendesk2 from "@/assets/cases/bot-zendesk-2.webp";
 import botZendesk3 from "@/assets/cases/bot-zendesk-3.webp";
 import botGraficoTickets from "@/assets/cases/bot-grafico-tickets.webp";
+import botRsvpExperiencia from "@/assets/cases/bot-rsvp-experiencia.webp";
 
 interface CaseSection {
   title: string;
@@ -727,6 +728,13 @@ const casesData: Record<string, CaseData> = {
                 <li><strong>87%</strong> acharam as mensagens claras</li>
                 <li><strong>92%</strong> avaliaram como excelente/boa</li>
               </ul>
+              <div className="mt-4">
+                <img
+                  src={botRsvpExperiencia}
+                  alt="Experiência geral de confirmação pelo WhatsApp"
+                  className="w-full rounded-lg"
+                />
+              </div>
             </div>
 
             <div>
