@@ -1408,7 +1408,18 @@ const casesData: Record<string, CaseData> = {
   "ong-voluntarios": {
     title: "Como utilizamos UX para aumentar adesão e retenção de voluntários em ONG",
     projectType: "Case voluntário",
-    skills: ["ux research", "testes de usabilidade", "discovery", "ux writing", "persona", "guia de linguagem"],
+    skills: [
+      "ux research",
+      "testes de usabilidade",
+      "discovery",
+      "ux writing",
+      "persona",
+      "guia de linguagem",
+      "conteúdos para interface",
+      "fluxo de cadastro",
+      "onboarding",
+      "content ops",
+    ],
     area: "ONG",
     sections: [
       {
