@@ -76,6 +76,7 @@ import npsEntregar from "@/assets/cases/nps-entregar.webp";
 import npsTesteAb from "@/assets/cases/nps-teste-ab.webp";
 import navegacaoHistorico1 from "@/assets/cases/navegacao-historico-1.webp";
 import navegacaoHistorico2 from "@/assets/cases/navegacao-historico-2.webp";
+import navegacaoZendeskTickets from "@/assets/cases/navegacao-zendesk-tickets.webp";
 
 interface CaseSection {
   title: string;
@@ -2092,6 +2093,17 @@ const casesData: Record<string, CaseData> = {
             <p>
               Em um único dia, diversos tickets no Zendesk apresentavam exatamente o mesmo padrão de dúvidas.
             </p>
+
+            <figure className="my-6">
+              <img
+                src={navegacaoZendeskTickets}
+                alt="Tickets no Zendesk mostrando dúvidas dos usuários"
+                className="w-full rounded-lg border border-border"
+              />
+              <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                Tickets no Zendesk
+              </figcaption>
+            </figure>
           </div>
         ),
       },
