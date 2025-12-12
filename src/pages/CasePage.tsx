@@ -44,6 +44,7 @@ import ongThumbKurumins from "@/assets/cases/ong-thumb-kurumins.webp";
 import ongMiro1 from "@/assets/cases/ong-miro-1.webp";
 import ongMiro2 from "@/assets/cases/ong-miro-2.webp";
 import ongMiro3 from "@/assets/cases/ong-miro-3.webp";
+import ongProtoPersonas from "@/assets/cases/ong-proto-personas.webp";
 
 interface CaseSection {
   title: string;
@@ -1581,6 +1582,14 @@ const casesData: Record<string, CaseData> = {
                     className="w-full rounded-lg border border-border/30"
                   />
                   <p className="text-sm text-muted-foreground mt-2 text-center italic">Fluxogramas no Miro</p>
+                </div>
+                <div>
+                  <img
+                    src={ongProtoPersonas}
+                    alt="Proto-personas"
+                    className="w-full rounded-lg border border-border/30"
+                  />
+                  <p className="text-sm text-muted-foreground mt-2 text-center italic">Proto-personas</p>
                 </div>
               </div>
             </div>
