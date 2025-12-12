@@ -37,6 +37,7 @@ import opsGuiaGrowth from "@/assets/cases/ops-guia-growth.webp";
 import opsBoardMetricas from "@/assets/cases/ops-board-metricas.webp";
 import opsBoardGeo from "@/assets/cases/ops-board-geo.webp";
 import opsRoadmapGrowth from "@/assets/cases/ops-roadmap-growth.webp";
+import opsAtividadesGrowth from "@/assets/cases/ops-atividades-growth.webp";
 
 interface CaseSection {
   title: string;
@@ -1075,6 +1076,16 @@ const casesData: Record<string, CaseData> = {
                 />
                 <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
                   Roadmap de Growth
+                </figcaption>
+              </figure>
+              <figure className="mt-4">
+                <img
+                  src={opsAtividadesGrowth}
+                  alt="Organização das atividades do time de Growth"
+                  className="w-full rounded-lg border border-border"
+                />
+                <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                  Organização das atividades do time de Growth
                 </figcaption>
               </figure>
             </div>
