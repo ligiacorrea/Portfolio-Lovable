@@ -69,6 +69,7 @@ import ongWireframesAlta from "@/assets/cases/ong-wireframes-alta.webp";
 import ongTestesUsabilidade from "@/assets/cases/ong-testes-usabilidade.webp";
 import ongDemoDay from "@/assets/cases/ong-demo-day.webp";
 import ongFluxoSite from "@/assets/cases/ong-fluxo-site.webp";
+import npsBrandingSweetCannelle from "@/assets/cases/nps-branding-sweet-cannelle.webp";
 
 interface CaseSection {
   title: string;
@@ -1608,10 +1609,13 @@ const casesData: Record<string, CaseData> = {
               O problema é que o bistrô <strong>não coletava feedback após as compras</strong>.
             </p>
 
-            {/* Placeholder para imagem: ONG Kurumins + Sweet Cannelle - Frame 5 (2).jpg */}
-            <div className="my-8 p-8 bg-muted/30 border border-dashed border-border rounded-lg text-center">
-              <p className="text-muted-foreground italic">📷 Imagem pendente: Frame visual do problema</p>
-            </div>
+            <figure className="my-8">
+              <img
+                src={npsBrandingSweetCannelle}
+                alt="Identidade visual da Sweet Cannelle"
+                className="w-full rounded-lg border border-border"
+              />
+            </figure>
 
             <p>Sem uma forma estruturada de captura de NPS, havia três impactos principais:</p>
 
