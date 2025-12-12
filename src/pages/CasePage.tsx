@@ -86,6 +86,7 @@ import navegacaoCardSorting from "@/assets/cases/navegacao-card-sorting.webp";
 import navegacaoBenchmarking from "@/assets/cases/navegacao-benchmarking.webp";
 import navegacaoSolucaoResumo from "@/assets/cases/navegacao-solucao-resumo.webp";
 import navegacaoSolucaoDetalhe from "@/assets/cases/navegacao-solucao-detalhe.webp";
+import navegacaoSolucaoDetalhe2 from "@/assets/cases/navegacao-solucao-detalhe-2.webp";
 
 interface CaseSection {
   title: string;
@@ -2256,6 +2257,14 @@ const casesData: Record<string, CaseData> = {
                 <img
                   src={navegacaoSolucaoDetalhe}
                   alt="Proposta de redesign do detalhe do presente"
+                  className="w-full rounded-lg border border-border"
+                />
+              </figure>
+
+              <figure className="my-6">
+                <img
+                  src={navegacaoSolucaoDetalhe2}
+                  alt="Versão mobile do redesign do histórico e detalhe do presente"
                   className="w-full rounded-lg border border-border"
                 />
               </figure>
