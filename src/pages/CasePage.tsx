@@ -13,6 +13,7 @@ import faqBannerRodape from "@/assets/cases/faq-banner-rodape.webp";
 import faqVotos2023 from "@/assets/cases/faq-votos-2023.webp";
 import faqVotos2024 from "@/assets/cases/faq-votos-2024.webp";
 import faqComparativoTrimestres from "@/assets/cases/faq-comparativo-trimestres.webp";
+import botRsvpMockup from "@/assets/cases/bot-rsvp-mockup.webp";
 
 interface CaseSection {
   title: string;
@@ -455,6 +456,16 @@ const casesData: Record<string, CaseData> = {
                     <li>Consideração de múltiplos cenários e exceções envolvidos no processo de confirmação de presença</li>
                     <li>Colaboração direta com desenvolvimento para garantir viabilidade técnica</li>
                   </ul>
+                  <figure className="mt-4">
+                    <img
+                      src={botRsvpMockup}
+                      alt="Mockup da conversa de confirmação de presença pelo WhatsApp"
+                      className="w-full rounded-lg border border-border"
+                    />
+                    <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                      Mockup da conversa de confirmação de presença pelo WhatsApp
+                    </figcaption>
+                  </figure>
                 </div>
 
                 <div className="bg-muted/30 p-4 rounded-lg">
