@@ -856,18 +856,27 @@ const casesData: Record<string, CaseData> = {
         content: (
           <div className="space-y-6">
             <p>
-              As equipes trabalhavam em um ambiente dinâmico, com múltiplos projetos simultâneos e times enxutos. A falta de uma cultura de documentação gerava <strong>retrabalho, perda de informação e baixa autonomia</strong>. Entre as principais dores identificadas:
+              As equipes trabalhavam em um ambiente dinâmico, com múltiplos projetos simultâneos e times enxutos. A
+              falta de uma cultura de documentação gerava{" "}
+              <strong>retrabalho, perda de informação e baixa autonomia</strong>. Entre as principais dores
+              identificadas:
             </p>
 
             <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4">
-              <li>Decisões importantes eram discutidas em reuniões e aplicadas diretamente no Figma, sem registro do racional por trás das escolhas</li>
-              <li>Ausência de materiais de apoio que orientassem tarefas recorrentes (ex.: guias, padrões, processos)</li>
+              <li>
+                Decisões importantes eram discutidas em reuniões e aplicadas diretamente no Figma, sem registro do
+                racional por trás das escolhas
+              </li>
+              <li>
+                Ausência de materiais de apoio que orientassem tarefas recorrentes (ex.: guias, padrões, processos)
+              </li>
               <li>Atrasos constantes nas entregas e falhas de comunicação entre áreas</li>
               <li>Equipes tinham dificuldade para retomar projetos adiados por falta de histórico estruturado</li>
             </ul>
 
             <blockquote className="border-l-4 border-primary pl-4 py-2 bg-muted/30 rounded-r-lg italic">
-              <strong>Públicos envolvidos:</strong> produto, design, marketing, tecnologia, growth e outros stakeholders.
+              <strong>Públicos envolvidos:</strong> produto, design, marketing, tecnologia, growth e outros
+              stakeholders.
             </blockquote>
 
             <div>
@@ -887,7 +896,8 @@ const casesData: Record<string, CaseData> = {
         content: (
           <div className="space-y-8">
             <p>
-              O trabalho se desenvolveu em três grandes frentes: <strong>documentação</strong>, <strong>padronização</strong>, <strong>gestão e integração operacional</strong>.
+              O trabalho se desenvolveu em três grandes frentes: <strong>documentação</strong>,{" "}
+              <strong>padronização</strong>, <strong>gestão e integração operacional</strong>.
             </p>
 
             <div>
@@ -905,7 +915,8 @@ const casesData: Record<string, CaseData> = {
                 <li>Confirmação de implementação no Figma</li>
               </ul>
               <p className="text-muted-foreground mb-6">
-                A proposta era criar uma ferramenta simples, rápida e fácil de editar, que permitisse registrar de forma clara as etapas, decisões, testes e históricos de cada entrega.
+                A proposta era criar uma ferramenta simples, rápida e fácil de editar, que permitisse registrar de forma
+                clara as etapas, decisões, testes e históricos de cada entrega.
               </p>
 
               <figure className="mb-6">
@@ -946,12 +957,16 @@ const casesData: Record<string, CaseData> = {
 
             <div>
               <h3 className="font-semibold text-xl mb-4">Criação de guias internos (Confluence)</h3>
-              <p className="mb-6">Foram desenvolvidos materiais completos para orientar equipes e criar consistência:</p>
+              <p className="mb-6">
+                Foram desenvolvidos materiais completos para orientar equipes e criar consistência:
+              </p>
 
               <div className="space-y-6">
                 <div className="bg-muted/30 p-4 rounded-lg">
                   <h4 className="font-semibold text-lg mb-2">Guia para Central de Ajuda</h4>
-                  <p className="text-muted-foreground mb-2">Incluía: objetivos, usuários, metas, rotina, princípios, instruções e estrutura.</p>
+                  <p className="text-muted-foreground mb-2">
+                    Incluía: objetivos, usuários, metas, rotina, princípios, instruções e estrutura.
+                  </p>
                   <p className="text-muted-foreground">Também foram criados documentos relacionados de apoio:</p>
                   <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4 mt-2">
                     <li>Passo a passo de atualização de artigos</li>
@@ -971,7 +986,10 @@ const casesData: Record<string, CaseData> = {
 
                 <div className="bg-muted/30 p-4 rounded-lg">
                   <h4 className="font-semibold text-lg mb-2">Guia para Pesquisas</h4>
-                  <p className="text-muted-foreground">Documentava objetivos, etapas, princípios e estrutura para um processo claro e replicável. Mantinha flexibilidade, evitando fórmulas engessadas.</p>
+                  <p className="text-muted-foreground">
+                    Documentava objetivos, etapas, princípios e estrutura para um processo claro e replicável. Mantinha
+                    flexibilidade, evitando fórmulas engessadas.
+                  </p>
                   <figure className="mt-4">
                     <img
                       src={opsGuiaPesquisas}
@@ -1012,7 +1030,10 @@ const casesData: Record<string, CaseData> = {
 
                 <div className="bg-muted/30 p-4 rounded-lg">
                   <h4 className="font-semibold text-lg mb-2">Guia de Growth</h4>
-                  <p className="text-muted-foreground">Apoiado em frameworks como Product-Led Growth e Funil Pirata. Incluía métricas, conceitos essenciais e materiais de referência.</p>
+                  <p className="text-muted-foreground">
+                    Apoiado em frameworks como Product-Led Growth e Funil Pirata. Incluía métricas, conceitos essenciais
+                    e materiais de referência.
+                  </p>
                   <figure className="mt-4">
                     <img
                       src={opsGuiaGrowth}
@@ -1031,7 +1052,9 @@ const casesData: Record<string, CaseData> = {
 
             <div>
               <h3 className="font-semibold text-xl mb-4">Boards visuais de estudos e referência</h3>
-              <p className="text-muted-foreground mb-2">Criados para registrar insights de livros e cursos, facilitando consulta prática.</p>
+              <p className="text-muted-foreground mb-2">
+                Criados para registrar insights de livros e cursos, facilitando consulta prática.
+              </p>
               <p className="text-muted-foreground">Incluíam frameworks, resumos e mapas visuais.</p>
               <figure className="mt-4">
                 <img
@@ -1060,13 +1083,18 @@ const casesData: Record<string, CaseData> = {
             <div>
               <h3 className="font-semibold text-xl mb-4">Integração operacional e gestão via roadmaps</h3>
               <p className="mb-4">
-                Para facilitar visibilidade e alinhamento entre áreas, toda a operação migrou do <strong>Trello para o Jira</strong>. Participei da implementação de diversos roadmaps para facilitar a gestão dos projetos e promover mais alinhamento entre as equipes, incorporando:
+                Para facilitar visibilidade e alinhamento entre áreas, toda a operação migrou do{" "}
+                <strong>Trello para o Jira</strong>. Participei da implementação de diversos roadmaps para facilitar a
+                gestão dos projetos e promover mais alinhamento entre as equipes, incorporando:
               </p>
               <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
                 <li>Roadmap de monitoramento da Central de Ajuda (mensal, trimestral e anual)</li>
                 <li>Roadmap de PR (ações mensais, status e métricas)</li>
                 <li>Roadmap de Growth (KPIs baseados no Funil Pirata)</li>
-                <li>Quadro de pesquisas (research) em formato kanban, facilitando a priorização e o andamento das iniciativas</li>
+                <li>
+                  Quadro de pesquisas (research) em formato kanban, facilitando a priorização e o andamento das
+                  iniciativas
+                </li>
                 <li>Cronograma de grandes entregas e organização das atividades do time</li>
               </ul>
               <figure className="mt-4">
@@ -1114,22 +1142,33 @@ const casesData: Record<string, CaseData> = {
             <div className="space-y-4">
               <div className="bg-primary/10 p-4 rounded-lg border border-primary/20">
                 <h4 className="font-semibold mb-2">📌 Um ecossistema de documentação centralizado e vivo</h4>
-                <p className="text-muted-foreground">Incluindo planilhas, guias, boards visuais e rotinas de atualização.</p>
+                <p className="text-muted-foreground">
+                  Incluindo planilhas, guias, boards visuais e rotinas de atualização.
+                </p>
               </div>
 
               <div className="bg-primary/10 p-4 rounded-lg border border-primary/20">
                 <h4 className="font-semibold mb-2">📌 Padronização transversal entre áreas</h4>
-                <p className="text-muted-foreground">Com princípios, regras, estruturas e boas práticas aplicáveis em UX Writing, Help Center, Research e Growth.</p>
+                <p className="text-muted-foreground">
+                  Com princípios, regras, estruturas e boas práticas aplicáveis em UX Writing, Help Center, Research e
+                  Growth.
+                </p>
               </div>
 
               <div className="bg-primary/10 p-4 rounded-lg border border-primary/20">
                 <h4 className="font-semibold mb-2">📌 Processos integrados que aumentaram a autonomia</h4>
-                <p className="text-muted-foreground">Roadmaps estruturados em Jira permitiram acompanhamento claro de prioridades, dependências, metas e resultados.</p>
+                <p className="text-muted-foreground">
+                  Roadmaps estruturados em Jira permitiram acompanhamento claro de prioridades, dependências, metas e
+                  resultados.
+                </p>
               </div>
 
               <div className="bg-primary/10 p-4 rounded-lg border border-primary/20">
                 <h4 className="font-semibold mb-2">📌 Escalabilidade</h4>
-                <p className="text-muted-foreground">A criação de modelos, guias e referências reduziu a necessidade de retrabalho e facilitou onboarding de novos colaboradores.</p>
+                <p className="text-muted-foreground">
+                  A criação de modelos, guias e referências reduziu a necessidade de retrabalho e facilitou onboarding
+                  de novos colaboradores.
+                </p>
               </div>
             </div>
           </div>
@@ -1144,32 +1183,45 @@ const casesData: Record<string, CaseData> = {
             <div className="space-y-4">
               <div>
                 <h4 className="font-semibold text-lg mb-2">🔹 Redução de retrabalho e perda de informações</h4>
-                <p className="text-muted-foreground">A documentação passou a registrar todo o racional das decisões, diminuindo gargalos e dependências.</p>
+                <p className="text-muted-foreground">
+                  A documentação passou a registrar todo o racional das decisões, diminuindo gargalos e dependências.
+                </p>
               </div>
 
               <div>
                 <h4 className="font-semibold text-lg mb-2">🔹 Aumento da autonomia das equipes</h4>
-                <p className="text-muted-foreground">Com acesso rápido a processos, conceitos e guias, as áreas passaram a operar com mais independência.</p>
+                <p className="text-muted-foreground">
+                  Com acesso rápido a processos, conceitos e guias, as áreas passaram a operar com mais independência.
+                </p>
               </div>
 
               <div>
                 <h4 className="font-semibold text-lg mb-2">🔹 Entregas mais consistentes e alinhadas</h4>
-                <p className="text-muted-foreground">A padronização trouxe identidade e coerência entre conteúdos, telas e fluxos.</p>
+                <p className="text-muted-foreground">
+                  A padronização trouxe identidade e coerência entre conteúdos, telas e fluxos.
+                </p>
               </div>
 
               <div>
                 <h4 className="font-semibold text-lg mb-2">🔹 Agilidade na retomada de projetos</h4>
-                <p className="text-muted-foreground">As informações deixaram de ser dispersas, permitindo continuidade mesmo após pausas longas.</p>
+                <p className="text-muted-foreground">
+                  As informações deixaram de ser dispersas, permitindo continuidade mesmo após pausas longas.
+                </p>
               </div>
 
               <div>
                 <h4 className="font-semibold text-lg mb-2">🔹 Operação mais integrada entre áreas</h4>
-                <p className="text-muted-foreground">A migração para Jira, os roadmaps e cronogramas trouxeram visibilidade e sinergia entre Produto, Conteúdo, Growth e Design.</p>
+                <p className="text-muted-foreground">
+                  A migração para Jira, os roadmaps e cronogramas trouxeram visibilidade e sinergia entre Produto,
+                  Conteúdo, Growth e Design.
+                </p>
               </div>
 
               <div>
                 <h4 className="font-semibold text-lg mb-2">🔹 Base sólida para escala</h4>
-                <p className="text-muted-foreground">Novos projetos passaram a nascer com estrutura e rastreabilidade.</p>
+                <p className="text-muted-foreground">
+                  Novos projetos passaram a nascer com estrutura e rastreabilidade.
+                </p>
               </div>
             </div>
 
@@ -1178,7 +1230,8 @@ const casesData: Record<string, CaseData> = {
             <div className="bg-card p-6 rounded-xl border border-border">
               <h4 className="font-semibold text-lg mb-4">Conclusão e próximos passos</h4>
               <p className="text-muted-foreground mb-4">
-                O fortalecimento da cultura de documentação abriu caminho para uma operação mais madura e eficiente. Os próximos passos incluem:
+                O fortalecimento da cultura de documentação abriu caminho para uma operação mais madura e eficiente. Os
+                próximos passos incluem:
               </p>
               <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
                 <li>Guia de linguagem e glossário</li>
@@ -1355,14 +1408,7 @@ const casesData: Record<string, CaseData> = {
   "ong-voluntarios": {
     title: "Como utilizamos UX para aumentar adesão e retenção de voluntários em ONG",
     projectType: "Case voluntário",
-    skills: [
-      "ux research",
-      "testes de usabilidade",
-      "arquitetura de informação",
-      "ux writing",
-      "ui design",
-      "prototipagem",
-    ],
+    skills: ["ux research", "testes de usabilidade", "discovery", "ux writing", "persona", "guia de linguagem"],
     area: "ONG",
     sections: [
       {
@@ -1370,7 +1416,8 @@ const casesData: Record<string, CaseData> = {
         content: (
           <div className="space-y-6">
             <p>
-              Durante e após a pandemia, as ONGs enfrentaram quedas significativas no número de voluntários e apoiadores. De acordo com a{" "}
+              Durante e após a pandemia, as ONGs enfrentaram quedas significativas no número de voluntários e
+              apoiadores. De acordo com a{" "}
               <a
                 href="https://www1.folha.uol.com.br/empreendedorsocial/2020/12/metade-das-organizacoes-sociais-brasileiras-afirma-ter-dificuldades-para-se-manter-apos-a-pandemia.shtml"
                 target="_blank"
@@ -1379,7 +1426,12 @@ const casesData: Record<string, CaseData> = {
               >
                 pesquisa
               </a>{" "}
-              feita pelo Datafolha em parceria com a Ambev, <strong>41% das instituições relatam falta de apoiadores financeiros, 13% falta de materiais/equipamentos e 11% falta de voluntários</strong>.
+              feita pelo Datafolha em parceria com a Ambev,{" "}
+              <strong>
+                41% das instituições relatam falta de apoiadores financeiros, 13% falta de materiais/equipamentos e 11%
+                falta de voluntários
+              </strong>
+              .
             </p>
 
             <p>
@@ -1425,7 +1477,8 @@ const casesData: Record<string, CaseData> = {
             </p>
 
             <blockquote className="border-l-4 border-primary pl-4 py-2 bg-muted/30 rounded-r-lg italic">
-              Criar uma solução de UX capaz de melhorar a gestão interna da ONG Kurumins e aumentar a oferta e retenção de voluntários.
+              Criar uma solução de UX capaz de melhorar a gestão interna da ONG Kurumins e aumentar a oferta e retenção
+              de voluntários.
             </blockquote>
 
             <p>
@@ -1450,10 +1503,19 @@ const casesData: Record<string, CaseData> = {
             <div>
               <h3 className="font-semibold text-lg mb-3">1. Organização do desafio</h3>
               <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
-                <li><strong>589 voluntários inscritos</strong></li>
-                <li><strong>97 grupos</strong> (≈6 pessoas cada)</li>
-                <li><strong>11 mentores voluntários</strong></li>
-                <li>5 meses de trabalho com checkpoints e Demo Day para os organizadores do desafio, mentores voluntários e representantes da ONG</li>
+                <li>
+                  <strong>589 voluntários inscritos</strong>
+                </li>
+                <li>
+                  <strong>97 grupos</strong> (≈6 pessoas cada)
+                </li>
+                <li>
+                  <strong>11 mentores voluntários</strong>
+                </li>
+                <li>
+                  5 meses de trabalho com checkpoints e Demo Day para os organizadores do desafio, mentores voluntários
+                  e representantes da ONG
+                </li>
               </ul>
             </div>
 
@@ -1461,40 +1523,66 @@ const casesData: Record<string, CaseData> = {
               <h3 className="font-semibold text-lg mb-3">2. Discovery e Desk Research</h3>
               <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
                 <li>Análise profunda da ONG: atividades, cronograma, perfis dos voluntários e famílias atendidas</li>
-                <li>Construção da <strong>Matriz CSD</strong> para organizar certezas, suposições e dúvidas</li>
-                <li>Criação de <strong>proto-personas</strong> (perfis de voluntários presenciais e remotos)</li>
+                <li>
+                  Construção da <strong>Matriz CSD</strong> para organizar certezas, suposições e dúvidas
+                </li>
+                <li>
+                  Criação de <strong>proto-personas</strong> (perfis de voluntários presenciais e remotos)
+                </li>
               </ul>
             </div>
 
             <div>
               <h3 className="font-semibold text-lg mb-3">3. Pesquisa</h3>
-              <p className="mb-4"><strong>O que precisamos descobrir:</strong></p>
+              <p className="mb-4">
+                <strong>O que precisamos descobrir:</strong>
+              </p>
 
               <h4 className="font-medium mb-2">Quantitativa - 196 respostas</h4>
               <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4 mb-4">
-                <li><strong>61,2%</strong> já foram voluntários</li>
-                <li><strong>21,9%</strong> nunca fizeram trabalho voluntário</li>
-                <li><strong>16,8%</strong> são voluntários atualmente</li>
+                <li>
+                  <strong>61,2%</strong> já foram voluntários
+                </li>
+                <li>
+                  <strong>21,9%</strong> nunca fizeram trabalho voluntário
+                </li>
+                <li>
+                  <strong>16,8%</strong> são voluntários atualmente
+                </li>
               </ul>
 
-              <p className="mb-2"><strong>Principais descobertas:</strong></p>
+              <p className="mb-2">
+                <strong>Principais descobertas:</strong>
+              </p>
               <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4 mb-4">
-                <li>Quem desistiu: <strong>41,8% por falta de tempo</strong>, <strong>13,7% por falta de motivação</strong></li>
-                <li>Quem nunca fez: <strong>55,8% não sabem por onde começar</strong>, <strong>39,5% ajudam de outras formas</strong></li>
-                <li>Quem permanece: <strong>90,2% pela satisfação de fazer o bem</strong></li>
+                <li>
+                  Quem desistiu: <strong>41,8% por falta de tempo</strong>,{" "}
+                  <strong>13,7% por falta de motivação</strong>
+                </li>
+                <li>
+                  Quem nunca fez: <strong>55,8% não sabem por onde começar</strong>,{" "}
+                  <strong>39,5% ajudam de outras formas</strong>
+                </li>
+                <li>
+                  Quem permanece: <strong>90,2% pela satisfação de fazer o bem</strong>
+                </li>
               </ul>
 
               <h4 className="font-medium mb-2">Qualitativa - 8 entrevistas</h4>
               <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
                 <li>Extração de padrões, dores e expectativas</li>
-                <li>Formação de <strong>parede de insights</strong></li>
+                <li>
+                  Formação de <strong>parede de insights</strong>
+                </li>
               </ul>
 
               <p className="mt-4 text-muted-foreground">
-                Agrupamos todas as ideias e focamos em propor soluções para as problemáticas que envolvem a <strong>gestão de tarefas</strong> do projeto Kurumins e também das pessoas voluntárias.
+                Agrupamos todas as ideias e focamos em propor soluções para as problemáticas que envolvem a{" "}
+                <strong>gestão de tarefas</strong> do projeto Kurumins e também das pessoas voluntárias.
               </p>
               <p className="text-muted-foreground">
-                Com os resultados adquiridos na etapa de pesquisa, atualizamos nossa Matriz CSD e partimos para o desenvolvimento das nossas personas.
+                Com os resultados adquiridos na etapa de pesquisa, atualizamos nossa Matriz CSD e partimos para o
+                desenvolvimento das nossas personas.
               </p>
             </div>
 
@@ -1518,13 +1606,17 @@ const casesData: Record<string, CaseData> = {
             <div>
               <h3 className="font-semibold text-lg mb-3">6. Ideação</h3>
               <p className="text-muted-foreground mb-4">
-                De acordo com os estudos inicias e resultados das pesquisas com voluntários, pensamos em criar um <strong>aplicativo</strong> para funcionar como uma ferramenta digital de gestão por parte dos voluntários e representantes do projeto Kurumins.
+                De acordo com os estudos inicias e resultados das pesquisas com voluntários, pensamos em criar um{" "}
+                <strong>aplicativo</strong> para funcionar como uma ferramenta digital de gestão por parte dos
+                voluntários e representantes do projeto Kurumins.
               </p>
               <p className="text-muted-foreground mb-4">
-                Idealizado para ser desenvolvido em um formato leve e ocupar pouco espaço de armazenamento, a ideia é funcionar no modo off-line, sendo facilmente utilizado na sede da ONG.
+                Idealizado para ser desenvolvido em um formato leve e ocupar pouco espaço de armazenamento, a ideia é
+                funcionar no modo off-line, sendo facilmente utilizado na sede da ONG.
               </p>
               <p className="text-muted-foreground">
-                Para começar a nossa solução usamos o método <strong>Crazy Eight</strong> e partimos para a construção de{" "}
+                Para começar a nossa solução usamos o método <strong>Crazy Eight</strong> e partimos para a construção
+                de{" "}
                 <a
                   href="https://www.figma.com/proto/wCxYnTgIvXzIY7IXnGxx2a/App-Kurumins?page-id=908%3A8998&node-id=908%3A8999&viewport=494%2C369%2C0.18&scaling=scale-down&starting-point-node-id=908%3A8999"
                   target="_blank"
@@ -1540,8 +1632,13 @@ const casesData: Record<string, CaseData> = {
             <div>
               <h3 className="font-semibold text-lg mb-3">7. Guias de estilo e linguagem</h3>
               <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
-                <li>Ajustes do guia de estilo e biblioteca de componentes já existentes, utilizando ilustrações para evidenciar o aspecto lúdico e educativo da ONG</li>
-                <li>Criação do <strong>guia de linguagem</strong> para padronização de tom, emojis e boas práticas</li>
+                <li>
+                  Ajustes do guia de estilo e biblioteca de componentes já existentes, utilizando ilustrações para
+                  evidenciar o aspecto lúdico e educativo da ONG
+                </li>
+                <li>
+                  Criação do <strong>guia de linguagem</strong> para padronização de tom, emojis e boas práticas
+                </li>
                 <li>
                   Aplicação dos padrões nos{" "}
                   <a
@@ -1559,7 +1656,9 @@ const casesData: Record<string, CaseData> = {
             <div>
               <h3 className="font-semibold text-lg mb-3">8. Testes de usabilidade</h3>
               <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
-                <li><strong>10 testes moderados</strong> (5 no wireframe de média fidelidade e 5 no de alta fidelidade)</li>
+                <li>
+                  <strong>10 testes moderados</strong> (5 no wireframe de média fidelidade e 5 no de alta fidelidade)
+                </li>
                 <li>Validação e ajustes baseados em problemas de conteúdo e caminhos de ação</li>
               </ul>
             </div>
@@ -1579,8 +1678,14 @@ const casesData: Record<string, CaseData> = {
               <h3 className="font-semibold text-lg mb-3">10. Iteração e refinamento</h3>
               <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4 mb-4">
                 <li>Priorização de features visando simplicidade e valor real</li>
-                <li>Criar uma versão executável e escalável, com condições de ser sustentada a longo prazo tanto pela ONG quanto pelos voluntários</li>
-                <li>Migração de app para um <strong>website responsivo</strong>, simples e que atendesse às principais necessidades</li>
+                <li>
+                  Criar uma versão executável e escalável, com condições de ser sustentada a longo prazo tanto pela ONG
+                  quanto pelos voluntários
+                </li>
+                <li>
+                  Migração de app para um <strong>website responsivo</strong>, simples e que atendesse às principais
+                  necessidades
+                </li>
                 <li>
                   <strong>6 novos testes</strong> (3 no{" "}
                   <a
@@ -1625,7 +1730,8 @@ const casesData: Record<string, CaseData> = {
         content: (
           <div className="space-y-6">
             <p>
-              <strong>Transformar um aplicativo robusto em um website simples, leve e viável</strong>, focado nas funcionalidades que realmente resolvem:
+              <strong>Transformar um aplicativo robusto em um website simples, leve e viável</strong>, focado nas
+              funcionalidades que realmente resolvem:
             </p>
 
             <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
@@ -1668,17 +1774,24 @@ const casesData: Record<string, CaseData> = {
         title: "Resultado",
         content: (
           <div className="space-y-8">
-            <p>
-              Embora o grupo não tenha vencido o desafio, os resultados do projeto foram altamente positivos:
-            </p>
+            <p>Embora o grupo não tenha vencido o desafio, os resultados do projeto foram altamente positivos:</p>
 
             <div>
               <h3 className="font-semibold text-lg mb-3">Impactos diretos do processo de UX</h3>
               <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
-                <li>Pesquisa robusta com <strong>196 pessoas</strong></li>
-                <li>Entrevistas qualitativas com <strong>8 usuários</strong></li>
-                <li><strong>10 testes de usabilidade</strong> (5 do app + 5 após ajustes)</li>
-                <li>Criação de <strong>personas</strong>, <strong>jornada</strong>, <strong>CSD</strong>, <strong>wireframes</strong>, <strong>guia de estilo</strong> e <strong>guia de linguagem</strong></li>
+                <li>
+                  Pesquisa robusta com <strong>196 pessoas</strong>
+                </li>
+                <li>
+                  Entrevistas qualitativas com <strong>8 usuários</strong>
+                </li>
+                <li>
+                  <strong>10 testes de usabilidade</strong> (5 do app + 5 após ajustes)
+                </li>
+                <li>
+                  Criação de <strong>personas</strong>, <strong>jornada</strong>, <strong>CSD</strong>,{" "}
+                  <strong>wireframes</strong>, <strong>guia de estilo</strong> e <strong>guia de linguagem</strong>
+                </li>
                 <li>Reestruturação completa da solução após feedback, demonstrando maturidade de produto</li>
               </ul>
             </div>
@@ -1689,16 +1802,19 @@ const casesData: Record<string, CaseData> = {
                 <li>Fortes elogios ao UI e à organização do projeto</li>
                 <li>Destino final: solução viável, sustentável e aderente à realidade da ONG</li>
                 <li>
-                  Ganhei uma <strong>bolsa na{" "}
-                  <a
-                    href="https://www.alura.com.br/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-primary hover:underline"
-                  >
-                    Alura
-                  </a>
-                  </strong> na Formação{" "}
+                  Ganhei uma{" "}
+                  <strong>
+                    bolsa na{" "}
+                    <a
+                      href="https://www.alura.com.br/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary hover:underline"
+                    >
+                      Alura
+                    </a>
+                  </strong>{" "}
+                  na Formação{" "}
                   <a
                     href="https://cursos.alura.com.br/degree/certificate/14a1142d-0bdf-472c-94d2-8563765314f9"
                     target="_blank"
@@ -1707,13 +1823,15 @@ const casesData: Record<string, CaseData> = {
                   >
                     Desenvolvimento de Carreira em UX
                   </a>{" "}
-                  <strong>com 5 cursos na área</strong> — o mesmo incentivo oferecido aos grupos vencedores. Recebi menção honrosa <strong>por destaque de participação e engajamento ao longo do desafio</strong>. 🎉
+                  <strong>com 5 cursos na área</strong> — o mesmo incentivo oferecido aos grupos vencedores. Recebi
+                  menção honrosa <strong>por destaque de participação e engajamento ao longo do desafio</strong>. 🎉
                 </li>
               </ul>
             </div>
 
             <p className="text-muted-foreground">
-              Como representante do grupo, tive um papel essencial na organização da equipe, no alinhamento dos processos e na comunicação direta com as mentoras, o que contribuiu para o reconhecimento adicional.
+              Como representante do grupo, tive um papel essencial na organização da equipe, no alinhamento dos
+              processos e na comunicação direta com as mentoras, o que contribuiu para o reconhecimento adicional.
             </p>
 
             <div>
@@ -1729,10 +1847,13 @@ const casesData: Record<string, CaseData> = {
             <div>
               <h3 className="font-semibold text-lg mb-3">Próximos Passos</h3>
               <p className="text-muted-foreground">
-                Temos plena consciência de que o produto precisa estar em constante aprimoramento para oferecer uma experiência cada vez melhor aos seus usuários e alcançar ainda mais voluntários e doadores.
+                Temos plena consciência de que o produto precisa estar em constante aprimoramento para oferecer uma
+                experiência cada vez melhor aos seus usuários e alcançar ainda mais voluntários e doadores.
               </p>
               <p className="text-muted-foreground mt-4">
-                Como próximos passos, gostaríamos de implementar um sistema interno a ser usado pelos voluntários onde reuniria os grupos de WhatsApp, atualizações das informações e conteúdos de interesse do voluntário, além de uma newsletter para acompanhamento de todos os eventos e novidades.
+                Como próximos passos, gostaríamos de implementar um sistema interno a ser usado pelos voluntários onde
+                reuniria os grupos de WhatsApp, atualizações das informações e conteúdos de interesse do voluntário,
+                além de uma newsletter para acompanhamento de todos os eventos e novidades.
               </p>
             </div>
           </div>
