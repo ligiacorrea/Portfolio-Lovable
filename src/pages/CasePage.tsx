@@ -60,6 +60,7 @@ import ongStyleGuide from "@/assets/cases/ong-style-guide.webp";
 import ongGuiaLinguagem from "@/assets/cases/ong-guia-linguagem.webp";
 import ongWireframesAlta from "@/assets/cases/ong-wireframes-alta.webp";
 import ongTestesUsabilidade from "@/assets/cases/ong-testes-usabilidade.webp";
+import ongDemoDay from "@/assets/cases/ong-demo-day.webp";
 
 interface CaseSection {
   title: string;
@@ -1881,6 +1882,20 @@ const casesData: Record<string, CaseData> = {
                 <li>Baixa viabilidade financeira para a ONG</li>
                 <li>UX precisava ser mais enxuto</li>
               </ul>
+
+              <div className="my-6">
+                <img
+                  src={ongDemoDay}
+                  alt="Apresentação do trabalho no Demo Day"
+                  className="w-full rounded-lg border border-border/30"
+                />
+                <p className="text-sm text-muted-foreground mt-2 text-center italic">
+                  Apresentação do trabalho para os representantes do projeto voluntário, mentores do grupo (
+                  <a href="https://www.linkedin.com/in/paulavolker/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Paula Völker</a> e{" "}
+                  <a href="https://www.linkedin.com/in/julia-nascimentto/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Julia Nascimento</a>
+                  ) e representantes da ONG.
+                </p>
+              </div>
             </div>
 
             <div>
