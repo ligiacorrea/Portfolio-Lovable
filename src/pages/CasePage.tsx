@@ -77,6 +77,7 @@ import npsTesteAb from "@/assets/cases/nps-teste-ab.webp";
 import navegacaoHistorico1 from "@/assets/cases/navegacao-historico-1.webp";
 import navegacaoHistorico2 from "@/assets/cases/navegacao-historico-2.webp";
 import navegacaoZendeskTickets from "@/assets/cases/navegacao-zendesk-tickets.webp";
+import navegacaoAlinhamentoTimes from "@/assets/cases/navegacao-alinhamento-times.webp";
 
 interface CaseSection {
   title: string;
@@ -2120,10 +2121,13 @@ const casesData: Record<string, CaseData> = {
                 <li>Identificar <strong className="text-foreground">quais dados são mais relevantes</strong> para os casais</li>
               </ul>
 
-              {/* Placeholder para imagem do alinhamento */}
-              <div className="my-6 p-8 bg-muted/30 border border-dashed border-border rounded-lg text-center">
-                <p className="text-muted-foreground italic">📷 Imagem pendente: Alinhamento com times</p>
-              </div>
+              <figure className="my-6">
+                <img
+                  src={navegacaoAlinhamentoTimes}
+                  alt="Alinhamento com times internos - perguntas sobre o Histórico de Presentes"
+                  className="w-full rounded-lg border border-border"
+                />
+              </figure>
             </div>
 
             <div>
