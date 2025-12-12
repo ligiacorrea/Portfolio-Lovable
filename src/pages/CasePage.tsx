@@ -2281,7 +2281,7 @@ const casesData: Record<string, CaseData> = {
                 </div>
               </div>
 
-              <div className="space-y-4">
+              <div className="space-y-4 mt-8">
                 <p className="font-medium">Deslize para navegar pelo protótipo (Mobile):</p>
                 <div className="w-full rounded-lg overflow-hidden border border-border">
                   <iframe
