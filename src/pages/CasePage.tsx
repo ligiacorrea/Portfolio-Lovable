@@ -73,6 +73,7 @@ import npsBrandingSweetCannelle from "@/assets/cases/nps-branding-sweet-cannelle
 import npsDeskResearch from "@/assets/cases/nps-desk-research.webp";
 import npsDefinicao from "@/assets/cases/nps-definicao.webp";
 import npsEntregar from "@/assets/cases/nps-entregar.webp";
+import npsTesteAb from "@/assets/cases/nps-teste-ab.webp";
 
 interface CaseSection {
   title: string;
@@ -1999,10 +2000,13 @@ const casesData: Record<string, CaseData> = {
               Qual fluxo conversacional fará com que as pessoas usuárias mais visualizem as promoções sazonais?
             </blockquote>
 
-            {/* Placeholder para imagem: ONG Kurumins + Sweet Cannelle - Frame 6 (1).jpg */}
-            <div className="my-6 p-8 bg-muted/30 border border-dashed border-border rounded-lg text-center">
-              <p className="text-muted-foreground italic">📷 Imagem pendente: Teste A/B de fluxos conversacionais</p>
-            </div>
+            <figure className="my-6">
+              <img
+                src={npsTesteAb}
+                alt="Teste A/B de fluxos conversacionais"
+                className="w-full rounded-lg border border-border"
+              />
+            </figure>
 
             <div className="space-y-4">
               <p className="font-medium">Navegue pelo framework do Miro:</p>
