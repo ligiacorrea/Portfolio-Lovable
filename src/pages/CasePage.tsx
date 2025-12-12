@@ -1876,14 +1876,18 @@ const casesData: Record<string, CaseData> = {
                   </div>
 
                   <div className="mt-6">
-                    <p className="font-medium mb-4">Documento completo de Tom e Voz:</p>
-                    <div className="w-full rounded-lg overflow-hidden border border-border bg-muted/20">
-                      <iframe
-                        src="/docs/tom-voz-sweet-cannelle.pdf"
-                        className="w-full h-[600px]"
-                        title="Tom e Voz - Sweet Cannelle"
-                      />
-                    </div>
+                    <a
+                      href="/docs/tom-voz-sweet-cannelle.pdf"
+                      download="Tom e Voz - Sweet Cannelle.pdf"
+                      className="inline-flex items-center gap-2 px-4 py-3 bg-primary/10 hover:bg-primary/20 text-primary rounded-lg border border-primary/20 transition-colors"
+                    >
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                        <polyline points="7 10 12 15 17 10" />
+                        <line x1="12" x2="12" y1="15" y2="3" />
+                      </svg>
+                      Baixar documento completo de Tom e Voz (PDF)
+                    </a>
                   </div>
                 </div>
               </div>
