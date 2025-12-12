@@ -1271,7 +1271,7 @@ const casesData: Record<string, CaseData> = {
   },
   "aquisicao-produto": {
     title: "Ampliando a aquisição do produto",
-    projectType: "Case real",
+    projectType: "Case fictício",
     skills: [
       "ux writing",
       "ux research",
