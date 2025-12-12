@@ -2342,9 +2342,11 @@ export default function CasePage() {
                 <Badge variant="default" className="bg-primary text-primary-foreground">
                   {caseData.projectType}
                 </Badge>
-                <Badge variant="outline" className="bg-accent/20 text-accent-foreground border-accent/30">
-                  {caseData.area}
-                </Badge>
+                {caseData.area && (
+                  <Badge variant="outline" className="bg-accent/20 text-accent-foreground border-accent/30">
+                    {caseData.area}
+                  </Badge>
+                )}
               </div>
 
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
