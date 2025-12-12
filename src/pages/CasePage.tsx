@@ -87,6 +87,21 @@ import navegacaoBenchmarking from "@/assets/cases/navegacao-benchmarking.webp";
 import navegacaoSolucaoResumo from "@/assets/cases/navegacao-solucao-resumo.webp";
 import navegacaoSolucaoDetalhe from "@/assets/cases/navegacao-solucao-detalhe.webp";
 import navegacaoSolucaoDetalhe2 from "@/assets/cases/navegacao-solucao-detalhe-2.webp";
+import revistaMockupHome from "@/assets/cases/revista-mockup-home.webp";
+import revistaMockupMobile from "@/assets/cases/revista-mockup-mobile.webp";
+import revistaFigma1 from "@/assets/cases/revista-figma-1.webp";
+import revistaFigma2 from "@/assets/cases/revista-figma-2.webp";
+import revistaGraficoCrescimento from "@/assets/cases/revista-grafico-crescimento.webp";
+import revistaAntes1 from "@/assets/cases/revista-antes-1.webp";
+import revistaAntes2 from "@/assets/cases/revista-antes-2.webp";
+import revistaAntes3 from "@/assets/cases/revista-antes-3.webp";
+import revistaAntes4 from "@/assets/cases/revista-antes-4.webp";
+import revistaNovaHome1 from "@/assets/cases/revista-nova-home-1.webp";
+import revistaNovaHome2 from "@/assets/cases/revista-nova-home-2.webp";
+import revistaNovaHome3 from "@/assets/cases/revista-nova-home-3.webp";
+import revistaNovaInterna1 from "@/assets/cases/revista-nova-interna-1.webp";
+import revistaNovaInterna2 from "@/assets/cases/revista-nova-interna-2.webp";
+import revistaNovaInterna3 from "@/assets/cases/revista-nova-interna-3.webp";
 
 interface CaseSection {
   title: string;
@@ -3061,6 +3076,404 @@ const casesData: Record<string, CaseData> = {
                 Como próximos passos, gostaríamos de implementar um sistema interno a ser usado pelos voluntários onde
                 reuniria os grupos de WhatsApp, atualizações das informações e conteúdos de interesse do voluntário,
                 além de uma newsletter para acompanhamento de todos os eventos e novidades.
+              </p>
+            </div>
+          </div>
+        ),
+      },
+    ],
+  },
+  "revista-digital": {
+    title: "Elevando a experiência da revista digital com um processo de redesign",
+    projectType: "Case real",
+    skills: [
+      "UX writing",
+      "arquitetura de informação",
+      "redesign",
+      "SEO",
+      "acessibilidade",
+      "mobile-first",
+    ],
+    area: "Conteúdo",
+    sections: [
+      {
+        title: "Problema",
+        content: (
+          <div className="space-y-6">
+            <p>
+              A{" "}
+              <a
+                href="https://revista.icasei.com.br/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline"
+              >
+                Revista iCasei
+              </a>
+              , um dos principais pilares de marketing de conteúdo da marca, já havia alcançado{" "}
+              <strong>1 milhão de visitantes por mês</strong>. Porém, sua estrutura, visual e recursos não
+              acompanhavam:
+            </p>
+
+            <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4">
+              <li>A evolução do comportamento dos casais e do mercado digital</li>
+              <li>
+                As atualizações recentes da identidade da marca (site, painel, redes sociais, central de ajuda)
+              </li>
+              <li>A necessidade de ser um canal mais integrado ao ecossistema iCasei</li>
+              <li>Os padrões modernos de usabilidade, mobile-first, acessibilidade e escaneabilidade</li>
+            </ul>
+
+            <p>
+              A versão antiga apresentava problemas de navegação, conteúdos pouco estruturados, layout ultrapassado e
+              baixa integração estratégica com outras funcionalidades do produto.
+            </p>
+
+            <p>
+              Era necessário <strong>modernizar completamente a revista</strong>, tornando-a mais relevante,
+              responsiva, eficiente para SEO e capaz de reforçar autoridade, branding e conversão.
+            </p>
+
+            <figure className="my-8">
+              <img
+                src={revistaMockupHome}
+                alt="Mockup da página inicial da revista digital"
+                className="w-full rounded-lg border border-border"
+              />
+              <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                Mockup da página inicial da revista digital
+              </figcaption>
+            </figure>
+
+            <div>
+              <h3 className="font-semibold text-lg mb-3">Público-alvo:</h3>
+              <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+                <li>Casais que estão planejando o casamento</li>
+                <li>Visitantes vindos de mecanismos de busca (principalmente Google)</li>
+                <li>Parceiros iCasei (assessores, fornecedores etc.)</li>
+              </ul>
+            </div>
+          </div>
+        ),
+      },
+      {
+        title: "Processo",
+        content: (
+          <div className="space-y-6">
+            <p>
+              O redesign da revista seguiu uma abordagem completa de{" "}
+              <strong>pesquisa, arquitetura da informação, UX Writing, design e desenvolvimento</strong>.
+            </p>
+
+            <div className="space-y-8">
+              <div>
+                <h3 className="font-semibold text-lg mb-3">1. Análise da versão anterior</h3>
+                <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+                  <li>
+                    Identificação de padrões de leitura, preferências de consumo, atritos, baixa escaneabilidade e
+                    limitações editoriais
+                  </li>
+                  <li>Revisão de hierarquia, tom de voz e navegabilidade</li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="font-semibold text-lg mb-3">2. Reestruturação editorial e de conteúdo</h3>
+                <p className="text-muted-foreground mb-2">Cada matéria passou por reescrita com foco em:</p>
+                <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+                  <li>Escaneabilidade e hierarquia da informação</li>
+                  <li>Tom de voz atualizado</li>
+                  <li>Conteúdo mais fluido e resolutivo</li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="font-semibold text-lg mb-3">
+                  3. Implementação de novos recursos tecnológicos e de acessibilidade
+                </h3>
+                <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+                  <li>Resumo por IA</li>
+                  <li>Tempo estimado de leitura</li>
+                  <li>Conversão de texto em áudio</li>
+                  <li>Navegação compatível com leitores de tela</li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="font-semibold text-lg mb-3">4. Redesign visual e estrutural</h3>
+                <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+                  <li>Arquitetura da informação, taxonomia e hierarquia visual totalmente revisadas</li>
+                  <li>Construção mobile-first com navegação mais clara e integrada</li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="font-semibold text-lg mb-3">5. Integração com o produto e estratégia de SEO</h3>
+                <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+                  <li>Conteúdos orientados a funcionalidades como site e lista de presentes</li>
+                  <li>Inclusão de playlists do YouTube, matérias recomendadas, temas mais buscados</li>
+                  <li>Ampliação das editorias, cobrindo todas as etapas da jornada do casamento</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        ),
+      },
+      {
+        title: "Solução",
+        content: (
+          <div className="space-y-8">
+            <p>
+              A solução foi uma <strong>nova Revista iCasei</strong> — moderna, integrada e orientada à experiência
+              do usuário.
+            </p>
+
+            <div>
+              <h3 className="font-semibold text-lg mb-3">Principais entregas de UX Writing</h3>
+              <p className="text-muted-foreground mb-4">
+                O foco foi aprimorar a <strong>escaneabilidade</strong>, a <strong>hierarquia da informação</strong>{" "}
+                e o <strong>tom de voz</strong>, tornando a leitura mais fluida, envolvente e resolutiva.
+              </p>
+              <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+                <li>Página inicial</li>
+                <li>Categorias e subcategorias</li>
+                <li>Página de post</li>
+                <li>Página de autor</li>
+                <li>Busca</li>
+                <li>404 personalizada</li>
+                <li>Copy otimizada para performance</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="font-semibold text-lg mb-3">Principais mudanças implementadas</h3>
+              <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+                <li>Navegação intuitiva, com foco na clareza, usabilidade e consistência visual</li>
+                <li>Ampliação das editorias: planejamento, organização, lista, lua de mel, histórias reais etc.</li>
+                <li>Novos formatos de conteúdo: vídeos, editoriais, listas, entrevistas</li>
+                <li>Áreas estratégicas como "temas mais acessados" e "matérias recomendadas"</li>
+                <li>Integração com soluções da plataforma</li>
+                <li>Acessibilidade aprimorada (IA, áudio, leitores de tela)</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="font-semibold text-lg mb-3">Resultado visual</h3>
+              <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+                <li>Layout mais clean e responsivo</li>
+                <li>Imagens de alta qualidade</li>
+                <li>Conteúdo curado para relevância máxima</li>
+                <li>Experiência contínua entre revista, produto e demais pontos de contato da marca</li>
+              </ul>
+            </div>
+
+            <figure className="my-8">
+              <img
+                src={revistaMockupMobile}
+                alt="Mockup da revista (versão mobile)"
+                className="w-full rounded-lg border border-border"
+              />
+              <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                Mockup da revista (versão mobile)
+              </figcaption>
+            </figure>
+
+            <p>
+              O redesign das telas foi desenvolvido no Figma, em conjunto com as equipes de Design e
+              Desenvolvimento, já considerando os requisitos da plataforma WordPress.
+            </p>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
+              <figure>
+                <img
+                  src={revistaFigma1}
+                  alt="Captura de tela do projeto no Figma"
+                  className="w-full rounded-lg border border-border"
+                />
+              </figure>
+              <figure>
+                <img
+                  src={revistaFigma2}
+                  alt="Captura de tela do projeto no Figma"
+                  className="w-full rounded-lg border border-border"
+                />
+              </figure>
+            </div>
+            <p className="text-sm text-muted-foreground text-center italic -mt-4">
+              Capturas de tela do projeto no Figma
+            </p>
+          </div>
+        ),
+      },
+      {
+        title: "Resultado",
+        content: (
+          <div className="space-y-8">
+            <p>
+              A nova revista foi lançada em <strong>setembro de 2025</strong>, com impacto imediato.
+            </p>
+
+            <div>
+              <h3 className="font-semibold text-lg mb-3">📈 Crescimento mensurável</h3>
+              <p className="text-muted-foreground">
+                <strong>+335% de crescimento em cadastros</strong>
+                <br />
+                Comparação entre setembro–novembro de 2025 e o mesmo período de 2024
+              </p>
+            </div>
+
+            <figure className="my-8">
+              <img
+                src={revistaGraficoCrescimento}
+                alt="Gráfico que mostra o crescimento a partir do Q3"
+                className="w-full rounded-lg border border-border"
+              />
+              <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                Gráfico que mostra o crescimento a partir do Q3
+              </figcaption>
+            </figure>
+
+            <div>
+              <h3 className="font-semibold text-lg mb-3">Melhorias qualitativas observadas</h3>
+              <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+                <li>Navegação mais fluida, responsiva e acessível</li>
+                <li>Conteúdo mais relevante e alinhado à jornada dos casais</li>
+                <li>Fortalecimento da percepção de marca e autoridade</li>
+                <li>Integração mais profunda com o ecossistema iCasei</li>
+                <li>Aumento do potencial de tráfego orgânico (SEO) e engajamento</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="font-semibold text-lg mb-3">Mudanças de 2024 para 2025:</h3>
+              <div className="grid grid-cols-2 gap-4 my-6">
+                <figure>
+                  <img
+                    src={revistaAntes1}
+                    alt="Captura de tela da revista antes do redesign"
+                    className="w-full rounded-lg border border-border"
+                  />
+                </figure>
+                <figure>
+                  <img
+                    src={revistaAntes2}
+                    alt="Captura de tela da revista antes do redesign"
+                    className="w-full rounded-lg border border-border"
+                  />
+                </figure>
+                <figure>
+                  <img
+                    src={revistaAntes3}
+                    alt="Captura de tela da revista antes do redesign"
+                    className="w-full rounded-lg border border-border"
+                  />
+                </figure>
+                <figure>
+                  <img
+                    src={revistaAntes4}
+                    alt="Captura de tela da revista antes do redesign"
+                    className="w-full rounded-lg border border-border"
+                  />
+                </figure>
+              </div>
+              <p className="text-sm text-muted-foreground text-center italic">
+                Capturas de tela da revista antes do redesign, em 2024
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-8">
+              <figure>
+                <img
+                  src={revistaNovaHome1}
+                  alt="Nova página inicial da revista digital"
+                  className="w-full rounded-lg border border-border"
+                />
+              </figure>
+              <figure>
+                <img
+                  src={revistaNovaHome2}
+                  alt="Nova página inicial da revista digital"
+                  className="w-full rounded-lg border border-border"
+                />
+              </figure>
+              <figure>
+                <img
+                  src={revistaNovaHome3}
+                  alt="Nova página inicial da revista digital"
+                  className="w-full rounded-lg border border-border"
+                />
+              </figure>
+            </div>
+            <p className="text-sm text-muted-foreground text-center italic -mt-4">
+              Capturas de tela com a nova página inicial da revista digital
+            </p>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-8">
+              <figure>
+                <img
+                  src={revistaNovaInterna1}
+                  alt="Nova página interna da revista"
+                  className="w-full rounded-lg border border-border"
+                />
+              </figure>
+              <figure>
+                <img
+                  src={revistaNovaInterna2}
+                  alt="Nova página interna da revista"
+                  className="w-full rounded-lg border border-border"
+                />
+              </figure>
+              <figure>
+                <img
+                  src={revistaNovaInterna3}
+                  alt="Nova página interna da revista"
+                  className="w-full rounded-lg border border-border"
+                />
+              </figure>
+            </div>
+            <p className="text-sm text-muted-foreground text-center italic -mt-4">
+              Capturas de tela das novas páginas internas da revista
+            </p>
+
+            <div>
+              <h3 className="font-semibold text-lg mb-3">Conclusão</h3>
+              <p className="text-muted-foreground">
+                A revista passou por uma série de aprimoramentos que envolveram{" "}
+                <strong>arquitetura da informação</strong>, <strong>taxonomia</strong> e{" "}
+                <strong>hierarquia visual</strong>. Também foram implementadas{" "}
+                <strong>melhorias de acessibilidade</strong> e <strong>novos recursos de navegação</strong>, que
+                tornaram a experiência mais fluida, inclusiva e significativa para os usuários.
+              </p>
+              <p className="text-muted-foreground mt-4">
+                Essa nova fase reforça o <strong>compromisso do iCasei com a inovação contínua</strong> e a{" "}
+                <strong>escuta ativa do público</strong>, consolidando nossa liderança ao ir além da tecnologia —
+                oferecendo também <strong>inspiração, conteúdo e suporte editorial</strong> para casais e
+                profissionais do setor.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-semibold text-lg mb-3">Próximos passos</h3>
+              <p className="text-muted-foreground">
+                A nova <strong>Revista iCasei</strong> continuará evoluindo de forma constante, através do
+                acompanhamento de perto de indicadores como <strong>acessos, taxa de cliques, tráfego orgânico e conversões</strong>{" "}
+                dentro da plataforma. Paralelamente, também monitoraremos <strong>métricas qualitativas</strong>,
+                como <strong>comentários, menções e engajamento com os conteúdos</strong>, para compreender de
+                maneira mais profunda como a revista impacta a percepção e o relacionamento com nossos públicos.
+                Esses dados orientarão os próximos ajustes e aprimoramentos da nossa{" "}
+                <strong>estratégia editorial</strong>.
+              </p>
+              <p className="text-muted-foreground mt-4">
+                As atualizações seguirão guiadas por <strong>estratégias de UX Writing</strong>, com foco em{" "}
+                <strong>clareza, empatia e resolutividade</strong>, aliadas às{" "}
+                <strong>melhores práticas de UX e UI Design</strong>, garantindo uma{" "}
+                <strong>comunicação consistente, acessível e uma navegação intuitiva</strong>.
+              </p>
+              <p className="text-muted-foreground mt-4">
+                Esperamos que esta nova versão, assim como as futuras atualizações que trarão novas melhorias,
+                contribua de forma significativa para o <strong>fortalecimento do branding do iCasei</strong>, além
+                de <strong>estimular o aumento do tempo de permanência e da recorrência de usuários</strong> na
+                plataforma.
               </p>
             </div>
           </div>
