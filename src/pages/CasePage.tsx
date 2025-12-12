@@ -33,6 +33,7 @@ import aquisicaoDeskResearch from "@/assets/cases/aquisicao-desk-research.webp";
 import aquisicaoPersonaRafael from "@/assets/cases/aquisicao-persona-rafael.webp";
 import aquisicaoPersonaCamila from "@/assets/cases/aquisicao-persona-camila.webp";
 import aquisicaoBenchmarking from "@/assets/cases/aquisicao-benchmarking.webp";
+import aquisicaoTestesUsabilidade from "@/assets/cases/aquisicao-testes-usabilidade.webp";
 import opsDocStatus from "@/assets/cases/ops-doc-status.webp";
 import opsDocCopy from "@/assets/cases/ops-doc-copy.webp";
 import opsGuiaCentralAjuda from "@/assets/cases/ops-guia-central-ajuda.webp";
@@ -1428,6 +1429,12 @@ const casesData: Record<string, CaseData> = {
                 <li>Entendimento do fluxo de assinatura</li>
                 <li>Avaliação do FAQ</li>
               </ul>
+
+              <img
+                src={aquisicaoTestesUsabilidade}
+                alt="Testes de Usabilidade"
+                className="w-full rounded-lg mb-6"
+              />
 
               <p className="text-muted-foreground font-semibold mb-4">Principais achados dos testes:</p>
               <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
