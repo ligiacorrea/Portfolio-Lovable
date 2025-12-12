@@ -84,6 +84,7 @@ import navegacaoCloze3 from "@/assets/cases/navegacao-cloze-3.webp";
 import navegacaoCloze4 from "@/assets/cases/navegacao-cloze-4.webp";
 import navegacaoCardSorting from "@/assets/cases/navegacao-card-sorting.webp";
 import navegacaoBenchmarking from "@/assets/cases/navegacao-benchmarking.webp";
+import navegacaoSolucaoResumo from "@/assets/cases/navegacao-solucao-resumo.webp";
 
 interface CaseSection {
   title: string;
@@ -2234,10 +2235,13 @@ const casesData: Record<string, CaseData> = {
                 <li>Seta indicando que o pedido pode ser expandido</li>
               </ul>
 
-              {/* Placeholder para imagem do resumo */}
-              <div className="my-6 p-8 bg-muted/30 border border-dashed border-border rounded-lg text-center">
-                <p className="text-muted-foreground italic">📷 Imagem pendente: Resumo dos presentes</p>
-              </div>
+              <figure className="my-6">
+                <img
+                  src={navegacaoSolucaoResumo}
+                  alt="Proposta de redesign do resumo dos presentes"
+                  className="w-full rounded-lg border border-border"
+                />
+              </figure>
             </div>
 
             <div>
