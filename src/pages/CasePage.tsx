@@ -47,6 +47,7 @@ import ongMiro3 from "@/assets/cases/ong-miro-3.webp";
 import ongProtoPersonas from "@/assets/cases/ong-proto-personas.webp";
 import ongPesquisaDescobrir from "@/assets/cases/ong-pesquisa-descobrir.webp";
 import ongRespostasDesistiu from "@/assets/cases/ong-respostas-desistiu.webp";
+import ongRespostasNuncaFez from "@/assets/cases/ong-respostas-nunca-fez.webp";
 
 interface CaseSection {
   title: string;
@@ -1646,6 +1647,15 @@ const casesData: Record<string, CaseData> = {
                   className="w-full rounded-lg border border-border/30"
                 />
                 <p className="text-sm text-muted-foreground mt-2 text-center italic">Respostas de quem desistiu do voluntariado</p>
+              </div>
+
+              <div className="my-6">
+                <img
+                  src={ongRespostasNuncaFez}
+                  alt="Respostas de quem nunca fez voluntariado"
+                  className="w-full rounded-lg border border-border/30"
+                />
+                <p className="text-sm text-muted-foreground mt-2 text-center italic">Respostas de quem nunca fez voluntariado</p>
               </div>
               <h4 className="font-medium mb-2">Qualitativa - 8 entrevistas</h4>
               <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
