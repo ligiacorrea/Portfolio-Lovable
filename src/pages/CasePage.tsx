@@ -1596,53 +1596,393 @@ const casesData: Record<string, CaseData> = {
     area: "Tom de voz",
     sections: [
       {
-        title: "Visão geral",
+        title: "Problema",
         content: (
-          <p>
-            Projeto de evolução contínua da experiência do usuário baseado em feedback NPS e aplicação consistente do
-            tom de voz da marca.
-          </p>
+          <div className="space-y-6">
+            <p>
+              A Sweet Cannelle é uma doceria e cafeteria fictícia especializada em bebidas à base de chá e especiarias.
+              O principal diferencial é que todas as harmonizações com mix de especiarias são criadas por baristas ingleses.
+            </p>
+
+            <p>
+              O problema é que o bistrô <strong>não coletava feedback após as compras</strong>.
+            </p>
+
+            {/* Placeholder para imagem: ONG Kurumins + Sweet Cannelle - Frame 5 (2).jpg */}
+            <div className="my-8 p-8 bg-muted/30 border border-dashed border-border rounded-lg text-center">
+              <p className="text-muted-foreground italic">📷 Imagem pendente: Frame visual do problema</p>
+            </div>
+
+            <p>Sem uma forma estruturada de captura de NPS, havia três impactos principais:</p>
+
+            <ul className="space-y-4 list-none">
+              <li>
+                <strong>Não era possível mensurar a satisfação da jornada de compra</strong>
+                <p className="mt-1 text-muted-foreground">
+                  dificultando decisões de melhoria.
+                </p>
+              </li>
+              <li>
+                <strong>Clientes insatisfeitos não eram identificados</strong>
+                <p className="mt-1 text-muted-foreground">
+                  prejudicando retenção.
+                </p>
+              </li>
+              <li>
+                <strong>Ausência de dados para otimizar o serviço</strong>
+                <p className="mt-1 text-muted-foreground">
+                  já que comportamentos e dores reais não eram mapeados.
+                </p>
+              </li>
+            </ul>
+
+            <blockquote className="border-l-4 border-primary pl-4 py-2 bg-muted/30 rounded-r-lg italic">
+              Essa hipótese guiou todo o projeto: sem coleta de NPS, não há visibilidade sobre a experiência e não é possível atuar preventivamente ou evolutivamente.
+            </blockquote>
+          </div>
         ),
       },
       {
-        title: "O desafio",
+        title: "Processo",
         content: (
-          <p>
-            O NPS indicava pontos de insatisfação relacionados à comunicação do produto. Não havia um processo
-            estruturado para transformar feedback em melhorias de conteúdo.
-          </p>
+          <div className="space-y-6">
+            <p>
+              O projeto seguiu a metodologia <strong>Double Diamond</strong>, passando por todas as etapas: descobrir, definir, desenvolver e entregar.
+            </p>
+
+            <div className="space-y-8">
+              <div>
+                <h4 className="font-semibold text-lg mb-4">Descobrir</h4>
+                <p className="mb-4">Foram realizadas:</p>
+                <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4">
+                  <li><strong className="text-foreground">Desk research</strong> com benchmarking de como empresas de diversos segmentos capturam e exibem pesquisas de satisfação</li>
+                  <li><strong className="text-foreground">Mapeamento da jornada atual</strong>, desde a pesquisa pelo site até o pós-compra</li>
+                  <li><strong className="text-foreground">Construção de proto-personas</strong>, dores, necessidades e expectativas</li>
+                  <li><strong className="text-foreground">Matriz CSD</strong> para organizar certezas, suposições e dúvidas</li>
+                </ul>
+
+                {/* Placeholder para imagem: ONG Kurumins + Sweet Cannelle - Frame 5.jpg */}
+                <div className="my-6 p-8 bg-muted/30 border border-dashed border-border rounded-lg text-center">
+                  <p className="text-muted-foreground italic">📷 Imagem pendente: Framework de descoberta</p>
+                </div>
+              </div>
+
+              <div>
+                <h4 className="font-semibold text-lg mb-4">Definir</h4>
+                <p className="mb-4">Com os dados levantados, foram priorizados os principais problemas decorrentes da falta de NPS.</p>
+                
+                <p className="mb-4">O ponto crítico definido:</p>
+                
+                <blockquote className="border-l-4 border-primary pl-4 py-2 bg-muted/30 rounded-r-lg italic mb-4">
+                  Não capturar NPS após a compra pode resultar em clientes insatisfeitos que não são mapeáveis.
+                </blockquote>
+
+                <p>Esse foi o foco que direcionou as ideações.</p>
+
+                {/* Placeholder para imagem: ONG Kurumins + Sweet Cannelle - Frame 6.jpg */}
+                <div className="my-6 p-8 bg-muted/30 border border-dashed border-border rounded-lg text-center">
+                  <p className="text-muted-foreground italic">📷 Imagem pendente: Framework de definição</p>
+                </div>
+              </div>
+
+              <div>
+                <h4 className="font-semibold text-lg mb-4">Desenvolver</h4>
+                <p className="mb-4">
+                  Com base no tom de voz criado para a marca - carinhosa, empática, zelosa - foram exploradas alternativas de texto e fluxo.
+                </p>
+
+                <p className="mb-4">Uma primeira versão de mensagem foi criada para ser inserida na jornada:</p>
+
+                <blockquote className="border-l-4 border-primary pl-4 py-4 bg-muted/30 rounded-r-lg mb-6">
+                  <p className="mb-4">"Olá, [nome do cliente]! Estamos muito felizes em ter você com a gente! ❤️</p>
+                  <p className="mb-4">Nós queremos que você tenha sempre a melhor experiência por aqui, por isso, é importante sabermos como foi o seu processo de compra em nossa loja.</p>
+                  <p className="mb-4">De 0 a 10, o quanto você recomendaria a Sweet Cannelle para um amigo ou parente?</p>
+                  <p>Por que você deu esta nota?"</p>
+                </blockquote>
+
+                <h5 className="font-semibold mb-4">Processo de construção de tom e voz:</h5>
+
+                <div className="space-y-6">
+                  <div>
+                    <p className="font-medium mb-2">1. Se a empresa fosse uma pessoa, como ela seria?</p>
+                    <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+                      <li>Sexo: Feminino</li>
+                      <li>Idade: 40 anos</li>
+                      <li>Vestimenta: Estilo elegante, com tecidos fluidos, românticos e com toque vintage</li>
+                      <li>Hobbies: Viajar, experimentar coisas novas, sair com os amigos e família, gosta de dividir novas experiências com quem ama</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <p className="font-medium mb-2">2. Quais são os valores encontrados na voz?</p>
+                    <p className="text-muted-foreground mb-4 ml-4">
+                      "Nós teremos sucesso quando nossos clientes saírem satisfeitos, com a experiência acima da expectativa e voltarem com frequência, ou seja, quando forem fidelizados."
+                    </p>
+                    <div className="overflow-x-auto">
+                      <table className="w-full text-sm border border-border rounded-lg">
+                        <tbody>
+                          <tr className="border-b border-border">
+                            <td className="p-3 bg-muted/30">Nós nos importamos com</td>
+                            <td className="p-3"><strong>Qualidade e segurança</strong></td>
+                            <td className="p-3 bg-muted/30">Porque</td>
+                            <td className="p-3">Queremos reconhecimento, admiração e confiança</td>
+                          </tr>
+                          <tr className="border-b border-border">
+                            <td className="p-3 bg-muted/30">Nós nos importamos com</td>
+                            <td className="p-3"><strong>Exclusividade</strong></td>
+                            <td className="p-3 bg-muted/30">Porque</td>
+                            <td className="p-3">Nos preocupamos com autenticidade e personalidade</td>
+                          </tr>
+                          <tr>
+                            <td className="p-3 bg-muted/30">Nós nos importamos com</td>
+                            <td className="p-3"><strong>Especialização</strong></td>
+                            <td className="p-3 bg-muted/30">Porque</td>
+                            <td className="p-3">Queremos destacar nossa experiência e surpreender os clientes com produtos diferenciados</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+
+                  <div>
+                    <p className="font-medium mb-2">3. Se a empresa fosse uma pessoa servindo um cliente, seu trabalho seria…</p>
+                    <p className="text-muted-foreground ml-4">
+                      Tornar a experiência diferente, exclusiva e acolhedora. Servir com amor, carinho e total atenção, entendendo os desejos do cliente para sugerir o produto certo, sempre se preocupando em fazer a pessoa se sentir importante, valorizada e única, ou seja, oferecer sempre a melhor experiência possível.
+                    </p>
+                  </div>
+
+                  <div>
+                    <p className="font-medium mb-2">4. E os consumidores irão descrever como (3 adjetivos principais):</p>
+                    <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+                      <li>Ambiente simpático e acolhedor</li>
+                      <li>Melhor chá que já tomou</li>
+                      <li>Ótimos profissionais, com atendimento impecável</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <p className="font-medium mb-2">5. E como a empresa não deve ser vista? (3 adjetivos negativos):</p>
+                    <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+                      <li>De má qualidade (tanto produto, quanto atendimento)</li>
+                      <li>Comum (nada de mais)</li>
+                      <li>Ambiente frio (sem acolhimento)</li>
+                    </ul>
+                  </div>
+
+                  <div className="overflow-x-auto">
+                    <table className="w-full text-sm border border-border rounded-lg">
+                      <tbody>
+                        <tr>
+                          <td className="p-3 bg-muted/30">Personalidade principal da empresa</td>
+                          <td className="p-3"><strong>Personalidade única, inesquecível, aquela pessoa que todo mundo quer estar perto</strong></td>
+                          <td className="p-3 bg-muted/30">Porque</td>
+                          <td className="p-3">Porque é uma pessoa simpática, que acolhe todo mundo, cuidadosa e que sempre busca fazer o melhor pelos outros</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                  <div>
+                    <p className="font-medium mb-2">6. Público-alvo:</p>
+                    
+                    <div className="space-y-4 ml-4">
+                      <div className="p-4 bg-muted/20 rounded-lg">
+                        <p className="font-medium mb-2">Persona 1: Joana</p>
+                        <p className="text-muted-foreground text-sm">
+                          Mulher, branca, 43 anos, sempre elegante, é super romântica, gosta de viajar e frequentar lugares que propiciem ótimos encontros com as amigas e família. Joana é gerente e sócia de um SPA de alto padrão que alia cuidados com o corpo e a mente. Costuma fazer parcerias com empresas que de bem-estar e beleza para divulgar o seu negócio e o do parceiro. É casada, tem dois filhos e uma pessoa muito querida por todos. Seu objetivo é continuar cuidando do SPA de perto sempre que possível e ver seu negócio crescer, mas sem deixar de cuidar de si e da família.
+                        </p>
+                      </div>
+
+                      <div className="p-4 bg-muted/20 rounded-lg">
+                        <p className="font-medium mb-2">Persona 2: Helen</p>
+                        <p className="text-muted-foreground text-sm">
+                          Mulher, negra, 38 anos, está sempre impecável, maquiada e com roupa elegante. Gosta de conhecer lugares novos e, sempre que pode, está em teatros, restaurantes, shows e outras atividades com os amigos. É advogada e tem seu próprio escritório. Divorciada e sem filhos, está sempre rodeada das melhores amigas e adora sair com elas para comer e conversar sobre as novidades.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div>
+                    <p className="font-medium mb-4">7. Tabela de voz:</p>
+                    <div className="overflow-x-auto">
+                      <table className="w-full text-sm border border-border rounded-lg">
+                        <thead>
+                          <tr className="bg-muted/50">
+                            <th className="p-3 text-left font-semibold">Princípios</th>
+                            <th className="p-3 text-left font-semibold">Carinhosa</th>
+                            <th className="p-3 text-left font-semibold">Empática</th>
+                            <th className="p-3 text-left font-semibold">Zelosa</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr className="border-t border-border">
+                            <td className="p-3 bg-muted/30 font-medium">Conceito</td>
+                            <td className="p-3">Nos preocupamos com o bem-estar dos nossos clientes e tratamos todos com muito carinho e respeito</td>
+                            <td className="p-3">Somos empáticos em nossa comunicação e sempre nos colocamos no lugar do cliente ao atendê-lo</td>
+                            <td className="p-3">Somos muito cuidadosos com os nossos clientes e também com nossos funcionários, nosso processo de trabalho e com a qualidade dos nossos produtos, fornecedores e parceiros</td>
+                          </tr>
+                          <tr className="border-t border-border">
+                            <td className="p-3 bg-muted/30 font-medium">Vocabulário</td>
+                            <td className="p-3">Nos comunicamos de forma leve e tranquila</td>
+                            <td className="p-3">Mais ouvimos do que falamos, assim conseguimos entender a necessidade dos clientes e entregar a melhor experiência, utilizando de palavras leves e amorosas</td>
+                            <td className="p-3">Tomamos cuidado com as palavras e sempre tratamos as pessoas envolvidas com muito respeito, evitando palavras de mau gosto</td>
+                          </tr>
+                          <tr className="border-t border-border">
+                            <td className="p-3 bg-muted/30 font-medium">Verbosidade</td>
+                            <td className="p-3">Utilizamos "você" para conversar com nossos clientes de forma pessoal</td>
+                            <td className="p-3">Utilizamos "você" para conversar com nossos clientes de forma pessoal</td>
+                            <td className="p-3">Utilizamos "você" para conversar com nossos clientes, fornecedores e parceiros de forma pessoal</td>
+                          </tr>
+                          <tr className="border-t border-border">
+                            <td className="p-3 bg-muted/30 font-medium">Gramática</td>
+                            <td className="p-3">Utilizamos voz ativa, o plural engloba todos os gêneros</td>
+                            <td className="p-3">Utilizamos voz ativa, o plural engloba todos os gêneros</td>
+                            <td className="p-3">Utilizamos voz ativa, o plural engloba todos os gêneros</td>
+                          </tr>
+                          <tr className="border-t border-border">
+                            <td className="p-3 bg-muted/30 font-medium">Pontuação</td>
+                            <td className="p-3">Utilizamos a forma correta de pontuação, com o uso adequado de ponto final, vírgula, interrogação e exclamação. Também usamos emojis de forma moderada</td>
+                            <td className="p-3">Utilizamos a forma correta de pontuação, com o uso adequado de ponto final, vírgula, interrogação e exclamação. Também usamos emojis de forma moderada</td>
+                            <td className="p-3">Utilizamos a forma correta de pontuação, com o uso adequado de ponto final, vírgula, interrogação e exclamação. Também usamos emojis de forma moderada</td>
+                          </tr>
+                          <tr className="border-t border-border">
+                            <td className="p-3 bg-muted/30 font-medium">Capitalização</td>
+                            <td className="p-3">Usamos caixa baixa, iniciando a primeira palavra com letra maiúscula</td>
+                            <td className="p-3">Usamos caixa baixa, iniciando a primeira palavra com letra maiúscula</td>
+                            <td className="p-3">Usamos caixa baixa, iniciando a primeira palavra com letra maiúscula</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <h4 className="font-semibold text-lg mb-4">Entregar</h4>
+                <p className="mb-4">Na última fase, foram desenvolvidas:</p>
+                <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4 mb-4">
+                  <li><strong className="text-foreground">Prova de conceito da interface</strong> com a mensagem de NPS</li>
+                  <li><strong className="text-foreground">Nova jornada do usuário</strong>, agora incluindo a etapa de pesquisa após a compra</li>
+                </ul>
+
+                <p className="mb-4">
+                  As telas apresentam a escala de 0 a 10, campo de justificativa e categorização de avaliação (valor dos produtos, atendimento, experiência etc.)
+                </p>
+
+                <p>
+                  Também foi criado o fluxo atualizado, inserindo a etapa do NPS entre <em>confirmação de compra</em> e <em>recebimento do pedido</em>.
+                </p>
+              </div>
+            </div>
+          </div>
         ),
       },
       {
-        title: "A solução",
+        title: "Solução",
         content: (
-          <p>
-            Implementamos análise sistemática dos feedbacks NPS, categorizamos os problemas de comunicação, criamos e
-            aplicamos o guia de tom de voz, e realizamos testes A/B para validar melhorias.
-          </p>
+          <div className="space-y-6">
+            <p>
+              A solução final foi a <strong>implantação da pesquisa de NPS na jornada pós-compra</strong>, com:
+            </p>
+
+            <ul className="space-y-4 list-none">
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
+                <span><strong>Mensagem escrita conforme o tom de voz da marca</strong>, incentivando feedback de forma amigável</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
+                <span><strong>Interface clara e organizada</strong>, com escala de 0 a 10 e campo para comentários</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
+                <span><strong>Categorização de motivos de avaliação</strong> (atendimento, entrega, navegação etc.)</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
+                <span><strong>Atualização da jornada</strong>, incorporando a coleta após cada compra</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
+                <span><strong>Definição de momento ideal de envio</strong>: logo após o e-mail de confirmação de pedido</span>
+              </li>
+            </ul>
+
+            <p>
+              A solução também serviu como base para iniciativas futuras, incluindo testes A/B de fluxos conversacionais.
+            </p>
+          </div>
         ),
       },
       {
         title: "Resultado",
         content: (
-          <ul className="space-y-3">
-            <li className="flex items-start gap-3">
-              <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-              <span>Melhoria no score NPS</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-              <span>Redução de feedback negativo relacionado a comunicação</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-              <span>Padronização do tom de voz em toda a plataforma</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-              <span>Processo contínuo de melhoria baseado em dados</span>
-            </li>
-          </ul>
+          <div className="space-y-6">
+            <p>Ao final do projeto, a Sweet Cannelle passou a ter:</p>
+
+            <ul className="space-y-4 list-none">
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
+                <span><strong>Manual estruturado de tom de voz</strong></span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
+                <span><strong>Fluxo de coleta estruturado</strong> para medir satisfação da jornada</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
+                <span><strong>Ponto adicional de contato com clientes</strong>, fortalecendo relacionamento</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
+                <span><strong>Base sólida de dados</strong> para tomada de decisão sobre melhorias</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
+                <span><strong>Prova de conceito testável</strong>, permitindo validação rápida da solução</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
+                <span><strong>Nova jornada mapeada</strong>, mais completa e orientada a feedback</span>
+              </li>
+            </ul>
+
+            <p>
+              Além disso, o material produzido serviu de referência para outros exercícios como o <strong>teste A/B de fluxos conversacionais</strong>, conectando UX Writing, arquitetura da informação e design conversacional.
+            </p>
+
+            <blockquote className="border-l-4 border-primary pl-4 py-2 bg-muted/30 rounded-r-lg italic">
+              Qual fluxo conversacional fará com que as pessoas usuárias mais visualizem as promoções sazonais?
+            </blockquote>
+
+            {/* Placeholder para imagem: ONG Kurumins + Sweet Cannelle - Frame 6 (1).jpg */}
+            <div className="my-6 p-8 bg-muted/30 border border-dashed border-border rounded-lg text-center">
+              <p className="text-muted-foreground italic">📷 Imagem pendente: Teste A/B de fluxos conversacionais</p>
+            </div>
+
+            <div className="space-y-4">
+              <p className="font-medium">Navegue pelo framework do Miro:</p>
+              <div className="w-full rounded-lg overflow-hidden border border-border">
+                <iframe
+                  src="https://miro.com/app/live-embed/uXjVOB1tmr4=/?embedMode=view_only_without_ui&moveToViewport=-86214%2C-2364%2C39299%2C17337&embedId=422592594041"
+                  className="w-full h-[500px]"
+                  title="Frameworks no Miro"
+                  allowFullScreen
+                />
+              </div>
+              <p className="text-sm text-muted-foreground">
+                <a
+                  href="https://miro.com/app/board/uXjVOB1tmr4=/?share_link_id=909860330171"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline"
+                >
+                  Abrir Frameworks no Miro em nova aba
+                </a>
+              </p>
+            </div>
+          </div>
         ),
       },
     ],
