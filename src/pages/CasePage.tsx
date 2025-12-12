@@ -72,7 +72,7 @@ interface CaseData {
   title: string;
   projectType: string;
   skills: string[];
-  area: string;
+  area?: string;
   sections: CaseSection[];
   closing?: React.ReactNode;
 }
@@ -1283,7 +1283,6 @@ const casesData: Record<string, CaseData> = {
       "copywriting",
       "conteúdos para interface",
     ],
-    area: "Aquisição",
     sections: [
       {
         title: "Problema",
