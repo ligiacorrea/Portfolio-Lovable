@@ -34,6 +34,7 @@ import aquisicaoPersonaRafael from "@/assets/cases/aquisicao-persona-rafael.webp
 import aquisicaoPersonaCamila from "@/assets/cases/aquisicao-persona-camila.webp";
 import aquisicaoBenchmarking from "@/assets/cases/aquisicao-benchmarking.webp";
 import aquisicaoTestesUsabilidade from "@/assets/cases/aquisicao-testes-usabilidade.webp";
+import aquisicaoAchadosTestes from "@/assets/cases/aquisicao-achados-testes.webp";
 import opsDocStatus from "@/assets/cases/ops-doc-status.webp";
 import opsDocCopy from "@/assets/cases/ops-doc-copy.webp";
 import opsGuiaCentralAjuda from "@/assets/cases/ops-guia-central-ajuda.webp";
@@ -1437,13 +1438,19 @@ const casesData: Record<string, CaseData> = {
               />
 
               <p className="text-muted-foreground font-semibold mb-4">Principais achados dos testes:</p>
-              <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+              <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4 mb-6">
                 <li>Página <strong>muito poluída</strong>, gerando distração</li>
                 <li>Segundo banner quase invisível</li>
                 <li>Interesse por <strong>categorias profissionais</strong></li>
                 <li>Usuários <strong>preferem experimentar antes de pagar</strong></li>
                 <li>Leitura completa antes de decidir comprar → reforço da necessidade de clareza e hierarquia textual</li>
               </ul>
+
+              <img
+                src={aquisicaoAchadosTestes}
+                alt="Principais achados dos testes"
+                className="w-full rounded-lg"
+              />
             </div>
           </div>
         ),
