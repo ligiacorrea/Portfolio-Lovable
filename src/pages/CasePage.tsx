@@ -30,6 +30,7 @@ import botMetabaseFunil from "@/assets/cases/bot-metabase-funil.webp";
 import opsDocAlertas from "@/assets/cases/ops-doc-alertas.webp";
 import opsDocStatus from "@/assets/cases/ops-doc-status.webp";
 import opsDocCopy from "@/assets/cases/ops-doc-copy.webp";
+import opsGuiaCentralAjuda from "@/assets/cases/ops-guia-central-ajuda.webp";
 
 interface CaseSection {
   title: string;
@@ -948,6 +949,16 @@ const casesData: Record<string, CaseData> = {
                     <li>Passo a passo de atualização de artigos</li>
                     <li>Guia de redesign do template</li>
                   </ul>
+                  <figure className="mt-4">
+                    <img
+                      src={opsGuiaCentralAjuda}
+                      alt="Captura de uma seção do guia"
+                      className="w-full rounded-lg border border-border"
+                    />
+                    <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                      Captura de uma seção do guia
+                    </figcaption>
+                  </figure>
                 </div>
 
                 <div className="bg-muted/30 p-4 rounded-lg">
