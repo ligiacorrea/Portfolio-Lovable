@@ -34,6 +34,7 @@ import opsGuiaCentralAjuda from "@/assets/cases/ops-guia-central-ajuda.webp";
 import opsGuiaPesquisas from "@/assets/cases/ops-guia-pesquisas.webp";
 import opsGuiaUxWriting from "@/assets/cases/ops-guia-ux-writing.webp";
 import opsGuiaGrowth from "@/assets/cases/ops-guia-growth.webp";
+import opsBoardMetricas from "@/assets/cases/ops-board-metricas.webp";
 
 interface CaseSection {
   title: string;
@@ -1028,6 +1029,16 @@ const casesData: Record<string, CaseData> = {
               <h3 className="font-semibold text-xl mb-4">Boards visuais de estudos e referência</h3>
               <p className="text-muted-foreground mb-2">Criados para registrar insights de livros e cursos, facilitando consulta prática.</p>
               <p className="text-muted-foreground">Incluíam frameworks, resumos e mapas visuais.</p>
+              <figure className="mt-4">
+                <img
+                  src={opsBoardMetricas}
+                  alt="Captura do board visual (livro sobre métricas de UXW)"
+                  className="w-full rounded-lg border border-border"
+                />
+                <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                  Captura do board visual (livro sobre métricas de UXW)
+                </figcaption>
+              </figure>
             </div>
 
             <hr className="border-border" />
