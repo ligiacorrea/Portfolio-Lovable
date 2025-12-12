@@ -38,6 +38,7 @@ import opsBoardMetricas from "@/assets/cases/ops-board-metricas.webp";
 import opsBoardGeo from "@/assets/cases/ops-board-geo.webp";
 import opsRoadmapGrowth from "@/assets/cases/ops-roadmap-growth.webp";
 import opsAtividadesGrowth from "@/assets/cases/ops-atividades-growth.webp";
+import opsFunilPirata from "@/assets/cases/ops-funil-pirata.webp";
 
 interface CaseSection {
   title: string;
@@ -1086,6 +1087,16 @@ const casesData: Record<string, CaseData> = {
                 />
                 <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
                   Organização das atividades do time de Growth
+                </figcaption>
+              </figure>
+              <figure className="mt-4">
+                <img
+                  src={opsFunilPirata}
+                  alt="Diretrizes do funil pirata, com conceito, objetivo, métricas, exemplos e canais"
+                  className="w-full rounded-lg border border-border"
+                />
+                <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                  Diretrizes do funil pirata, com conceito, objetivo, métricas, exemplos e canais
                 </figcaption>
               </figure>
             </div>
