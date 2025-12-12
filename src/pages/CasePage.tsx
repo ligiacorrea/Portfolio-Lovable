@@ -78,6 +78,10 @@ import navegacaoHistorico1 from "@/assets/cases/navegacao-historico-1.webp";
 import navegacaoHistorico2 from "@/assets/cases/navegacao-historico-2.webp";
 import navegacaoZendeskTickets from "@/assets/cases/navegacao-zendesk-tickets.webp";
 import navegacaoAlinhamentoTimes from "@/assets/cases/navegacao-alinhamento-times.webp";
+import navegacaoCloze1 from "@/assets/cases/navegacao-cloze-1.webp";
+import navegacaoCloze2 from "@/assets/cases/navegacao-cloze-2.webp";
+import navegacaoCloze3 from "@/assets/cases/navegacao-cloze-3.webp";
+import navegacaoCloze4 from "@/assets/cases/navegacao-cloze-4.webp";
 
 interface CaseSection {
   title: string;
@@ -2136,10 +2140,31 @@ const casesData: Record<string, CaseData> = {
                 Realizamos um <strong>Teste de Cloze</strong> para verificar vocabulário, entendimento e precisão dos termos utilizados. O teste pedia que usuários completassem frases com os termos que achassem mais adequado:
               </p>
 
-              {/* Placeholder para imagens do teste de cloze */}
-              <div className="my-6 p-8 bg-muted/30 border border-dashed border-border rounded-lg text-center">
-                <p className="text-muted-foreground italic">📷 Imagens pendentes: Teste de Cloze</p>
-              </div>
+              <figure className="my-6 space-y-4">
+                <img
+                  src={navegacaoCloze1}
+                  alt="Pergunta do teste de cloze sobre aprovação do banco"
+                  className="w-full rounded-lg border border-border"
+                />
+                <img
+                  src={navegacaoCloze2}
+                  alt="Pergunta do teste de cloze sobre adiantar crédito"
+                  className="w-full rounded-lg border border-border"
+                />
+                <img
+                  src={navegacaoCloze3}
+                  alt="Pergunta do teste de cloze sobre status do presente"
+                  className="w-full rounded-lg border border-border"
+                />
+                <img
+                  src={navegacaoCloze4}
+                  alt="Pergunta do teste de cloze sobre visualizar detalhado"
+                  className="w-full rounded-lg border border-border"
+                />
+                <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                  Exemplos de perguntas do teste de cloze
+                </figcaption>
+              </figure>
 
               <p className="font-medium mb-2">Insight do teste:</p>
               <blockquote className="border-l-4 border-primary pl-4 py-2 bg-muted/30 rounded-r-lg italic">
