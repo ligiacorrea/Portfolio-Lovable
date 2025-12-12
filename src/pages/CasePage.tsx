@@ -3283,7 +3283,7 @@ const casesData: Record<string, CaseData> = {
               Desenvolvimento, já considerando os requisitos da plataforma WordPress.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
+            <div className="space-y-4 my-8">
               <figure>
                 <img
                   src={revistaFigma1}
