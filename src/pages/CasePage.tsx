@@ -54,6 +54,7 @@ import ongInsightsCategoria from "@/assets/cases/ong-insights-categoria.webp";
 import ongPersonaNuncaFez from "@/assets/cases/ong-persona-nunca-fez.webp";
 import ongPersonaJaFez from "@/assets/cases/ong-persona-ja-fez.webp";
 import ongPersonaVoluntaria from "@/assets/cases/ong-persona-voluntaria.webp";
+import ongJornadaVoluntarios from "@/assets/cases/ong-jornada-voluntarios.webp";
 
 interface CaseSection {
   title: string;
@@ -1750,6 +1751,15 @@ const casesData: Record<string, CaseData> = {
               <p className="text-muted-foreground">
                 Identificação de pontos de fricção e oportunidades de experiência.
               </p>
+
+              <div className="my-6">
+                <img
+                  src={ongJornadaVoluntarios}
+                  alt="Fluxo da jornada dos voluntários"
+                  className="w-full rounded-lg border border-border/30"
+                />
+                <p className="text-sm text-muted-foreground mt-2 text-center italic">Fluxo da jornada dos voluntários</p>
+              </div>
             </div>
 
             <div>
