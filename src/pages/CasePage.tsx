@@ -30,6 +30,8 @@ import botMetabaseFunil from "@/assets/cases/bot-metabase-funil.webp";
 import opsDocAlertas from "@/assets/cases/ops-doc-alertas.webp";
 import aquisicaoProblemaMapa from "@/assets/cases/aquisicao-problema-mapa.webp";
 import aquisicaoDeskResearch from "@/assets/cases/aquisicao-desk-research.webp";
+import aquisicaoPersonaRafael from "@/assets/cases/aquisicao-persona-rafael.webp";
+import aquisicaoPersonaCamila from "@/assets/cases/aquisicao-persona-camila.webp";
 import opsDocStatus from "@/assets/cases/ops-doc-status.webp";
 import opsDocCopy from "@/assets/cases/ops-doc-copy.webp";
 import opsGuiaCentralAjuda from "@/assets/cases/ops-guia-central-ajuda.webp";
@@ -1381,9 +1383,21 @@ const casesData: Record<string, CaseData> = {
 
             <div>
               <h4 className="font-semibold text-lg mb-4">3. Proto-personas</h4>
-              <p className="text-muted-foreground">
+              <p className="text-muted-foreground mb-6">
                 Criação de dois perfis principais com necessidades, dores e desejos distintos, reforçando a variedade de motivações (ex.: paquera, anonimato, pouco tempo disponível).
               </p>
+
+              <img
+                src={aquisicaoPersonaRafael}
+                alt="Proto-persona Rafael"
+                className="w-full rounded-lg"
+              />
+
+              <img
+                src={aquisicaoPersonaCamila}
+                alt="Proto-persona Camila"
+                className="w-full rounded-lg mt-4"
+              />
             </div>
 
             <hr className="border-border" />
