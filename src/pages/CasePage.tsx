@@ -1593,7 +1593,7 @@ const casesData: Record<string, CaseData> = {
       "conteúdo para e-mail",
       "fluxo conversacional",
     ],
-    area: "Tom de voz",
+    
     sections: [
       {
         title: "Problema",
