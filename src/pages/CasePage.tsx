@@ -40,6 +40,7 @@ import opsRoadmapGrowth from "@/assets/cases/ops-roadmap-growth.webp";
 import opsAtividadesGrowth from "@/assets/cases/ops-atividades-growth.webp";
 import opsFunilPirata from "@/assets/cases/ops-funil-pirata.webp";
 import ongDatafolha from "@/assets/cases/ong-datafolha.webp";
+import ongThumbKurumins from "@/assets/cases/ong-thumb-kurumins.webp";
 
 interface CaseSection {
   title: string;
@@ -1500,6 +1501,14 @@ const casesData: Record<string, CaseData> = {
               Criar uma solução de UX capaz de melhorar a gestão interna da ONG Kurumins e aumentar a oferta e retenção
               de voluntários.
             </blockquote>
+
+            <div className="my-6">
+              <img
+                src={ongThumbKurumins}
+                alt="Projeto Kurumins"
+                className="w-full rounded-lg border border-border/30"
+              />
+            </div>
 
             <p>
               Para saber mais sobre o projeto, acesse{" "}
