@@ -56,6 +56,7 @@ import ongPersonaJaFez from "@/assets/cases/ong-persona-ja-fez.webp";
 import ongPersonaVoluntaria from "@/assets/cases/ong-persona-voluntaria.webp";
 import ongJornadaVoluntarios from "@/assets/cases/ong-jornada-voluntarios.webp";
 import ongWireframesFigma from "@/assets/cases/ong-wireframes-figma.webp";
+import ongStyleGuide from "@/assets/cases/ong-style-guide.webp";
 
 interface CaseSection {
   title: string;
@@ -1820,6 +1821,15 @@ const casesData: Record<string, CaseData> = {
                   </a>
                 </li>
               </ul>
+
+              <div className="my-6">
+                <img
+                  src={ongStyleGuide}
+                  alt="Style Guide"
+                  className="w-full rounded-lg border border-border/30"
+                />
+                <p className="text-sm text-muted-foreground mt-2 text-center italic">Style Guide</p>
+              </div>
             </div>
 
             <div>
