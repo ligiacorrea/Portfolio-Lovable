@@ -1283,55 +1283,222 @@ const casesData: Record<string, CaseData> = {
       "copywriting",
       "conteúdos para interface",
     ],
+    area: "Aquisição",
     sections: [
       {
-        title: "Visão geral",
+        title: "Problema",
         content: (
-          <p>
-            Projeto focado em aumentar a aquisição de novos usuários através da otimização da comunicação e experiência
-            de cadastro.
-          </p>
+          <div className="space-y-6">
+            <p className="text-muted-foreground">
+              O Bate-papo UOL oferece uma versão gratuita completa - anônima, sem cadastro e com várias funcionalidades - o que gera baixa compreensão sobre <strong>por que alguém deveria assinar o plano VIP</strong>.
+            </p>
+
+            <p className="text-muted-foreground">
+              Durante a etapa inicial, foram mapeadas as seguintes dores e hipóteses:
+            </p>
+
+            <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4">
+              <li>Usuários <strong>não compreendem os benefícios</strong> do VIP em comparação à versão gratuita</li>
+              <li>Pessoas utilizam o trial gratuito e <strong>não sentem necessidade de upgrade</strong></li>
+              <li>Há <strong>medo de perder o anonimato</strong> ao assinar e fornecer dados</li>
+              <li>Falta de clareza gera <strong>baixa confiança</strong> no produto</li>
+            </ul>
+
+            <p className="text-muted-foreground">
+              Além disso, os testes demonstraram que a página atual era <strong>poluída</strong>, com excesso de informações e elementos pouco perceptíveis, dificultando a tomada de decisão e impactando negativamente a aquisição.
+            </p>
+
+            <blockquote className="border-l-4 border-accent pl-4 italic text-muted-foreground">
+              Como melhorar a compreensão do produto e, por consequência, aumentar a aquisição através do design e da experiência?
+            </blockquote>
+          </div>
         ),
       },
       {
-        title: "O desafio",
+        title: "Processo",
         content: (
-          <p>
-            A taxa de conversão de visitantes para cadastros estava abaixo do potencial. O fluxo de onboarding tinha
-            pontos de fricção e a proposta de valor não estava clara.
-          </p>
+          <div className="space-y-8">
+            <p className="text-muted-foreground">
+              O processo envolveu múltiplas etapas de <strong>UX Research, benchmarking, definição de voz e testes de usabilidade</strong>.
+            </p>
+
+            <hr className="border-border" />
+
+            <div>
+              <h4 className="font-semibold text-lg mb-4">1. Definição de Voz</h4>
+              <p className="text-muted-foreground mb-4">
+                Uma voz <strong>leve, amigável, inclusiva, prestativa</strong> e <strong>descolada</strong>, com linguagem simples e próxima, reforçando a construção de relações e o clima acolhedor do produto.
+              </p>
+              <blockquote className="border-l-4 border-accent pl-4 italic text-muted-foreground">
+                "Nós do Bate-Papo UOL damos aquela força, o resto é com você! 😉"
+              </blockquote>
+            </div>
+
+            <hr className="border-border" />
+
+            <div>
+              <h4 className="font-semibold text-lg mb-4">2. Desk Research</h4>
+              <p className="text-muted-foreground mb-4">
+                Mapeamento das características do produto e do comportamento de uso:
+              </p>
+              <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4 mb-6">
+                <li>Chat mais famoso do Brasil, desde 1997</li>
+                <li>+5 milhões de instalações no app</li>
+                <li>App grátis para Android e iOS</li>
+                <li>4 mil salas</li>
+                <li>7 categorias principais</li>
+                <li>50 pessoas por sala (25 gratuitas + 25 VIP)</li>
+                <li>Valores e condições dos planos</li>
+              </ul>
+
+              <p className="text-muted-foreground mb-4">Principais dúvidas que surgem antes da conversão:</p>
+              <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+                <li>O Bate-papo UOL é gratuito?</li>
+                <li>Quais são os temas de salas disponíveis?</li>
+                <li>Há quantos lugares disponíveis nas salas?</li>
+                <li>Posso entrar em mais de uma sala ao mesmo tempo?</li>
+                <li>Como encontro alguém ou uma sala específica?</li>
+                <li>Posso cancelar a assinatura a qualquer momento? Como funciona?</li>
+                <li>A assinatura é renovada automaticamente?</li>
+                <li>Posso mudar de plano a qualquer momento?</li>
+              </ul>
+            </div>
+
+            <hr className="border-border" />
+
+            <div>
+              <h4 className="font-semibold text-lg mb-4">3. Proto-personas</h4>
+              <p className="text-muted-foreground">
+                Criação de dois perfis principais com necessidades, dores e desejos distintos, reforçando a variedade de motivações (ex.: paquera, anonimato, pouco tempo disponível).
+              </p>
+            </div>
+
+            <hr className="border-border" />
+
+            <div>
+              <h4 className="font-semibold text-lg mb-4">4. Benchmarking</h4>
+              <p className="text-muted-foreground">
+                Análise de comparativos de planos e concorrentes, como Terra Chat, para compreender padrões de apresentação e clareza na escolha de planos.
+              </p>
+            </div>
+
+            <hr className="border-border" />
+
+            <div>
+              <h4 className="font-semibold text-lg mb-4">5. Testes de Usabilidade (remoto e moderado)</h4>
+              <p className="text-muted-foreground mb-4">Roteiro explorando:</p>
+              <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4 mb-6">
+                <li>Percepção do banner</li>
+                <li>Clareza dos títulos</li>
+                <li>Compreensão dos planos</li>
+                <li>Entendimento do fluxo de assinatura</li>
+                <li>Avaliação do FAQ</li>
+              </ul>
+
+              <p className="text-muted-foreground font-semibold mb-4">Principais achados dos testes:</p>
+              <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+                <li>Página <strong>muito poluída</strong>, gerando distração</li>
+                <li>Segundo banner quase invisível</li>
+                <li>Interesse por <strong>categorias profissionais</strong></li>
+                <li>Usuários <strong>preferem experimentar antes de pagar</strong></li>
+                <li>Leitura completa antes de decidir comprar → reforço da necessidade de clareza e hierarquia textual</li>
+              </ul>
+            </div>
+          </div>
         ),
       },
       {
-        title: "A solução",
+        title: "Solução",
         content: (
-          <p>
-            Realizamos pesquisa com usuários, benchmarking de concorrentes, reestruturamos a landing page, simplificamos
-            o fluxo de cadastro e melhoramos o microcopy em todos os pontos de contato.
-          </p>
+          <div className="space-y-6">
+            <p className="text-muted-foreground">
+              A proposta concentrou-se em <strong>reduzir a carga cognitiva e reorganizar a hierarquia de conteúdo</strong>, destacando informações realmente relevantes para a decisão de compra.
+            </p>
+
+            <p className="text-muted-foreground font-semibold">Direcionamentos principais:</p>
+            <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4">
+              <li><strong>Diminuir quantidade de informações</strong> visíveis de primeira</li>
+              <li>Destacar <strong>benefícios exclusivos do VIP</strong> (ex.: criação de salas, acesso garantido às lotadas)</li>
+              <li>Reforçar <strong>segurança e anonimato</strong>, uma das maiores barreiras</li>
+              <li>Criar uma página mais clara, com <strong>categorias e planos organizados</strong></li>
+              <li>Revisar títulos, CTAs, FAQ e textos de apoio para aumentar compreensão</li>
+              <li>Incorporar aprendizados dos testes para priorizar clareza + simplicidade</li>
+            </ul>
+
+            <div className="bg-card p-6 rounded-xl border border-border">
+              <p className="text-muted-foreground mb-4">
+                O projeto inclui o{" "}
+                <a
+                  href="https://miro.com/app/board/uXjVOBMI954=/?share_link_id=726602774095"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-accent hover:underline"
+                >
+                  framework completo no Miro
+                </a>
+                , com fluxos e estruturas reorganizadas.
+              </p>
+            </div>
+          </div>
         ),
       },
       {
         title: "Resultado",
         content: (
-          <ul className="space-y-3">
-            <li className="flex items-start gap-3">
-              <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-              <span>Mais de 335% de crescimento em cadastros</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-              <span>Melhoria significativa na taxa de conversão</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-              <span>Redução do tempo de cadastro</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-              <span>Aumento na compreensão da proposta de valor</span>
-            </li>
-          </ul>
+          <div className="space-y-6">
+            <p className="text-muted-foreground">
+              Como se trata de um <strong>case fictício</strong>, não há métricas reais registradas. Entretanto, os testes e análises indicaram resultados qualitativos importantes:
+            </p>
+
+            <div className="grid gap-4">
+              <div className="bg-card p-6 rounded-xl border border-border">
+                <h4 className="font-semibold text-lg mb-2">✓ Maior clareza na compreensão dos planos</h4>
+                <p className="text-muted-foreground">
+                  Os testes revelaram que a reorganização do conteúdo diminui a sensação de poluição da página e facilita o entendimento dos planos.
+                </p>
+              </div>
+
+              <div className="bg-card p-6 rounded-xl border border-border">
+                <h4 className="font-semibold text-lg mb-2">✓ Redução de ruído cognitivo</h4>
+                <p className="text-muted-foreground">
+                  A nova hierarquia proposta coloca foco no essencial, aumentando a probabilidade de tomada de decisão rápida.
+                </p>
+              </div>
+
+              <div className="bg-card p-6 rounded-xl border border-border">
+                <h4 className="font-semibold text-lg mb-2">✓ Reforço da confiança e segurança</h4>
+                <p className="text-muted-foreground">
+                  Ao enfrentar diretamente a dor sobre anonimato, aumenta-se a predisposição de upgrade.
+                </p>
+              </div>
+
+              <div className="bg-card p-6 rounded-xl border border-border">
+                <h4 className="font-semibold text-lg mb-2">✓ Caminho para aumento de conversão</h4>
+                <p className="text-muted-foreground mb-4">
+                  Com benefícios mais claros, plano mais visível e fluxo reduzido, a proposta estabelece condições para:
+                </p>
+                <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+                  <li><strong>Aumento da taxa de upgrade do plano gratuito → VIP</strong></li>
+                  <li><strong>Redução de desistências no fluxo de assinatura</strong></li>
+                  <li><strong>Melhor alinhamento entre expectativa e oferta</strong></li>
+                </ul>
+              </div>
+            </div>
+
+            <hr className="border-border" />
+
+            <div className="bg-card p-6 rounded-xl border border-border">
+              <p className="text-muted-foreground mb-4">
+                Mesmo sem números reais, é possível destacar que o processo entrega as bases necessárias para incremento de métricas como:
+              </p>
+              <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+                <li><strong>CTR em CTAs de assinatura</strong></li>
+                <li><strong>Conversão de trial → plano pago</strong></li>
+                <li><strong>Tempo de compreensão do produto</strong></li>
+                <li><strong>Redução de dúvidas e tickets de suporte</strong></li>
+              </ul>
+            </div>
+          </div>
         ),
       },
     ],
