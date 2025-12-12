@@ -1935,18 +1935,6 @@ const casesData: Record<string, CaseData> = {
                 <li>Ajustes de conteúdo, layout e usabilidade</li>
               </ul>
 
-              <p className="text-muted-foreground mb-4">Navegue pelo framework do Miro 👇</p>
-              <p>
-                <a
-                  href="https://miro.com/app/board/uXjVMh9aCwU=/?share_link_id=291828313839"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-primary hover:underline"
-                >
-                  Frameworks no Miro
-                </a>
-              </p>
-
               <div className="my-6">
                 <img
                   src={ongFluxoSite}
@@ -1954,6 +1942,18 @@ const casesData: Record<string, CaseData> = {
                   className="w-full rounded-lg border border-border/30"
                 />
                 <p className="text-sm text-muted-foreground mt-2 text-center italic">Fluxo de telas do site</p>
+              </div>
+
+              <p className="text-muted-foreground mb-4">Navegue pelo framework do Miro 👇</p>
+              <div className="w-full aspect-video rounded-lg overflow-hidden border border-border/30">
+                <iframe
+                  src="https://miro.com/app/embed/uXjVMh9aCwU=/?pres=1&frameId=0&embedId=291828313839"
+                  className="w-full h-full"
+                  frameBorder="0"
+                  scrolling="no"
+                  allow="fullscreen; clipboard-read; clipboard-write"
+                  allowFullScreen
+                />
               </div>
             </div>
           </div>
