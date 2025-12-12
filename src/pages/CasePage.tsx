@@ -82,6 +82,7 @@ import navegacaoCloze1 from "@/assets/cases/navegacao-cloze-1.webp";
 import navegacaoCloze2 from "@/assets/cases/navegacao-cloze-2.webp";
 import navegacaoCloze3 from "@/assets/cases/navegacao-cloze-3.webp";
 import navegacaoCloze4 from "@/assets/cases/navegacao-cloze-4.webp";
+import navegacaoCardSorting from "@/assets/cases/navegacao-card-sorting.webp";
 
 interface CaseSection {
   title: string;
@@ -2178,10 +2179,16 @@ const casesData: Record<string, CaseData> = {
                 Após os termos validados, precisávamos descobrir <strong>quais informações eram mais relevantes</strong> para os usuários dentro da interface do produto. Eles classificaram as informações por ordem de importância.
               </p>
 
-              {/* Placeholder para imagem do card sorting */}
-              <div className="my-6 p-8 bg-muted/30 border border-dashed border-border rounded-lg text-center">
-                <p className="text-muted-foreground italic">📷 Imagem pendente: Card Sorting</p>
-              </div>
+              <figure className="my-6">
+                <img
+                  src={navegacaoCardSorting}
+                  alt="Teste com categorização de áreas no painel"
+                  className="w-full rounded-lg border border-border"
+                />
+                <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                  Captura de tela do teste com categorização de áreas no painel
+                </figcaption>
+              </figure>
 
               <p className="font-medium mb-2">O que o teste revelou:</p>
               <ol className="list-decimal list-inside space-y-2 text-muted-foreground ml-4">
