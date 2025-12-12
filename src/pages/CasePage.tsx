@@ -24,6 +24,8 @@ import botZendesk2 from "@/assets/cases/bot-zendesk-2.webp";
 import botZendesk3 from "@/assets/cases/bot-zendesk-3.webp";
 import botGraficoTickets from "@/assets/cases/bot-grafico-tickets.webp";
 import botRsvpExperiencia from "@/assets/cases/bot-rsvp-experiencia.webp";
+import botFeedbacks1 from "@/assets/cases/bot-feedbacks-1.webp";
+import botFeedbacks2 from "@/assets/cases/bot-feedbacks-2.webp";
 
 interface CaseSection {
   title: string;
@@ -749,6 +751,18 @@ const casesData: Record<string, CaseData> = {
                 <blockquote className="border-l-4 border-primary pl-4 py-2 bg-muted/30 rounded-r-lg italic text-sm">
                   "Boa tarde, fui muito rápido e bem explicado, fácil preenchimento, obrigado"
                 </blockquote>
+              </div>
+              <div className="mt-4 space-y-4">
+                <img
+                  src={botFeedbacks1}
+                  alt="Feedbacks qualitativos"
+                  className="w-full rounded-lg"
+                />
+                <img
+                  src={botFeedbacks2}
+                  alt="Feedbacks qualitativos"
+                  className="w-full rounded-lg"
+                />
               </div>
             </div>
 
