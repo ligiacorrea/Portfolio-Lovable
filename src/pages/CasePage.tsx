@@ -58,6 +58,7 @@ import ongJornadaVoluntarios from "@/assets/cases/ong-jornada-voluntarios.webp";
 import ongWireframesFigma from "@/assets/cases/ong-wireframes-figma.webp";
 import ongStyleGuide from "@/assets/cases/ong-style-guide.webp";
 import ongGuiaLinguagem from "@/assets/cases/ong-guia-linguagem.webp";
+import ongWireframesAlta from "@/assets/cases/ong-wireframes-alta.webp";
 
 interface CaseSection {
   title: string;
@@ -1839,6 +1840,15 @@ const casesData: Record<string, CaseData> = {
                   className="w-full rounded-lg border border-border/30"
                 />
                 <p className="text-sm text-muted-foreground mt-2 text-center italic">Guia de Linguagem / Pocket de boas práticas</p>
+              </div>
+
+              <div className="my-6">
+                <img
+                  src={ongWireframesAlta}
+                  alt="Wireframes em alta fidelidade no Figma"
+                  className="w-full rounded-lg border border-border/30"
+                />
+                <p className="text-sm text-muted-foreground mt-2 text-center italic">Wireframes em alta fidelidade no Figma</p>
               </div>
             </div>
 
