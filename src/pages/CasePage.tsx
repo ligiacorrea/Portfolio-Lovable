@@ -22,6 +22,7 @@ import botChatSite from "@/assets/cases/bot-chat-site.webp";
 import botZendesk1 from "@/assets/cases/bot-zendesk-1.webp";
 import botZendesk2 from "@/assets/cases/bot-zendesk-2.webp";
 import botZendesk3 from "@/assets/cases/bot-zendesk-3.webp";
+import botGraficoTickets from "@/assets/cases/bot-grafico-tickets.webp";
 
 interface CaseSection {
   title: string;
@@ -675,6 +676,16 @@ const casesData: Record<string, CaseData> = {
                   <span className="text-muted-foreground">de redução no total de tickets do suporte em 2 anos</span>
                 </li>
               </ul>
+              <figure className="mt-6">
+                <img
+                  src={botGraficoTickets}
+                  alt="Gráfico de volume de tickets"
+                  className="w-full rounded-lg border border-border"
+                />
+                <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                  Captura de tela do gráfico de volume de tickets, mostrando uma queda acentuada e estabilização saudável (Zendesk)
+                </figcaption>
+              </figure>
             </div>
 
             <div>
