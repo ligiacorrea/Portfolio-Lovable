@@ -41,6 +41,9 @@ import opsAtividadesGrowth from "@/assets/cases/ops-atividades-growth.webp";
 import opsFunilPirata from "@/assets/cases/ops-funil-pirata.webp";
 import ongDatafolha from "@/assets/cases/ong-datafolha.webp";
 import ongThumbKurumins from "@/assets/cases/ong-thumb-kurumins.webp";
+import ongMiro1 from "@/assets/cases/ong-miro-1.webp";
+import ongMiro2 from "@/assets/cases/ong-miro-2.webp";
+import ongMiro3 from "@/assets/cases/ong-miro-3.webp";
 
 interface CaseSection {
   title: string;
@@ -1559,6 +1562,27 @@ const casesData: Record<string, CaseData> = {
                   Criação de <strong>proto-personas</strong> (perfis de voluntários presenciais e remotos)
                 </li>
               </ul>
+
+              <div className="mt-6 space-y-4">
+                <img
+                  src={ongMiro1}
+                  alt="Fluxograma no Miro - Sobre o projeto, objetivos, desafios e atividades"
+                  className="w-full rounded-lg border border-border/30"
+                />
+                <img
+                  src={ongMiro2}
+                  alt="Fluxograma no Miro - Canvas de modelo de negócios"
+                  className="w-full rounded-lg border border-border/30"
+                />
+                <div>
+                  <img
+                    src={ongMiro3}
+                    alt="Fluxograma no Miro - Matriz CSD"
+                    className="w-full rounded-lg border border-border/30"
+                  />
+                  <p className="text-sm text-muted-foreground mt-2 text-center italic">Fluxogramas no Miro</p>
+                </div>
+              </div>
             </div>
 
             <div>
