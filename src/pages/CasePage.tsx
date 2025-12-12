@@ -16,6 +16,7 @@ import faqComparativoTrimestres from "@/assets/cases/faq-comparativo-trimestres.
 import botRsvpMockup from "@/assets/cases/bot-rsvp-mockup.webp";
 import botFluxoMiroV1 from "@/assets/cases/bot-fluxo-miro-v1.webp";
 import botFluxoMiroOficial from "@/assets/cases/bot-fluxo-miro-oficial.webp";
+import botFluxoMiroIds from "@/assets/cases/bot-fluxo-miro-ids.webp";
 
 interface CaseSection {
   title: string;
@@ -486,6 +487,16 @@ const casesData: Record<string, CaseData> = {
                     />
                     <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
                       Fluxo oficial no Miro com tabela de casos de uso que demandam mensagens de erro
+                    </figcaption>
+                  </figure>
+                  <figure className="mt-4">
+                    <img
+                      src={botFluxoMiroIds}
+                      alt="Fluxo oficial no Miro, com os vínculos dos ID da base de dados (para dev)"
+                      className="w-full rounded-lg border border-border"
+                    />
+                    <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                      Fluxo oficial no Miro, com os vínculos dos ID da base de dados (para dev)
                     </figcaption>
                   </figure>
                 </div>
