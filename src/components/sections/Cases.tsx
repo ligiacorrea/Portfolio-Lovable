@@ -61,7 +61,19 @@ const mainCases = [
   {
     slug: "tom-voz-nps",
     title: "Aplicação de tom de voz e NPS para melhorar experiência e guiar decisões de produto",
-    tags: ["ux writing", "teste A/B", "discovery", "taxonomia"],
+    tags: [
+      "ux writing",
+      "teste A/B",
+      "discovery",
+      "taxonomia",
+      "ux research",
+      "arquitetura de informação",
+      "persona",
+      "benchmarking",
+      "guia de linguagem",
+      "conteúdo para e-mail",
+      "fluxo conversacional",
+    ],
     image:
       "https://ligiacorrea.notion.site/image/attachment%3A29fa0061-49b5-42f3-9c6d-7b57e2321060%3AScreen_Shot_2023-10-07_at_16.25.24.png?id=2118ba4d-245e-8056-9e8b-f0e5f103f629&table=block&spaceId=a4c5fb53-7256-4287-8559-d9881c87a210&width=520&userId=&cache=v2",
   },
