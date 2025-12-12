@@ -31,6 +31,7 @@ import opsDocAlertas from "@/assets/cases/ops-doc-alertas.webp";
 import opsDocStatus from "@/assets/cases/ops-doc-status.webp";
 import opsDocCopy from "@/assets/cases/ops-doc-copy.webp";
 import opsGuiaCentralAjuda from "@/assets/cases/ops-guia-central-ajuda.webp";
+import opsGuiaPesquisas from "@/assets/cases/ops-guia-pesquisas.webp";
 
 interface CaseSection {
   title: string;
@@ -964,6 +965,16 @@ const casesData: Record<string, CaseData> = {
                 <div className="bg-muted/30 p-4 rounded-lg">
                   <h4 className="font-semibold text-lg mb-2">Guia para Pesquisas</h4>
                   <p className="text-muted-foreground">Documentava objetivos, etapas, princípios e estrutura para um processo claro e replicável. Mantinha flexibilidade, evitando fórmulas engessadas.</p>
+                  <figure className="mt-4">
+                    <img
+                      src={opsGuiaPesquisas}
+                      alt="Captura de uma seção do guia"
+                      className="w-full rounded-lg border border-border"
+                    />
+                    <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                      Captura de uma seção do guia
+                    </figcaption>
+                  </figure>
                 </div>
 
                 <div className="bg-muted/30 p-4 rounded-lg">
