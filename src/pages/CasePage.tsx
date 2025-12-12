@@ -18,6 +18,7 @@ import botFluxoMiroV1 from "@/assets/cases/bot-fluxo-miro-v1.webp";
 import botFluxoMiroOficial from "@/assets/cases/bot-fluxo-miro-oficial.webp";
 import botFluxoMiroIds from "@/assets/cases/bot-fluxo-miro-ids.webp";
 import botFluxoZendesk from "@/assets/cases/bot-fluxo-zendesk.webp";
+import botChatSite from "@/assets/cases/bot-chat-site.webp";
 
 interface CaseSection {
   title: string;
@@ -528,6 +529,16 @@ const casesData: Record<string, CaseData> = {
                     <li>Construído no Zendesk com linguagem neutra e acessível</li>
                     <li>Considerou comportamentos diferentes dentro e fora do horário comercial</li>
                   </ul>
+                  <figure className="mt-4">
+                    <img
+                      src={botChatSite}
+                      alt="Captura de tela do chat no site institucional"
+                      className="w-full rounded-lg border border-border"
+                    />
+                    <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                      Captura de tela do chat no site institucional
+                    </figcaption>
+                  </figure>
                 </div>
               </div>
             </div>
