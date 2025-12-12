@@ -61,6 +61,7 @@ import ongGuiaLinguagem from "@/assets/cases/ong-guia-linguagem.webp";
 import ongWireframesAlta from "@/assets/cases/ong-wireframes-alta.webp";
 import ongTestesUsabilidade from "@/assets/cases/ong-testes-usabilidade.webp";
 import ongDemoDay from "@/assets/cases/ong-demo-day.webp";
+import ongFluxoSite from "@/assets/cases/ong-fluxo-site.webp";
 
 interface CaseSection {
   title: string;
@@ -1945,6 +1946,15 @@ const casesData: Record<string, CaseData> = {
                   Frameworks no Miro
                 </a>
               </p>
+
+              <div className="my-6">
+                <img
+                  src={ongFluxoSite}
+                  alt="Fluxo de telas do site"
+                  className="w-full rounded-lg border border-border/30"
+                />
+                <p className="text-sm text-muted-foreground mt-2 text-center italic">Fluxo de telas do site</p>
+              </div>
             </div>
           </div>
         ),
