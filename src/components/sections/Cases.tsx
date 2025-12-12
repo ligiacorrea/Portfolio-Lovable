@@ -27,7 +27,7 @@ const mainCases = [
   {
     slug: "content-system-ops",
     title: "Criando processos integrados, escaláveis e eficientes através de Content System Ops",
-    tags: ["ux writing", "arquitetura de informação", "guia de linguagem"],
+    tags: ["ux writing", "arquitetura de informação", "guia de linguagem", "discovery", "tech writing"],
     image: "https://ligiacorrea.notion.site/image/attachment%3Aa4e72088-8605-430a-9921-05bc88246a22%3ACover.png?id=2228ba4d-245e-8007-9781-f53c733c696a&table=block&spaceId=a4c5fb53-7256-4287-8559-d9881c87a210&width=520&userId=&cache=v2",
   },
   {
