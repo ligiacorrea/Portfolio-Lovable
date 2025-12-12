@@ -2280,6 +2280,18 @@ const casesData: Record<string, CaseData> = {
                   />
                 </div>
               </div>
+
+              <div className="space-y-4">
+                <p className="font-medium">Deslize para navegar pelo protótipo (Mobile):</p>
+                <div className="w-full rounded-lg overflow-hidden border border-border">
+                  <iframe
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F6YMcFuIiEs46X3S8cQsEuO%3Fkind%3D%26node-id%3D175%253A8%26page-id%3D175%253A7%26scaling%3Dscale-down%26starting-point-node-id%3D175%253A8"
+                    className="w-full h-[600px]"
+                    title="Protótipo Mobile - Histórico de Presentes"
+                    allowFullScreen
+                  />
+                </div>
+              </div>
             </div>
           </div>
         ),
