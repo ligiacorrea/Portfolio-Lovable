@@ -83,6 +83,7 @@ import navegacaoCloze2 from "@/assets/cases/navegacao-cloze-2.webp";
 import navegacaoCloze3 from "@/assets/cases/navegacao-cloze-3.webp";
 import navegacaoCloze4 from "@/assets/cases/navegacao-cloze-4.webp";
 import navegacaoCardSorting from "@/assets/cases/navegacao-card-sorting.webp";
+import navegacaoBenchmarking from "@/assets/cases/navegacao-benchmarking.webp";
 
 interface CaseSection {
   title: string;
@@ -2203,9 +2204,17 @@ const casesData: Record<string, CaseData> = {
 
             <div>
               <h4 className="font-semibold text-lg mb-4">4. Benchmarking</h4>
-              <p>
+              <p className="mb-4">
                 Análise comparativa com empresas referência em clareza de transações financeiras, como <strong>Nubank</strong> e <strong>Méliuz</strong>, para identificar padrões eficientes de navegação e apresentação de informações.
               </p>
+
+              <figure className="my-6">
+                <img
+                  src={navegacaoBenchmarking}
+                  alt="Benchmarking com Nubank e Méliuz"
+                  className="w-full rounded-lg border border-border"
+                />
+              </figure>
             </div>
           </div>
         ),
