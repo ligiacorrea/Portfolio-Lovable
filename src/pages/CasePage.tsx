@@ -49,6 +49,7 @@ import ongPesquisaDescobrir from "@/assets/cases/ong-pesquisa-descobrir.webp";
 import ongRespostasDesistiu from "@/assets/cases/ong-respostas-desistiu.webp";
 import ongRespostasNuncaFez from "@/assets/cases/ong-respostas-nunca-fez.webp";
 import ongRespostasContinua from "@/assets/cases/ong-respostas-continua.webp";
+import ongParedeInsights from "@/assets/cases/ong-parede-insights.webp";
 
 interface CaseSection {
   title: string;
@@ -1683,6 +1684,15 @@ const casesData: Record<string, CaseData> = {
                 Com os resultados adquiridos na etapa de pesquisa, atualizamos nossa Matriz CSD e partimos para o
                 desenvolvimento das nossas personas.
               </p>
+
+              <div className="my-6">
+                <img
+                  src={ongParedeInsights}
+                  alt="Parede de insights no Miro"
+                  className="w-full rounded-lg border border-border/30"
+                />
+                <p className="text-sm text-muted-foreground mt-2 text-center italic">Parede de insights no Miro</p>
+              </div>
             </div>
 
             <div>
