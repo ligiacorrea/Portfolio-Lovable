@@ -45,6 +45,7 @@ import ongMiro1 from "@/assets/cases/ong-miro-1.webp";
 import ongMiro2 from "@/assets/cases/ong-miro-2.webp";
 import ongMiro3 from "@/assets/cases/ong-miro-3.webp";
 import ongProtoPersonas from "@/assets/cases/ong-proto-personas.webp";
+import ongPesquisaDescobrir from "@/assets/cases/ong-pesquisa-descobrir.webp";
 
 interface CaseSection {
   title: string;
@@ -1600,6 +1601,13 @@ const casesData: Record<string, CaseData> = {
                 <strong>O que precisamos descobrir:</strong>
               </p>
 
+              <div className="my-6">
+                <img
+                  src={ongPesquisaDescobrir}
+                  alt="O que precisamos descobrir na pesquisa"
+                  className="w-full rounded-lg border border-border/30"
+                />
+              </div>
               <h4 className="font-medium mb-2">Quantitativa - 196 respostas</h4>
               <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4 mb-4">
                 <li>
