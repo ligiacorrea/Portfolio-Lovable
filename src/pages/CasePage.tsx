@@ -1874,6 +1874,17 @@ const casesData: Record<string, CaseData> = {
                       </table>
                     </div>
                   </div>
+
+                  <div className="mt-6">
+                    <p className="font-medium mb-4">Documento completo de Tom e Voz:</p>
+                    <div className="w-full rounded-lg overflow-hidden border border-border bg-muted/20">
+                      <iframe
+                        src="/docs/tom-voz-sweet-cannelle.pdf"
+                        className="w-full h-[600px]"
+                        title="Tom e Voz - Sweet Cannelle"
+                      />
+                    </div>
+                  </div>
                 </div>
               </div>
 
