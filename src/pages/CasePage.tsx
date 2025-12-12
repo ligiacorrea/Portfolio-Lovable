@@ -39,6 +39,7 @@ import opsBoardGeo from "@/assets/cases/ops-board-geo.webp";
 import opsRoadmapGrowth from "@/assets/cases/ops-roadmap-growth.webp";
 import opsAtividadesGrowth from "@/assets/cases/ops-atividades-growth.webp";
 import opsFunilPirata from "@/assets/cases/ops-funil-pirata.webp";
+import ongDatafolha from "@/assets/cases/ong-datafolha.webp";
 
 interface CaseSection {
   title: string;
@@ -1444,6 +1445,14 @@ const casesData: Record<string, CaseData> = {
               </strong>
               .
             </p>
+
+            <div className="my-6">
+              <img
+                src={ongDatafolha}
+                alt="Pesquisa Datafolha sobre dificuldades das ONGs"
+                className="w-full rounded-lg border border-border/30"
+              />
+            </div>
 
             <p>
               A ONG escolhida pelo grupo,{" "}
