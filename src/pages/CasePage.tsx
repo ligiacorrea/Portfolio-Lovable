@@ -1193,64 +1193,6 @@ const casesData: Record<string, CaseData> = {
       },
     ],
   },
-  "ong-voluntarios": {
-    title: "Como utilizamos UX para aumentar adesão e retenção de voluntários em ONG",
-    projectType: "Case real",
-    skills: ["discovery", "ux research", "persona", "guia de linguagem"],
-    area: "Projeto voluntário",
-    sections: [
-      {
-        title: "Visão geral",
-        content: (
-          <p>
-            Como líder de grupo no projeto 'Desafio apoie uma ONG' das comunidades Jovens UX&UI e VagasUX, ajudei a ONG
-            Kurumins a melhorar sua comunicação e captação de voluntários.
-          </p>
-        ),
-      },
-      {
-        title: "O desafio",
-        content: (
-          <p>
-            A ONG tinha dificuldade em atrair e reter voluntários. A comunicação não era clara sobre as oportunidades e
-            a jornada de voluntariado era confusa.
-          </p>
-        ),
-      },
-      {
-        title: "A solução",
-        content: (
-          <p>
-            Realizamos discovery completo com stakeholders e voluntários, mapeamos personas, identificamos pontos de
-            fricção na jornada e criamos recomendações de UX Writing e design para melhorar a experiência.
-          </p>
-        ),
-      },
-      {
-        title: "Resultado",
-        content: (
-          <ul className="space-y-3">
-            <li className="flex items-start gap-3">
-              <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-              <span>Entendimento profundo das motivações dos voluntários</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-              <span>Mapeamento completo da jornada de voluntariado</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-              <span>Guia de linguagem adaptado ao público</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-              <span>Recomendações implementáveis para a ONG</span>
-            </li>
-          </ul>
-        ),
-      },
-    ],
-  },
   "aquisicao-produto": {
     title: "Ampliando a aquisição do produto",
     projectType: "Case real",
@@ -1409,6 +1351,394 @@ const casesData: Record<string, CaseData> = {
     skills: ["ux writing", "discovery"],
     area: "App",
     sections: [],
+  },
+  "ong-voluntarios": {
+    title: "Como utilizamos UX para aumentar adesão e retenção de voluntários em ONG",
+    projectType: "Case voluntário",
+    skills: [
+      "ux research",
+      "testes de usabilidade",
+      "arquitetura de informação",
+      "ux writing",
+      "ui design",
+      "prototipagem",
+    ],
+    area: "ONG",
+    sections: [
+      {
+        title: "Problema",
+        content: (
+          <div className="space-y-6">
+            <p>
+              Durante e após a pandemia, as ONGs enfrentaram quedas significativas no número de voluntários e apoiadores. De acordo com a{" "}
+              <a
+                href="https://www1.folha.uol.com.br/empreendedorsocial/2020/12/metade-das-organizacoes-sociais-brasileiras-afirma-ter-dificuldades-para-se-manter-apos-a-pandemia.shtml"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline"
+              >
+                pesquisa
+              </a>{" "}
+              feita pelo Datafolha em parceria com a Ambev, <strong>41% das instituições relatam falta de apoiadores financeiros, 13% falta de materiais/equipamentos e 11% falta de voluntários</strong>.
+            </p>
+
+            <p>
+              A ONG escolhida pelo grupo,{" "}
+              <a
+                href="https://kurumins.portfoliobox.net/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline"
+              >
+                <strong>Projeto Kurumins</strong>
+              </a>
+              , dependia da atuação de voluntários, mas enfrentava:
+            </p>
+
+            <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+              <li>Falta de organização interna e gestão de tarefas</li>
+              <li>Dificuldade de comunicação entre voluntários e equipe</li>
+              <li>Baixa retenção devido a falta de clareza nas responsabilidades</li>
+              <li>Ausência de uma ferramenta estruturada para coordenar atividades</li>
+            </ul>
+
+            <p>
+              O desafio proposto pelo programa{" "}
+              <a
+                href="https://www.linkedin.com/company/jovensuxui/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline"
+              >
+                <strong>Jovens UX&UI</strong>
+              </a>{" "}
+              e{" "}
+              <a
+                href="https://www.linkedin.com/company/vagasux/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline"
+              >
+                <strong>VagasUX</strong>
+              </a>{" "}
+              foi:
+            </p>
+
+            <blockquote className="border-l-4 border-primary pl-4 py-2 bg-muted/30 rounded-r-lg italic">
+              Criar uma solução de UX capaz de melhorar a gestão interna da ONG Kurumins e aumentar a oferta e retenção de voluntários.
+            </blockquote>
+
+            <p>
+              Para saber mais sobre o projeto, acesse{" "}
+              <a
+                href="https://medium.com/vagas-ux/como-foi-organizar-um-desafio-volunt%C3%A1rio-entre-designers-e-ongs-8c87f07f7740"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline"
+              >
+                Como foi organizar um desafio voluntário entre designers e ONGs
+              </a>{" "}
+              <em>(Por Marianna Piacesi)</em>
+            </p>
+          </div>
+        ),
+      },
+      {
+        title: "Processo",
+        content: (
+          <div className="space-y-8">
+            <div>
+              <h3 className="font-semibold text-lg mb-3">1. Organização do desafio</h3>
+              <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+                <li><strong>589 voluntários inscritos</strong></li>
+                <li><strong>97 grupos</strong> (≈6 pessoas cada)</li>
+                <li><strong>11 mentores voluntários</strong></li>
+                <li>5 meses de trabalho com checkpoints e Demo Day para os organizadores do desafio, mentores voluntários e representantes da ONG</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="font-semibold text-lg mb-3">2. Discovery e Desk Research</h3>
+              <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+                <li>Análise profunda da ONG: atividades, cronograma, perfis dos voluntários e famílias atendidas</li>
+                <li>Construção da <strong>Matriz CSD</strong> para organizar certezas, suposições e dúvidas</li>
+                <li>Criação de <strong>proto-personas</strong> (perfis de voluntários presenciais e remotos)</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="font-semibold text-lg mb-3">3. Pesquisa</h3>
+              <p className="mb-4"><strong>O que precisamos descobrir:</strong></p>
+
+              <h4 className="font-medium mb-2">Quantitativa - 196 respostas</h4>
+              <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4 mb-4">
+                <li><strong>61,2%</strong> já foram voluntários</li>
+                <li><strong>21,9%</strong> nunca fizeram trabalho voluntário</li>
+                <li><strong>16,8%</strong> são voluntários atualmente</li>
+              </ul>
+
+              <p className="mb-2"><strong>Principais descobertas:</strong></p>
+              <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4 mb-4">
+                <li>Quem desistiu: <strong>41,8% por falta de tempo</strong>, <strong>13,7% por falta de motivação</strong></li>
+                <li>Quem nunca fez: <strong>55,8% não sabem por onde começar</strong>, <strong>39,5% ajudam de outras formas</strong></li>
+                <li>Quem permanece: <strong>90,2% pela satisfação de fazer o bem</strong></li>
+              </ul>
+
+              <h4 className="font-medium mb-2">Qualitativa - 8 entrevistas</h4>
+              <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+                <li>Extração de padrões, dores e expectativas</li>
+                <li>Formação de <strong>parede de insights</strong></li>
+              </ul>
+
+              <p className="mt-4 text-muted-foreground">
+                Agrupamos todas as ideias e focamos em propor soluções para as problemáticas que envolvem a <strong>gestão de tarefas</strong> do projeto Kurumins e também das pessoas voluntárias.
+              </p>
+              <p className="text-muted-foreground">
+                Com os resultados adquiridos na etapa de pesquisa, atualizamos nossa Matriz CSD e partimos para o desenvolvimento das nossas personas.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-semibold text-lg mb-3">4. Construção de Personas</h3>
+              <p className="mb-2">Perfis criados:</p>
+              <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+                <li>Nunca fez voluntariado</li>
+                <li>Já fez</li>
+                <li>Faz atualmente</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="font-semibold text-lg mb-3">5. Jornada do Usuário</h3>
+              <p className="text-muted-foreground">
+                Identificação de pontos de fricção e oportunidades de experiência.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-semibold text-lg mb-3">6. Ideação</h3>
+              <p className="text-muted-foreground mb-4">
+                De acordo com os estudos inicias e resultados das pesquisas com voluntários, pensamos em criar um <strong>aplicativo</strong> para funcionar como uma ferramenta digital de gestão por parte dos voluntários e representantes do projeto Kurumins.
+              </p>
+              <p className="text-muted-foreground mb-4">
+                Idealizado para ser desenvolvido em um formato leve e ocupar pouco espaço de armazenamento, a ideia é funcionar no modo off-line, sendo facilmente utilizado na sede da ONG.
+              </p>
+              <p className="text-muted-foreground">
+                Para começar a nossa solução usamos o método <strong>Crazy Eight</strong> e partimos para a construção de{" "}
+                <a
+                  href="https://www.figma.com/proto/wCxYnTgIvXzIY7IXnGxx2a/App-Kurumins?page-id=908%3A8998&node-id=908%3A8999&viewport=494%2C369%2C0.18&scaling=scale-down&starting-point-node-id=908%3A8999"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline"
+                >
+                  wireframes em média fidelidade
+                </a>{" "}
+                para iniciar os testes de usabilidade.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-semibold text-lg mb-3">7. Guias de estilo e linguagem</h3>
+              <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+                <li>Ajustes do guia de estilo e biblioteca de componentes já existentes, utilizando ilustrações para evidenciar o aspecto lúdico e educativo da ONG</li>
+                <li>Criação do <strong>guia de linguagem</strong> para padronização de tom, emojis e boas práticas</li>
+                <li>
+                  Aplicação dos padrões nos{" "}
+                  <a
+                    href="https://www.figma.com/proto/wCxYnTgIvXzIY7IXnGxx2a/App-Kurumins?node-id=322%3A2196&scaling=scale-down&page-id=209%3A538&starting-point-node-id=322%3A2196"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary hover:underline"
+                  >
+                    wireframes de alta fidelidade
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="font-semibold text-lg mb-3">8. Testes de usabilidade</h3>
+              <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+                <li><strong>10 testes moderados</strong> (5 no wireframe de média fidelidade e 5 no de alta fidelidade)</li>
+                <li>Validação e ajustes baseados em problemas de conteúdo e caminhos de ação</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="font-semibold text-lg mb-3">9. Feedback do Demo Day</h3>
+              <p className="mb-2">Principais pontos levantados para evolução do nosso projeto:</p>
+              <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+                <li>App considerado robusto demais</li>
+                <li>Muitas dores atacadas ao mesmo tempo</li>
+                <li>Baixa viabilidade financeira para a ONG</li>
+                <li>UX precisava ser mais enxuto</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="font-semibold text-lg mb-3">10. Iteração e refinamento</h3>
+              <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4 mb-4">
+                <li>Priorização de features visando simplicidade e valor real</li>
+                <li>Criar uma versão executável e escalável, com condições de ser sustentada a longo prazo tanto pela ONG quanto pelos voluntários</li>
+                <li>Migração de app para um <strong>website responsivo</strong>, simples e que atendesse às principais necessidades</li>
+                <li>
+                  <strong>6 novos testes</strong> (3 no{" "}
+                  <a
+                    href="https://www.figma.com/proto/b98QC5tdrqYzG0sRrHCzoD/Site%2FLP-kurumins?page-id=8%3A2&node-id=104%3A1366&viewport=563%2C658%2C0.13&scaling=scale-down&starting-point-node-id=104%3A1366"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary hover:underline"
+                  >
+                    protótipo mobile
+                  </a>{" "}
+                  + 3 no{" "}
+                  <a
+                    href="https://www.figma.com/proto/b98QC5tdrqYzG0sRrHCzoD/Site%2FLP-kurumins?page-id=116%3A1611&node-id=133%3A2010&viewport=348%2C201%2C0.06&scaling=scale-down&starting-point-node-id=133%3A2010"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary hover:underline"
+                  >
+                    protótipo desktop
+                  </a>
+                  )
+                </li>
+                <li>Ajustes de conteúdo, layout e usabilidade</li>
+              </ul>
+
+              <p className="text-muted-foreground mb-4">Navegue pelo framework do Miro 👇</p>
+              <p>
+                <a
+                  href="https://miro.com/app/board/uXjVMh9aCwU=/?share_link_id=291828313839"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline"
+                >
+                  Frameworks no Miro
+                </a>
+              </p>
+            </div>
+          </div>
+        ),
+      },
+      {
+        title: "Solução",
+        content: (
+          <div className="space-y-6">
+            <p>
+              <strong>Transformar um aplicativo robusto em um website simples, leve e viável</strong>, focado nas funcionalidades que realmente resolvem:
+            </p>
+
+            <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+              <li>Gestão de tarefas da ONG e voluntários</li>
+              <li>Comunicação clara</li>
+              <li>Acesso rápido a atividades, calendário e oportunidades de participação</li>
+              <li>Linguagem inclusiva e alinhada ao tom da ONG</li>
+              <li>Uso offline quando necessário</li>
+              <li>Interface leve e educativa (ilustrações, componentes revisados)</li>
+            </ul>
+
+            <p>A solução final engloba:</p>
+
+            <ul className="space-y-2 ml-4">
+              <li className="flex items-start gap-2">
+                <span className="text-primary">✔</span>
+                <span>Website com foco nas prioridades do usuário</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-primary">✔</span>
+                <span>Fluxo claro para "Seja voluntário"</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-primary">✔</span>
+                <span>Calendário e organização de tarefas</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-primary">✔</span>
+                <span>Conteúdo objetivo e linguagem acessível</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-primary">✔</span>
+                <span>Protótipos desktop e mobile</span>
+              </li>
+            </ul>
+          </div>
+        ),
+      },
+      {
+        title: "Resultado",
+        content: (
+          <div className="space-y-8">
+            <p>
+              Embora o grupo não tenha vencido o desafio, os resultados do projeto foram altamente positivos:
+            </p>
+
+            <div>
+              <h3 className="font-semibold text-lg mb-3">Impactos diretos do processo de UX</h3>
+              <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+                <li>Pesquisa robusta com <strong>196 pessoas</strong></li>
+                <li>Entrevistas qualitativas com <strong>8 usuários</strong></li>
+                <li><strong>10 testes de usabilidade</strong> (5 do app + 5 após ajustes)</li>
+                <li>Criação de <strong>personas</strong>, <strong>jornada</strong>, <strong>CSD</strong>, <strong>wireframes</strong>, <strong>guia de estilo</strong> e <strong>guia de linguagem</strong></li>
+                <li>Reestruturação completa da solução após feedback, demonstrando maturidade de produto</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="font-semibold text-lg mb-3">Impactos reconhecidos pelo time do desafio</h3>
+              <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+                <li>Fortes elogios ao UI e à organização do projeto</li>
+                <li>Destino final: solução viável, sustentável e aderente à realidade da ONG</li>
+                <li>
+                  Ganhei uma <strong>bolsa na{" "}
+                  <a
+                    href="https://www.alura.com.br/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary hover:underline"
+                  >
+                    Alura
+                  </a>
+                  </strong> na Formação{" "}
+                  <a
+                    href="https://cursos.alura.com.br/degree/certificate/14a1142d-0bdf-472c-94d2-8563765314f9"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary hover:underline"
+                  >
+                    Desenvolvimento de Carreira em UX
+                  </a>{" "}
+                  <strong>com 5 cursos na área</strong> — o mesmo incentivo oferecido aos grupos vencedores. Recebi menção honrosa <strong>por destaque de participação e engajamento ao longo do desafio</strong>. 🎉
+                </li>
+              </ul>
+            </div>
+
+            <p className="text-muted-foreground">
+              Como representante do grupo, tive um papel essencial na organização da equipe, no alinhamento dos processos e na comunicação direta com as mentoras, o que contribuiu para o reconhecimento adicional.
+            </p>
+
+            <div>
+              <h3 className="font-semibold text-lg mb-3">Valor entregue à ONG Kurumins</h3>
+              <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+                <li>Uma solução possível de ser implementada</li>
+                <li>Redução da complexidade inicialmente proposta</li>
+                <li>Maior clareza na comunicação com voluntários</li>
+                <li>Ferramenta estruturada para organização interna</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="font-semibold text-lg mb-3">Próximos Passos</h3>
+              <p className="text-muted-foreground">
+                Temos plena consciência de que o produto precisa estar em constante aprimoramento para oferecer uma experiência cada vez melhor aos seus usuários e alcançar ainda mais voluntários e doadores.
+              </p>
+              <p className="text-muted-foreground mt-4">
+                Como próximos passos, gostaríamos de implementar um sistema interno a ser usado pelos voluntários onde reuniria os grupos de WhatsApp, atualizações das informações e conteúdos de interesse do voluntário, além de uma newsletter para acompanhamento de todos os eventos e novidades.
+              </p>
+            </div>
+          </div>
+        ),
+      },
+    ],
   },
 };
 
