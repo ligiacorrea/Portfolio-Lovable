@@ -59,6 +59,7 @@ import ongWireframesFigma from "@/assets/cases/ong-wireframes-figma.webp";
 import ongStyleGuide from "@/assets/cases/ong-style-guide.webp";
 import ongGuiaLinguagem from "@/assets/cases/ong-guia-linguagem.webp";
 import ongWireframesAlta from "@/assets/cases/ong-wireframes-alta.webp";
+import ongTestesUsabilidade from "@/assets/cases/ong-testes-usabilidade.webp";
 
 interface CaseSection {
   title: string;
@@ -1860,6 +1861,15 @@ const casesData: Record<string, CaseData> = {
                 </li>
                 <li>Validação e ajustes baseados em problemas de conteúdo e caminhos de ação</li>
               </ul>
+
+              <div className="my-6">
+                <img
+                  src={ongTestesUsabilidade}
+                  alt="Testes realizados com o protótipo em alta fidelidade"
+                  className="w-full rounded-lg border border-border/30"
+                />
+                <p className="text-sm text-muted-foreground mt-2 text-center italic">Testes realizados com o protótipo em alta fidelidade</p>
+              </div>
             </div>
 
             <div>
