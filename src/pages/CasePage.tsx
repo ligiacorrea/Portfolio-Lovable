@@ -70,6 +70,7 @@ import ongTestesUsabilidade from "@/assets/cases/ong-testes-usabilidade.webp";
 import ongDemoDay from "@/assets/cases/ong-demo-day.webp";
 import ongFluxoSite from "@/assets/cases/ong-fluxo-site.webp";
 import npsBrandingSweetCannelle from "@/assets/cases/nps-branding-sweet-cannelle.webp";
+import npsDeskResearch from "@/assets/cases/nps-desk-research.webp";
 
 interface CaseSection {
   title: string;
@@ -1665,10 +1666,13 @@ const casesData: Record<string, CaseData> = {
                   <li><strong className="text-foreground">Matriz CSD</strong> para organizar certezas, suposições e dúvidas</li>
                 </ul>
 
-                {/* Placeholder para imagem: ONG Kurumins + Sweet Cannelle - Frame 5.jpg */}
-                <div className="my-6 p-8 bg-muted/30 border border-dashed border-border rounded-lg text-center">
-                  <p className="text-muted-foreground italic">📷 Imagem pendente: Framework de descoberta</p>
-                </div>
+                <figure className="my-6">
+                  <img
+                    src={npsDeskResearch}
+                    alt="Desk research e discovery do projeto"
+                    className="w-full rounded-lg border border-border"
+                  />
+                </figure>
               </div>
 
               <div>
