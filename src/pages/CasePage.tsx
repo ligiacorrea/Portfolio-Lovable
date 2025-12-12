@@ -3346,7 +3346,7 @@ const casesData: Record<string, CaseData> = {
 
             <div>
               <h3 className="font-semibold text-lg mb-3">Mudanças de 2024 para 2025:</h3>
-              <div className="grid grid-cols-2 gap-4 my-6">
+              <div className="space-y-4 my-6">
                 <figure>
                   <img
                     src={revistaAntes1}
