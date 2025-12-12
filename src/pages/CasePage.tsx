@@ -1795,7 +1795,14 @@ const casesData: Record<string, CaseData> = {
                   </div>
 
                   <div>
-                    <p className="font-medium mb-2">6. Público-alvo:</p>
+                    <p className="font-medium mb-4">6. Público-alvo:</p>
+                    
+                    <ul className="list-none space-y-1 text-muted-foreground ml-4 mb-4">
+                      <li>a) Quem é essa persona? Como é a personalidade dela?</li>
+                      <li>b) Quais são suas/seus principais comportamentos?</li>
+                      <li>c) Quais são suas principais informações sociodemográficas (sexo, idade, profissão, escolaridade etc.)?</li>
+                      <li>d) Quais são suas necessidades e objetivos?</li>
+                    </ul>
                     
                     <div className="space-y-4 ml-4">
                       <div className="p-4 bg-muted/20 rounded-lg">
