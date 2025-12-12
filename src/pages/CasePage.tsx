@@ -1272,8 +1272,17 @@ const casesData: Record<string, CaseData> = {
   "aquisicao-produto": {
     title: "Ampliando a aquisição do produto",
     projectType: "Case real",
-    skills: ["ux writing", "ux research", "discovery", "benchmarking"],
-    area: "Aquisição",
+    skills: [
+      "ux writing",
+      "ux research",
+      "discovery",
+      "benchmarking",
+      "persona",
+      "teste de usabilidade",
+      "arquitetura de informação",
+      "copywriting",
+      "conteúdos para interface",
+    ],
     sections: [
       {
         title: "Visão geral",
@@ -1660,7 +1669,9 @@ const casesData: Record<string, CaseData> = {
                   alt="Respostas de quem desistiu do voluntariado"
                   className="w-full rounded-lg border border-border/30"
                 />
-                <p className="text-sm text-muted-foreground mt-2 text-center italic">Respostas de quem desistiu do voluntariado</p>
+                <p className="text-sm text-muted-foreground mt-2 text-center italic">
+                  Respostas de quem desistiu do voluntariado
+                </p>
               </div>
 
               <div className="my-6">
@@ -1669,7 +1680,9 @@ const casesData: Record<string, CaseData> = {
                   alt="Respostas de quem nunca fez voluntariado"
                   className="w-full rounded-lg border border-border/30"
                 />
-                <p className="text-sm text-muted-foreground mt-2 text-center italic">Respostas de quem nunca fez voluntariado</p>
+                <p className="text-sm text-muted-foreground mt-2 text-center italic">
+                  Respostas de quem nunca fez voluntariado
+                </p>
               </div>
 
               <div className="my-6">
@@ -1678,7 +1691,9 @@ const casesData: Record<string, CaseData> = {
                   alt="Respostas de quem continua no voluntariado"
                   className="w-full rounded-lg border border-border/30"
                 />
-                <p className="text-sm text-muted-foreground mt-2 text-center italic">Respostas de quem continua no voluntariado</p>
+                <p className="text-sm text-muted-foreground mt-2 text-center italic">
+                  Respostas de quem continua no voluntariado
+                </p>
               </div>
               <h4 className="font-medium mb-2">Qualitativa - 8 entrevistas</h4>
               <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
@@ -1731,7 +1746,9 @@ const casesData: Record<string, CaseData> = {
                   alt="Persona que nunca fez voluntariado"
                   className="w-full rounded-lg border border-border/30"
                 />
-                <p className="text-sm text-muted-foreground mt-2 text-center italic">Persona que nunca fez voluntariado</p>
+                <p className="text-sm text-muted-foreground mt-2 text-center italic">
+                  Persona que nunca fez voluntariado
+                </p>
               </div>
 
               <div className="my-6">
@@ -1765,7 +1782,9 @@ const casesData: Record<string, CaseData> = {
                   alt="Fluxo da jornada dos voluntários"
                   className="w-full rounded-lg border border-border/30"
                 />
-                <p className="text-sm text-muted-foreground mt-2 text-center italic">Fluxo da jornada dos voluntários</p>
+                <p className="text-sm text-muted-foreground mt-2 text-center italic">
+                  Fluxo da jornada dos voluntários
+                </p>
               </div>
             </div>
 
@@ -1800,7 +1819,9 @@ const casesData: Record<string, CaseData> = {
                   alt="Wireframes em média fidelidade no Figma"
                   className="w-full rounded-lg border border-border/30"
                 />
-                <p className="text-sm text-muted-foreground mt-2 text-center italic">Wireframes em média fidelidade no Figma</p>
+                <p className="text-sm text-muted-foreground mt-2 text-center italic">
+                  Wireframes em média fidelidade no Figma
+                </p>
               </div>
             </div>
 
@@ -1828,11 +1849,7 @@ const casesData: Record<string, CaseData> = {
               </ul>
 
               <div className="my-6">
-                <img
-                  src={ongStyleGuide}
-                  alt="Style Guide"
-                  className="w-full rounded-lg border border-border/30"
-                />
+                <img src={ongStyleGuide} alt="Style Guide" className="w-full rounded-lg border border-border/30" />
                 <p className="text-sm text-muted-foreground mt-2 text-center italic">Style Guide</p>
               </div>
 
@@ -1842,7 +1859,9 @@ const casesData: Record<string, CaseData> = {
                   alt="Guia de Linguagem / Pocket de boas práticas"
                   className="w-full rounded-lg border border-border/30"
                 />
-                <p className="text-sm text-muted-foreground mt-2 text-center italic">Guia de Linguagem / Pocket de boas práticas</p>
+                <p className="text-sm text-muted-foreground mt-2 text-center italic">
+                  Guia de Linguagem / Pocket de boas práticas
+                </p>
               </div>
 
               <div className="my-6">
@@ -1851,7 +1870,9 @@ const casesData: Record<string, CaseData> = {
                   alt="Wireframes em alta fidelidade no Figma"
                   className="w-full rounded-lg border border-border/30"
                 />
-                <p className="text-sm text-muted-foreground mt-2 text-center italic">Wireframes em alta fidelidade no Figma</p>
+                <p className="text-sm text-muted-foreground mt-2 text-center italic">
+                  Wireframes em alta fidelidade no Figma
+                </p>
               </div>
             </div>
 
@@ -1870,7 +1891,9 @@ const casesData: Record<string, CaseData> = {
                   alt="Testes realizados com o protótipo em alta fidelidade"
                   className="w-full rounded-lg border border-border/30"
                 />
-                <p className="text-sm text-muted-foreground mt-2 text-center italic">Testes realizados com o protótipo em alta fidelidade</p>
+                <p className="text-sm text-muted-foreground mt-2 text-center italic">
+                  Testes realizados com o protótipo em alta fidelidade
+                </p>
               </div>
             </div>
 
@@ -1892,8 +1915,23 @@ const casesData: Record<string, CaseData> = {
                 />
                 <p className="text-sm text-muted-foreground mt-2 text-center italic">
                   Apresentação do trabalho para os representantes do projeto voluntário, mentores do grupo (
-                  <a href="https://www.linkedin.com/in/paulavolker/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Paula Völker</a> e{" "}
-                  <a href="https://www.linkedin.com/in/julia-nascimentto/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Julia Nascimento</a>
+                  <a
+                    href="https://www.linkedin.com/in/paulavolker/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary hover:underline"
+                  >
+                    Paula Völker
+                  </a>{" "}
+                  e{" "}
+                  <a
+                    href="https://www.linkedin.com/in/julia-nascimentto/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary hover:underline"
+                  >
+                    Julia Nascimento
+                  </a>
                   ) e representantes da ONG.
                 </p>
               </div>
