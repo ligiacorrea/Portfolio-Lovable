@@ -33,7 +33,7 @@ const mainCases = [
   {
     slug: "ong-voluntarios",
     title: "Como utilizamos UX para aumentar adesão e retenção de voluntários em ONG",
-    tags: ["discovery", "ux research", "persona", "guia de linguagem"],
+    tags: ["ux writing", "discovery", "ux research", "persona", "guia de linguagem", "teste de usabilidade", "conteúdos para interface", "fluxo de cadastro", "onboarding","content ops"],
     image: "https://ligiacorrea.notion.site/image/attachment%3A8bd90fd2-b8cb-4339-a350-c08bc96fda1d%3A66675d033cd65414f1af5a24_ogi.jpg?id=2118ba4d-245e-8096-8354-e23c1da1fb61&table=block&spaceId=a4c5fb53-7256-4287-8559-d9881c87a210&width=520&userId=&cache=v2",
   },
   {
