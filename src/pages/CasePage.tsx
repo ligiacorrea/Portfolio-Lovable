@@ -52,6 +52,7 @@ import ongRespostasContinua from "@/assets/cases/ong-respostas-continua.webp";
 import ongParedeInsights from "@/assets/cases/ong-parede-insights.webp";
 import ongInsightsCategoria from "@/assets/cases/ong-insights-categoria.webp";
 import ongPersonaNuncaFez from "@/assets/cases/ong-persona-nunca-fez.webp";
+import ongPersonaJaFez from "@/assets/cases/ong-persona-ja-fez.webp";
 
 interface CaseSection {
   title: string;
@@ -1722,6 +1723,15 @@ const casesData: Record<string, CaseData> = {
                   className="w-full rounded-lg border border-border/30"
                 />
                 <p className="text-sm text-muted-foreground mt-2 text-center italic">Persona que nunca fez voluntariado</p>
+              </div>
+
+              <div className="my-6">
+                <img
+                  src={ongPersonaJaFez}
+                  alt="Persona que já fez voluntariado"
+                  className="w-full rounded-lg border border-border/30"
+                />
+                <p className="text-sm text-muted-foreground mt-2 text-center italic">Persona que já fez voluntariado</p>
               </div>
             </div>
 
