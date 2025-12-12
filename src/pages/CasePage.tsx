@@ -1475,17 +1475,18 @@ const casesData: Record<string, CaseData> = {
 
             <div className="bg-card p-6 rounded-xl border border-border">
               <p className="text-muted-foreground mb-4">
-                O projeto inclui o{" "}
-                <a
-                  href="https://miro.com/app/board/uXjVOBMI954=/?share_link_id=726602774095"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-accent hover:underline"
-                >
-                  framework completo no Miro
-                </a>
-                , com fluxos e estruturas reorganizadas.
+                Framework completo no Miro, com fluxos e estruturas reorganizadas:
               </p>
+              <div className="aspect-video w-full rounded-lg overflow-hidden">
+                <iframe
+                  src="https://miro.com/app/live-embed/uXjVOBMI954=/?moveToViewport=-2847,-1603,5694,3206&embedId=726602774095"
+                  frameBorder="0"
+                  scrolling="no"
+                  allow="fullscreen; clipboard-read; clipboard-write"
+                  allowFullScreen
+                  className="w-full h-full"
+                />
+              </div>
             </div>
           </div>
         ),
