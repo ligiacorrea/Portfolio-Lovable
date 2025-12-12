@@ -85,6 +85,7 @@ import navegacaoCloze4 from "@/assets/cases/navegacao-cloze-4.webp";
 import navegacaoCardSorting from "@/assets/cases/navegacao-card-sorting.webp";
 import navegacaoBenchmarking from "@/assets/cases/navegacao-benchmarking.webp";
 import navegacaoSolucaoResumo from "@/assets/cases/navegacao-solucao-resumo.webp";
+import navegacaoSolucaoDetalhe from "@/assets/cases/navegacao-solucao-detalhe.webp";
 
 interface CaseSection {
   title: string;
@@ -2251,10 +2252,13 @@ const casesData: Record<string, CaseData> = {
                 <li>Redistribuição das informações de acordo com a <strong className="text-foreground">prioridade dos casais</strong> identificada nas pesquisas</li>
               </ul>
 
-              {/* Placeholder para imagens do detalhe */}
-              <div className="my-6 p-8 bg-muted/30 border border-dashed border-border rounded-lg text-center">
-                <p className="text-muted-foreground italic">📷 Imagens pendentes: Detalhe do presente</p>
-              </div>
+              <figure className="my-6">
+                <img
+                  src={navegacaoSolucaoDetalhe}
+                  alt="Proposta de redesign do detalhe do presente"
+                  className="w-full rounded-lg border border-border"
+                />
+              </figure>
 
               <div className="space-y-4">
                 <p className="font-medium">Navegue pelo protótipo (Desktop):</p>
