@@ -36,6 +36,7 @@ import opsGuiaUxWriting from "@/assets/cases/ops-guia-ux-writing.webp";
 import opsGuiaGrowth from "@/assets/cases/ops-guia-growth.webp";
 import opsBoardMetricas from "@/assets/cases/ops-board-metricas.webp";
 import opsBoardGeo from "@/assets/cases/ops-board-geo.webp";
+import opsRoadmapGrowth from "@/assets/cases/ops-roadmap-growth.webp";
 
 interface CaseSection {
   title: string;
@@ -1066,6 +1067,16 @@ const casesData: Record<string, CaseData> = {
                 <li>Quadro de pesquisas (research) em formato kanban, facilitando a priorização e o andamento das iniciativas</li>
                 <li>Cronograma de grandes entregas e organização das atividades do time</li>
               </ul>
+              <figure className="mt-4">
+                <img
+                  src={opsRoadmapGrowth}
+                  alt="Roadmap de Growth"
+                  className="w-full rounded-lg border border-border"
+                />
+                <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                  Roadmap de Growth
+                </figcaption>
+              </figure>
             </div>
           </div>
         ),
