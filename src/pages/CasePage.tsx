@@ -3094,7 +3094,7 @@ const casesData: Record<string, CaseData> = {
       "acessibilidade",
       "mobile-first",
     ],
-    area: "Conteúdo",
+    area: undefined,
     sections: [
       {
         title: "Problema",
