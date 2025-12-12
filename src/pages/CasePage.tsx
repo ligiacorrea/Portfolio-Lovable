@@ -28,6 +28,7 @@ import botFeedbacks1 from "@/assets/cases/bot-feedbacks-1.webp";
 import botFeedbacks2 from "@/assets/cases/bot-feedbacks-2.webp";
 import botMetabaseFunil from "@/assets/cases/bot-metabase-funil.webp";
 import opsDocAlertas from "@/assets/cases/ops-doc-alertas.webp";
+import aquisicaoProblemaMapa from "@/assets/cases/aquisicao-problema-mapa.webp";
 import opsDocStatus from "@/assets/cases/ops-doc-status.webp";
 import opsDocCopy from "@/assets/cases/ops-doc-copy.webp";
 import opsGuiaCentralAjuda from "@/assets/cases/ops-guia-central-ajuda.webp";
@@ -1306,6 +1307,12 @@ const casesData: Record<string, CaseData> = {
             <p className="text-muted-foreground">
               Além disso, os testes demonstraram que a página atual era <strong>poluída</strong>, com excesso de informações e elementos pouco perceptíveis, dificultando a tomada de decisão e impactando negativamente a aquisição.
             </p>
+
+            <img
+              src={aquisicaoProblemaMapa}
+              alt="Mapa de problemas do negócio"
+              className="w-full rounded-lg"
+            />
 
             <blockquote className="border-l-4 border-accent pl-4 italic text-muted-foreground">
               Como melhorar a compreensão do produto e, por consequência, aumentar a aquisição através do design e da experiência?
