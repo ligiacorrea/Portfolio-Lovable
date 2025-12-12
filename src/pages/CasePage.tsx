@@ -26,6 +26,7 @@ import botGraficoTickets from "@/assets/cases/bot-grafico-tickets.webp";
 import botRsvpExperiencia from "@/assets/cases/bot-rsvp-experiencia.webp";
 import botFeedbacks1 from "@/assets/cases/bot-feedbacks-1.webp";
 import botFeedbacks2 from "@/assets/cases/bot-feedbacks-2.webp";
+import botMetabaseFunil from "@/assets/cases/bot-metabase-funil.webp";
 
 interface CaseSection {
   title: string;
@@ -775,6 +776,16 @@ const casesData: Record<string, CaseData> = {
                 <li>Ampliação de diferenciais competitivos (especialmente no plano All Inclusive)</li>
                 <li>Visão clara e contínua do funil via Metabase</li>
               </ul>
+              <figure className="mt-4">
+                <img
+                  src={botMetabaseFunil}
+                  alt="Monitoramento de performance do funil no Metabase"
+                  className="w-full rounded-lg"
+                />
+                <figcaption className="text-sm text-muted-foreground mt-2 italic">
+                  Captura de tela do monitoramento de performance do funil no Metabase para acompanhamento em tempo real das confirmações de presença via WhatsApp
+                </figcaption>
+              </figure>
             </div>
 
             <div>
