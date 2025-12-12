@@ -2038,9 +2038,205 @@ const casesData: Record<string, CaseData> = {
   "melhorando-navegacao-painel": {
     title: "Melhorando a navegação no painel e reduzindo tickets",
     projectType: "Case real",
-    skills: ["ux writing", "arquitetura de informação"],
-    area: "Painel",
-    sections: [],
+    skills: [
+      "ux writing",
+      "arquitetura de informação",
+      "ux research",
+      "teste de cloze",
+      "benchmarking",
+    ],
+    sections: [
+      {
+        title: "Problema",
+        content: (
+          <div className="space-y-6">
+            <p>
+              O crescimento no número de chamados abertos para a equipe de atendimento revelou dificuldades dos casais em compreender o fluxo do <strong>Histórico de Presentes</strong> dentro do painel. O <strong>Histórico de Presentes</strong> é o extrato dos presentes recebidos pelos convidados, com todas as informações dos itens comprados e o status de liberação do crédito para o casal resgatar o dinheiro.
+            </p>
+
+            {/* Placeholder para imagens do histórico de presentes */}
+            <div className="my-6 p-8 bg-muted/30 border border-dashed border-border rounded-lg text-center">
+              <p className="text-muted-foreground italic">📷 Imagens pendentes: Telas do Histórico de Presentes</p>
+            </div>
+
+            <p>As principais dúvidas envolviam:</p>
+
+            <ul className="space-y-4 list-none">
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
+                <span>Entender o <strong>status do pedido</strong></span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
+                <span>Compreender o <strong>prazo de liberação do saldo</strong></span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
+                <span>Distinguir corretamente os termos <strong>status de compra</strong>, <strong>crédito</strong> e <strong>pagamento</strong></span>
+              </li>
+            </ul>
+
+            <p>
+              Em um único dia, diversos tickets no Zendesk apresentavam exatamente o mesmo padrão de dúvidas.
+            </p>
+          </div>
+        ),
+      },
+      {
+        title: "Processo",
+        content: (
+          <div className="space-y-8">
+            <div>
+              <h4 className="font-semibold text-lg mb-4">1. Alinhamento com times internos</h4>
+              <p className="mb-4">Em reuniões com atendimento e Produto, foram mapeados os pontos críticos:</p>
+              <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4">
+                <li>Necessidade de <strong className="text-foreground">validar termos usados</strong></li>
+                <li><strong className="text-foreground">Rever a hierarquia</strong> das informações</li>
+                <li>Identificar <strong className="text-foreground">quais dados são mais relevantes</strong> para os casais</li>
+              </ul>
+
+              {/* Placeholder para imagem do alinhamento */}
+              <div className="my-6 p-8 bg-muted/30 border border-dashed border-border rounded-lg text-center">
+                <p className="text-muted-foreground italic">📷 Imagem pendente: Alinhamento com times</p>
+              </div>
+            </div>
+
+            <div>
+              <h4 className="font-semibold text-lg mb-4">2. Pesquisa - Validação de termos</h4>
+              <p className="mb-4">
+                Realizamos um <strong>Teste de Cloze</strong> para verificar vocabulário, entendimento e precisão dos termos utilizados. O teste pedia que usuários completassem frases com os termos que achassem mais adequado:
+              </p>
+
+              {/* Placeholder para imagens do teste de cloze */}
+              <div className="my-6 p-8 bg-muted/30 border border-dashed border-border rounded-lg text-center">
+                <p className="text-muted-foreground italic">📷 Imagens pendentes: Teste de Cloze</p>
+              </div>
+
+              <p className="font-medium mb-2">Insight do teste:</p>
+              <blockquote className="border-l-4 border-primary pl-4 py-2 bg-muted/30 rounded-r-lg italic">
+                Os termos utilizados pelo produto estavam corretos – o problema não era terminologia, mas como as informações eram apresentadas na interface.
+              </blockquote>
+            </div>
+
+            <div>
+              <h4 className="font-semibold text-lg mb-4">3. Arquitetura da Informação</h4>
+              <p className="mb-4">
+                Após os termos validados, precisávamos descobrir <strong>quais informações eram mais relevantes</strong> para os usuários dentro da interface do produto. Eles classificaram as informações por ordem de importância.
+              </p>
+
+              {/* Placeholder para imagem do card sorting */}
+              <div className="my-6 p-8 bg-muted/30 border border-dashed border-border rounded-lg text-center">
+                <p className="text-muted-foreground italic">📷 Imagem pendente: Card Sorting</p>
+              </div>
+
+              <p className="font-medium mb-2">O que o teste revelou:</p>
+              <ol className="list-decimal list-inside space-y-2 text-muted-foreground ml-4">
+                <li><strong className="text-foreground">Item comprado</strong> = informação mais relevante</li>
+                <li><strong className="text-foreground">Valor total da compra</strong></li>
+                <li><strong className="text-foreground">Status da compra e status do crédito</strong></li>
+              </ol>
+              <p className="mt-4 text-muted-foreground">
+                Menos relevantes: informações do convidado, forma de pagamento, extrato completo.
+              </p>
+            </div>
+
+            <div>
+              <h4 className="font-semibold text-lg mb-4">4. Benchmarking</h4>
+              <p>
+                Análise comparativa com empresas referência em clareza de transações financeiras, como <strong>Nubank</strong> e <strong>Méliuz</strong>, para identificar padrões eficientes de navegação e apresentação de informações.
+              </p>
+            </div>
+          </div>
+        ),
+      },
+      {
+        title: "Solução",
+        content: (
+          <div className="space-y-8">
+            <p>Com base nos aprendizados, propusemos uma reorganização completa da experiência:</p>
+
+            <div>
+              <h4 className="font-semibold text-lg mb-4">1. Resumo dos presentes</h4>
+              <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4 mb-4">
+                <li>Filtro por <strong className="text-foreground">status da compra</strong></li>
+                <li>Informações secundárias movidas para o detalhe</li>
+                <li>Adição de uma <strong className="text-foreground">tag de última atualização</strong></li>
+                <li>Seta indicando que o pedido pode ser expandido</li>
+              </ul>
+
+              {/* Placeholder para imagem do resumo */}
+              <div className="my-6 p-8 bg-muted/30 border border-dashed border-border rounded-lg text-center">
+                <p className="text-muted-foreground italic">📷 Imagem pendente: Resumo dos presentes</p>
+              </div>
+            </div>
+
+            <div>
+              <h4 className="font-semibold text-lg mb-4">2. Detalhe do presente</h4>
+              <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4 mb-4">
+                <li>Nova <strong className="text-foreground">linha do tempo</strong> com todos os passos da compra e suas datas</li>
+                <li>Redistribuição das informações de acordo com a <strong className="text-foreground">prioridade dos casais</strong> identificada nas pesquisas</li>
+              </ul>
+
+              {/* Placeholder para imagens do detalhe */}
+              <div className="my-6 p-8 bg-muted/30 border border-dashed border-border rounded-lg text-center">
+                <p className="text-muted-foreground italic">📷 Imagens pendentes: Detalhe do presente</p>
+              </div>
+
+              <div className="space-y-4">
+                <p className="font-medium">Navegue pelo protótipo (Desktop):</p>
+                <div className="w-full rounded-lg overflow-hidden border border-border">
+                  <iframe
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F6YMcFuIiEs46X3S8cQsEuO%2F%255BCase%255D-Hist%25C3%25B3rico--de-presentes-recebidos---Breno-Redigolo%3Fkind%3D%26node-id%3D183%253A50%26page-id%3D183%253A46%26scaling%3Dscale-down%26starting-point-node-id%3D183%253A50"
+                    className="w-full h-[500px]"
+                    title="Protótipo Desktop - Histórico de Presentes"
+                    allowFullScreen
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        ),
+      },
+      {
+        title: "Resultado",
+        content: (
+          <div className="space-y-6">
+            <div>
+              <h4 className="font-semibold text-lg mb-4">Resultados qualitativos obtidos</h4>
+              <ul className="space-y-4 list-none">
+                <li className="flex items-start gap-3">
+                  <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
+                  <span>Interface mais clara e fluida, com navegação reorganizada conforme as prioridades reais dos casais</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
+                  <span>Redução de ruídos gerados por termos mal compreendidos</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
+                  <span>Estrutura mais eficiente para futuras evoluções do produto</span>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 className="font-semibold text-lg mb-4">Conclusão e próximos passos</h4>
+              <p className="mb-4">
+                Os estudos mostraram que o problema central era a falta de clareza na apresentação das informações, não nos termos utilizados. Assim, reorganizamos conteúdo, hierarquia visual e usabilidade do fluxo de presentes para garantir uma experiência mais clara e eficiente.
+              </p>
+
+              <p className="font-medium mb-2">Próximos passos incluem:</p>
+              <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4">
+                <li>Validar a solução via análise de aceitação</li>
+                <li>Coletar feedbacks de casais</li>
+                <li>Realizar novos testes (pesquisa contínua)</li>
+                <li>Criar roadmap de evolução</li>
+              </ul>
+            </div>
+          </div>
+        ),
+      },
+    ],
   },
   "landing-page-lovable": {
     title: "Criando uma landing page de captação com a Lovable",
