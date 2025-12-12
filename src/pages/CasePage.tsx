@@ -50,6 +50,7 @@ import ongRespostasDesistiu from "@/assets/cases/ong-respostas-desistiu.webp";
 import ongRespostasNuncaFez from "@/assets/cases/ong-respostas-nunca-fez.webp";
 import ongRespostasContinua from "@/assets/cases/ong-respostas-continua.webp";
 import ongParedeInsights from "@/assets/cases/ong-parede-insights.webp";
+import ongInsightsCategoria from "@/assets/cases/ong-insights-categoria.webp";
 
 interface CaseSection {
   title: string;
@@ -1692,6 +1693,15 @@ const casesData: Record<string, CaseData> = {
                   className="w-full rounded-lg border border-border/30"
                 />
                 <p className="text-sm text-muted-foreground mt-2 text-center italic">Parede de insights no Miro</p>
+              </div>
+
+              <div className="my-6">
+                <img
+                  src={ongInsightsCategoria}
+                  alt="Insights por categoria"
+                  className="w-full rounded-lg border border-border/30"
+                />
+                <p className="text-sm text-muted-foreground mt-2 text-center italic">Insights por categoria</p>
               </div>
             </div>
 
