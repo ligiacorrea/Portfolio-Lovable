@@ -424,9 +424,7 @@ const casesData: Record<string, CaseData> = {
         title: "Problema",
         content: (
           <div className="space-y-6">
-            <p>
-              Até 2023, o iCasei não possuía um atendimento por chat eficiente ou escalável. Isso gerava:
-            </p>
+            <p>Até 2023, o iCasei não possuía um atendimento por chat eficiente ou escalável. Isso gerava:</p>
             <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
               <li>Alta dependência do suporte humano</li>
               <li>Custos operacionais crescentes</li>
@@ -436,7 +434,8 @@ const casesData: Record<string, CaseData> = {
             </ul>
 
             <p>
-              Além disso, o processo de <strong>confirmação de presença (RSVP)</strong> acontecia de forma passiva (site/app) ou por telefone, gerando:
+              Além disso, o processo de <strong>confirmação de presença (RSVP)</strong> acontecia de forma passiva
+              (site/app) ou por telefone, gerando:
             </p>
             <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
               <li>Baixa taxa de resposta</li>
@@ -460,13 +459,17 @@ const casesData: Record<string, CaseData> = {
           <div className="space-y-8">
             <div>
               <h3 className="text-xl font-semibold mb-4">1. Arquitetura e planejamento das soluções</h3>
-              <p className="mb-4">Foram estruturados 3 <strong>modelos de bot</strong>, cada um atendendo a necessidades específicas:</p>
+              <p className="mb-4">
+                Foram estruturados 3 <strong>modelos de bot</strong>, cada um atendendo a necessidades específicas:
+              </p>
 
               <div className="space-y-6">
                 <div className="bg-muted/30 p-4 rounded-lg">
                   <h4 className="font-semibold mb-2">RSVP por WhatsApp (desenvolvido internamente)</h4>
                   <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
-                    <li>Consideração de múltiplos cenários e exceções envolvidos no processo de confirmação de presença</li>
+                    <li>
+                      Consideração de múltiplos cenários e exceções envolvidos no processo de confirmação de presença
+                    </li>
                     <li>Colaboração direta com desenvolvimento para garantir viabilidade técnica</li>
                   </ul>
                   <figure className="mt-4">
@@ -548,25 +551,13 @@ const casesData: Record<string, CaseData> = {
                     </figcaption>
                   </figure>
                   <div className="mt-4">
-                    <img
-                      src={botZendesk1}
-                      alt="Fluxo no Zendesk"
-                      className="w-full rounded-lg border border-border"
-                    />
+                    <img src={botZendesk1} alt="Fluxo no Zendesk" className="w-full rounded-lg border border-border" />
                   </div>
                   <div className="mt-4">
-                    <img
-                      src={botZendesk2}
-                      alt="Fluxo no Zendesk"
-                      className="w-full rounded-lg border border-border"
-                    />
+                    <img src={botZendesk2} alt="Fluxo no Zendesk" className="w-full rounded-lg border border-border" />
                   </div>
                   <figure className="mt-4">
-                    <img
-                      src={botZendesk3}
-                      alt="Fluxos no Zendesk"
-                      className="w-full rounded-lg border border-border"
-                    />
+                    <img src={botZendesk3} alt="Fluxos no Zendesk" className="w-full rounded-lg border border-border" />
                     <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
                       Fluxos no Zendesk
                     </figcaption>
@@ -579,16 +570,25 @@ const casesData: Record<string, CaseData> = {
               <h3 className="text-xl font-semibold mb-4">2. Estratégia e objetivos</h3>
               <p className="mb-4">Os bots foram desenhados com foco em quatro pilares:</p>
               <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
-                <li><strong>Satisfação:</strong> atendimento 24/7, rápido e claro</li>
-                <li><strong>Eficiência operacional:</strong> redução do volume de tickets</li>
-                <li><strong>Personalização:</strong> priorização de experiências diferentes por tipo de plano</li>
-                <li><strong>Aprimoramento do processo de RSVP:</strong> maior taxa de resposta e experiência fluida para convidados, além de mais agilidade no processo de confirmações e na gestão do evento para os casais</li>
+                <li>
+                  <strong>Satisfação:</strong> atendimento 24/7, rápido e claro
+                </li>
+                <li>
+                  <strong>Eficiência operacional:</strong> redução do volume de tickets
+                </li>
+                <li>
+                  <strong>Personalização:</strong> priorização de experiências diferentes por tipo de plano
+                </li>
+                <li>
+                  <strong>Aprimoramento do processo de RSVP:</strong> maior taxa de resposta e experiência fluida para
+                  convidados, além de mais agilidade no processo de confirmações e na gestão do evento para os casais
+                </li>
               </ul>
             </div>
 
             <div>
               <h3 className="text-xl font-semibold mb-4">3. Iterações, melhorias e monitoramento</h3>
-              
+
               <div className="space-y-4">
                 <div>
                   <h4 className="font-semibold mb-2">Para o RSVP:</h4>
@@ -618,12 +618,16 @@ const casesData: Record<string, CaseData> = {
         title: "Solução",
         content: (
           <div className="space-y-6">
-            <p>O projeto consolidou <strong>um ecossistema conversacional integrado</strong>, formado por:</p>
+            <p>
+              O projeto consolidou <strong>um ecossistema conversacional integrado</strong>, formado por:
+            </p>
 
             <div className="space-y-6">
               <div className="bg-primary/10 p-6 rounded-xl border border-primary/20">
                 <h4 className="font-semibold text-lg mb-3">1. RSVP Ativo por WhatsApp</h4>
-                <p className="mb-2 text-muted-foreground">Uma experiência totalmente guiada para convidados confirmarem presença:</p>
+                <p className="mb-2 text-muted-foreground">
+                  Uma experiência totalmente guiada para convidados confirmarem presença:
+                </p>
                 <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
                   <li>Conversa estruturada</li>
                   <li>Tom claro e acessível</li>
@@ -661,7 +665,8 @@ const casesData: Record<string, CaseData> = {
         content: (
           <div className="space-y-8">
             <p>
-              Os 3 produtos conversacionais geraram <strong>impacto direto, mensurável e consistente</strong>, consolidando o projeto como uma das maiores evoluções de CX do iCasei.
+              Os 3 produtos conversacionais geraram <strong>impacto direto, mensurável e consistente</strong>,
+              consolidando o projeto como uma das maiores evoluções de CX do iCasei.
             </p>
 
             <div>
@@ -669,11 +674,15 @@ const casesData: Record<string, CaseData> = {
               <ul className="space-y-2">
                 <li className="flex items-center gap-2">
                   <span className="font-bold text-primary">-73%</span>
-                  <span className="text-muted-foreground">no volume de chamados de chat e WhatsApp entre 2023 e 2025</span>
+                  <span className="text-muted-foreground">
+                    no volume de chamados de chat e WhatsApp entre 2023 e 2025
+                  </span>
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="font-bold text-primary">-12%</span>
-                  <span className="text-muted-foreground">entre 2024 e 2025, indicando estabilização com melhora contínua</span>
+                  <span className="text-muted-foreground">
+                    entre 2024 e 2025, indicando estabilização com melhora contínua
+                  </span>
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="font-bold text-primary">-14%</span>
@@ -687,7 +696,8 @@ const casesData: Record<string, CaseData> = {
                   className="w-full rounded-lg border border-border"
                 />
                 <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
-                  Captura de tela do gráfico de volume de tickets, mostrando uma queda acentuada e estabilização saudável (Zendesk)
+                  Captura de tela do gráfico de volume de tickets, mostrando uma queda acentuada e estabilização
+                  saudável (Zendesk)
                 </figcaption>
               </figure>
             </div>
@@ -701,14 +711,20 @@ const casesData: Record<string, CaseData> = {
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="font-bold text-primary">50%</span>
-                  <span className="text-muted-foreground">de transferência para agente (acima da média devido à complexidade das demandas)</span>
+                  <span className="text-muted-foreground">
+                    de transferência para agente (acima da média devido à complexidade das demandas)
+                  </span>
                 </li>
               </ul>
               <div className="mt-4 bg-muted/30 p-4 rounded-lg">
                 <p className="text-sm text-muted-foreground mb-2">Tópicos com eficiência significativa:</p>
                 <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4 text-sm">
-                  <li>"Presentear um casal": <strong>13%</strong> de transferência</li>
-                  <li>"Site e lista de presentes": <strong>16%</strong></li>
+                  <li>
+                    "Presentear um casal": <strong>13%</strong> de transferência
+                  </li>
+                  <li>
+                    "Site e lista de presentes": <strong>16%</strong>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -718,7 +734,9 @@ const casesData: Record<string, CaseData> = {
               <ul className="space-y-2 mb-4">
                 <li className="flex items-center gap-2">
                   <span className="font-bold text-primary">82%</span>
-                  <span className="text-muted-foreground">de satisfação (notas máximas) desde o lançamento em 2024</span>
+                  <span className="text-muted-foreground">
+                    de satisfação (notas máximas) desde o lançamento em 2024
+                  </span>
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="font-bold text-primary">+46 mil</span>
@@ -727,9 +745,15 @@ const casesData: Record<string, CaseData> = {
               </ul>
               <p className="text-sm text-muted-foreground mb-2">Nova pesquisa mostrou:</p>
               <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4 text-sm">
-                <li><strong>88%</strong> sem dificuldades no uso</li>
-                <li><strong>87%</strong> acharam as mensagens claras</li>
-                <li><strong>92%</strong> avaliaram como excelente/boa</li>
+                <li>
+                  <strong>88%</strong> sem dificuldades no uso
+                </li>
+                <li>
+                  <strong>87%</strong> acharam as mensagens claras
+                </li>
+                <li>
+                  <strong>92%</strong> avaliaram como excelente/boa
+                </li>
               </ul>
               <div className="mt-4">
                 <img
@@ -754,16 +778,8 @@ const casesData: Record<string, CaseData> = {
                 </blockquote>
               </div>
               <div className="mt-4 space-y-4">
-                <img
-                  src={botFeedbacks1}
-                  alt="Feedbacks qualitativos"
-                  className="w-full rounded-lg"
-                />
-                <img
-                  src={botFeedbacks2}
-                  alt="Feedbacks qualitativos"
-                  className="w-full rounded-lg"
-                />
+                <img src={botFeedbacks1} alt="Feedbacks qualitativos" className="w-full rounded-lg" />
+                <img src={botFeedbacks2} alt="Feedbacks qualitativos" className="w-full rounded-lg" />
               </div>
             </div>
 
@@ -783,7 +799,8 @@ const casesData: Record<string, CaseData> = {
                   className="w-full rounded-lg"
                 />
                 <figcaption className="text-sm text-muted-foreground mt-2 italic">
-                  Captura de tela do monitoramento de performance do funil no Metabase para acompanhamento em tempo real das confirmações de presença via WhatsApp
+                  Captura de tela do monitoramento de performance do funil no Metabase para acompanhamento em tempo real
+                  das confirmações de presença via WhatsApp
                 </figcaption>
               </figure>
             </div>
@@ -803,7 +820,12 @@ const casesData: Record<string, CaseData> = {
             <div className="bg-card p-6 rounded-xl border border-border">
               <h4 className="font-semibold text-lg mb-4">Conclusão</h4>
               <p className="text-muted-foreground">
-                Os projetos de bot do iCasei demonstram que uma boa integração estratégica de tecnologia, e com boas práticas de design conversacional trazem valor real e significativo para o negócio. Com uma taxa de satisfação alta, feedback qualitativo positivo e a redução nos custos operacionais, o projeto entregou resultados expressivos que impactaram diretamente na melhoria da experiência do cliente. Além disso, a disponibilidade do atendimento 24/7 garantiu suporte contínuo e eficiente, reforçando o compromisso com um atendimento excelente.
+                Os projetos de bot do iCasei demonstram que uma boa integração estratégica de tecnologia, e com boas
+                práticas de design conversacional trazem valor real e significativo para o negócio. Com uma taxa de
+                satisfação alta, feedback qualitativo positivo e a redução nos custos operacionais, o projeto entregou
+                resultados expressivos que impactaram diretamente na melhoria da experiência do cliente. Além disso, a
+                disponibilidade do atendimento 24/7 garantiu suporte contínuo e eficiente, reforçando o compromisso com
+                um atendimento excelente.
               </p>
             </div>
           </div>
@@ -814,7 +836,7 @@ const casesData: Record<string, CaseData> = {
   "content-system-ops": {
     title: "Criando processos integrados, escaláveis e eficientes através de Content System Ops",
     projectType: "Case real",
-    skills: ["ux writing", "arquitetura de informação", "guia de linguagem"],
+    skills: ["ux writing", "arquitetura de informação", "guia de linguagem", "discovery", "tech writing"],
     area: "Content Ops",
     sections: [
       {
