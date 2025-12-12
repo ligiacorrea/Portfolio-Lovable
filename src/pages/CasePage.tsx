@@ -74,6 +74,8 @@ import npsDeskResearch from "@/assets/cases/nps-desk-research.webp";
 import npsDefinicao from "@/assets/cases/nps-definicao.webp";
 import npsEntregar from "@/assets/cases/nps-entregar.webp";
 import npsTesteAb from "@/assets/cases/nps-teste-ab.webp";
+import navegacaoHistorico1 from "@/assets/cases/navegacao-historico-1.webp";
+import navegacaoHistorico2 from "@/assets/cases/navegacao-historico-2.webp";
 
 interface CaseSection {
   title: string;
@@ -2054,10 +2056,21 @@ const casesData: Record<string, CaseData> = {
               O crescimento no número de chamados abertos para a equipe de atendimento revelou dificuldades dos casais em compreender o fluxo do <strong>Histórico de Presentes</strong> dentro do painel. O <strong>Histórico de Presentes</strong> é o extrato dos presentes recebidos pelos convidados, com todas as informações dos itens comprados e o status de liberação do crédito para o casal resgatar o dinheiro.
             </p>
 
-            {/* Placeholder para imagens do histórico de presentes */}
-            <div className="my-6 p-8 bg-muted/30 border border-dashed border-border rounded-lg text-center">
-              <p className="text-muted-foreground italic">📷 Imagens pendentes: Telas do Histórico de Presentes</p>
-            </div>
+            <figure className="my-6 space-y-4">
+              <img
+                src={navegacaoHistorico1}
+                alt="Tela do Histórico de Presentes - Lista de presentes recebidos"
+                className="w-full rounded-lg border border-border"
+              />
+              <img
+                src={navegacaoHistorico2}
+                alt="Tela do Histórico de Presentes - Detalhes do pedido"
+                className="w-full rounded-lg border border-border"
+              />
+              <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                Telas do Histórico de Presentes
+              </figcaption>
+            </figure>
 
             <p>As principais dúvidas envolviam:</p>
 
