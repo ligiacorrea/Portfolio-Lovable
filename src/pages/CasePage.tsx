@@ -19,6 +19,9 @@ import botFluxoMiroOficial from "@/assets/cases/bot-fluxo-miro-oficial.webp";
 import botFluxoMiroIds from "@/assets/cases/bot-fluxo-miro-ids.webp";
 import botFluxoZendesk from "@/assets/cases/bot-fluxo-zendesk.webp";
 import botChatSite from "@/assets/cases/bot-chat-site.webp";
+import botZendesk1 from "@/assets/cases/bot-zendesk-1.webp";
+import botZendesk2 from "@/assets/cases/bot-zendesk-2.webp";
+import botZendesk3 from "@/assets/cases/bot-zendesk-3.webp";
 
 interface CaseSection {
   title: string;
@@ -537,6 +540,30 @@ const casesData: Record<string, CaseData> = {
                     />
                     <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
                       Captura de tela do chat no site institucional
+                    </figcaption>
+                  </figure>
+                  <div className="mt-4">
+                    <img
+                      src={botZendesk1}
+                      alt="Fluxo no Zendesk"
+                      className="w-full rounded-lg border border-border"
+                    />
+                  </div>
+                  <div className="mt-4">
+                    <img
+                      src={botZendesk2}
+                      alt="Fluxo no Zendesk"
+                      className="w-full rounded-lg border border-border"
+                    />
+                  </div>
+                  <figure className="mt-4">
+                    <img
+                      src={botZendesk3}
+                      alt="Fluxos no Zendesk"
+                      className="w-full rounded-lg border border-border"
+                    />
+                    <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                      Fluxos no Zendesk
                     </figcaption>
                   </figure>
                 </div>
