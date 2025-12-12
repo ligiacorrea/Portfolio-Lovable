@@ -3381,7 +3381,7 @@ const casesData: Record<string, CaseData> = {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-8">
+            <div className="space-y-4 my-8">
               <figure>
                 <img
                   src={revistaNovaHome1}
