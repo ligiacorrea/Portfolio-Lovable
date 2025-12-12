@@ -17,6 +17,7 @@ import botRsvpMockup from "@/assets/cases/bot-rsvp-mockup.webp";
 import botFluxoMiroV1 from "@/assets/cases/bot-fluxo-miro-v1.webp";
 import botFluxoMiroOficial from "@/assets/cases/bot-fluxo-miro-oficial.webp";
 import botFluxoMiroIds from "@/assets/cases/bot-fluxo-miro-ids.webp";
+import botFluxoZendesk from "@/assets/cases/bot-fluxo-zendesk.webp";
 
 interface CaseSection {
   title: string;
@@ -508,6 +509,16 @@ const casesData: Record<string, CaseData> = {
                     <li>Construído no Zendesk</li>
                     <li>Inclui respostas automatizadas, artigos recomendados e transferência para agentes</li>
                   </ul>
+                  <figure className="mt-4">
+                    <img
+                      src={botFluxoZendesk}
+                      alt="Fluxo no Zendesk"
+                      className="w-full rounded-lg border border-border"
+                    />
+                    <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                      Fluxo no Zendesk
+                    </figcaption>
+                  </figure>
                 </div>
 
                 <div className="bg-muted/30 p-4 rounded-lg">
