@@ -71,6 +71,7 @@ import ongDemoDay from "@/assets/cases/ong-demo-day.webp";
 import ongFluxoSite from "@/assets/cases/ong-fluxo-site.webp";
 import npsBrandingSweetCannelle from "@/assets/cases/nps-branding-sweet-cannelle.webp";
 import npsDeskResearch from "@/assets/cases/nps-desk-research.webp";
+import npsDefinicao from "@/assets/cases/nps-definicao.webp";
 
 interface CaseSection {
   title: string;
@@ -1687,10 +1688,13 @@ const casesData: Record<string, CaseData> = {
 
                 <p>Esse foi o foco que direcionou as ideações.</p>
 
-                {/* Placeholder para imagem: ONG Kurumins + Sweet Cannelle - Frame 6.jpg */}
-                <div className="my-6 p-8 bg-muted/30 border border-dashed border-border rounded-lg text-center">
-                  <p className="text-muted-foreground italic">📷 Imagem pendente: Framework de definição</p>
-                </div>
+                <figure className="my-6">
+                  <img
+                    src={npsDefinicao}
+                    alt="Framework de definição do problema"
+                    className="w-full rounded-lg border border-border"
+                  />
+                </figure>
               </div>
 
               <div>
