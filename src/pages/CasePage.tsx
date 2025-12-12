@@ -33,6 +33,7 @@ import opsDocCopy from "@/assets/cases/ops-doc-copy.webp";
 import opsGuiaCentralAjuda from "@/assets/cases/ops-guia-central-ajuda.webp";
 import opsGuiaPesquisas from "@/assets/cases/ops-guia-pesquisas.webp";
 import opsGuiaUxWriting from "@/assets/cases/ops-guia-ux-writing.webp";
+import opsGuiaGrowth from "@/assets/cases/ops-guia-growth.webp";
 
 interface CaseSection {
   title: string;
@@ -1007,6 +1008,16 @@ const casesData: Record<string, CaseData> = {
                 <div className="bg-muted/30 p-4 rounded-lg">
                   <h4 className="font-semibold text-lg mb-2">Guia de Growth</h4>
                   <p className="text-muted-foreground">Apoiado em frameworks como Product-Led Growth e Funil Pirata. Incluía métricas, conceitos essenciais e materiais de referência.</p>
+                  <figure className="mt-4">
+                    <img
+                      src={opsGuiaGrowth}
+                      alt="Captura de uma seção do guia"
+                      className="w-full rounded-lg border border-border"
+                    />
+                    <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                      Captura de uma seção do guia
+                    </figcaption>
+                  </figure>
                 </div>
               </div>
             </div>
