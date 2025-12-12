@@ -32,6 +32,7 @@ import aquisicaoProblemaMapa from "@/assets/cases/aquisicao-problema-mapa.webp";
 import aquisicaoDeskResearch from "@/assets/cases/aquisicao-desk-research.webp";
 import aquisicaoPersonaRafael from "@/assets/cases/aquisicao-persona-rafael.webp";
 import aquisicaoPersonaCamila from "@/assets/cases/aquisicao-persona-camila.webp";
+import aquisicaoBenchmarking from "@/assets/cases/aquisicao-benchmarking.webp";
 import opsDocStatus from "@/assets/cases/ops-doc-status.webp";
 import opsDocCopy from "@/assets/cases/ops-doc-copy.webp";
 import opsGuiaCentralAjuda from "@/assets/cases/ops-guia-central-ajuda.webp";
@@ -1404,9 +1405,15 @@ const casesData: Record<string, CaseData> = {
 
             <div>
               <h4 className="font-semibold text-lg mb-4">4. Benchmarking</h4>
-              <p className="text-muted-foreground">
+              <p className="text-muted-foreground mb-6">
                 Análise de comparativos de planos e concorrentes, como Terra Chat, para compreender padrões de apresentação e clareza na escolha de planos.
               </p>
+
+              <img
+                src={aquisicaoBenchmarking}
+                alt="Benchmarking"
+                className="w-full rounded-lg"
+              />
             </div>
 
             <hr className="border-border" />
