@@ -28,6 +28,7 @@ import botFeedbacks1 from "@/assets/cases/bot-feedbacks-1.webp";
 import botFeedbacks2 from "@/assets/cases/bot-feedbacks-2.webp";
 import botMetabaseFunil from "@/assets/cases/bot-metabase-funil.webp";
 import opsDocAlertas from "@/assets/cases/ops-doc-alertas.webp";
+import opsDocStatus from "@/assets/cases/ops-doc-status.webp";
 
 interface CaseSection {
   title: string;
@@ -897,7 +898,7 @@ const casesData: Record<string, CaseData> = {
                 A proposta era criar uma ferramenta simples, rápida e fácil de editar, que permitisse registrar de forma clara as etapas, decisões, testes e históricos de cada entrega.
               </p>
 
-              <figure>
+              <figure className="mb-6">
                 <img
                   src={opsDocAlertas}
                   alt="Exemplo de documentação dos alertas e notificações do painel"
@@ -905,6 +906,17 @@ const casesData: Record<string, CaseData> = {
                 />
                 <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
                   Exemplo de documentação dos alertas e notificações do painel
+                </figcaption>
+              </figure>
+
+              <figure>
+                <img
+                  src={opsDocStatus}
+                  alt="Exemplo de documentação dos status da contratação de plano no painel"
+                  className="w-full rounded-lg border border-border"
+                />
+                <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                  Exemplo de documentação dos status da contratação de plano no painel
                 </figcaption>
               </figure>
             </div>
