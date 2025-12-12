@@ -29,6 +29,7 @@ import botFeedbacks2 from "@/assets/cases/bot-feedbacks-2.webp";
 import botMetabaseFunil from "@/assets/cases/bot-metabase-funil.webp";
 import opsDocAlertas from "@/assets/cases/ops-doc-alertas.webp";
 import aquisicaoProblemaMapa from "@/assets/cases/aquisicao-problema-mapa.webp";
+import aquisicaoDeskResearch from "@/assets/cases/aquisicao-desk-research.webp";
 import opsDocStatus from "@/assets/cases/ops-doc-status.webp";
 import opsDocCopy from "@/assets/cases/ops-doc-copy.webp";
 import opsGuiaCentralAjuda from "@/assets/cases/ops-guia-central-ajuda.webp";
@@ -1368,6 +1369,12 @@ const casesData: Record<string, CaseData> = {
                 <li>A assinatura é renovada automaticamente?</li>
                 <li>Posso mudar de plano a qualquer momento?</li>
               </ul>
+
+              <img
+                src={aquisicaoDeskResearch}
+                alt="Desk Research"
+                className="w-full rounded-lg mt-6"
+              />
             </div>
 
             <hr className="border-border" />
