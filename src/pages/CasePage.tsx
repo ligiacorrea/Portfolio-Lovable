@@ -27,6 +27,7 @@ import botRsvpExperiencia from "@/assets/cases/bot-rsvp-experiencia.webp";
 import botFeedbacks1 from "@/assets/cases/bot-feedbacks-1.webp";
 import botFeedbacks2 from "@/assets/cases/bot-feedbacks-2.webp";
 import botMetabaseFunil from "@/assets/cases/bot-metabase-funil.webp";
+import opsDocAlertas from "@/assets/cases/ops-doc-alertas.webp";
 
 interface CaseSection {
   title: string;
@@ -892,9 +893,20 @@ const casesData: Record<string, CaseData> = {
                 <li>Status de validação</li>
                 <li>Confirmação de implementação no Figma</li>
               </ul>
-              <p className="text-muted-foreground">
+              <p className="text-muted-foreground mb-6">
                 A proposta era criar uma ferramenta simples, rápida e fácil de editar, que permitisse registrar de forma clara as etapas, decisões, testes e históricos de cada entrega.
               </p>
+
+              <figure>
+                <img
+                  src={opsDocAlertas}
+                  alt="Exemplo de documentação dos alertas e notificações do painel"
+                  className="w-full rounded-lg border border-border"
+                />
+                <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                  Exemplo de documentação dos alertas e notificações do painel
+                </figcaption>
+              </figure>
             </div>
 
             <hr className="border-border" />
