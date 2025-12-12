@@ -55,6 +55,7 @@ import ongPersonaNuncaFez from "@/assets/cases/ong-persona-nunca-fez.webp";
 import ongPersonaJaFez from "@/assets/cases/ong-persona-ja-fez.webp";
 import ongPersonaVoluntaria from "@/assets/cases/ong-persona-voluntaria.webp";
 import ongJornadaVoluntarios from "@/assets/cases/ong-jornada-voluntarios.webp";
+import ongWireframesFigma from "@/assets/cases/ong-wireframes-figma.webp";
 
 interface CaseSection {
   title: string;
@@ -1786,6 +1787,15 @@ const casesData: Record<string, CaseData> = {
                 </a>{" "}
                 para iniciar os testes de usabilidade.
               </p>
+
+              <div className="my-6">
+                <img
+                  src={ongWireframesFigma}
+                  alt="Wireframes em média fidelidade no Figma"
+                  className="w-full rounded-lg border border-border/30"
+                />
+                <p className="text-sm text-muted-foreground mt-2 text-center italic">Wireframes em média fidelidade no Figma</p>
+              </div>
             </div>
 
             <div>
