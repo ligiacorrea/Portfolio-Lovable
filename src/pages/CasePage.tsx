@@ -15,6 +15,7 @@ import faqVotos2024 from "@/assets/cases/faq-votos-2024.webp";
 import faqComparativoTrimestres from "@/assets/cases/faq-comparativo-trimestres.webp";
 import botRsvpMockup from "@/assets/cases/bot-rsvp-mockup.webp";
 import botFluxoMiroV1 from "@/assets/cases/bot-fluxo-miro-v1.webp";
+import botFluxoMiroOficial from "@/assets/cases/bot-fluxo-miro-oficial.webp";
 
 interface CaseSection {
   title: string;
@@ -475,6 +476,16 @@ const casesData: Record<string, CaseData> = {
                     />
                     <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
                       Fluxo conversacional no Miro (versão inicial para testes)
+                    </figcaption>
+                  </figure>
+                  <figure className="mt-4">
+                    <img
+                      src={botFluxoMiroOficial}
+                      alt="Fluxo oficial no Miro com tabela de casos de uso que demandam mensagens de erro"
+                      className="w-full rounded-lg border border-border"
+                    />
+                    <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                      Fluxo oficial no Miro com tabela de casos de uso que demandam mensagens de erro
                     </figcaption>
                   </figure>
                 </div>
