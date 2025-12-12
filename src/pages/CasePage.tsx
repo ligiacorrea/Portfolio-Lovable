@@ -840,53 +840,220 @@ const casesData: Record<string, CaseData> = {
     area: "Content Ops",
     sections: [
       {
-        title: "Visão geral",
+        title: "Problema",
         content: (
-          <p>
-            Como primeira UX Writer do iCasei, precisei estruturar toda a área de UX Writing do zero, criando processos,
-            ferramentas e governança de conteúdo.
-          </p>
+          <div className="space-y-6">
+            <p>
+              As equipes trabalhavam em um ambiente dinâmico, com múltiplos projetos simultâneos e times enxutos. A falta de uma cultura de documentação gerava <strong>retrabalho, perda de informação e baixa autonomia</strong>. Entre as principais dores identificadas:
+            </p>
+
+            <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4">
+              <li>Decisões importantes eram discutidas em reuniões e aplicadas diretamente no Figma, sem registro do racional por trás das escolhas</li>
+              <li>Ausência de materiais de apoio que orientassem tarefas recorrentes (ex.: guias, padrões, processos)</li>
+              <li>Atrasos constantes nas entregas e falhas de comunicação entre áreas</li>
+              <li>Equipes tinham dificuldade para retomar projetos adiados por falta de histórico estruturado</li>
+            </ul>
+
+            <blockquote className="border-l-4 border-primary pl-4 py-2 bg-muted/30 rounded-r-lg italic">
+              <strong>Públicos envolvidos:</strong> produto, design, marketing, tecnologia, growth e outros stakeholders.
+            </blockquote>
+
+            <div>
+              <h4 className="font-semibold text-lg mb-3">Objetivos do projeto:</h4>
+              <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+                <li>Fortalecer padrões, boas práticas e princípios de escrita</li>
+                <li>Criar processos e ferramentas que garantissem escala, qualidade e eficiência</li>
+                <li>Centralizar informações para acelerar o acesso e facilitar retomadas</li>
+                <li>Construir uma cultura operacional de registro e consulta contínua</li>
+              </ul>
+            </div>
+          </div>
         ),
       },
       {
-        title: "O desafio",
+        title: "Processo",
         content: (
-          <p>
-            Não havia processos definidos para criação e revisão de conteúdo, cada área usava uma linguagem diferente,
-            não existia guia de tom de voz e o conteúdo era criado de forma descentralizada.
-          </p>
+          <div className="space-y-8">
+            <p>
+              O trabalho se desenvolveu em três grandes frentes: <strong>documentação</strong>, <strong>padronização</strong>, <strong>gestão e integração operacional</strong>.
+            </p>
+
+            <div>
+              <h3 className="font-semibold text-xl mb-4">Documentação estruturada de conteúdo e design</h3>
+              <p className="mb-4">Foram criadas planilhas colaborativas para registrar todas as entregas, contendo:</p>
+              <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4 mb-4">
+                <li>Cenário e contexto</li>
+                <li>Tipo de conteúdo</li>
+                <li>Título e descrição</li>
+                <li>Limite de caracteres</li>
+                <li>Ícones e elementos de interface</li>
+                <li>Botões e destinos</li>
+                <li>Testes associados</li>
+                <li>Status de validação</li>
+                <li>Confirmação de implementação no Figma</li>
+              </ul>
+              <p className="text-muted-foreground">
+                A proposta era criar uma ferramenta simples, rápida e fácil de editar, que permitisse registrar de forma clara as etapas, decisões, testes e históricos de cada entrega.
+              </p>
+            </div>
+
+            <hr className="border-border" />
+
+            <div>
+              <h3 className="font-semibold text-xl mb-4">Criação de guias internos (Confluence)</h3>
+              <p className="mb-6">Foram desenvolvidos materiais completos para orientar equipes e criar consistência:</p>
+
+              <div className="space-y-6">
+                <div className="bg-muted/30 p-4 rounded-lg">
+                  <h4 className="font-semibold text-lg mb-2">Guia para Central de Ajuda</h4>
+                  <p className="text-muted-foreground mb-2">Incluía: objetivos, usuários, metas, rotina, princípios, instruções e estrutura.</p>
+                  <p className="text-muted-foreground">Também foram criados documentos relacionados de apoio:</p>
+                  <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4 mt-2">
+                    <li>Passo a passo de atualização de artigos</li>
+                    <li>Guia de redesign do template</li>
+                  </ul>
+                </div>
+
+                <div className="bg-muted/30 p-4 rounded-lg">
+                  <h4 className="font-semibold text-lg mb-2">Guia para Pesquisas</h4>
+                  <p className="text-muted-foreground">Documentava objetivos, etapas, princípios e estrutura para um processo claro e replicável. Mantinha flexibilidade, evitando fórmulas engessadas.</p>
+                </div>
+
+                <div className="bg-muted/30 p-4 rounded-lg">
+                  <h4 className="font-semibold text-lg mb-2">Guia com Melhores Práticas de UX Writing</h4>
+                  <p className="text-muted-foreground">
+                    Baseado na tradução e adaptação do{" "}
+                    <a
+                      href="https://www.linkedin.com/posts/bobbiewood_ux-writing-heuristic-evaluation-ugcPost-7067260983148232704-hSHg/?utm_source=share&utm_medium=member_desktop"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary hover:underline"
+                    >
+                      material original
+                    </a>{" "}
+                    de Bobbie Wood (UX Content Collective).
+                  </p>
+                </div>
+
+                <div className="bg-muted/30 p-4 rounded-lg">
+                  <h4 className="font-semibold text-lg mb-2">Guia de Growth</h4>
+                  <p className="text-muted-foreground">Apoiado em frameworks como Product-Led Growth e Funil Pirata. Incluía métricas, conceitos essenciais e materiais de referência.</p>
+                </div>
+              </div>
+            </div>
+
+            <hr className="border-border" />
+
+            <div>
+              <h3 className="font-semibold text-xl mb-4">Boards visuais de estudos e referência</h3>
+              <p className="text-muted-foreground mb-2">Criados para registrar insights de livros e cursos, facilitando consulta prática.</p>
+              <p className="text-muted-foreground">Incluíam frameworks, resumos e mapas visuais.</p>
+            </div>
+
+            <hr className="border-border" />
+
+            <div>
+              <h3 className="font-semibold text-xl mb-4">Integração operacional e gestão via roadmaps</h3>
+              <p className="mb-4">
+                Para facilitar visibilidade e alinhamento entre áreas, toda a operação migrou do <strong>Trello para o Jira</strong>. Participei da implementação de diversos roadmaps para facilitar a gestão dos projetos e promover mais alinhamento entre as equipes, incorporando:
+              </p>
+              <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+                <li>Roadmap de monitoramento da Central de Ajuda (mensal, trimestral e anual)</li>
+                <li>Roadmap de PR (ações mensais, status e métricas)</li>
+                <li>Roadmap de Growth (KPIs baseados no Funil Pirata)</li>
+                <li>Quadro de pesquisas (research) em formato kanban, facilitando a priorização e o andamento das iniciativas</li>
+                <li>Cronograma de grandes entregas e organização das atividades do time</li>
+              </ul>
+            </div>
+          </div>
         ),
       },
       {
-        title: "A solução",
+        title: "Solução",
         content: (
-          <p>
-            Desenvolvi um Content System Ops completo incluindo guia de linguagem, templates de documentação, fluxo de
-            revisão, biblioteca de componentes de texto e rituais de alinhamento com outras áreas.
-          </p>
+          <div className="space-y-6">
+            <p>
+              A solução entregue combinou <strong>Content Ops + System Ops + Gestão de Produto</strong>, resultando em:
+            </p>
+
+            <div className="space-y-4">
+              <div className="bg-primary/10 p-4 rounded-lg border border-primary/20">
+                <h4 className="font-semibold mb-2">📌 Um ecossistema de documentação centralizado e vivo</h4>
+                <p className="text-muted-foreground">Incluindo planilhas, guias, boards visuais e rotinas de atualização.</p>
+              </div>
+
+              <div className="bg-primary/10 p-4 rounded-lg border border-primary/20">
+                <h4 className="font-semibold mb-2">📌 Padronização transversal entre áreas</h4>
+                <p className="text-muted-foreground">Com princípios, regras, estruturas e boas práticas aplicáveis em UX Writing, Help Center, Research e Growth.</p>
+              </div>
+
+              <div className="bg-primary/10 p-4 rounded-lg border border-primary/20">
+                <h4 className="font-semibold mb-2">📌 Processos integrados que aumentaram a autonomia</h4>
+                <p className="text-muted-foreground">Roadmaps estruturados em Jira permitiram acompanhamento claro de prioridades, dependências, metas e resultados.</p>
+              </div>
+
+              <div className="bg-primary/10 p-4 rounded-lg border border-primary/20">
+                <h4 className="font-semibold mb-2">📌 Escalabilidade</h4>
+                <p className="text-muted-foreground">A criação de modelos, guias e referências reduziu a necessidade de retrabalho e facilitou onboarding de novos colaboradores.</p>
+              </div>
+            </div>
+          </div>
         ),
       },
       {
         title: "Resultado",
         content: (
-          <ul className="space-y-3">
-            <li className="flex items-start gap-3">
-              <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-              <span>Padronização da voz da marca em todos os touchpoints</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-              <span>Redução do tempo de criação de conteúdo</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-              <span>Maior autonomia das equipes para criar conteúdo on-brand</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-              <span>Escalabilidade do processo de UX Writing</span>
-            </li>
-          </ul>
+          <div className="space-y-6">
+            <p>Os impactos qualitativos e operacionais foram claros:</p>
+
+            <div className="space-y-4">
+              <div>
+                <h4 className="font-semibold text-lg mb-2">🔹 Redução de retrabalho e perda de informações</h4>
+                <p className="text-muted-foreground">A documentação passou a registrar todo o racional das decisões, diminuindo gargalos e dependências.</p>
+              </div>
+
+              <div>
+                <h4 className="font-semibold text-lg mb-2">🔹 Aumento da autonomia das equipes</h4>
+                <p className="text-muted-foreground">Com acesso rápido a processos, conceitos e guias, as áreas passaram a operar com mais independência.</p>
+              </div>
+
+              <div>
+                <h4 className="font-semibold text-lg mb-2">🔹 Entregas mais consistentes e alinhadas</h4>
+                <p className="text-muted-foreground">A padronização trouxe identidade e coerência entre conteúdos, telas e fluxos.</p>
+              </div>
+
+              <div>
+                <h4 className="font-semibold text-lg mb-2">🔹 Agilidade na retomada de projetos</h4>
+                <p className="text-muted-foreground">As informações deixaram de ser dispersas, permitindo continuidade mesmo após pausas longas.</p>
+              </div>
+
+              <div>
+                <h4 className="font-semibold text-lg mb-2">🔹 Operação mais integrada entre áreas</h4>
+                <p className="text-muted-foreground">A migração para Jira, os roadmaps e cronogramas trouxeram visibilidade e sinergia entre Produto, Conteúdo, Growth e Design.</p>
+              </div>
+
+              <div>
+                <h4 className="font-semibold text-lg mb-2">🔹 Base sólida para escala</h4>
+                <p className="text-muted-foreground">Novos projetos passaram a nascer com estrutura e rastreabilidade.</p>
+              </div>
+            </div>
+
+            <hr className="border-border" />
+
+            <div className="bg-card p-6 rounded-xl border border-border">
+              <h4 className="font-semibold text-lg mb-4">Conclusão e próximos passos</h4>
+              <p className="text-muted-foreground mb-4">
+                O fortalecimento da cultura de documentação abriu caminho para uma operação mais madura e eficiente. Os próximos passos incluem:
+              </p>
+              <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+                <li>Guia de linguagem e glossário</li>
+                <li>Guia de acessibilidade</li>
+                <li>Componentes textuais reutilizáveis</li>
+                <li>Plugin de revisão textual direto no Figma</li>
+                <li>Testes com variáveis de texto para maior escalabilidade</li>
+              </ul>
+            </div>
+          </div>
         ),
       },
     ],
