@@ -80,7 +80,7 @@ const mainCases = [
 ];
 
 const otherCases = [
-  { slug: "navegacao-painel", title: "Melhorando a navegação no painel e reduzindo tickets" },
+  { slug: "melhorando-navegacao-painel", title: "Melhorando a navegação no painel e reduzindo tickets" },
   { slug: "revista-digital", title: "Elevando a experiência da revista digital com um processo de redesign" },
   {
     slug: "redesign-central-ajuda",
