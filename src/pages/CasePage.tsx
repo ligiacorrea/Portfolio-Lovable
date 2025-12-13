@@ -102,6 +102,16 @@ import revistaNovaHome3 from "@/assets/cases/revista-nova-home-3.webp";
 import revistaNovaInterna1 from "@/assets/cases/revista-nova-interna-1.webp";
 import revistaNovaInterna2 from "@/assets/cases/revista-nova-interna-2.webp";
 import revistaNovaInterna3 from "@/assets/cases/revista-nova-interna-3.webp";
+import redesignCentralAtual from "@/assets/cases/redesign-central-atual.webp";
+import redesignBenchmarking from "@/assets/cases/redesign-benchmarking.webp";
+import redesignRelatorioArtigos from "@/assets/cases/redesign-relatorio-artigos.webp";
+import redesignArquiteturaAntes from "@/assets/cases/redesign-arquitetura-antes.webp";
+import redesignArquiteturaDepois from "@/assets/cases/redesign-arquitetura-depois.webp";
+import redesignTelasFigma from "@/assets/cases/redesign-telas-figma.webp";
+import redesignHomeNova from "@/assets/cases/redesign-home-nova.webp";
+import redesignArtigoBanner from "@/assets/cases/redesign-artigo-banner.webp";
+import redesignAntes2022 from "@/assets/cases/redesign-antes-2022.webp";
+import redesignDepois2023 from "@/assets/cases/redesign-depois-2023.webp";
 
 interface CaseSection {
   title: string;
@@ -2433,11 +2443,12 @@ const casesData: Record<string, CaseData> = {
               demanda no suporte.
             </p>
 
-            {/* TODO: Adicionar imagem - Captura da página inicial atual da central de ajuda */}
             <figure className="my-6">
-              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
-                <span className="text-muted-foreground text-sm">Imagem: Página inicial atual da central de ajuda</span>
-              </div>
+              <img
+                src={redesignCentralAtual}
+                alt="Página inicial atual da central de ajuda"
+                className="w-full rounded-lg border border-border/30"
+              />
               <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
                 Captura da página inicial atual da central de ajuda
               </figcaption>
@@ -2470,11 +2481,12 @@ const casesData: Record<string, CaseData> = {
               da marca.
             </p>
 
-            {/* TODO: Adicionar imagem - Análise de benchmarking */}
             <figure className="my-6">
-              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
-                <span className="text-muted-foreground text-sm">Imagem: Análise de benchmarking</span>
-              </div>
+              <img
+                src={redesignBenchmarking}
+                alt="Análise de benchmarking"
+                className="w-full rounded-lg border border-border/30"
+              />
               <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
                 Análise de benchmarking
               </figcaption>
@@ -2497,11 +2509,12 @@ const casesData: Record<string, CaseData> = {
               <em>RSVP</em>, <em>lista de presentes</em> e <em>resgate de valores</em>.
             </p>
 
-            {/* TODO: Adicionar imagem - Análise de relatório dos artigos via Zendesk */}
             <figure className="my-6">
-              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
-                <span className="text-muted-foreground text-sm">Imagem: Análise de relatório dos artigos via Zendesk</span>
-              </div>
+              <img
+                src={redesignRelatorioArtigos}
+                alt="Análise de relatório dos artigos via Zendesk"
+                className="w-full rounded-lg border border-border/30"
+              />
               <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
                 Análise de relatório dos artigos via Zendesk
               </figcaption>
@@ -2541,21 +2554,23 @@ const casesData: Record<string, CaseData> = {
               <em>lista de casamento</em>, <em>planos</em>, <em>suporte</em>, <em>conta</em> etc.
             </p>
 
-            {/* TODO: Adicionar imagem - Arquitetura de informação (antes) */}
             <figure className="my-6">
-              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
-                <span className="text-muted-foreground text-sm">Imagem: Arquitetura de informação (antes)</span>
-              </div>
+              <img
+                src={redesignArquiteturaAntes}
+                alt="Arquitetura de informação (antes)"
+                className="w-full rounded-lg border border-border/30"
+              />
               <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
                 Arquitetura de informação (antes)
               </figcaption>
             </figure>
 
-            {/* TODO: Adicionar imagem - Arquitetura de informação (depois) */}
             <figure className="my-6">
-              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
-                <span className="text-muted-foreground text-sm">Imagem: Arquitetura de informação (depois)</span>
-              </div>
+              <img
+                src={redesignArquiteturaDepois}
+                alt="Arquitetura de informação (depois)"
+                className="w-full rounded-lg border border-border/30"
+              />
               <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
                 Arquitetura de informação (depois)
               </figcaption>
@@ -2572,11 +2587,12 @@ const casesData: Record<string, CaseData> = {
               <li>Consistência com o site, painel e app</li>
             </ul>
 
-            {/* TODO: Adicionar imagem - Telas no Figma */}
             <figure className="my-6">
-              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
-                <span className="text-muted-foreground text-sm">Imagem: Telas no Figma</span>
-              </div>
+              <img
+                src={redesignTelasFigma}
+                alt="Telas no Figma"
+                className="w-full rounded-lg border border-border/30"
+              />
               <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
                 Telas no Figma
               </figcaption>
@@ -2600,11 +2616,12 @@ const casesData: Record<string, CaseData> = {
               <li>Nova hierarquia de navegação mais intuitiva</li>
             </ul>
 
-            {/* TODO: Adicionar imagem - Página inicial da central de ajuda com categorias e destaques */}
             <figure className="my-6">
-              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
-                <span className="text-muted-foreground text-sm">Imagem: Página inicial da central de ajuda</span>
-              </div>
+              <img
+                src={redesignHomeNova}
+                alt="Página inicial da central de ajuda com categorias, playlists e artigos em destaque"
+                className="w-full rounded-lg border border-border/30"
+              />
               <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
                 Captura de tela da página inicial da central de ajuda, com as principais categorias, playlists de vídeos
                 e artigos em destaque
@@ -2628,11 +2645,12 @@ const casesData: Record<string, CaseData> = {
               <li>Padronização das fotos de autores, fortalecendo identidade visual e humanização</li>
             </ul>
 
-            {/* TODO: Adicionar imagem - Artigo com banner, tempo de leitura e índice */}
             <figure className="my-6">
-              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
-                <span className="text-muted-foreground text-sm">Imagem: Artigo com banner, tempo de leitura e índice</span>
-              </div>
+              <img
+                src={redesignArtigoBanner}
+                alt="Artigo com banner, tempo de leitura, hiperlinks e índice com âncora"
+                className="w-full rounded-lg border border-border/30"
+              />
               <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
                 Captura de tela de um artigo, com aplicação de banner, tempo de leitura, hiperlinks estratégicos e
                 índice com âncora
@@ -2710,21 +2728,23 @@ const casesData: Record<string, CaseData> = {
               <li>Estrutura mais responsiva e acessível</li>
             </ul>
 
-            {/* TODO: Adicionar imagem - Central de ajuda antes do redesign (2022) */}
             <figure className="my-6">
-              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
-                <span className="text-muted-foreground text-sm">Imagem: Central de ajuda antes do redesign (2022)</span>
-              </div>
+              <img
+                src={redesignAntes2022}
+                alt="Central de ajuda antes do redesign, em 2022"
+                className="w-full rounded-lg border border-border/30"
+              />
               <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
                 Captura de tela da central de ajuda antes do redesign, em 2022
               </figcaption>
             </figure>
 
-            {/* TODO: Adicionar imagem - Redesign da central de ajuda (2023) */}
             <figure className="my-6">
-              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
-                <span className="text-muted-foreground text-sm">Imagem: Redesign da central de ajuda (2023)</span>
-              </div>
+              <img
+                src={redesignDepois2023}
+                alt="Redesign da central de ajuda, em dezembro de 2023"
+                className="w-full rounded-lg border border-border/30"
+              />
               <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
                 Captura de tela com o redesign da central de ajuda, em dezembro de 2023
               </figcaption>
