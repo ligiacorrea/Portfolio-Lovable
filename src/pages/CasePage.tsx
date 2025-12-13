@@ -112,6 +112,7 @@ import redesignHomeNova from "@/assets/cases/redesign-home-nova.webp";
 import redesignArtigoBanner from "@/assets/cases/redesign-artigo-banner.webp";
 import redesignAntes2022 from "@/assets/cases/redesign-antes-2022.webp";
 import redesignDepois2023 from "@/assets/cases/redesign-depois-2023.webp";
+import redesignUpgrade2025 from "@/assets/cases/redesign-upgrade-2025.webp";
 
 interface CaseSection {
   title: string;
@@ -2750,11 +2751,12 @@ const casesData: Record<string, CaseData> = {
               </figcaption>
             </figure>
 
-            {/* TODO: Adicionar imagem - Upgrade de design da central de ajuda (2025) */}
             <figure className="my-6">
-              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
-                <span className="text-muted-foreground text-sm">Imagem: Upgrade de design da central de ajuda (2025)</span>
-              </div>
+              <img
+                src={redesignUpgrade2025}
+                alt="Upgrade de design da central de ajuda, em setembro de 2025"
+                className="w-full rounded-lg border border-border/30"
+              />
               <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
                 Captura de tela com o upgrade de design da central de ajuda, em setembro de 2025
               </figcaption>
