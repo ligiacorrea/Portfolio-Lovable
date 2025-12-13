@@ -2376,9 +2376,437 @@ const casesData: Record<string, CaseData> = {
   "redesign-central-ajuda": {
     title: "Como redesenhamos a central de ajuda para aumentar autonomia e reduzir tickets",
     projectType: "Case real",
-    skills: ["ux writing", "arquitetura de informação"],
+    skills: [
+      "ux writing",
+      "arquitetura de informação",
+      "UX research",
+      "taxonomia",
+      "benchmarking",
+      "GEO",
+      "testes de usabilidade",
+    ],
     area: "Central de ajuda",
-    sections: [],
+    sections: [
+      {
+        title: "Problema",
+        content: (
+          <div className="space-y-6">
+            <p>
+              A{" "}
+              <a
+                href="https://suporte.icasei.com.br/hc/pt-br"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline"
+              >
+                central de ajuda
+              </a>{" "}
+              do iCasei tinha papel essencial na experiência do cliente, orientando casais e convidados, apoiando a
+              jornada de uso do produto e contribuindo para a retenção e conversão orgânica.
+            </p>
+
+            <p>
+              Em linha com a atualização do site institucional e do painel do iCasei, que já haviam passado por um
+              processo de redesign, identificamos a necessidade de renovar também o visual da central de ajuda,
+              garantindo consistência e uma experiência ainda mais intuitiva.
+            </p>
+
+            <p>Além do desalinhamento visual com os demais produtos da marca, notamos outros desafios:</p>
+
+            <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+              <li>
+                <strong>Arquitetura da informação confusa</strong>, dificultando a navegação
+              </li>
+              <li>
+                <strong>Categorias baseadas em tipo de usuário</strong>, não em funcionalidades - o que limitava a
+                autonomia
+              </li>
+              <li>
+                <strong>Busca pouco eficiente</strong>, levando usuários a abrir mais tickets
+              </li>
+              <li>
+                <strong>Conteúdos</strong> sem padronização de tom, estrutura e vocabulário
+              </li>
+            </ul>
+
+            <p>
+              Esses fatores geravam atrito na jornada, diminuíam a taxa de resolução por autoatendimento e aumentavam a
+              demanda no suporte.
+            </p>
+
+            {/* TODO: Adicionar imagem - Captura da página inicial atual da central de ajuda */}
+            <figure className="my-6">
+              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
+                <span className="text-muted-foreground text-sm">Imagem: Página inicial atual da central de ajuda</span>
+              </div>
+              <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                Captura da página inicial atual da central de ajuda
+              </figcaption>
+            </figure>
+          </div>
+        ),
+      },
+      {
+        title: "Processo",
+        content: (
+          <div className="space-y-6">
+            <h3 className="text-lg font-semibold text-foreground">1. Benchmarking</h3>
+
+            <p>Foi conduzida uma análise comparativa com concorrentes e referências de mercado, considerando:</p>
+
+            <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+              <li>Volume e organização dos artigos</li>
+              <li>Hierarquia de categorias e subcategorias</li>
+              <li>Qualidade da busca</li>
+              <li>Integração com chat e outros canais</li>
+              <li>Recursos visuais e estrutura de conteúdo</li>
+            </ul>
+
+            <p>
+              O estudo revelou ausência de padrões rígidos entre centrais, mas destacou um diferencial do iCasei:
+            </p>
+
+            <p>
+              ➡️ <strong>uso de vídeos explicativos</strong>, que são também fonte de tráfego orgânico para o YouTube
+              da marca.
+            </p>
+
+            {/* TODO: Adicionar imagem - Análise de benchmarking */}
+            <figure className="my-6">
+              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
+                <span className="text-muted-foreground text-sm">Imagem: Análise de benchmarking</span>
+              </div>
+              <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                Análise de benchmarking
+              </figcaption>
+            </figure>
+
+            <h3 className="text-lg font-semibold text-foreground">2. Análise de Métricas e Uso dos Artigos</h3>
+
+            <p>Usando o período de 30, 90 e 180 dias como referência, foram avaliados:</p>
+
+            <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+              <li>Visualizações</li>
+              <li>Assinaturas</li>
+              <li>Votos positivos e negativos</li>
+              <li>Histórico completo de uso da central e acessos no Zendesk</li>
+              <li>Termos mais pesquisados</li>
+            </ul>
+
+            <p>
+              Essa etapa mostrou lacunas de conteúdo, oportunidades de reorganização e prioridades temáticas - como{" "}
+              <em>RSVP</em>, <em>lista de presentes</em> e <em>resgate de valores</em>.
+            </p>
+
+            {/* TODO: Adicionar imagem - Análise de relatório dos artigos via Zendesk */}
+            <figure className="my-6">
+              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
+                <span className="text-muted-foreground text-sm">Imagem: Análise de relatório dos artigos via Zendesk</span>
+              </div>
+              <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                Análise de relatório dos artigos via Zendesk
+              </figcaption>
+            </figure>
+
+            <h3 className="text-lg font-semibold text-foreground">3. Redefinição da Arquitetura da Informação</h3>
+
+            <p>
+              O iCasei oferece 4 <strong>planos de site de casamento</strong> e <strong>mais de 150 recursos</strong>, o
+              que exige uma central de ajuda <strong>robusta, organizada e completa</strong>, capaz de orientar
+              usuários com diferentes perfis e necessidades.
+            </p>
+
+            <p>
+              Atualmente, são <strong>mais de 100 artigos ativos</strong>, que passam por{" "}
+              <strong>manutenção e atualização constantes</strong>, servindo como um{" "}
+              <strong>apoio essencial para o atendimento e para a experiência do usuário</strong> dentro da plataforma.
+            </p>
+
+            <p>
+              Fizemos uma análise da estrutura existente (categoria → seção → artigo) e criamos um novo modelo baseado
+              em:
+            </p>
+
+            <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+              <li>Recursos da plataforma</li>
+              <li>Fluxos de uso</li>
+              <li>Demanda real observada nas métricas</li>
+            </ul>
+
+            <p>
+              <strong>Arquitetura anterior:</strong> estrutura confusa e com categorias pouco funcionais.
+            </p>
+
+            <p>
+              <strong>Nova arquitetura:</strong> reorganizada por funcionalidades - <em>site</em>,{" "}
+              <em>lista de casamento</em>, <em>planos</em>, <em>suporte</em>, <em>conta</em> etc.
+            </p>
+
+            {/* TODO: Adicionar imagem - Arquitetura de informação (antes) */}
+            <figure className="my-6">
+              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
+                <span className="text-muted-foreground text-sm">Imagem: Arquitetura de informação (antes)</span>
+              </div>
+              <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                Arquitetura de informação (antes)
+              </figcaption>
+            </figure>
+
+            {/* TODO: Adicionar imagem - Arquitetura de informação (depois) */}
+            <figure className="my-6">
+              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
+                <span className="text-muted-foreground text-sm">Imagem: Arquitetura de informação (depois)</span>
+              </div>
+              <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                Arquitetura de informação (depois)
+              </figcaption>
+            </figure>
+
+            <h3 className="text-lg font-semibold text-foreground">4. Construção das Telas no Figma</h3>
+
+            <p>As novas telas foram projetadas aplicando:</p>
+
+            <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+              <li>Taxonomia</li>
+              <li>Hierarquia visual</li>
+              <li>Princípios de UX Writing</li>
+              <li>Consistência com o site, painel e app</li>
+            </ul>
+
+            {/* TODO: Adicionar imagem - Telas no Figma */}
+            <figure className="my-6">
+              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
+                <span className="text-muted-foreground text-sm">Imagem: Telas no Figma</span>
+              </div>
+              <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                Telas no Figma
+              </figcaption>
+            </figure>
+          </div>
+        ),
+      },
+      {
+        title: "Solução",
+        content: (
+          <div className="space-y-6">
+            <p>As melhorias começaram no fim de 2023 e evoluíram até 2025. As principais entregas foram:</p>
+
+            <h3 className="text-lg font-semibold text-foreground">1. Reorganização completa da central</h3>
+
+            <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+              <li>
+                Categorias e seções agora refletem <strong>funcionalidades</strong>, não perfis de usuário
+              </li>
+              <li>Box de destaques e artigos essenciais na home</li>
+              <li>Nova hierarquia de navegação mais intuitiva</li>
+            </ul>
+
+            {/* TODO: Adicionar imagem - Página inicial da central de ajuda com categorias e destaques */}
+            <figure className="my-6">
+              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
+                <span className="text-muted-foreground text-sm">Imagem: Página inicial da central de ajuda</span>
+              </div>
+              <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                Captura de tela da página inicial da central de ajuda, com as principais categorias, playlists de vídeos
+                e artigos em destaque
+              </figcaption>
+            </figure>
+
+            <h3 className="text-lg font-semibold text-foreground">2. Padronização de conteúdo e identidade</h3>
+
+            <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+              <li>
+                Revisão de <strong>tom e voz</strong> conforme linguagem do iCasei
+              </li>
+              <li>
+                Estrutura fixa para todos os artigos: título → corpo → rodapé com tags, CTA, redes sociais e pesquisa
+                de satisfação
+              </li>
+              <li>
+                Implementação de <strong>tempo de leitura</strong> e <strong>índice com âncora</strong> para melhorar a
+                experiência de leitura, oferecendo clareza, autonomia e melhor escaneabilidade
+              </li>
+              <li>Padronização das fotos de autores, fortalecendo identidade visual e humanização</li>
+            </ul>
+
+            {/* TODO: Adicionar imagem - Artigo com banner, tempo de leitura e índice */}
+            <figure className="my-6">
+              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
+                <span className="text-muted-foreground text-sm">Imagem: Artigo com banner, tempo de leitura e índice</span>
+              </div>
+              <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                Captura de tela de um artigo, com aplicação de banner, tempo de leitura, hiperlinks estratégicos e
+                índice com âncora
+              </figcaption>
+            </figure>
+
+            <h3 className="text-lg font-semibold text-foreground">3. Aplicação dos pilares de GEO</h3>
+
+            <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+              <li>Parágrafos independentes, com contexto e propósito claro</li>
+              <li>Escrita multimodal, versátil e com linguagem natural</li>
+              <li>Escrita para prompts implícitos - antecipação de perguntas</li>
+              <li>Estrutura semântica voltada para IA</li>
+              <li>Clareza, escaneabilidade, listas e resumo</li>
+            </ul>
+
+            <h3 className="text-lg font-semibold text-foreground">4. Recursos que aumentam autonomia</h3>
+
+            <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+              <li>
+                <strong>Campo de pesquisa em evidência</strong>, para facilitar o acesso rápido às respostas
+              </li>
+              <li>Destaque para termos mais buscados</li>
+              <li>Tags novas para melhorar a busca interna e a navegação por temas relacionados</li>
+              <li>
+                Integração com <strong>Tally</strong> para captar feedback sempre que um artigo recebe avaliação
+                negativa
+              </li>
+              <li>Inclusão de hiperlinks estratégicos que reduzem atrito</li>
+            </ul>
+
+            <h3 className="text-lg font-semibold text-foreground">5. Tráfego e conversão</h3>
+
+            <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+              <li>
+                <strong>Links contextuais</strong> dentro dos artigos direcionando ao site institucional (página de
+                planos ou recursos)
+              </li>
+              <li>
+                Criação de área permanente de <strong>playlists dentro da central</strong>, exibindo vídeos tutoriais
+                relevantes e gerando tráfego orgânico para o YouTube
+              </li>
+              <li>Banners internos e laterais vinculados ao produto</li>
+            </ul>
+
+            <p className="ml-4">
+              ➡️ <strong>Esses banners representam cerca de 60% das conversões do FAQ.</strong>
+            </p>
+
+            <h3 className="text-lg font-semibold text-foreground">6. Ajustes estratégicos de navegação</h3>
+
+            <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+              <li>
+                Botão "Fale conosco" na página inicial da central foi substituído por "Status dos serviços", reduzindo
+                aberturas de tickets gerados por instabilidade temporária
+              </li>
+              <li>
+                No site institucional, o menu "Fale conosco" passou a direcionar para a central, consolidando
+                comunicação em um único ponto
+              </li>
+            </ul>
+          </div>
+        ),
+      },
+      {
+        title: "Resultado",
+        content: (
+          <div className="space-y-6">
+            <h3 className="text-lg font-semibold text-foreground">Transformação visual e estrutural (2022 → 2025)</h3>
+
+            <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+              <li>Home mais clara e orientada por funcionalidades</li>
+              <li>Navegação mais simples</li>
+              <li>Identidade visual unificada com site, painel e aplicativo</li>
+              <li>Estrutura mais responsiva e acessível</li>
+            </ul>
+
+            {/* TODO: Adicionar imagem - Central de ajuda antes do redesign (2022) */}
+            <figure className="my-6">
+              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
+                <span className="text-muted-foreground text-sm">Imagem: Central de ajuda antes do redesign (2022)</span>
+              </div>
+              <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                Captura de tela da central de ajuda antes do redesign, em 2022
+              </figcaption>
+            </figure>
+
+            {/* TODO: Adicionar imagem - Redesign da central de ajuda (2023) */}
+            <figure className="my-6">
+              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
+                <span className="text-muted-foreground text-sm">Imagem: Redesign da central de ajuda (2023)</span>
+              </div>
+              <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                Captura de tela com o redesign da central de ajuda, em dezembro de 2023
+              </figcaption>
+            </figure>
+
+            {/* TODO: Adicionar imagem - Upgrade de design da central de ajuda (2025) */}
+            <figure className="my-6">
+              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
+                <span className="text-muted-foreground text-sm">Imagem: Upgrade de design da central de ajuda (2025)</span>
+              </div>
+              <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                Captura de tela com o upgrade de design da central de ajuda, em setembro de 2025
+              </figcaption>
+            </figure>
+
+            <h3 className="text-lg font-semibold text-foreground">Impacto na experiência e no suporte</h3>
+
+            <h4 className="text-base font-medium text-foreground mt-4">1. Aumento significativo da autonomia</h4>
+
+            <p>
+              Com melhorias de arquitetura, busca, conteúdo e recursos de navegação, usuários passaram a encontrar
+              respostas mais rapidamente, reduzindo fricção e dependência do suporte.
+            </p>
+
+            <h4 className="text-base font-medium text-foreground mt-4">2. Redução expressiva das demandas de suporte</h4>
+
+            <p>
+              A reorganização, padronização e novas integrações reduziram o volume de tickets gerados por dúvidas
+              simples e instabilidades momentâneas.
+            </p>
+
+            <h4 className="text-base font-medium text-foreground mt-4">3. Crescimento do engajamento</h4>
+
+            <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+              <li>Usuários passaram a acessar mais artigos e vídeos.</li>
+              <li>Conteúdos ficaram mais escaneáveis, aumentando retenção e tempo de leitura.</li>
+            </ul>
+
+            <h4 className="text-base font-medium text-foreground mt-4">4. Consistência entre todos os produtos</h4>
+
+            <p>
+              A central de ajuda passou a reforçar o posicionamento educativo da marca, alinhada visual e
+              semanticamente aos demais canais.
+            </p>
+
+            <h3 className="text-lg font-semibold text-foreground mt-8">Conclusão</h3>
+
+            <p>
+              Entre <strong>2023 e 2025</strong>, a central de ajuda passou por uma série de aprimoramentos que
+              envolveram <strong>arquitetura da informação</strong>, <strong>taxonomia</strong> e{" "}
+              <strong>hierarquia visual</strong>. Também foram implementadas <strong>melhorias de acessibilidade</strong>{" "}
+              e <strong>novos recursos de navegação</strong>, que proporcionaram{" "}
+              <strong>maior autonomia aos usuários</strong> e{" "}
+              <strong>reduziram significativamente as demandas de suporte</strong>.
+            </p>
+
+            <p>
+              Essas evoluções trouxeram <strong>mais consistência entre a central, o site institucional, o painel e o
+              aplicativo</strong>, além de <strong>aumentar o engajamento com os artigos e vídeos</strong>, reforçando
+              o <strong>posicionamento educativo da marca</strong> e aprimorando a{" "}
+              <strong>experiência geral de suporte</strong>.
+            </p>
+
+            <h3 className="text-lg font-semibold text-foreground mt-8">Próximos passos</h3>
+
+            <p>
+              A central de ajuda é um <strong>projeto vivo</strong>, e continuará passando por processos de evolução,
+              com <strong>manutenções e análises contínuas</strong> para identificar oportunidades de melhoria e
+              oferecer uma experiência <strong>cada vez mais útil, acessível e alinhada às necessidades reais dos
+              usuários</strong>.
+            </p>
+
+            <p>
+              As atualizações continuarão sendo guiadas por <strong>estratégias de UX Writing</strong>, com foco em{" "}
+              <strong>clareza, empatia e resolutividade</strong>, e por <strong>boas práticas de UX e UI Design</strong>,
+              garantindo uma comunicação coerente e uma navegação intuitiva.
+            </p>
+          </div>
+        ),
+      },
+    ],
   },
   "proposta-valor-app": {
     title: "Aumentando a proposta de valor do aplicativo",
