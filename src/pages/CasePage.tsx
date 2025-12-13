@@ -2363,13 +2363,6 @@ const casesData: Record<string, CaseData> = {
       },
     ],
   },
-  "landing-page-lovable": {
-    title: "Criando uma landing page de captação com a Lovable",
-    projectType: "Case real",
-    skills: ["ux writing", "copywriting"],
-    area: "Landing page",
-    sections: [],
-  },
   "redesign-revista-digital": {
     title: "Elevando a experiência da revista digital com um processo de redesign",
     projectType: "Case real",
@@ -3925,6 +3918,304 @@ const casesData: Record<string, CaseData> = {
                 plataforma.
               </p>
             </div>
+          </div>
+        ),
+      },
+    ],
+  },
+  "landing-page-lovable": {
+    title: "Criando uma landing page de captação com a Lovable",
+    projectType: "Case real",
+    skills: [
+      "ux writing",
+      "product design",
+      "landing page",
+      "AI tools",
+      "conversão",
+      "growth",
+    ],
+    area: "Growth",
+    sections: [
+      {
+        title: "Problema",
+        content: (
+          <div className="space-y-6">
+            <p>
+              O iCasei já oferecia diversos materiais gratuitos, como{" "}
+              <a
+                href="https://materiais.icasei.com.br/checklist-casamento"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline"
+              >
+                checklist do casamento
+              </a>
+              ,{" "}
+              <a
+                href="https://materiais.icasei.com.br/planner-gastos-casamento"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline"
+              >
+                planejador de gastos
+              </a>{" "}
+              e{" "}
+              <a
+                href="https://materiais.icasei.com.br/calculadora-de-comidas-para-casamento"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline"
+              >
+                calculadora de comidas, bebidas e doces
+              </a>
+              , distribuídos via landing pages do RD Station. Porém,{" "}
+              <strong>nenhum desses materiais entregava uma estimativa de custos completa</strong> para quem
+              está iniciando o planejamento e quer ter uma visão realista do investimento médio para um
+              casamento.
+            </p>
+
+            <p>Havia dois desafios claros:</p>
+
+            <ul className="space-y-4 list-disc pl-6">
+              <li>
+                <strong>Falta de um material profundo e personalizado</strong> sobre custos de casamento,
+                algo muito buscado por casais no início da jornada.
+              </li>
+              <li>
+                <strong>Baixa previsibilidade e eficácia das LPs existentes</strong> para gerar leads
+                qualificados e auxiliar o time de Growth em conversões futuras.
+              </li>
+            </ul>
+
+            <p>
+              Surgia, então, a necessidade de criar uma experiência mais rica, relevante e orientada a dados.
+            </p>
+          </div>
+        ),
+      },
+      {
+        title: "Processo",
+        content: (
+          <div className="space-y-6">
+            <p>
+              A construção da nova landing page envolveu múltiplas etapas e colaboração entre os times de{" "}
+              <strong>Growth</strong>, <strong>Product Marketing</strong>, <strong>UX Writing</strong> e{" "}
+              <strong>Product Design</strong>.
+            </p>
+
+            <h3 className="font-semibold text-lg mt-6 mb-4">Etapas principais</h3>
+
+            <ol className="space-y-3 list-decimal pl-6">
+              <li>
+                <strong>Definição de objetivos e plano de ação</strong>
+              </li>
+              <li>
+                <strong>Criação da primeira versão no Lovable</strong> pela Product Marketing, com foco em
+                performance e campanhas
+              </li>
+              <li>
+                <strong>Revisão completa de conteúdo e linguagem</strong>, incluindo:
+                <ul className="list-disc pl-6 mt-2 space-y-1">
+                  <li>Padronização do tom de voz</li>
+                  <li>Textos mais fluidos e atrativos</li>
+                  <li>CTAs mais intencionais</li>
+                  <li>Formulário mais claro e inclusivo</li>
+                  <li>Passo a passo instrutivo</li>
+                </ul>
+              </li>
+              <li>
+                <strong>Ajustes de design</strong> feitos junto à Product Designer
+              </li>
+              <li>
+                <strong>Inclusão de novas estratégias de captação</strong>, como banner oferecendo o site de
+                casamento gratuito ao final da experiência
+              </li>
+              <li>
+                <strong>Expansão da inclusão</strong>: adicionamos o campo <em>"Traje do casal"</em>{" "}
+                (vestido/terno, terno/terno, vestido/vestido)
+              </li>
+              <li>
+                <strong>Melhorias na página de resultados</strong>, permitindo remover itens e ver o valor
+                total atualizar em tempo real
+              </li>
+              <li>
+                <strong>Construção técnica no Supabase</strong>, que tornou o processo mais ágil e permitiu
+                futura integração de dados
+              </li>
+            </ol>
+
+            {/* TODO: Adicionar imagem - Primeiro resultado da landing page no Lovable */}
+            <figure className="my-6">
+              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
+                <span className="text-muted-foreground text-sm">Imagem: Primeiro resultado da landing page no Lovable</span>
+              </div>
+              <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                Captura de tela do primeiro resultado da landing page no Lovable
+              </figcaption>
+            </figure>
+
+            {/* TODO: Adicionar imagem - Página inicial da LP refinada 1 */}
+            <figure className="my-6">
+              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
+                <span className="text-muted-foreground text-sm">Imagem: Página inicial da LP refinada (1)</span>
+              </div>
+            </figure>
+
+            {/* TODO: Adicionar imagem - Página inicial da LP refinada 2 */}
+            <figure className="my-6">
+              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
+                <span className="text-muted-foreground text-sm">Imagem: Página inicial da LP refinada (2)</span>
+              </div>
+              <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                Capturas de tela da página inicial da landing page, já refinada
+              </figcaption>
+            </figure>
+          </div>
+        ),
+      },
+      {
+        title: "Solução",
+        content: (
+          <div className="space-y-6">
+            <p>
+              Criamos uma <strong>nova landing page com uma calculadora dinâmica de custos de casamento</strong>,
+              construída com apoio de IA (Lovable) e integrada ao Supabase.
+            </p>
+
+            <p>A solução entrega:</p>
+
+            <ul className="space-y-3 list-disc pl-6">
+              <li>
+                <strong>Estimativa personalizada de custos</strong> baseada na cidade do evento e número de
+                convidados
+              </li>
+              <li>
+                <strong>Valores médios reais</strong> de cerca de 20 itens essenciais
+              </li>
+              <li>
+                <strong>Experiência interativa</strong>, permitindo adicionar/remover serviços e atualizar o
+                orçamento em tempo real
+              </li>
+              <li>
+                <strong>Conteúdo acessível e inclusivo</strong>, considerando diferentes combinações de traje
+                do casal
+              </li>
+              <li>
+                <strong>Conversão estratégica</strong>, inserindo o site de casamento gratuito como item da
+                lista e reforçando a oferta com banner no rodapé
+              </li>
+            </ul>
+
+            <p>Além disso, foram executadas ações de divulgação integradas:</p>
+
+            <ul className="list-disc pl-6 space-y-1">
+              <li>Disparo de e-mail marketing</li>
+              <li>Artigos e banners na central de ajuda</li>
+              <li>Posts em redes sociais</li>
+              <li>Release para imprensa</li>
+            </ul>
+
+            {/* TODO: Adicionar imagem - Formulário com foco em inclusão */}
+            <figure className="my-6">
+              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
+                <span className="text-muted-foreground text-sm">Imagem: Formulário com foco em inclusão</span>
+              </div>
+              <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                Captura de tela do formulário, com foco em inclusão
+              </figcaption>
+            </figure>
+
+            {/* TODO: Adicionar imagem - Estimativa de valores 1 */}
+            <figure className="my-6">
+              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
+                <span className="text-muted-foreground text-sm">Imagem: Estimativa de valores (1)</span>
+              </div>
+            </figure>
+
+            {/* TODO: Adicionar imagem - Estimativa de valores e banner */}
+            <figure className="my-6">
+              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
+                <span className="text-muted-foreground text-sm">Imagem: Estimativa de valores e banner para conversão</span>
+              </div>
+              <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                Capturas de tela com a estimativa de valores e banner para conversão
+              </figcaption>
+            </figure>
+          </div>
+        ),
+      },
+      {
+        title: "Resultado",
+        content: (
+          <div className="space-y-6">
+            <p>
+              O lançamento da nova{" "}
+              <a
+                href="https://calculadora.icasei.com.br/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline"
+              >
+                landing page
+              </a>{" "}
+              trouxe indicadores importantes logo nos primeiros dias.
+            </p>
+
+            <h3 className="font-semibold text-lg mt-6 mb-4">Resultados iniciais de conversão e engajamento</h3>
+
+            <ul className="space-y-3 list-disc pl-6">
+              <li>
+                <strong>+180 casais</strong> que estavam em período de <em>trial</em> migraram para o{" "}
+                <strong>plano Basic gratuito</strong> após acessar a landing page
+              </li>
+              <li>
+                O disparo de e-mail marketing apresentou <strong>excelente desempenho</strong>, atingindo{" "}
+                <strong>3% do objetivo</strong>, medido pela proporção de pessoas que:
+                <ol className="list-decimal pl-6 mt-2 space-y-1">
+                  <li>acessaram a landing page pela comunicação, e</li>
+                  <li>passaram do plano <em>trial</em> para o plano <em>Basic</em> oferecido na calculadora.</li>
+                </ol>
+              </li>
+              <li>
+                A experiência elevou a percepção de valor do produto, reforçando o papel do iCasei como
+                referência em planejamento de casamento.
+              </li>
+            </ul>
+
+            {/* TODO: Adicionar imagem - Mockup dos resultados */}
+            <figure className="my-6">
+              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
+                <span className="text-muted-foreground text-sm">Imagem: Mockup dos resultados da calculadora</span>
+              </div>
+              <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                Mockup dos resultados da calculadora de custos do casamento
+              </figcaption>
+            </figure>
+
+            <h3 className="font-semibold text-lg mt-8 mb-4">Conclusão</h3>
+
+            <p>
+              A criação da landing page com a calculadora de casamento mostrou como o uso estratégico de
+              conteúdo, design inclusivo e Inteligência Artificial pode transformar a experiência do usuário.
+              Além de fornecer estimativas personalizadas de custos, a ferramenta oferece insights sobre
+              prioridades de gasto e otimização do orçamento, ajudando casais a planejar o casamento com mais
+              segurança e clareza. As ações de divulgação reforçaram o engajamento, convertendo leads em
+              usuários ativos e fortalecendo a percepção de valor da plataforma.
+            </p>
+
+            <h3 className="font-semibold text-lg mt-8 mb-4">Próximos passos</h3>
+
+            <p>
+              Ainda estamos <strong>monitorando as métricas de uso e conversão</strong> para evolução do
+              projeto. Os próximos passos incluem:
+            </p>
+
+            <ul className="list-disc pl-6 space-y-1 mt-3">
+              <li>Criação de réguas de relacionamento com a base integrada do Supabase</li>
+              <li>Testes de novos gatilhos de captação</li>
+              <li>Expansão da calculadora com novos itens</li>
+              <li>Possibilidade de integrações futuras com recomendações de fornecedores em tempo real</li>
+            </ul>
           </div>
         ),
       },
