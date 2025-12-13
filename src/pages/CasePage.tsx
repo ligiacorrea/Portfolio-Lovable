@@ -2385,7 +2385,6 @@ const casesData: Record<string, CaseData> = {
       "GEO",
       "testes de usabilidade",
     ],
-    area: "Central de ajuda",
     sections: [
       {
         title: "Problema",
