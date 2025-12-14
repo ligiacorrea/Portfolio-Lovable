@@ -3941,7 +3941,6 @@ const casesData: Record<string, CaseData> = {
       "conversão",
       "growth",
     ],
-    area: "Growth",
     sections: [
       {
         title: "Problema",
