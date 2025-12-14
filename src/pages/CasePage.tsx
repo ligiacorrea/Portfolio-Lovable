@@ -2377,13 +2377,6 @@ const casesData: Record<string, CaseData> = {
     area: "Revista digital",
     sections: [],
   },
-  "parceiros-100m": {
-    title: "Conquistando mais de 1k parceiros e transacionando mais de R$ 100M em projeto",
-    projectType: "Case real",
-    skills: ["ux writing", "discovery"],
-    area: "Parcerias",
-    sections: [],
-  },
   "redesign-central-ajuda": {
     title: "Como redesenhamos a central de ajuda para aumentar autonomia e reduzir tickets",
     projectType: "Case real",
@@ -4228,6 +4221,186 @@ const casesData: Record<string, CaseData> = {
               <li>Testes de novos gatilhos de captação</li>
               <li>Expansão da calculadora com novos itens</li>
               <li>Possibilidade de integrações futuras com recomendações de fornecedores em tempo real</li>
+            </ul>
+          </div>
+        ),
+      },
+    ],
+  },
+  "parceiros-100m": {
+    title: "Conquistando mais de 1k parceiros e transacionando mais de R$ 100M em projeto",
+    projectType: "Case real",
+    skills: [
+      "ux writing",
+      "growth",
+      "landing page",
+      "email marketing",
+      "help center",
+      "fluxos operacionais",
+    ],
+    sections: [
+      {
+        title: "Problema",
+        content: (
+          <div className="space-y-6">
+            <p>
+              O iCasei precisava criar do zero um ecossistema de parcerias com fornecedores de casamento.
+              A empresa queria reunir profissionais do mercado em um programa estruturado, oferecendo a eles
+              uma página personalizada para presentear seus clientes com um site de casamento gratuito, além
+              de outros benefícios.
+            </p>
+
+            <p>
+              O desafio era atrair fornecedores, explicar claramente o funcionamento da parceria e criar
+              processos internos que permitissem escalar com qualidade.
+            </p>
+          </div>
+        ),
+      },
+      {
+        title: "Processo",
+        content: (
+          <div className="space-y-6">
+            <p>
+              Como UX Writer e integrante do time de Growth, atuei desde a concepção até a operação contínua
+              do projeto, trabalhando em várias iniciativas que contribuíram para o crescimento do projeto.
+            </p>
+
+            <p>Minha participação envolveu:</p>
+
+            <h3 className="font-semibold text-lg mt-6 mb-4">
+              Criação da Landing Page{" "}
+              <a
+                href="https://parceiros.icasei.com.br/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline"
+              >
+                "Seja um parceiro iCasei"
+              </a>
+            </h3>
+
+            <p>
+              Estruturei a comunicação da página com foco em clareza, objetividade e conversão. A copy incluiu
+              proposta de valor, benefícios, passo a passo do cadastro e FAQ.
+            </p>
+
+            {/* TODO: Adicionar imagem - Landing Page */}
+            <figure className="my-6">
+              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
+                <span className="text-muted-foreground text-sm">Imagem: Landing Page parceiros</span>
+              </div>
+              <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                Captura de tela da LP
+              </figcaption>
+            </figure>
+
+            <p>
+              O projeto foi desenvolvido no Figma em parceria com Design e Desenvolvimento, passando por duas
+              versões: a primeira focada na parceria e a segunda incorporando comissionamento para os parceiros
+              mais engajados.
+            </p>
+
+            {/* TODO: Adicionar imagem - Telas Figma */}
+            <figure className="my-6">
+              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
+                <span className="text-muted-foreground text-sm">Imagem: Telas no Figma</span>
+              </div>
+              <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                Telas no Figma
+              </figcaption>
+            </figure>
+
+            <h3 className="font-semibold text-lg mt-6 mb-4">Régua de e-mails de retenção</h3>
+
+            <p>
+              Criei fluxos de comunicação para engajar parceiros ao longo de toda a jornada. As campanhas
+              mantêm uma média de <strong>40% de abertura</strong> e <strong>3% de clique</strong>, índices
+              saudáveis para o mercado.
+            </p>
+
+            {/* TODO: Adicionar imagem - Fluxo Intercom 1 */}
+            <figure className="my-6">
+              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
+                <span className="text-muted-foreground text-sm">Imagem: Fluxo de régua no Intercom (1)</span>
+              </div>
+            </figure>
+
+            {/* TODO: Adicionar imagem - Fluxo Intercom 2 */}
+            <figure className="my-6">
+              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
+                <span className="text-muted-foreground text-sm">Imagem: Fluxo de régua no Intercom (2)</span>
+              </div>
+              <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                Fluxos de régua de relacionamento no Intercom
+              </figcaption>
+            </figure>
+
+            <h3 className="font-semibold text-lg mt-6 mb-4">Central de ajuda exclusiva para parceiros</h3>
+
+            <p>
+              Estruturei a nova seção "Para parceiros" na central de ajuda para reduzir dependências do time
+              interno e servir como um canal de apoio aos parceiros e time comercial.
+            </p>
+
+            <h3 className="font-semibold text-lg mt-6 mb-4">Fluxos operacionais</h3>
+
+            <p>
+              Construção e revisão dos fluxos de cadastro, assinatura de contrato, onboarding e personalização
+              da página do parceiro. Também colaborei na criação e ajuste de contratos e materiais de apoio à
+              equipe.
+            </p>
+
+            {/* TODO: Adicionar imagem - Fluxos operacionais Figma */}
+            <figure className="my-6">
+              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
+                <span className="text-muted-foreground text-sm">Imagem: Fluxos operacionais no Figma</span>
+              </div>
+              <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                Telas no Figma
+              </figcaption>
+            </figure>
+          </div>
+        ),
+      },
+      {
+        title: "Solução",
+        content: (
+          <div className="space-y-6">
+            <p>
+              Criamos um programa de parcerias completo, desde comunicação, captação e onboarding até retenção.
+              A comunicação foi desenhada para ser clara, escalável e orientada à conversão, alinhando site,
+              e-mails, help center e fluxos internos.
+            </p>
+
+            <p>
+              A evolução contínua da proposta reforçou o valor da parceria e aumentou o engajamento dos
+              fornecedores ao longo do tempo.
+            </p>
+          </div>
+        ),
+      },
+      {
+        title: "Resultado",
+        content: (
+          <div className="space-y-6">
+            <p>
+              Em apenas 3 anos, o programa alcançou resultados expressivos, especialmente considerando que
+              nosso foco não é volume, e sim qualidade e retorno qualificado em receita. Por isso contamos
+              com um processo de curadoria para selecionar cuidadosamente cada parceiro:
+            </p>
+
+            <ul className="space-y-3 list-disc pl-6">
+              <li>
+                <strong>+1.000 parceiros</strong> ativos em diferentes regiões do Brasil
+              </li>
+              <li>
+                <strong>+R$ 100 milhões transacionados</strong> pela lista de presentes dos casais desses
+                parceiros
+              </li>
+              <li>Fluxo de comunicação consolidado e escalável</li>
+              <li>Redução de dúvidas operacionais graças à seção dedicada na central de ajuda</li>
+              <li>Construção de uma base sólida para expansão futura</li>
             </ul>
           </div>
         ),
