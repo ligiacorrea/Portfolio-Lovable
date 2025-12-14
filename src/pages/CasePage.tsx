@@ -120,6 +120,11 @@ import lpLovableFormulario from "@/assets/cases/lp-lovable-formulario.webp";
 import lpLovableEstimativa from "@/assets/cases/lp-lovable-estimativa.webp";
 import lpLovableBanner from "@/assets/cases/lp-lovable-banner.webp";
 import lpLovableMockup from "@/assets/cases/lp-lovable-mockup.webp";
+import parceirosLp from "@/assets/cases/parceiros-lp.webp";
+import parceirosFigmaLp from "@/assets/cases/parceiros-figma-lp.webp";
+import parceirosIntercom1 from "@/assets/cases/parceiros-intercom-1.webp";
+import parceirosIntercom2 from "@/assets/cases/parceiros-intercom-2.webp";
+import parceirosFigmaFluxos from "@/assets/cases/parceiros-figma-fluxos.webp";
 
 interface CaseSection {
   title: string;
@@ -4285,11 +4290,12 @@ const casesData: Record<string, CaseData> = {
               proposta de valor, benefícios, passo a passo do cadastro e FAQ.
             </p>
 
-            {/* TODO: Adicionar imagem - Landing Page */}
             <figure className="my-6">
-              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
-                <span className="text-muted-foreground text-sm">Imagem: Landing Page parceiros</span>
-              </div>
+              <img
+                src={parceirosLp}
+                alt="Captura de tela da Landing Page Seja um parceiro iCasei"
+                className="w-full rounded-lg border border-border/30"
+              />
               <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
                 Captura de tela da LP
               </figcaption>
@@ -4301,11 +4307,12 @@ const casesData: Record<string, CaseData> = {
               mais engajados.
             </p>
 
-            {/* TODO: Adicionar imagem - Telas Figma */}
             <figure className="my-6">
-              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
-                <span className="text-muted-foreground text-sm">Imagem: Telas no Figma</span>
-              </div>
+              <img
+                src={parceirosFigmaLp}
+                alt="Telas da landing page no Figma"
+                className="w-full rounded-lg border border-border/30"
+              />
               <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
                 Telas no Figma
               </figcaption>
@@ -4319,18 +4326,20 @@ const casesData: Record<string, CaseData> = {
               saudáveis para o mercado.
             </p>
 
-            {/* TODO: Adicionar imagem - Fluxo Intercom 1 */}
             <figure className="my-6">
-              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
-                <span className="text-muted-foreground text-sm">Imagem: Fluxo de régua no Intercom (1)</span>
-              </div>
+              <img
+                src={parceirosIntercom1}
+                alt="Fluxo de régua de relacionamento no Intercom - parte 1"
+                className="w-full rounded-lg border border-border/30"
+              />
             </figure>
 
-            {/* TODO: Adicionar imagem - Fluxo Intercom 2 */}
             <figure className="my-6">
-              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
-                <span className="text-muted-foreground text-sm">Imagem: Fluxo de régua no Intercom (2)</span>
-              </div>
+              <img
+                src={parceirosIntercom2}
+                alt="Fluxo de régua de relacionamento no Intercom - parte 2"
+                className="w-full rounded-lg border border-border/30"
+              />
               <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
                 Fluxos de régua de relacionamento no Intercom
               </figcaption>
@@ -4351,11 +4360,12 @@ const casesData: Record<string, CaseData> = {
               equipe.
             </p>
 
-            {/* TODO: Adicionar imagem - Fluxos operacionais Figma */}
             <figure className="my-6">
-              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
-                <span className="text-muted-foreground text-sm">Imagem: Fluxos operacionais no Figma</span>
-              </div>
+              <img
+                src={parceirosFigmaFluxos}
+                alt="Fluxos operacionais no Figma"
+                className="w-full rounded-lg border border-border/30"
+              />
               <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
                 Telas no Figma
               </figcaption>
