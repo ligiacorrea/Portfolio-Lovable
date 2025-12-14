@@ -113,6 +113,13 @@ import redesignArtigoBanner from "@/assets/cases/redesign-artigo-banner.webp";
 import redesignAntes2022 from "@/assets/cases/redesign-antes-2022.webp";
 import redesignDepois2023 from "@/assets/cases/redesign-depois-2023.webp";
 import redesignUpgrade2025 from "@/assets/cases/redesign-upgrade-2025.webp";
+import lpLovablePreviewV1 from "@/assets/cases/lp-lovable-preview-v1.webp";
+import lpLovableHome1 from "@/assets/cases/lp-lovable-home-1.webp";
+import lpLovableHome2 from "@/assets/cases/lp-lovable-home-2.webp";
+import lpLovableFormulario from "@/assets/cases/lp-lovable-formulario.webp";
+import lpLovableEstimativa from "@/assets/cases/lp-lovable-estimativa.webp";
+import lpLovableBanner from "@/assets/cases/lp-lovable-banner.webp";
+import lpLovableMockup from "@/assets/cases/lp-lovable-mockup.webp";
 
 interface CaseSection {
   title: string;
@@ -4044,28 +4051,31 @@ const casesData: Record<string, CaseData> = {
               </li>
             </ol>
 
-            {/* TODO: Adicionar imagem - Primeiro resultado da landing page no Lovable */}
             <figure className="my-6">
-              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
-                <span className="text-muted-foreground text-sm">Imagem: Primeiro resultado da landing page no Lovable</span>
-              </div>
+              <img
+                src={lpLovablePreviewV1}
+                alt="Captura de tela do primeiro resultado da landing page no Lovable"
+                className="w-full rounded-lg border border-border/30"
+              />
               <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
                 Captura de tela do primeiro resultado da landing page no Lovable
               </figcaption>
             </figure>
 
-            {/* TODO: Adicionar imagem - Página inicial da LP refinada 1 */}
             <figure className="my-6">
-              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
-                <span className="text-muted-foreground text-sm">Imagem: Página inicial da LP refinada (1)</span>
-              </div>
+              <img
+                src={lpLovableHome1}
+                alt="Página inicial da landing page refinada - parte 1"
+                className="w-full rounded-lg border border-border/30"
+              />
             </figure>
 
-            {/* TODO: Adicionar imagem - Página inicial da LP refinada 2 */}
             <figure className="my-6">
-              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
-                <span className="text-muted-foreground text-sm">Imagem: Página inicial da LP refinada (2)</span>
-              </div>
+              <img
+                src={lpLovableHome2}
+                alt="Página inicial da landing page refinada - parte 2"
+                className="w-full rounded-lg border border-border/30"
+              />
               <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
                 Capturas de tela da página inicial da landing page, já refinada
               </figcaption>
@@ -4115,28 +4125,31 @@ const casesData: Record<string, CaseData> = {
               <li>Release para imprensa</li>
             </ul>
 
-            {/* TODO: Adicionar imagem - Formulário com foco em inclusão */}
             <figure className="my-6">
-              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
-                <span className="text-muted-foreground text-sm">Imagem: Formulário com foco em inclusão</span>
-              </div>
+              <img
+                src={lpLovableFormulario}
+                alt="Captura de tela do formulário com foco em inclusão"
+                className="w-full rounded-lg border border-border/30"
+              />
               <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
                 Captura de tela do formulário, com foco em inclusão
               </figcaption>
             </figure>
 
-            {/* TODO: Adicionar imagem - Estimativa de valores 1 */}
             <figure className="my-6">
-              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
-                <span className="text-muted-foreground text-sm">Imagem: Estimativa de valores (1)</span>
-              </div>
+              <img
+                src={lpLovableEstimativa}
+                alt="Estimativa de valores do casamento"
+                className="w-full rounded-lg border border-border/30"
+              />
             </figure>
 
-            {/* TODO: Adicionar imagem - Estimativa de valores e banner */}
             <figure className="my-6">
-              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
-                <span className="text-muted-foreground text-sm">Imagem: Estimativa de valores e banner para conversão</span>
-              </div>
+              <img
+                src={lpLovableBanner}
+                alt="Estimativa de valores e banner para conversão"
+                className="w-full rounded-lg border border-border/30"
+              />
               <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
                 Capturas de tela com a estimativa de valores e banner para conversão
               </figcaption>
@@ -4182,11 +4195,12 @@ const casesData: Record<string, CaseData> = {
               </li>
             </ul>
 
-            {/* TODO: Adicionar imagem - Mockup dos resultados */}
             <figure className="my-6">
-              <div className="w-full h-64 bg-muted/30 rounded-lg border border-border/30 flex items-center justify-center">
-                <span className="text-muted-foreground text-sm">Imagem: Mockup dos resultados da calculadora</span>
-              </div>
+              <img
+                src={lpLovableMockup}
+                alt="Mockup dos resultados da calculadora de custos do casamento"
+                className="w-full rounded-lg border border-border/30"
+              />
               <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
                 Mockup dos resultados da calculadora de custos do casamento
               </figcaption>
