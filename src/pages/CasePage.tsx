@@ -4413,7 +4413,6 @@ const casesData: Record<string, CaseData> = {
   "proposta-valor-app": {
     title: "Aumentando a proposta de valor do aplicativo",
     projectType: "Case",
-    area: "Projeto fictício",
     skills: [
       "ux writing",
       "discovery",
