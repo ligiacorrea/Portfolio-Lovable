@@ -125,6 +125,12 @@ import parceirosFigmaLp from "@/assets/cases/parceiros-figma-lp.webp";
 import parceirosIntercom1 from "@/assets/cases/parceiros-intercom-1.webp";
 import parceirosIntercom2 from "@/assets/cases/parceiros-intercom-2.webp";
 import parceirosFigmaFluxos from "@/assets/cases/parceiros-figma-fluxos.webp";
+import propostaValorTelaInicial from "@/assets/cases/proposta-valor-tela-inicial.webp";
+import propostaValorOnboarding from "@/assets/cases/proposta-valor-onboarding.webp";
+import propostaValorCep from "@/assets/cases/proposta-valor-cep.webp";
+import propostaValorPagamento from "@/assets/cases/proposta-valor-pagamento.webp";
+import propostaValorConfirmacao from "@/assets/cases/proposta-valor-confirmacao.webp";
+import propostaValorNotificacoes from "@/assets/cases/proposta-valor-notificacoes.webp";
 
 interface CaseSection {
   title: string;
@@ -4678,11 +4684,15 @@ const casesData: Record<string, CaseData> = {
                   Inclusão da promessa de valor: <em>gerenciamento 100% pelo app</em>
                 </li>
               </ul>
-              {/* IMAGE PLACEHOLDER 1: Tela inicial do app */}
               <figure className="my-6">
-                <div className="w-full h-64 bg-muted rounded-lg border border-border/30 flex items-center justify-center">
-                  <span className="text-muted-foreground text-sm">[Placeholder: Imagem da tela inicial do app]</span>
-                </div>
+                <img
+                  src={propostaValorTelaInicial}
+                  alt="Tela inicial do app Minha Caixa Postal"
+                  className="w-full max-w-sm mx-auto h-auto rounded-lg border border-border/30"
+                />
+                <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                  Tela inicial do app
+                </figcaption>
               </figure>
             </div>
 
@@ -4698,11 +4708,15 @@ const casesData: Record<string, CaseData> = {
                 <li>assinatura digital do termo</li>
                 <li>pagamento online</li>
               </ul>
-              {/* IMAGE PLACEHOLDER 2: Onboarding */}
               <figure className="my-6">
-                <div className="w-full h-64 bg-muted rounded-lg border border-border/30 flex items-center justify-center">
-                  <span className="text-muted-foreground text-sm">[Placeholder: Imagem do onboarding]</span>
-                </div>
+                <img
+                  src={propostaValorOnboarding}
+                  alt="Fluxo de onboarding do app"
+                  className="w-full h-auto rounded-lg border border-border/30"
+                />
+                <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                  Onboarding guiado com tutorial de uso
+                </figcaption>
               </figure>
             </div>
 
@@ -4712,11 +4726,15 @@ const casesData: Record<string, CaseData> = {
                 3. Inclusão de fluxo alternativo para usuários sem CEP válido
               </h5>
               <p className="mb-4">CTA dedicado para prosseguir com dados pessoais quando o CEP não é reconhecido.</p>
-              {/* IMAGE PLACEHOLDER 3: Fluxo sem CEP */}
               <figure className="my-6">
-                <div className="w-full h-64 bg-muted rounded-lg border border-border/30 flex items-center justify-center">
-                  <span className="text-muted-foreground text-sm">[Placeholder: Imagem do fluxo sem CEP]</span>
-                </div>
+                <img
+                  src={propostaValorCep}
+                  alt="Fluxo alternativo para usuários sem CEP válido"
+                  className="w-full h-auto rounded-lg border border-border/30"
+                />
+                <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                  Fluxo alternativo para usuários sem CEP válido
+                </figcaption>
               </figure>
             </div>
 
@@ -4730,11 +4748,15 @@ const casesData: Record<string, CaseData> = {
                 <li>cartão de crédito à vista</li>
               </ul>
               <p className="mb-4">Com telas de erros e recuperação, reduzindo fricção na jornada.</p>
-              {/* IMAGE PLACEHOLDER 4: Pagamento */}
               <figure className="my-6">
-                <div className="w-full h-64 bg-muted rounded-lg border border-border/30 flex items-center justify-center">
-                  <span className="text-muted-foreground text-sm">[Placeholder: Imagem do sistema de pagamento]</span>
-                </div>
+                <img
+                  src={propostaValorPagamento}
+                  alt="Tela de erro e recuperação de pagamento"
+                  className="w-full max-w-sm mx-auto h-auto rounded-lg border border-border/30"
+                />
+                <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                  Tela de erro e recuperação de pagamento
+                </figcaption>
               </figure>
             </div>
 
@@ -4747,11 +4769,15 @@ const casesData: Record<string, CaseData> = {
                 <li>instruções de como localizar o número contratado</li>
                 <li>alternativa de reenvio caso necessário</li>
               </ul>
-              {/* IMAGE PLACEHOLDER 5: Confirmação */}
               <figure className="my-6">
-                <div className="w-full h-64 bg-muted rounded-lg border border-border/30 flex items-center justify-center">
-                  <span className="text-muted-foreground text-sm">[Placeholder: Imagem da confirmação]</span>
-                </div>
+                <img
+                  src={propostaValorConfirmacao}
+                  alt="Tela de confirmação pós-contratação"
+                  className="w-full max-w-sm mx-auto h-auto rounded-lg border border-border/30"
+                />
+                <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                  Confirmação pós-contratação
+                </figcaption>
               </figure>
             </div>
 
@@ -4798,11 +4824,15 @@ const casesData: Record<string, CaseData> = {
             <div>
               <h5 className="font-display font-semibold mb-3">7. Notificações de encomenda recebida</h5>
               <p className="mb-4">Push + SMS + e-mail sempre que houver um novo objeto na Caixa Postal.</p>
-              {/* IMAGE PLACEHOLDER 6: Notificações */}
               <figure className="my-6">
-                <div className="w-full h-64 bg-muted rounded-lg border border-border/30 flex items-center justify-center">
-                  <span className="text-muted-foreground text-sm">[Placeholder: Imagem das notificações]</span>
-                </div>
+                <img
+                  src={propostaValorNotificacoes}
+                  alt="Notificações de encomenda recebida em Android e iOS"
+                  className="w-full h-auto rounded-lg border border-border/30"
+                />
+                <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
+                  Notificações de encomenda recebida
+                </figcaption>
               </figure>
             </div>
 
