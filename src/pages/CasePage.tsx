@@ -2827,13 +2827,6 @@ const casesData: Record<string, CaseData> = {
       },
     ],
   },
-  "proposta-valor-app": {
-    title: "Aumentando a proposta de valor do aplicativo",
-    projectType: "Case real",
-    skills: ["ux writing", "discovery"],
-    area: "App",
-    sections: [],
-  },
   "ong-voluntarios": {
     title: "Como utilizamos UX para aumentar adesão e retenção de voluntários em ONG",
     projectType: "Case voluntário",
@@ -4411,6 +4404,406 @@ const casesData: Record<string, CaseData> = {
               <li>Fluxo de comunicação consolidado e escalável</li>
               <li>Redução de dúvidas operacionais graças à seção dedicada na central de ajuda</li>
               <li>Construção de uma base sólida para expansão futura</li>
+            </ul>
+          </div>
+        ),
+      },
+    ],
+  },
+  "proposta-valor-app": {
+    title: "Aumentando a proposta de valor do aplicativo",
+    projectType: "Case",
+    area: "Projeto fictício",
+    skills: [
+      "ux writing",
+      "discovery",
+      "desk research",
+      "benchmarking",
+      "mapeamento de público",
+      "tom de voz",
+      "conteúdo para interface",
+      "fluxo de onboarding",
+      "microcopy",
+      "FAQ",
+      "e-mail transacional",
+    ],
+    sections: [
+      {
+        title: "Problema",
+        content: (
+          <div className="space-y-6">
+            <p>
+              Muitas pessoas no Brasil vivem em locais sem CEP válido ou sem endereço oficial
+              reconhecido. Isso gera barreiras em atividades básicas do dia a dia, como:
+            </p>
+
+            <ul className="space-y-2 list-disc pl-6">
+              <li>impossibilidade de receber encomendas</li>
+              <li>dificuldade em comprovar residência</li>
+              <li>necessidades específicas de privacidade, segurança e logística</li>
+            </ul>
+
+            <p>
+              Além disso, durante pesquisa foram identificadas diversas{" "}
+              <strong>dúvidas recorrentes</strong> dos usuários sobre o serviço de Caixa Postal,
+              como:
+            </p>
+
+            <ul className="space-y-2 list-disc pl-6">
+              <li>como alugar</li>
+              <li>custos</li>
+              <li>documentos necessários</li>
+              <li>funcionamento da assinatura e renovação</li>
+              <li>regras de recebimento</li>
+              <li>notificações de chegada de encomendas</li>
+            </ul>
+
+            <p>
+              Essas lacunas de entendimento revelaram a necessidade de{" "}
+              <strong>
+                melhorar a clareza, a jornada e a proposta de valor do serviço dentro do app
+              </strong>
+              , tornando o processo intuitivo e acessível para todos os públicos.
+            </p>
+          </div>
+        ),
+      },
+      {
+        title: "Processo",
+        content: (
+          <div className="space-y-8">
+            <div>
+              <h4 className="font-display font-semibold text-lg mb-4">Discovery - Desk Research</h4>
+              <p className="mb-4">Foram levantadas informações aprofundadas sobre:</p>
+              <ul className="space-y-2 list-disc pl-6 mb-4">
+                <li>funcionamento da Caixa Postal</li>
+                <li>processo atual de contratação presencial</li>
+                <li>documentos necessários para PF e PJ</li>
+                <li>modalidades, preços e taxas adicionais</li>
+                <li>limitações de recebimento</li>
+                <li>riscos e regras de uso</li>
+                <li>prazos de retirada e renovação</li>
+                <li>mecanismos de notificação (inexistentes no processo físico atual)</li>
+              </ul>
+              <p>
+                Também foi realizada análise de <strong>benchmarking</strong> com Correios, Uello,
+                Loggi, Mandaê e outras empresas logísticas, identificando boas práticas de fluxo,
+                onboarding, pagamento e gerenciamento de entregas.
+              </p>
+            </div>
+
+            <div>
+              <h4 className="font-display font-semibold text-lg mb-4">
+                Mapeamento do público-alvo
+              </h4>
+              <ul className="space-y-2 list-disc pl-6">
+                <li>Pessoas sem endereço fixo</li>
+                <li>Moradores de locais sem CEP reconhecido</li>
+                <li>Usuários que buscam privacidade e segurança</li>
+                <li>Quem passa o dia fora e não consegue receber entregas</li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 className="font-display font-semibold text-lg mb-4">Identificação das dores</h4>
+              <ul className="space-y-2 list-disc pl-6">
+                <li>Processo presencial burocrático</li>
+                <li>Falta de transparência nas etapas</li>
+                <li>Ausência de notificações oficiais</li>
+                <li>Impossibilidade de contratar online</li>
+                <li>Jornada pouco inclusiva para quem não possui CEP válido</li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 className="font-display font-semibold text-lg mb-4">
+                Definição do tom e linguagem
+              </h4>
+              <p>
+                Linguagem <strong>simples, clara e acolhedora</strong>, acessível para qualquer
+                pessoa e alinhada à proposta do aplicativo "Minha Caixa Postal".
+              </p>
+            </div>
+          </div>
+        ),
+      },
+      {
+        title: "Solução",
+        content: (
+          <div className="space-y-8">
+            <p>
+              A solução proposta foi{" "}
+              <strong>
+                reimaginar toda a jornada de contratação e uso da Caixa Postal dentro do aplicativo
+              </strong>
+              , criando uma experiência digital completa, do onboarding ao acompanhamento das
+              encomendas.
+            </p>
+
+            <h4 className="font-display font-semibold text-lg">
+              Principais entregáveis e funcionalidades
+            </h4>
+
+            {/* 1. Tela inicial */}
+            <div>
+              <h5 className="font-display font-semibold mb-3">
+                1. Tela inicial e posicionamento do app
+              </h5>
+              <ul className="space-y-2 list-disc pl-6 mb-4">
+                <li>
+                  Proposta do nome <strong>"Minha Caixa Postal"</strong>, reforçando autonomia,
+                  segurança e pertencimento
+                </li>
+                <li>
+                  Inclusão da promessa de valor: <em>gerenciamento 100% pelo app</em>
+                </li>
+              </ul>
+              {/* IMAGE PLACEHOLDER 1: Tela inicial do app */}
+              <figure className="my-6">
+                <div className="w-full h-64 bg-muted rounded-lg border border-border/30 flex items-center justify-center">
+                  <span className="text-muted-foreground text-sm">
+                    [Placeholder: Imagem da tela inicial do app]
+                  </span>
+                </div>
+              </figure>
+            </div>
+
+            {/* 2. Onboarding */}
+            <div>
+              <h5 className="font-display font-semibold mb-3">
+                2. Onboarding guiado com tutorial de uso
+              </h5>
+              <p className="mb-4">Fluxo claro para:</p>
+              <ul className="space-y-2 list-disc pl-6 mb-4">
+                <li>escolha da assinatura</li>
+                <li>escolha da modalidade (semestral, anual, bienal)</li>
+                <li>seleção da Caixa Postal</li>
+                <li>envio e validação dos documentos pelo app</li>
+                <li>assinatura digital do termo</li>
+                <li>pagamento online</li>
+              </ul>
+              {/* IMAGE PLACEHOLDER 2: Onboarding */}
+              <figure className="my-6">
+                <div className="w-full h-64 bg-muted rounded-lg border border-border/30 flex items-center justify-center">
+                  <span className="text-muted-foreground text-sm">
+                    [Placeholder: Imagem do onboarding]
+                  </span>
+                </div>
+              </figure>
+            </div>
+
+            {/* 3. Fluxo sem CEP */}
+            <div>
+              <h5 className="font-display font-semibold mb-3">
+                3. Inclusão de fluxo alternativo para usuários sem CEP válido
+              </h5>
+              <p className="mb-4">
+                CTA dedicado para prosseguir com dados pessoais quando o CEP não é reconhecido.
+              </p>
+              {/* IMAGE PLACEHOLDER 3: Fluxo sem CEP */}
+              <figure className="my-6">
+                <div className="w-full h-64 bg-muted rounded-lg border border-border/30 flex items-center justify-center">
+                  <span className="text-muted-foreground text-sm">
+                    [Placeholder: Imagem do fluxo sem CEP]
+                  </span>
+                </div>
+              </figure>
+            </div>
+
+            {/* 4. Pagamento */}
+            <div>
+              <h5 className="font-display font-semibold mb-3">
+                4. Sistema de pagamento integrado
+              </h5>
+              <p className="mb-4">Pagamentos via:</p>
+              <ul className="space-y-2 list-disc pl-6 mb-4">
+                <li>Pix</li>
+                <li>boleto</li>
+                <li>cartão de crédito à vista</li>
+              </ul>
+              <p className="mb-4">
+                Com telas de erros e recuperação, reduzindo fricção na jornada.
+              </p>
+              {/* IMAGE PLACEHOLDER 4: Pagamento */}
+              <figure className="my-6">
+                <div className="w-full h-64 bg-muted rounded-lg border border-border/30 flex items-center justify-center">
+                  <span className="text-muted-foreground text-sm">
+                    [Placeholder: Imagem do sistema de pagamento]
+                  </span>
+                </div>
+              </figure>
+            </div>
+
+            {/* 5. Confirmação */}
+            <div>
+              <h5 className="font-display font-semibold mb-3">5. Confirmação pós-contratação</h5>
+              <p className="mb-4">Mensagem clara com:</p>
+              <ul className="space-y-2 list-disc pl-6 mb-4">
+                <li>confirmação de sucesso</li>
+                <li>instruções de como localizar o número contratado</li>
+                <li>alternativa de reenvio caso necessário</li>
+              </ul>
+              {/* IMAGE PLACEHOLDER 5: Confirmação */}
+              <figure className="my-6">
+                <div className="w-full h-64 bg-muted rounded-lg border border-border/30 flex items-center justify-center">
+                  <span className="text-muted-foreground text-sm">
+                    [Placeholder: Imagem da confirmação]
+                  </span>
+                </div>
+              </figure>
+            </div>
+
+            {/* 6. E-mail de boas-vindas */}
+            <div>
+              <h5 className="font-display font-semibold mb-3">6. E-mail de boas-vindas completo</h5>
+              <ul className="space-y-2 list-disc pl-6 mb-4">
+                <li>endereço oficial do usuário</li>
+                <li>agência escolhida</li>
+                <li>instruções de uso</li>
+                <li>dados de acesso</li>
+                <li>links do FAQ</li>
+              </ul>
+
+              <blockquote className="border-l-4 border-primary/30 pl-4 py-2 bg-muted/30 rounded-r-lg my-6">
+                <p className="font-semibold mb-2">📧 Assunto: Bem-vindo(a) ao Minha Caixa Postal!</p>
+                <p className="mb-4">Olá, [nome]!</p>
+                <p className="mb-4">
+                  A sua Caixa Postal foi contratada com sucesso e você já pode começar a receber
+                  suas encomendas na agência escolhida e usar o seu novo endereço para comprovante
+                  de residência. 😉
+                </p>
+                <p className="mb-2">
+                  Aqui está o seu novo endereço: <strong>Caixa Postal 6073</strong>
+                </p>
+                <p className="mb-4">
+                  Antes de começar, gostaríamos de dar algumas instruções:
+                </p>
+                <p className="font-semibold mb-1">Agência</p>
+                <p className="mb-1">AC Aeroporto de Congonhas</p>
+                <p className="mb-1">Avenida Washington Luís, s/n - Santo Amaro</p>
+                <p className="mb-4">São Paulo - SP, 04626-970</p>
+                <p className="mb-4">
+                  🔑 Não esqueça de comparecer na agência contratada pelo endereço indicado para
+                  retirar a sua chave, ok?
+                </p>
+                <p className="font-semibold mb-1">Dados de acesso do app</p>
+                <p className="mb-4">E-mail: nome@gmail.com | Senha: 🔒 Redefinir senha (link)</p>
+                <p className="mb-4">
+                  <strong>Importante!</strong> Caso não tenha solicitado o serviço, entre em contato
+                  conosco!
+                </p>
+                <p>Abraço, Equipe Minha Caixa Postal</p>
+              </blockquote>
+            </div>
+
+            {/* 7. Notificações */}
+            <div>
+              <h5 className="font-display font-semibold mb-3">
+                7. Notificações de encomenda recebida
+              </h5>
+              <p className="mb-4">
+                Push + SMS + e-mail sempre que houver um novo objeto na Caixa Postal.
+              </p>
+              {/* IMAGE PLACEHOLDER 6: Notificações */}
+              <figure className="my-6">
+                <div className="w-full h-64 bg-muted rounded-lg border border-border/30 flex items-center justify-center">
+                  <span className="text-muted-foreground text-sm">
+                    [Placeholder: Imagem das notificações]
+                  </span>
+                </div>
+              </figure>
+            </div>
+
+            {/* 8. Central de ajuda */}
+            <div>
+              <h5 className="font-display font-semibold mb-3">8. Central de ajuda</h5>
+              <p className="mb-4">Perguntas respondidas diretamente no app:</p>
+              <ul className="space-y-2 list-disc pl-6 mb-6">
+                <li>custos do serviço</li>
+                <li>tipos de objetos aceitos</li>
+                <li>como acompanhar entregas</li>
+              </ul>
+
+              <div className="space-y-6 bg-muted/30 p-6 rounded-lg border border-border/30">
+                <div>
+                  <p className="font-semibold mb-2">❓ Quanto custa o serviço?</p>
+                  <p className="mb-2">
+                    É possível escolher entre três modalidades de assinatura (prazo de vigência):
+                    semestral, anual e bienal. Confira os valores:
+                  </p>
+                  <ul className="space-y-1 list-disc pl-6 mb-2">
+                    <li>Valor assinatura semestral: R$ 79,80</li>
+                    <li>Valor assinatura anual: R$ 134,70</li>
+                    <li>Valor assinatura bienal: R$ 265,90</li>
+                  </ul>
+                  <p className="text-sm text-muted-foreground">
+                    O valor é único, sem mensalidade.
+                  </p>
+                </div>
+
+                <div>
+                  <p className="font-semibold mb-2">❓ Posso receber qualquer coisa?</p>
+                  <p>
+                    A sua Caixa Postal permite o recebimento de objetos simples (correspondências) e
+                    encomendas maiores, porém somente de itens enviados pelos Correios. Os produtos
+                    enviados por transportadoras em geral não são entregues nas agências.
+                  </p>
+                </div>
+
+                <div>
+                  <p className="font-semibold mb-2">
+                    ❓ Como eu sei quando chegou uma encomenda?
+                  </p>
+                  <p>
+                    Você receberá uma notificação por SMS, no aplicativo e no e-mail a cada nova
+                    encomenda na sua Caixa Postal. Você pode acompanhar as entregas e prazos para
+                    retirada diretamente no seu aplicativo.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        ),
+      },
+      {
+        title: "Resultado",
+        content: (
+          <div className="space-y-6">
+            <p>
+              O projeto foi fictício, sem implementação, no entanto, o projeto entregou:
+            </p>
+
+            <ul className="space-y-3 list-disc pl-6">
+              <li>
+                <strong>Jornada 100% digital</strong> para um serviço antes totalmente presencial
+              </li>
+              <li>
+                <strong>Redução potencial significativa de fricção</strong> nos processos de
+                contratação e renovação
+              </li>
+              <li>
+                <strong>Aumento da clareza e transparência</strong>, especialmente em custos, regras
+                e documentos
+              </li>
+              <li>
+                <strong>Experiência inclusiva</strong> para usuários sem CEP válido - antes
+                completamente desassistidos no processo digital
+              </li>
+              <li>
+                <strong>Maior confiabilidade e percepção de segurança</strong>, graças à introdução
+                das notificações e do painel de acompanhamento de entregas
+              </li>
+            </ul>
+
+            <p>
+              Mesmo sem dados quantitativos finais, o projeto demonstrou forte potencial para:
+            </p>
+
+            <ul className="space-y-2 list-disc pl-6">
+              <li>aumentar conversões</li>
+              <li>reduzir chamadas de suporte</li>
+              <li>reduzir abandonos na jornada</li>
+              <li>fortalecer a proposta de valor do serviço</li>
             </ul>
           </div>
         ),
