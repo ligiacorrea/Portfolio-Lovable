@@ -4294,7 +4294,7 @@ const casesData: Record<string, CaseData> = {
               <img
                 src={parceirosLp}
                 alt="Captura de tela da Landing Page Seja um parceiro iCasei"
-                className="w-full rounded-lg border border-border/30"
+                className="w-full h-auto rounded-lg border border-border/30 object-contain"
               />
               <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
                 Captura de tela da LP
