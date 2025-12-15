@@ -1649,7 +1649,7 @@ const casesData: Record<string, CaseData> = {
       "conteúdo para e-mail",
       "fluxo conversacional",
     ],
-    
+
     sections: [
       {
         title: "Problema",
@@ -1657,7 +1657,8 @@ const casesData: Record<string, CaseData> = {
           <div className="space-y-6">
             <p>
               A Sweet Cannelle é uma doceria e cafeteria fictícia especializada em bebidas à base de chá e especiarias.
-              O principal diferencial é que todas as harmonizações com mix de especiarias são criadas por baristas ingleses.
+              O principal diferencial é que todas as harmonizações com mix de especiarias são criadas por baristas
+              ingleses.
             </p>
 
             <p>
@@ -1677,26 +1678,21 @@ const casesData: Record<string, CaseData> = {
             <ul className="space-y-4 list-none">
               <li>
                 <strong>Não era possível mensurar a satisfação da jornada de compra</strong>
-                <p className="mt-1 text-muted-foreground">
-                  dificultando decisões de melhoria.
-                </p>
+                <p className="mt-1 text-muted-foreground">dificultando decisões de melhoria.</p>
               </li>
               <li>
                 <strong>Clientes insatisfeitos não eram identificados</strong>
-                <p className="mt-1 text-muted-foreground">
-                  prejudicando retenção.
-                </p>
+                <p className="mt-1 text-muted-foreground">prejudicando retenção.</p>
               </li>
               <li>
                 <strong>Ausência de dados para otimizar o serviço</strong>
-                <p className="mt-1 text-muted-foreground">
-                  já que comportamentos e dores reais não eram mapeados.
-                </p>
+                <p className="mt-1 text-muted-foreground">já que comportamentos e dores reais não eram mapeados.</p>
               </li>
             </ul>
 
             <blockquote className="border-l-4 border-primary pl-4 py-2 bg-muted/30 rounded-r-lg italic">
-              Essa hipótese guiou todo o projeto: sem coleta de NPS, não há visibilidade sobre a experiência e não é possível atuar preventivamente ou evolutivamente.
+              Essa hipótese guiou todo o projeto: sem coleta de NPS, não há visibilidade sobre a experiência e não é
+              possível atuar preventivamente ou evolutivamente.
             </blockquote>
           </div>
         ),
@@ -1706,7 +1702,8 @@ const casesData: Record<string, CaseData> = {
         content: (
           <div className="space-y-6">
             <p>
-              O projeto seguiu a metodologia <strong>Double Diamond</strong>, passando por todas as etapas: descobrir, definir, desenvolver e entregar.
+              O projeto seguiu a metodologia <strong>Double Diamond</strong>, passando por todas as etapas: descobrir,
+              definir, desenvolver e entregar.
             </p>
 
             <div className="space-y-8">
@@ -1714,10 +1711,22 @@ const casesData: Record<string, CaseData> = {
                 <h4 className="font-semibold text-lg mb-4">Descobrir</h4>
                 <p className="mb-4">Foram realizadas:</p>
                 <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4">
-                  <li><strong className="text-foreground">Desk research</strong> com benchmarking de como empresas de diversos segmentos capturam e exibem pesquisas de satisfação</li>
-                  <li><strong className="text-foreground">Mapeamento da jornada atual</strong>, desde a pesquisa pelo site até o pós-compra</li>
-                  <li><strong className="text-foreground">Construção de proto-personas</strong>, dores, necessidades e expectativas</li>
-                  <li><strong className="text-foreground">Matriz CSD</strong> para organizar certezas, suposições e dúvidas</li>
+                  <li>
+                    <strong className="text-foreground">Desk research</strong> com benchmarking de como empresas de
+                    diversos segmentos capturam e exibem pesquisas de satisfação
+                  </li>
+                  <li>
+                    <strong className="text-foreground">Mapeamento da jornada atual</strong>, desde a pesquisa pelo site
+                    até o pós-compra
+                  </li>
+                  <li>
+                    <strong className="text-foreground">Construção de proto-personas</strong>, dores, necessidades e
+                    expectativas
+                  </li>
+                  <li>
+                    <strong className="text-foreground">Matriz CSD</strong> para organizar certezas, suposições e
+                    dúvidas
+                  </li>
                 </ul>
 
                 <figure className="my-6">
@@ -1731,10 +1740,12 @@ const casesData: Record<string, CaseData> = {
 
               <div>
                 <h4 className="font-semibold text-lg mb-4">Definir</h4>
-                <p className="mb-4">Com os dados levantados, foram priorizados os principais problemas decorrentes da falta de NPS.</p>
-                
+                <p className="mb-4">
+                  Com os dados levantados, foram priorizados os principais problemas decorrentes da falta de NPS.
+                </p>
+
                 <p className="mb-4">O ponto crítico definido:</p>
-                
+
                 <blockquote className="border-l-4 border-primary pl-4 py-2 bg-muted/30 rounded-r-lg italic mb-4">
                   Não capturar NPS após a compra pode resultar em clientes insatisfeitos que não são mapeáveis.
                 </blockquote>
@@ -1753,15 +1764,21 @@ const casesData: Record<string, CaseData> = {
               <div>
                 <h4 className="font-semibold text-lg mb-4">Desenvolver</h4>
                 <p className="mb-4">
-                  Com base no tom de voz criado para a marca - carinhosa, empática, zelosa - foram exploradas alternativas de texto e fluxo.
+                  Com base no tom de voz criado para a marca - carinhosa, empática, zelosa - foram exploradas
+                  alternativas de texto e fluxo.
                 </p>
 
                 <p className="mb-4">Uma primeira versão de mensagem foi criada para ser inserida na jornada:</p>
 
                 <blockquote className="border-l-4 border-primary pl-4 py-4 bg-muted/30 rounded-r-lg mb-6">
                   <p className="mb-4">"Olá, [nome do cliente]! Estamos muito felizes em ter você com a gente! ❤️</p>
-                  <p className="mb-4">Nós queremos que você tenha sempre a melhor experiência por aqui, por isso, é importante sabermos como foi o seu processo de compra em nossa loja.</p>
-                  <p className="mb-4">De 0 a 10, o quanto você recomendaria a Sweet Cannelle para um amigo ou parente?</p>
+                  <p className="mb-4">
+                    Nós queremos que você tenha sempre a melhor experiência por aqui, por isso, é importante sabermos
+                    como foi o seu processo de compra em nossa loja.
+                  </p>
+                  <p className="mb-4">
+                    De 0 a 10, o quanto você recomendaria a Sweet Cannelle para um amigo ou parente?
+                  </p>
                   <p>Por que você deu esta nota?"</p>
                 </blockquote>
 
@@ -1774,35 +1791,47 @@ const casesData: Record<string, CaseData> = {
                       <li>Sexo: Feminino</li>
                       <li>Idade: 40 anos</li>
                       <li>Vestimenta: Estilo elegante, com tecidos fluidos, românticos e com toque vintage</li>
-                      <li>Hobbies: Viajar, experimentar coisas novas, sair com os amigos e família, gosta de dividir novas experiências com quem ama</li>
+                      <li>
+                        Hobbies: Viajar, experimentar coisas novas, sair com os amigos e família, gosta de dividir novas
+                        experiências com quem ama
+                      </li>
                     </ul>
                   </div>
 
                   <div>
                     <p className="font-medium mb-2">2. Quais são os valores encontrados na voz?</p>
                     <p className="text-muted-foreground mb-4 ml-4">
-                      "Nós teremos sucesso quando nossos clientes saírem satisfeitos, com a experiência acima da expectativa e voltarem com frequência, ou seja, quando forem fidelizados."
+                      "Nós teremos sucesso quando nossos clientes saírem satisfeitos, com a experiência acima da
+                      expectativa e voltarem com frequência, ou seja, quando forem fidelizados."
                     </p>
                     <div className="overflow-x-auto">
                       <table className="w-full text-sm border border-border rounded-lg">
                         <tbody>
                           <tr className="border-b border-border">
                             <td className="p-3 bg-muted/30">Nós nos importamos com</td>
-                            <td className="p-3"><strong>Qualidade e segurança</strong></td>
+                            <td className="p-3">
+                              <strong>Qualidade e segurança</strong>
+                            </td>
                             <td className="p-3 bg-muted/30">Porque</td>
                             <td className="p-3">Queremos reconhecimento, admiração e confiança</td>
                           </tr>
                           <tr className="border-b border-border">
                             <td className="p-3 bg-muted/30">Nós nos importamos com</td>
-                            <td className="p-3"><strong>Exclusividade</strong></td>
+                            <td className="p-3">
+                              <strong>Exclusividade</strong>
+                            </td>
                             <td className="p-3 bg-muted/30">Porque</td>
                             <td className="p-3">Nos preocupamos com autenticidade e personalidade</td>
                           </tr>
                           <tr>
                             <td className="p-3 bg-muted/30">Nós nos importamos com</td>
-                            <td className="p-3"><strong>Especialização</strong></td>
+                            <td className="p-3">
+                              <strong>Especialização</strong>
+                            </td>
                             <td className="p-3 bg-muted/30">Porque</td>
-                            <td className="p-3">Queremos destacar nossa experiência e surpreender os clientes com produtos diferenciados</td>
+                            <td className="p-3">
+                              Queremos destacar nossa experiência e surpreender os clientes com produtos diferenciados
+                            </td>
                           </tr>
                         </tbody>
                       </table>
@@ -1810,14 +1839,21 @@ const casesData: Record<string, CaseData> = {
                   </div>
 
                   <div>
-                    <p className="font-medium mb-2">3. Se a empresa fosse uma pessoa servindo um cliente, seu trabalho seria…</p>
+                    <p className="font-medium mb-2">
+                      3. Se a empresa fosse uma pessoa servindo um cliente, seu trabalho seria…
+                    </p>
                     <p className="text-muted-foreground ml-4">
-                      Tornar a experiência diferente, exclusiva e acolhedora. Servir com amor, carinho e total atenção, entendendo os desejos do cliente para sugerir o produto certo, sempre se preocupando em fazer a pessoa se sentir importante, valorizada e única, ou seja, oferecer sempre a melhor experiência possível.
+                      Tornar a experiência diferente, exclusiva e acolhedora. Servir com amor, carinho e total atenção,
+                      entendendo os desejos do cliente para sugerir o produto certo, sempre se preocupando em fazer a
+                      pessoa se sentir importante, valorizada e única, ou seja, oferecer sempre a melhor experiência
+                      possível.
                     </p>
                   </div>
 
                   <div>
-                    <p className="font-medium mb-2">4. E os consumidores irão descrever como (3 adjetivos principais):</p>
+                    <p className="font-medium mb-2">
+                      4. E os consumidores irão descrever como (3 adjetivos principais):
+                    </p>
                     <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
                       <li>Ambiente simpático e acolhedor</li>
                       <li>Melhor chá que já tomou</li>
@@ -1839,9 +1875,16 @@ const casesData: Record<string, CaseData> = {
                       <tbody>
                         <tr>
                           <td className="p-3 bg-muted/30">Personalidade principal da empresa</td>
-                          <td className="p-3"><strong>Personalidade única, inesquecível, aquela pessoa que todo mundo quer estar perto</strong></td>
+                          <td className="p-3">
+                            <strong>
+                              Personalidade única, inesquecível, aquela pessoa que todo mundo quer estar perto
+                            </strong>
+                          </td>
                           <td className="p-3 bg-muted/30">Porque</td>
-                          <td className="p-3">Porque é uma pessoa simpática, que acolhe todo mundo, cuidadosa e que sempre busca fazer o melhor pelos outros</td>
+                          <td className="p-3">
+                            Porque é uma pessoa simpática, que acolhe todo mundo, cuidadosa e que sempre busca fazer o
+                            melhor pelos outros
+                          </td>
                         </tr>
                       </tbody>
                     </table>
@@ -1849,26 +1892,39 @@ const casesData: Record<string, CaseData> = {
 
                   <div>
                     <p className="font-medium mb-4">6. Público-alvo:</p>
-                    
+
                     <ul className="list-none space-y-1 text-muted-foreground ml-4 mb-4">
                       <li>a) Quem é essa persona? Como é a personalidade dela?</li>
                       <li>b) Quais são suas/seus principais comportamentos?</li>
-                      <li>c) Quais são suas principais informações sociodemográficas (sexo, idade, profissão, escolaridade etc.)?</li>
+                      <li>
+                        c) Quais são suas principais informações sociodemográficas (sexo, idade, profissão, escolaridade
+                        etc.)?
+                      </li>
                       <li>d) Quais são suas necessidades e objetivos?</li>
                     </ul>
-                    
+
                     <div className="space-y-4 ml-4">
                       <div className="p-4 bg-muted/20 rounded-lg">
                         <p className="font-medium mb-2">Persona 1: Joana</p>
                         <p className="text-muted-foreground text-sm">
-                          Mulher, branca, 43 anos, sempre elegante, é super romântica, gosta de viajar e frequentar lugares que propiciem ótimos encontros com as amigas e família. Joana é gerente e sócia de um SPA de alto padrão que alia cuidados com o corpo e a mente. Costuma fazer parcerias com empresas que de bem-estar e beleza para divulgar o seu negócio e o do parceiro. É casada, tem dois filhos e uma pessoa muito querida por todos. Seu objetivo é continuar cuidando do SPA de perto sempre que possível e ver seu negócio crescer, mas sem deixar de cuidar de si e da família.
+                          Mulher, branca, 43 anos, sempre elegante, é super romântica, gosta de viajar e frequentar
+                          lugares que propiciem ótimos encontros com as amigas e família. Joana é gerente e sócia de um
+                          SPA de alto padrão que alia cuidados com o corpo e a mente. Costuma fazer parcerias com
+                          empresas que de bem-estar e beleza para divulgar o seu negócio e o do parceiro. É casada, tem
+                          dois filhos e uma pessoa muito querida por todos. Seu objetivo é continuar cuidando do SPA de
+                          perto sempre que possível e ver seu negócio crescer, mas sem deixar de cuidar de si e da
+                          família.
                         </p>
                       </div>
 
                       <div className="p-4 bg-muted/20 rounded-lg">
                         <p className="font-medium mb-2">Persona 2: Helen</p>
                         <p className="text-muted-foreground text-sm">
-                          Mulher, negra, 38 anos, está sempre impecável, maquiada e com roupa elegante. Gosta de conhecer lugares novos e, sempre que pode, está em teatros, restaurantes, shows e outras atividades com os amigos. É advogada e tem seu próprio escritório. Divorciada e sem filhos, está sempre rodeada das melhores amigas e adora sair com elas para comer e conversar sobre as novidades.
+                          Mulher, negra, 38 anos, está sempre impecável, maquiada e com roupa elegante. Gosta de
+                          conhecer lugares novos e, sempre que pode, está em teatros, restaurantes, shows e outras
+                          atividades com os amigos. É advogada e tem seu próprio escritório. Divorciada e sem filhos,
+                          está sempre rodeada das melhores amigas e adora sair com elas para comer e conversar sobre as
+                          novidades.
                         </p>
                       </div>
                     </div>
@@ -1889,21 +1945,43 @@ const casesData: Record<string, CaseData> = {
                         <tbody>
                           <tr className="border-t border-border">
                             <td className="p-3 bg-muted/30 font-medium">Conceito</td>
-                            <td className="p-3">Nos preocupamos com o bem-estar dos nossos clientes e tratamos todos com muito carinho e respeito</td>
-                            <td className="p-3">Somos empáticos em nossa comunicação e sempre nos colocamos no lugar do cliente ao atendê-lo</td>
-                            <td className="p-3">Somos muito cuidadosos com os nossos clientes e também com nossos funcionários, nosso processo de trabalho e com a qualidade dos nossos produtos, fornecedores e parceiros</td>
+                            <td className="p-3">
+                              Nos preocupamos com o bem-estar dos nossos clientes e tratamos todos com muito carinho e
+                              respeito
+                            </td>
+                            <td className="p-3">
+                              Somos empáticos em nossa comunicação e sempre nos colocamos no lugar do cliente ao
+                              atendê-lo
+                            </td>
+                            <td className="p-3">
+                              Somos muito cuidadosos com os nossos clientes e também com nossos funcionários, nosso
+                              processo de trabalho e com a qualidade dos nossos produtos, fornecedores e parceiros
+                            </td>
                           </tr>
                           <tr className="border-t border-border">
                             <td className="p-3 bg-muted/30 font-medium">Vocabulário</td>
                             <td className="p-3">Nos comunicamos de forma leve e tranquila</td>
-                            <td className="p-3">Mais ouvimos do que falamos, assim conseguimos entender a necessidade dos clientes e entregar a melhor experiência, utilizando de palavras leves e amorosas</td>
-                            <td className="p-3">Tomamos cuidado com as palavras e sempre tratamos as pessoas envolvidas com muito respeito, evitando palavras de mau gosto</td>
+                            <td className="p-3">
+                              Mais ouvimos do que falamos, assim conseguimos entender a necessidade dos clientes e
+                              entregar a melhor experiência, utilizando de palavras leves e amorosas
+                            </td>
+                            <td className="p-3">
+                              Tomamos cuidado com as palavras e sempre tratamos as pessoas envolvidas com muito
+                              respeito, evitando palavras de mau gosto
+                            </td>
                           </tr>
                           <tr className="border-t border-border">
                             <td className="p-3 bg-muted/30 font-medium">Verbosidade</td>
-                            <td className="p-3">Utilizamos "você" para conversar com nossos clientes de forma pessoal</td>
-                            <td className="p-3">Utilizamos "você" para conversar com nossos clientes de forma pessoal</td>
-                            <td className="p-3">Utilizamos "você" para conversar com nossos clientes, fornecedores e parceiros de forma pessoal</td>
+                            <td className="p-3">
+                              Utilizamos "você" para conversar com nossos clientes de forma pessoal
+                            </td>
+                            <td className="p-3">
+                              Utilizamos "você" para conversar com nossos clientes de forma pessoal
+                            </td>
+                            <td className="p-3">
+                              Utilizamos "você" para conversar com nossos clientes, fornecedores e parceiros de forma
+                              pessoal
+                            </td>
                           </tr>
                           <tr className="border-t border-border">
                             <td className="p-3 bg-muted/30 font-medium">Gramática</td>
@@ -1913,15 +1991,30 @@ const casesData: Record<string, CaseData> = {
                           </tr>
                           <tr className="border-t border-border">
                             <td className="p-3 bg-muted/30 font-medium">Pontuação</td>
-                            <td className="p-3">Utilizamos a forma correta de pontuação, com o uso adequado de ponto final, vírgula, interrogação e exclamação. Também usamos emojis de forma moderada</td>
-                            <td className="p-3">Utilizamos a forma correta de pontuação, com o uso adequado de ponto final, vírgula, interrogação e exclamação. Também usamos emojis de forma moderada</td>
-                            <td className="p-3">Utilizamos a forma correta de pontuação, com o uso adequado de ponto final, vírgula, interrogação e exclamação. Também usamos emojis de forma moderada</td>
+                            <td className="p-3">
+                              Utilizamos a forma correta de pontuação, com o uso adequado de ponto final, vírgula,
+                              interrogação e exclamação. Também usamos emojis de forma moderada
+                            </td>
+                            <td className="p-3">
+                              Utilizamos a forma correta de pontuação, com o uso adequado de ponto final, vírgula,
+                              interrogação e exclamação. Também usamos emojis de forma moderada
+                            </td>
+                            <td className="p-3">
+                              Utilizamos a forma correta de pontuação, com o uso adequado de ponto final, vírgula,
+                              interrogação e exclamação. Também usamos emojis de forma moderada
+                            </td>
                           </tr>
                           <tr className="border-t border-border">
                             <td className="p-3 bg-muted/30 font-medium">Capitalização</td>
-                            <td className="p-3">Usamos caixa baixa, iniciando a primeira palavra com letra maiúscula</td>
-                            <td className="p-3">Usamos caixa baixa, iniciando a primeira palavra com letra maiúscula</td>
-                            <td className="p-3">Usamos caixa baixa, iniciando a primeira palavra com letra maiúscula</td>
+                            <td className="p-3">
+                              Usamos caixa baixa, iniciando a primeira palavra com letra maiúscula
+                            </td>
+                            <td className="p-3">
+                              Usamos caixa baixa, iniciando a primeira palavra com letra maiúscula
+                            </td>
+                            <td className="p-3">
+                              Usamos caixa baixa, iniciando a primeira palavra com letra maiúscula
+                            </td>
                           </tr>
                         </tbody>
                       </table>
@@ -1934,7 +2027,17 @@ const casesData: Record<string, CaseData> = {
                       download="Tom e Voz - Sweet Cannelle.pdf"
                       className="inline-flex items-center gap-2 px-4 py-3 bg-primary/10 hover:bg-primary/20 text-primary rounded-lg border border-primary/20 transition-colors"
                     >
-                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
                         <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
                         <polyline points="7 10 12 15 17 10" />
                         <line x1="12" x2="12" y1="15" y2="3" />
@@ -1949,16 +2052,23 @@ const casesData: Record<string, CaseData> = {
                 <h4 className="font-semibold text-lg mb-4">Entregar</h4>
                 <p className="mb-4">Na última fase, foram desenvolvidas:</p>
                 <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4 mb-4">
-                  <li><strong className="text-foreground">Prova de conceito da interface</strong> com a mensagem de NPS</li>
-                  <li><strong className="text-foreground">Nova jornada do usuário</strong>, agora incluindo a etapa de pesquisa após a compra</li>
+                  <li>
+                    <strong className="text-foreground">Prova de conceito da interface</strong> com a mensagem de NPS
+                  </li>
+                  <li>
+                    <strong className="text-foreground">Nova jornada do usuário</strong>, agora incluindo a etapa de
+                    pesquisa após a compra
+                  </li>
                 </ul>
 
                 <p className="mb-4">
-                  As telas apresentam a escala de 0 a 10, campo de justificativa e categorização de avaliação (valor dos produtos, atendimento, experiência etc.)
+                  As telas apresentam a escala de 0 a 10, campo de justificativa e categorização de avaliação (valor dos
+                  produtos, atendimento, experiência etc.)
                 </p>
 
                 <p>
-                  Também foi criado o fluxo atualizado, inserindo a etapa do NPS entre <em>confirmação de compra</em> e <em>recebimento do pedido</em>.
+                  Também foi criado o fluxo atualizado, inserindo a etapa do NPS entre <em>confirmação de compra</em> e{" "}
+                  <em>recebimento do pedido</em>.
                 </p>
 
                 <figure className="my-6">
@@ -1984,28 +2094,40 @@ const casesData: Record<string, CaseData> = {
             <ul className="space-y-4 list-none">
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-                <span><strong>Mensagem escrita conforme o tom de voz da marca</strong>, incentivando feedback de forma amigável</span>
+                <span>
+                  <strong>Mensagem escrita conforme o tom de voz da marca</strong>, incentivando feedback de forma
+                  amigável
+                </span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-                <span><strong>Interface clara e organizada</strong>, com escala de 0 a 10 e campo para comentários</span>
+                <span>
+                  <strong>Interface clara e organizada</strong>, com escala de 0 a 10 e campo para comentários
+                </span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-                <span><strong>Categorização de motivos de avaliação</strong> (atendimento, entrega, navegação etc.)</span>
+                <span>
+                  <strong>Categorização de motivos de avaliação</strong> (atendimento, entrega, navegação etc.)
+                </span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-                <span><strong>Atualização da jornada</strong>, incorporando a coleta após cada compra</span>
+                <span>
+                  <strong>Atualização da jornada</strong>, incorporando a coleta após cada compra
+                </span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-                <span><strong>Definição de momento ideal de envio</strong>: logo após o e-mail de confirmação de pedido</span>
+                <span>
+                  <strong>Definição de momento ideal de envio</strong>: logo após o e-mail de confirmação de pedido
+                </span>
               </li>
             </ul>
 
             <p>
-              A solução também serviu como base para iniciativas futuras, incluindo testes A/B de fluxos conversacionais.
+              A solução também serviu como base para iniciativas futuras, incluindo testes A/B de fluxos
+              conversacionais.
             </p>
           </div>
         ),
@@ -2019,32 +2141,46 @@ const casesData: Record<string, CaseData> = {
             <ul className="space-y-4 list-none">
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-                <span><strong>Manual estruturado de tom de voz</strong></span>
+                <span>
+                  <strong>Manual estruturado de tom de voz</strong>
+                </span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-                <span><strong>Fluxo de coleta estruturado</strong> para medir satisfação da jornada</span>
+                <span>
+                  <strong>Fluxo de coleta estruturado</strong> para medir satisfação da jornada
+                </span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-                <span><strong>Ponto adicional de contato com clientes</strong>, fortalecendo relacionamento</span>
+                <span>
+                  <strong>Ponto adicional de contato com clientes</strong>, fortalecendo relacionamento
+                </span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-                <span><strong>Base sólida de dados</strong> para tomada de decisão sobre melhorias</span>
+                <span>
+                  <strong>Base sólida de dados</strong> para tomada de decisão sobre melhorias
+                </span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-                <span><strong>Prova de conceito testável</strong>, permitindo validação rápida da solução</span>
+                <span>
+                  <strong>Prova de conceito testável</strong>, permitindo validação rápida da solução
+                </span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-                <span><strong>Nova jornada mapeada</strong>, mais completa e orientada a feedback</span>
+                <span>
+                  <strong>Nova jornada mapeada</strong>, mais completa e orientada a feedback
+                </span>
               </li>
             </ul>
 
             <p>
-              Além disso, o material produzido serviu de referência para outros exercícios como o <strong>teste A/B de fluxos conversacionais</strong>, conectando UX Writing, arquitetura da informação e design conversacional.
+              Além disso, o material produzido serviu de referência para outros exercícios como o{" "}
+              <strong>teste A/B de fluxos conversacionais</strong>, conectando UX Writing, arquitetura da informação e
+              design conversacional.
             </p>
 
             <blockquote className="border-l-4 border-primary pl-4 py-2 bg-muted/30 rounded-r-lg italic">
@@ -2089,20 +2225,17 @@ const casesData: Record<string, CaseData> = {
   "melhorando-navegacao-painel": {
     title: "Melhorando a navegação no painel e reduzindo tickets",
     projectType: "Case real",
-    skills: [
-      "ux writing",
-      "arquitetura de informação",
-      "ux research",
-      "teste de cloze",
-      "benchmarking",
-    ],
+    skills: ["ux writing", "arquitetura de informação", "ux research", "teste de cloze", "benchmarking"],
     sections: [
       {
         title: "Problema",
         content: (
           <div className="space-y-6">
             <p>
-              O crescimento no número de chamados abertos para a equipe de atendimento revelou dificuldades dos casais em compreender o fluxo do <strong>Histórico de Presentes</strong> dentro do painel. O <strong>Histórico de Presentes</strong> é o extrato dos presentes recebidos pelos convidados, com todas as informações dos itens comprados e o status de liberação do crédito para o casal resgatar o dinheiro.
+              O crescimento no número de chamados abertos para a equipe de atendimento revelou dificuldades dos casais
+              em compreender o fluxo do <strong>Histórico de Presentes</strong> dentro do painel. O{" "}
+              <strong>Histórico de Presentes</strong> é o extrato dos presentes recebidos pelos convidados, com todas as
+              informações dos itens comprados e o status de liberação do crédito para o casal resgatar o dinheiro.
             </p>
 
             <figure className="my-6 space-y-4">
@@ -2126,21 +2259,26 @@ const casesData: Record<string, CaseData> = {
             <ul className="space-y-4 list-none">
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-                <span>Entender o <strong>status do pedido</strong></span>
+                <span>
+                  Entender o <strong>status do pedido</strong>
+                </span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-                <span>Compreender o <strong>prazo de liberação do saldo</strong></span>
+                <span>
+                  Compreender o <strong>prazo de liberação do saldo</strong>
+                </span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-                <span>Distinguir corretamente os termos <strong>status de compra</strong>, <strong>crédito</strong> e <strong>pagamento</strong></span>
+                <span>
+                  Distinguir corretamente os termos <strong>status de compra</strong>, <strong>crédito</strong> e{" "}
+                  <strong>pagamento</strong>
+                </span>
               </li>
             </ul>
 
-            <p>
-              Em um único dia, diversos tickets no Zendesk apresentavam exatamente o mesmo padrão de dúvidas.
-            </p>
+            <p>Em um único dia, diversos tickets no Zendesk apresentavam exatamente o mesmo padrão de dúvidas.</p>
 
             <figure className="my-6">
               <img
@@ -2163,9 +2301,16 @@ const casesData: Record<string, CaseData> = {
               <h4 className="font-semibold text-lg mb-4">1. Alinhamento com times internos</h4>
               <p className="mb-4">Em reuniões com atendimento e Produto, foram mapeados os pontos críticos:</p>
               <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4">
-                <li>Necessidade de <strong className="text-foreground">validar termos usados</strong></li>
-                <li><strong className="text-foreground">Rever a hierarquia</strong> das informações</li>
-                <li>Identificar <strong className="text-foreground">quais dados são mais relevantes</strong> para os casais</li>
+                <li>
+                  Necessidade de <strong className="text-foreground">validar termos usados</strong>
+                </li>
+                <li>
+                  <strong className="text-foreground">Rever a hierarquia</strong> das informações
+                </li>
+                <li>
+                  Identificar <strong className="text-foreground">quais dados são mais relevantes</strong> para os
+                  casais
+                </li>
               </ul>
 
               <figure className="my-6">
@@ -2180,7 +2325,9 @@ const casesData: Record<string, CaseData> = {
             <div>
               <h4 className="font-semibold text-lg mb-4">2. Pesquisa - Validação de termos</h4>
               <p className="mb-4">
-                Realizamos um <strong>Teste de Cloze</strong> para verificar vocabulário, entendimento e precisão dos termos utilizados. O teste pedia que usuários completassem frases com os termos que achassem mais adequado:
+                Realizamos um <strong>Teste de Cloze</strong> para verificar vocabulário, entendimento e precisão dos
+                termos utilizados. O teste pedia que usuários completassem frases com os termos que achassem mais
+                adequado:
               </p>
 
               <figure className="my-6 space-y-4">
@@ -2211,14 +2358,17 @@ const casesData: Record<string, CaseData> = {
 
               <p className="font-medium mb-2">Insight do teste:</p>
               <blockquote className="border-l-4 border-primary pl-4 py-2 bg-muted/30 rounded-r-lg italic">
-                Os termos utilizados pelo produto estavam corretos – o problema não era terminologia, mas como as informações eram apresentadas na interface.
+                Os termos utilizados pelo produto estavam corretos – o problema não era terminologia, mas como as
+                informações eram apresentadas na interface.
               </blockquote>
             </div>
 
             <div>
               <h4 className="font-semibold text-lg mb-4">3. Arquitetura da Informação</h4>
               <p className="mb-4">
-                Após os termos validados, precisávamos descobrir <strong>quais informações eram mais relevantes</strong> para os usuários dentro da interface do produto. Eles classificaram as informações por ordem de importância.
+                Após os termos validados, precisávamos descobrir <strong>quais informações eram mais relevantes</strong>{" "}
+                para os usuários dentro da interface do produto. Eles classificaram as informações por ordem de
+                importância.
               </p>
 
               <figure className="my-6">
@@ -2234,9 +2384,15 @@ const casesData: Record<string, CaseData> = {
 
               <p className="font-medium mb-2">O que o teste revelou:</p>
               <ol className="list-decimal list-inside space-y-2 text-muted-foreground ml-4">
-                <li><strong className="text-foreground">Item comprado</strong> = informação mais relevante</li>
-                <li><strong className="text-foreground">Valor total da compra</strong></li>
-                <li><strong className="text-foreground">Status da compra e status do crédito</strong></li>
+                <li>
+                  <strong className="text-foreground">Item comprado</strong> = informação mais relevante
+                </li>
+                <li>
+                  <strong className="text-foreground">Valor total da compra</strong>
+                </li>
+                <li>
+                  <strong className="text-foreground">Status da compra e status do crédito</strong>
+                </li>
               </ol>
               <p className="mt-4 text-muted-foreground">
                 Menos relevantes: informações do convidado, forma de pagamento, extrato completo.
@@ -2246,7 +2402,9 @@ const casesData: Record<string, CaseData> = {
             <div>
               <h4 className="font-semibold text-lg mb-4">4. Benchmarking</h4>
               <p className="mb-4">
-                Análise comparativa com empresas referência em clareza de transações financeiras, como <strong>Nubank</strong> e <strong>Méliuz</strong>, para identificar padrões eficientes de navegação e apresentação de informações.
+                Análise comparativa com empresas referência em clareza de transações financeiras, como{" "}
+                <strong>Nubank</strong> e <strong>Méliuz</strong>, para identificar padrões eficientes de navegação e
+                apresentação de informações.
               </p>
 
               <figure className="my-6">
@@ -2269,9 +2427,13 @@ const casesData: Record<string, CaseData> = {
             <div>
               <h4 className="font-semibold text-lg mb-4">1. Resumo dos presentes</h4>
               <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4 mb-4">
-                <li>Filtro por <strong className="text-foreground">status da compra</strong></li>
+                <li>
+                  Filtro por <strong className="text-foreground">status da compra</strong>
+                </li>
                 <li>Informações secundárias movidas para o detalhe</li>
-                <li>Adição de uma <strong className="text-foreground">tag de última atualização</strong></li>
+                <li>
+                  Adição de uma <strong className="text-foreground">tag de última atualização</strong>
+                </li>
                 <li>Seta indicando que o pedido pode ser expandido</li>
               </ul>
 
@@ -2287,8 +2449,14 @@ const casesData: Record<string, CaseData> = {
             <div>
               <h4 className="font-semibold text-lg mb-4">2. Detalhe do presente</h4>
               <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4 mb-4">
-                <li>Nova <strong className="text-foreground">linha do tempo</strong> com todos os passos da compra e suas datas</li>
-                <li>Redistribuição das informações de acordo com a <strong className="text-foreground">prioridade dos casais</strong> identificada nas pesquisas</li>
+                <li>
+                  Nova <strong className="text-foreground">linha do tempo</strong> com todos os passos da compra e suas
+                  datas
+                </li>
+                <li>
+                  Redistribuição das informações de acordo com a{" "}
+                  <strong className="text-foreground">prioridade dos casais</strong> identificada nas pesquisas
+                </li>
               </ul>
 
               <figure className="my-6">
@@ -2343,7 +2511,9 @@ const casesData: Record<string, CaseData> = {
               <ul className="space-y-4 list-none">
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-                  <span>Interface mais clara e fluida, com navegação reorganizada conforme as prioridades reais dos casais</span>
+                  <span>
+                    Interface mais clara e fluida, com navegação reorganizada conforme as prioridades reais dos casais
+                  </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
@@ -2359,7 +2529,9 @@ const casesData: Record<string, CaseData> = {
             <div>
               <h4 className="font-semibold text-lg mb-4">Conclusão e próximos passos</h4>
               <p className="mb-4">
-                Os estudos mostraram que o problema central era a falta de clareza na apresentação das informações, não nos termos utilizados. Assim, reorganizamos conteúdo, hierarquia visual e usabilidade do fluxo de presentes para garantir uma experiência mais clara e eficiente.
+                Os estudos mostraram que o problema central era a falta de clareza na apresentação das informações, não
+                nos termos utilizados. Assim, reorganizamos conteúdo, hierarquia visual e usabilidade do fluxo de
+                presentes para garantir uma experiência mais clara e eficiente.
               </p>
 
               <p className="font-medium mb-2">Próximos passos incluem:</p>
@@ -2471,13 +2643,11 @@ const casesData: Record<string, CaseData> = {
               <li>Recursos visuais e estrutura de conteúdo</li>
             </ul>
 
-            <p>
-              O estudo revelou ausência de padrões rígidos entre centrais, mas destacou um diferencial do iCasei:
-            </p>
+            <p>O estudo revelou ausência de padrões rígidos entre centrais, mas destacou um diferencial do iCasei:</p>
 
             <p>
-              ➡️ <strong>uso de vídeos explicativos</strong>, que são também fonte de tráfego orgânico para o YouTube
-              da marca.
+              ➡️ <strong>uso de vídeos explicativos</strong>, que são também fonte de tráfego orgânico para o YouTube da
+              marca.
             </p>
 
             <figure className="my-6">
@@ -2523,8 +2693,8 @@ const casesData: Record<string, CaseData> = {
 
             <p>
               O iCasei oferece 4 <strong>planos de site de casamento</strong> e <strong>mais de 150 recursos</strong>, o
-              que exige uma central de ajuda <strong>robusta, organizada e completa</strong>, capaz de orientar
-              usuários com diferentes perfis e necessidades.
+              que exige uma central de ajuda <strong>robusta, organizada e completa</strong>, capaz de orientar usuários
+              com diferentes perfis e necessidades.
             </p>
 
             <p>
@@ -2592,9 +2762,7 @@ const casesData: Record<string, CaseData> = {
                 alt="Telas no Figma"
                 className="w-full rounded-lg border border-border/30"
               />
-              <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
-                Telas no Figma
-              </figcaption>
+              <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">Telas no Figma</figcaption>
             </figure>
           </div>
         ),
@@ -2634,8 +2802,8 @@ const casesData: Record<string, CaseData> = {
                 Revisão de <strong>tom e voz</strong> conforme linguagem do iCasei
               </li>
               <li>
-                Estrutura fixa para todos os artigos: título → corpo → rodapé com tags, CTA, redes sociais e pesquisa
-                de satisfação
+                Estrutura fixa para todos os artigos: título → corpo → rodapé com tags, CTA, redes sociais e pesquisa de
+                satisfação
               </li>
               <li>
                 Implementação de <strong>tempo de leitura</strong> e <strong>índice com âncora</strong> para melhorar a
@@ -2769,7 +2937,9 @@ const casesData: Record<string, CaseData> = {
               respostas mais rapidamente, reduzindo fricção e dependência do suporte.
             </p>
 
-            <h4 className="text-base font-medium text-foreground mt-4">2. Redução expressiva das demandas de suporte</h4>
+            <h4 className="text-base font-medium text-foreground mt-4">
+              2. Redução expressiva das demandas de suporte
+            </h4>
 
             <p>
               A reorganização, padronização e novas integrações reduziram o volume de tickets gerados por dúvidas
@@ -2786,8 +2956,8 @@ const casesData: Record<string, CaseData> = {
             <h4 className="text-base font-medium text-foreground mt-4">4. Consistência entre todos os produtos</h4>
 
             <p>
-              A central de ajuda passou a reforçar o posicionamento educativo da marca, alinhada visual e
-              semanticamente aos demais canais.
+              A central de ajuda passou a reforçar o posicionamento educativo da marca, alinhada visual e semanticamente
+              aos demais canais.
             </p>
 
             <h3 className="text-lg font-semibold text-foreground mt-8">Conclusão</h3>
@@ -2795,16 +2965,17 @@ const casesData: Record<string, CaseData> = {
             <p>
               Entre <strong>2023 e 2025</strong>, a central de ajuda passou por uma série de aprimoramentos que
               envolveram <strong>arquitetura da informação</strong>, <strong>taxonomia</strong> e{" "}
-              <strong>hierarquia visual</strong>. Também foram implementadas <strong>melhorias de acessibilidade</strong>{" "}
-              e <strong>novos recursos de navegação</strong>, que proporcionaram{" "}
-              <strong>maior autonomia aos usuários</strong> e{" "}
+              <strong>hierarquia visual</strong>. Também foram implementadas{" "}
+              <strong>melhorias de acessibilidade</strong> e <strong>novos recursos de navegação</strong>, que
+              proporcionaram <strong>maior autonomia aos usuários</strong> e{" "}
               <strong>reduziram significativamente as demandas de suporte</strong>.
             </p>
 
             <p>
-              Essas evoluções trouxeram <strong>mais consistência entre a central, o site institucional, o painel e o
-              aplicativo</strong>, além de <strong>aumentar o engajamento com os artigos e vídeos</strong>, reforçando
-              o <strong>posicionamento educativo da marca</strong> e aprimorando a{" "}
+              Essas evoluções trouxeram{" "}
+              <strong>mais consistência entre a central, o site institucional, o painel e o aplicativo</strong>, além de{" "}
+              <strong>aumentar o engajamento com os artigos e vídeos</strong>, reforçando o{" "}
+              <strong>posicionamento educativo da marca</strong> e aprimorando a{" "}
               <strong>experiência geral de suporte</strong>.
             </p>
 
@@ -2813,14 +2984,14 @@ const casesData: Record<string, CaseData> = {
             <p>
               A central de ajuda é um <strong>projeto vivo</strong>, e continuará passando por processos de evolução,
               com <strong>manutenções e análises contínuas</strong> para identificar oportunidades de melhoria e
-              oferecer uma experiência <strong>cada vez mais útil, acessível e alinhada às necessidades reais dos
-              usuários</strong>.
+              oferecer uma experiência{" "}
+              <strong>cada vez mais útil, acessível e alinhada às necessidades reais dos usuários</strong>.
             </p>
 
             <p>
               As atualizações continuarão sendo guiadas por <strong>estratégias de UX Writing</strong>, com foco em{" "}
-              <strong>clareza, empatia e resolutividade</strong>, e por <strong>boas práticas de UX e UI Design</strong>,
-              garantindo uma comunicação coerente e uma navegação intuitiva.
+              <strong>clareza, empatia e resolutividade</strong>, e por <strong>boas práticas de UX e UI Design</strong>
+              , garantindo uma comunicação coerente e uma navegação intuitiva.
             </p>
           </div>
         ),
@@ -3526,14 +3697,7 @@ const casesData: Record<string, CaseData> = {
   "revista-digital": {
     title: "Elevando a experiência da revista digital com um processo de redesign",
     projectType: "Case real",
-    skills: [
-      "UX writing",
-      "arquitetura de informação",
-      "redesign",
-      "SEO",
-      "acessibilidade",
-      "mobile-first",
-    ],
+    skills: ["UX writing", "arquitetura de informação", "redesign", "SEO", "acessibilidade", "mobile-first"],
     area: undefined,
     sections: [
       {
@@ -3551,15 +3715,12 @@ const casesData: Record<string, CaseData> = {
                 Revista iCasei
               </a>
               , um dos principais pilares de marketing de conteúdo da marca, já havia alcançado{" "}
-              <strong>1 milhão de visitantes por mês</strong>. Porém, sua estrutura, visual e recursos não
-              acompanhavam:
+              <strong>1 milhão de visitantes por mês</strong>. Porém, sua estrutura, visual e recursos não acompanhavam:
             </p>
 
             <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4">
               <li>A evolução do comportamento dos casais e do mercado digital</li>
-              <li>
-                As atualizações recentes da identidade da marca (site, painel, redes sociais, central de ajuda)
-              </li>
+              <li>As atualizações recentes da identidade da marca (site, painel, redes sociais, central de ajuda)</li>
               <li>A necessidade de ser um canal mais integrado ao ecossistema iCasei</li>
               <li>Os padrões modernos de usabilidade, mobile-first, acessibilidade e escaneabilidade</li>
             </ul>
@@ -3570,8 +3731,8 @@ const casesData: Record<string, CaseData> = {
             </p>
 
             <p>
-              Era necessário <strong>modernizar completamente a revista</strong>, tornando-a mais relevante,
-              responsiva, eficiente para SEO e capaz de reforçar autoridade, branding e conversão.
+              Era necessário <strong>modernizar completamente a revista</strong>, tornando-a mais relevante, responsiva,
+              eficiente para SEO e capaz de reforçar autoridade, branding e conversão.
             </p>
 
             <figure className="my-8">
@@ -3664,15 +3825,15 @@ const casesData: Record<string, CaseData> = {
         content: (
           <div className="space-y-8">
             <p>
-              A solução foi uma <strong>nova Revista iCasei</strong> — moderna, integrada e orientada à experiência
-              do usuário.
+              A solução foi uma <strong>nova Revista iCasei</strong> — moderna, integrada e orientada à experiência do
+              usuário.
             </p>
 
             <div>
               <h3 className="font-semibold text-lg mb-3">Principais entregas de UX Writing</h3>
               <p className="text-muted-foreground mb-4">
-                O foco foi aprimorar a <strong>escaneabilidade</strong>, a <strong>hierarquia da informação</strong>{" "}
-                e o <strong>tom de voz</strong>, tornando a leitura mais fluida, envolvente e resolutiva.
+                O foco foi aprimorar a <strong>escaneabilidade</strong>, a <strong>hierarquia da informação</strong> e o{" "}
+                <strong>tom de voz</strong>, tornando a leitura mais fluida, envolvente e resolutiva.
               </p>
               <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
                 <li>Página inicial</li>
@@ -3719,8 +3880,8 @@ const casesData: Record<string, CaseData> = {
             </figure>
 
             <p>
-              O redesign das telas foi desenvolvido no Figma, em conjunto com as equipes de Design e
-              Desenvolvimento, já considerando os requisitos da plataforma WordPress.
+              O redesign das telas foi desenvolvido no Figma, em conjunto com as equipes de Design e Desenvolvimento, já
+              considerando os requisitos da plataforma WordPress.
             </p>
 
             <div className="space-y-4 my-8">
@@ -3887,8 +4048,8 @@ const casesData: Record<string, CaseData> = {
               <p className="text-muted-foreground mt-4">
                 Essa nova fase reforça o <strong>compromisso do iCasei com a inovação contínua</strong> e a{" "}
                 <strong>escuta ativa do público</strong>, consolidando nossa liderança ao ir além da tecnologia —
-                oferecendo também <strong>inspiração, conteúdo e suporte editorial</strong> para casais e
-                profissionais do setor.
+                oferecendo também <strong>inspiração, conteúdo e suporte editorial</strong> para casais e profissionais
+                do setor.
               </p>
             </div>
 
@@ -3896,12 +4057,12 @@ const casesData: Record<string, CaseData> = {
               <h3 className="font-semibold text-lg mb-3">Próximos passos</h3>
               <p className="text-muted-foreground">
                 A nova <strong>Revista iCasei</strong> continuará evoluindo de forma constante, através do
-                acompanhamento de perto de indicadores como <strong>acessos, taxa de cliques, tráfego orgânico e conversões</strong>{" "}
-                dentro da plataforma. Paralelamente, também monitoraremos <strong>métricas qualitativas</strong>,
-                como <strong>comentários, menções e engajamento com os conteúdos</strong>, para compreender de
-                maneira mais profunda como a revista impacta a percepção e o relacionamento com nossos públicos.
-                Esses dados orientarão os próximos ajustes e aprimoramentos da nossa{" "}
-                <strong>estratégia editorial</strong>.
+                acompanhamento de perto de indicadores como{" "}
+                <strong>acessos, taxa de cliques, tráfego orgânico e conversões</strong> dentro da plataforma.
+                Paralelamente, também monitoraremos <strong>métricas qualitativas</strong>, como{" "}
+                <strong>comentários, menções e engajamento com os conteúdos</strong>, para compreender de maneira mais
+                profunda como a revista impacta a percepção e o relacionamento com nossos públicos. Esses dados
+                orientarão os próximos ajustes e aprimoramentos da nossa <strong>estratégia editorial</strong>.
               </p>
               <p className="text-muted-foreground mt-4">
                 As atualizações seguirão guiadas por <strong>estratégias de UX Writing</strong>, com foco em{" "}
@@ -3910,10 +4071,9 @@ const casesData: Record<string, CaseData> = {
                 <strong>comunicação consistente, acessível e uma navegação intuitiva</strong>.
               </p>
               <p className="text-muted-foreground mt-4">
-                Esperamos que esta nova versão, assim como as futuras atualizações que trarão novas melhorias,
-                contribua de forma significativa para o <strong>fortalecimento do branding do iCasei</strong>, além
-                de <strong>estimular o aumento do tempo de permanência e da recorrência de usuários</strong> na
-                plataforma.
+                Esperamos que esta nova versão, assim como as futuras atualizações que trarão novas melhorias, contribua
+                de forma significativa para o <strong>fortalecimento do branding do iCasei</strong>, além de{" "}
+                <strong>estimular o aumento do tempo de permanência e da recorrência de usuários</strong> na plataforma.
               </p>
             </div>
           </div>
@@ -3924,14 +4084,7 @@ const casesData: Record<string, CaseData> = {
   "landing-page-lovable": {
     title: "Criando uma landing page de captação com a Lovable",
     projectType: "Case real",
-    skills: [
-      "ux writing",
-      "product design",
-      "landing page",
-      "AI tools",
-      "conversão",
-      "growth",
-    ],
+    skills: ["ux writing", "product design", "landing page", "AI tools", "conversão", "growth"],
     sections: [
       {
         title: "Problema",
@@ -3966,27 +4119,24 @@ const casesData: Record<string, CaseData> = {
                 calculadora de comidas, bebidas e doces
               </a>
               , distribuídos via landing pages do RD Station. Porém,{" "}
-              <strong>nenhum desses materiais entregava uma estimativa de custos completa</strong> para quem
-              está iniciando o planejamento e quer ter uma visão realista do investimento médio para um
-              casamento.
+              <strong>nenhum desses materiais entregava uma estimativa de custos completa</strong> para quem está
+              iniciando o planejamento e quer ter uma visão realista do investimento médio para um casamento.
             </p>
 
             <p>Havia dois desafios claros:</p>
 
             <ul className="space-y-4 list-disc pl-6">
               <li>
-                <strong>Falta de um material profundo e personalizado</strong> sobre custos de casamento,
-                algo muito buscado por casais no início da jornada.
+                <strong>Falta de um material profundo e personalizado</strong> sobre custos de casamento, algo muito
+                buscado por casais no início da jornada.
               </li>
               <li>
-                <strong>Baixa previsibilidade e eficácia das LPs existentes</strong> para gerar leads
-                qualificados e auxiliar o time de Growth em conversões futuras.
+                <strong>Baixa previsibilidade e eficácia das LPs existentes</strong> para gerar leads qualificados e
+                auxiliar o time de Growth em conversões futuras.
               </li>
             </ul>
 
-            <p>
-              Surgia, então, a necessidade de criar uma experiência mais rica, relevante e orientada a dados.
-            </p>
+            <p>Surgia, então, a necessidade de criar uma experiência mais rica, relevante e orientada a dados.</p>
           </div>
         ),
       },
@@ -4007,8 +4157,8 @@ const casesData: Record<string, CaseData> = {
                 <strong>Definição de objetivos e plano de ação</strong>
               </li>
               <li>
-                <strong>Criação da primeira versão no Lovable</strong> pela Product Marketing, com foco em
-                performance e campanhas
+                <strong>Criação da primeira versão no Lovable</strong> pela Product Marketing, com foco em performance e
+                campanhas
               </li>
               <li>
                 <strong>Revisão completa de conteúdo e linguagem</strong>, incluindo:
@@ -4024,20 +4174,20 @@ const casesData: Record<string, CaseData> = {
                 <strong>Ajustes de design</strong> feitos junto à Product Designer
               </li>
               <li>
-                <strong>Inclusão de novas estratégias de captação</strong>, como banner oferecendo o site de
-                casamento gratuito ao final da experiência
+                <strong>Inclusão de novas estratégias de captação</strong>, como banner oferecendo o site de casamento
+                gratuito ao final da experiência
               </li>
               <li>
-                <strong>Expansão da inclusão</strong>: adicionamos o campo <em>"Traje do casal"</em>{" "}
-                (vestido/terno, terno/terno, vestido/vestido)
+                <strong>Expansão da inclusão</strong>: adicionamos o campo <em>"Traje do casal"</em> (vestido/terno,
+                terno/terno, vestido/vestido)
               </li>
               <li>
-                <strong>Melhorias na página de resultados</strong>, permitindo remover itens e ver o valor
-                total atualizar em tempo real
+                <strong>Melhorias na página de resultados</strong>, permitindo remover itens e ver o valor total
+                atualizar em tempo real
               </li>
               <li>
-                <strong>Construção técnica no Supabase</strong>, que tornou o processo mais ágil e permitiu
-                futura integração de dados
+                <strong>Construção técnica no Supabase</strong>, que tornou o processo mais ágil e permitiu futura
+                integração de dados
               </li>
             </ol>
 
@@ -4086,23 +4236,21 @@ const casesData: Record<string, CaseData> = {
 
             <ul className="space-y-3 list-disc pl-6">
               <li>
-                <strong>Estimativa personalizada de custos</strong> baseada na cidade do evento e número de
-                convidados
+                <strong>Estimativa personalizada de custos</strong> baseada na cidade do evento e número de convidados
               </li>
               <li>
                 <strong>Valores médios reais</strong> de cerca de 20 itens essenciais
               </li>
               <li>
-                <strong>Experiência interativa</strong>, permitindo adicionar/remover serviços e atualizar o
-                orçamento em tempo real
+                <strong>Experiência interativa</strong>, permitindo adicionar/remover serviços e atualizar o orçamento
+                em tempo real
               </li>
               <li>
-                <strong>Conteúdo acessível e inclusivo</strong>, considerando diferentes combinações de traje
-                do casal
+                <strong>Conteúdo acessível e inclusivo</strong>, considerando diferentes combinações de traje do casal
               </li>
               <li>
-                <strong>Conversão estratégica</strong>, inserindo o site de casamento gratuito como item da
-                lista e reforçando a oferta com banner no rodapé
+                <strong>Conversão estratégica</strong>, inserindo o site de casamento gratuito como item da lista e
+                reforçando a oferta com banner no rodapé
               </li>
             </ul>
 
@@ -4176,12 +4324,14 @@ const casesData: Record<string, CaseData> = {
                 <strong>3% do objetivo</strong>, medido pela proporção de pessoas que:
                 <ol className="list-decimal pl-6 mt-2 space-y-1">
                   <li>acessaram a landing page pela comunicação, e</li>
-                  <li>passaram do plano <em>trial</em> para o plano <em>Basic</em> oferecido na calculadora.</li>
+                  <li>
+                    passaram do plano <em>trial</em> para o plano <em>Basic</em> oferecido na calculadora.
+                  </li>
                 </ol>
               </li>
               <li>
-                A experiência elevou a percepção de valor do produto, reforçando o papel do iCasei como
-                referência em planejamento de casamento.
+                A experiência elevou a percepção de valor do produto, reforçando o papel do iCasei como referência em
+                planejamento de casamento.
               </li>
             </ul>
 
@@ -4199,19 +4349,19 @@ const casesData: Record<string, CaseData> = {
             <h3 className="font-semibold text-lg mt-8 mb-4">Conclusão</h3>
 
             <p>
-              A criação da landing page com a calculadora de casamento mostrou como o uso estratégico de
-              conteúdo, design inclusivo e Inteligência Artificial pode transformar a experiência do usuário.
-              Além de fornecer estimativas personalizadas de custos, a ferramenta oferece insights sobre
-              prioridades de gasto e otimização do orçamento, ajudando casais a planejar o casamento com mais
-              segurança e clareza. As ações de divulgação reforçaram o engajamento, convertendo leads em
-              usuários ativos e fortalecendo a percepção de valor da plataforma.
+              A criação da landing page com a calculadora de casamento mostrou como o uso estratégico de conteúdo,
+              design inclusivo e Inteligência Artificial pode transformar a experiência do usuário. Além de fornecer
+              estimativas personalizadas de custos, a ferramenta oferece insights sobre prioridades de gasto e
+              otimização do orçamento, ajudando casais a planejar o casamento com mais segurança e clareza. As ações de
+              divulgação reforçaram o engajamento, convertendo leads em usuários ativos e fortalecendo a percepção de
+              valor da plataforma.
             </p>
 
             <h3 className="font-semibold text-lg mt-8 mb-4">Próximos passos</h3>
 
             <p>
-              Ainda estamos <strong>monitorando as métricas de uso e conversão</strong> para evolução do
-              projeto. Os próximos passos incluem:
+              Ainda estamos <strong>monitorando as métricas de uso e conversão</strong> para evolução do projeto. Os
+              próximos passos incluem:
             </p>
 
             <ul className="list-disc pl-6 space-y-1 mt-3">
@@ -4228,29 +4378,21 @@ const casesData: Record<string, CaseData> = {
   "parceiros-100m": {
     title: "Conquistando mais de 1k parceiros e transacionando mais de R$ 100M em projeto",
     projectType: "Case real",
-    skills: [
-      "ux writing",
-      "growth",
-      "landing page",
-      "email marketing",
-      "help center",
-      "fluxos operacionais",
-    ],
+    skills: ["ux writing", "growth", "landing page", "email marketing", "help center", "fluxos operacionais"],
     sections: [
       {
         title: "Problema",
         content: (
           <div className="space-y-6">
             <p>
-              O iCasei precisava criar do zero um ecossistema de parcerias com fornecedores de casamento.
-              A empresa queria reunir profissionais do mercado em um programa estruturado, oferecendo a eles
-              uma página personalizada para presentear seus clientes com um site de casamento gratuito, além
-              de outros benefícios.
+              O iCasei precisava criar do zero um ecossistema de parcerias com fornecedores de casamento. A empresa
+              queria reunir profissionais do mercado em um programa estruturado, oferecendo a eles uma página
+              personalizada para presentear seus clientes com um site de casamento gratuito, além de outros benefícios.
             </p>
 
             <p>
-              O desafio era atrair fornecedores, explicar claramente o funcionamento da parceria e criar
-              processos internos que permitissem escalar com qualidade.
+              O desafio era atrair fornecedores, explicar claramente o funcionamento da parceria e criar processos
+              internos que permitissem escalar com qualidade.
             </p>
           </div>
         ),
@@ -4260,8 +4402,8 @@ const casesData: Record<string, CaseData> = {
         content: (
           <div className="space-y-6">
             <p>
-              Como UX Writer e integrante do time de Growth, atuei desde a concepção até a operação contínua
-              do projeto, trabalhando em várias iniciativas que contribuíram para o crescimento do projeto.
+              Como UX Writer e integrante do time de Growth, atuei desde a concepção até a operação contínua do projeto,
+              trabalhando em várias iniciativas que contribuíram para o crescimento do projeto.
             </p>
 
             <p>Minha participação envolveu:</p>
@@ -4279,8 +4421,8 @@ const casesData: Record<string, CaseData> = {
             </h3>
 
             <p>
-              Estruturei a comunicação da página com foco em clareza, objetividade e conversão. A copy incluiu
-              proposta de valor, benefícios, passo a passo do cadastro e FAQ.
+              Estruturei a comunicação da página com foco em clareza, objetividade e conversão. A copy incluiu proposta
+              de valor, benefícios, passo a passo do cadastro e FAQ.
             </p>
 
             <figure className="my-6">
@@ -4295,9 +4437,8 @@ const casesData: Record<string, CaseData> = {
             </figure>
 
             <p>
-              O projeto foi desenvolvido no Figma em parceria com Design e Desenvolvimento, passando por duas
-              versões: a primeira focada na parceria e a segunda incorporando comissionamento para os parceiros
-              mais engajados.
+              O projeto foi desenvolvido no Figma em parceria com Design e Desenvolvimento, passando por duas versões: a
+              primeira focada na parceria e a segunda incorporando comissionamento para os parceiros mais engajados.
             </p>
 
             <figure className="my-6">
@@ -4306,17 +4447,15 @@ const casesData: Record<string, CaseData> = {
                 alt="Telas da landing page no Figma"
                 className="w-full rounded-lg border border-border/30"
               />
-              <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
-                Telas no Figma
-              </figcaption>
+              <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">Telas no Figma</figcaption>
             </figure>
 
             <h3 className="font-semibold text-lg mt-6 mb-4">Régua de e-mails de retenção</h3>
 
             <p>
-              Criei fluxos de comunicação para engajar parceiros ao longo de toda a jornada. As campanhas
-              mantêm uma média de <strong>40% de abertura</strong> e <strong>3% de clique</strong>, índices
-              saudáveis para o mercado.
+              Criei fluxos de comunicação para engajar parceiros ao longo de toda a jornada. As campanhas mantêm uma
+              média de <strong>40% de abertura</strong> e <strong>3% de clique</strong>, índices saudáveis para o
+              mercado.
             </p>
 
             <figure className="my-6">
@@ -4341,16 +4480,15 @@ const casesData: Record<string, CaseData> = {
             <h3 className="font-semibold text-lg mt-6 mb-4">Central de ajuda exclusiva para parceiros</h3>
 
             <p>
-              Estruturei a nova seção "Para parceiros" na central de ajuda para reduzir dependências do time
-              interno e servir como um canal de apoio aos parceiros e time comercial.
+              Estruturei a nova seção "Para parceiros" na central de ajuda para reduzir dependências do time interno e
+              servir como um canal de apoio aos parceiros e time comercial.
             </p>
 
             <h3 className="font-semibold text-lg mt-6 mb-4">Fluxos operacionais</h3>
 
             <p>
-              Construção e revisão dos fluxos de cadastro, assinatura de contrato, onboarding e personalização
-              da página do parceiro. Também colaborei na criação e ajuste de contratos e materiais de apoio à
-              equipe.
+              Construção e revisão dos fluxos de cadastro, assinatura de contrato, onboarding e personalização da página
+              do parceiro. Também colaborei na criação e ajuste de contratos e materiais de apoio à equipe.
             </p>
 
             <figure className="my-6">
@@ -4359,9 +4497,7 @@ const casesData: Record<string, CaseData> = {
                 alt="Fluxos operacionais no Figma"
                 className="w-full rounded-lg border border-border/30"
               />
-              <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">
-                Telas no Figma
-              </figcaption>
+              <figcaption className="text-sm text-muted-foreground mt-2 text-center italic">Telas no Figma</figcaption>
             </figure>
           </div>
         ),
@@ -4371,14 +4507,14 @@ const casesData: Record<string, CaseData> = {
         content: (
           <div className="space-y-6">
             <p>
-              Criamos um programa de parcerias completo, desde comunicação, captação e onboarding até retenção.
-              A comunicação foi desenhada para ser clara, escalável e orientada à conversão, alinhando site,
-              e-mails, help center e fluxos internos.
+              Criamos um programa de parcerias completo, desde comunicação, captação e onboarding até retenção. A
+              comunicação foi desenhada para ser clara, escalável e orientada à conversão, alinhando site, e-mails, help
+              center e fluxos internos.
             </p>
 
             <p>
-              A evolução contínua da proposta reforçou o valor da parceria e aumentou o engajamento dos
-              fornecedores ao longo do tempo.
+              A evolução contínua da proposta reforçou o valor da parceria e aumentou o engajamento dos fornecedores ao
+              longo do tempo.
             </p>
           </div>
         ),
@@ -4388,9 +4524,9 @@ const casesData: Record<string, CaseData> = {
         content: (
           <div className="space-y-6">
             <p>
-              Em apenas 3 anos, o programa alcançou resultados expressivos, especialmente considerando que
-              nosso foco não é volume, e sim qualidade e retorno qualificado em receita. Por isso contamos
-              com um processo de curadoria para selecionar cuidadosamente cada parceiro:
+              Em apenas 3 anos, o programa alcançou resultados expressivos, especialmente considerando que nosso foco
+              não é volume, e sim qualidade e retorno qualificado em receita. Por isso contamos com um processo de
+              curadoria para selecionar cuidadosamente cada parceiro:
             </p>
 
             <ul className="space-y-3 list-disc pl-6">
@@ -4398,8 +4534,7 @@ const casesData: Record<string, CaseData> = {
                 <strong>+1.000 parceiros</strong> ativos em diferentes regiões do Brasil
               </li>
               <li>
-                <strong>+R$ 100 milhões transacionados</strong> pela lista de presentes dos casais desses
-                parceiros
+                <strong>+R$ 100 milhões transacionados</strong> pela lista de presentes dos casais desses parceiros
               </li>
               <li>Fluxo de comunicação consolidado e escalável</li>
               <li>Redução de dúvidas operacionais graças à seção dedicada na central de ajuda</li>
@@ -4412,7 +4547,7 @@ const casesData: Record<string, CaseData> = {
   },
   "proposta-valor-app": {
     title: "Aumentando a proposta de valor do aplicativo",
-    projectType: "Case",
+    projectType: "Case fictício",
     skills: [
       "ux writing",
       "discovery",
@@ -4432,8 +4567,8 @@ const casesData: Record<string, CaseData> = {
         content: (
           <div className="space-y-6">
             <p>
-              Muitas pessoas no Brasil vivem em locais sem CEP válido ou sem endereço oficial
-              reconhecido. Isso gera barreiras em atividades básicas do dia a dia, como:
+              Muitas pessoas no Brasil vivem em locais sem CEP válido ou sem endereço oficial reconhecido. Isso gera
+              barreiras em atividades básicas do dia a dia, como:
             </p>
 
             <ul className="space-y-2 list-disc pl-6">
@@ -4443,9 +4578,8 @@ const casesData: Record<string, CaseData> = {
             </ul>
 
             <p>
-              Além disso, durante pesquisa foram identificadas diversas{" "}
-              <strong>dúvidas recorrentes</strong> dos usuários sobre o serviço de Caixa Postal,
-              como:
+              Além disso, durante pesquisa foram identificadas diversas <strong>dúvidas recorrentes</strong> dos
+              usuários sobre o serviço de Caixa Postal, como:
             </p>
 
             <ul className="space-y-2 list-disc pl-6">
@@ -4459,10 +4593,8 @@ const casesData: Record<string, CaseData> = {
 
             <p>
               Essas lacunas de entendimento revelaram a necessidade de{" "}
-              <strong>
-                melhorar a clareza, a jornada e a proposta de valor do serviço dentro do app
-              </strong>
-              , tornando o processo intuitivo e acessível para todos os públicos.
+              <strong>melhorar a clareza, a jornada e a proposta de valor do serviço dentro do app</strong>, tornando o
+              processo intuitivo e acessível para todos os públicos.
             </p>
           </div>
         ),
@@ -4485,16 +4617,14 @@ const casesData: Record<string, CaseData> = {
                 <li>mecanismos de notificação (inexistentes no processo físico atual)</li>
               </ul>
               <p>
-                Também foi realizada análise de <strong>benchmarking</strong> com Correios, Uello,
-                Loggi, Mandaê e outras empresas logísticas, identificando boas práticas de fluxo,
-                onboarding, pagamento e gerenciamento de entregas.
+                Também foi realizada análise de <strong>benchmarking</strong> com Correios, Uello, Loggi, Mandaê e
+                outras empresas logísticas, identificando boas práticas de fluxo, onboarding, pagamento e gerenciamento
+                de entregas.
               </p>
             </div>
 
             <div>
-              <h4 className="font-display font-semibold text-lg mb-4">
-                Mapeamento do público-alvo
-              </h4>
+              <h4 className="font-display font-semibold text-lg mb-4">Mapeamento do público-alvo</h4>
               <ul className="space-y-2 list-disc pl-6">
                 <li>Pessoas sem endereço fixo</li>
                 <li>Moradores de locais sem CEP reconhecido</li>
@@ -4515,12 +4645,10 @@ const casesData: Record<string, CaseData> = {
             </div>
 
             <div>
-              <h4 className="font-display font-semibold text-lg mb-4">
-                Definição do tom e linguagem
-              </h4>
+              <h4 className="font-display font-semibold text-lg mb-4">Definição do tom e linguagem</h4>
               <p>
-                Linguagem <strong>simples, clara e acolhedora</strong>, acessível para qualquer
-                pessoa e alinhada à proposta do aplicativo "Minha Caixa Postal".
+                Linguagem <strong>simples, clara e acolhedora</strong>, acessível para qualquer pessoa e alinhada à
+                proposta do aplicativo "Minha Caixa Postal".
               </p>
             </div>
           </div>
@@ -4532,26 +4660,19 @@ const casesData: Record<string, CaseData> = {
           <div className="space-y-8">
             <p>
               A solução proposta foi{" "}
-              <strong>
-                reimaginar toda a jornada de contratação e uso da Caixa Postal dentro do aplicativo
-              </strong>
-              , criando uma experiência digital completa, do onboarding ao acompanhamento das
-              encomendas.
+              <strong>reimaginar toda a jornada de contratação e uso da Caixa Postal dentro do aplicativo</strong>,
+              criando uma experiência digital completa, do onboarding ao acompanhamento das encomendas.
             </p>
 
-            <h4 className="font-display font-semibold text-lg">
-              Principais entregáveis e funcionalidades
-            </h4>
+            <h4 className="font-display font-semibold text-lg">Principais entregáveis e funcionalidades</h4>
 
             {/* 1. Tela inicial */}
             <div>
-              <h5 className="font-display font-semibold mb-3">
-                1. Tela inicial e posicionamento do app
-              </h5>
+              <h5 className="font-display font-semibold mb-3">1. Tela inicial e posicionamento do app</h5>
               <ul className="space-y-2 list-disc pl-6 mb-4">
                 <li>
-                  Proposta do nome <strong>"Minha Caixa Postal"</strong>, reforçando autonomia,
-                  segurança e pertencimento
+                  Proposta do nome <strong>"Minha Caixa Postal"</strong>, reforçando autonomia, segurança e
+                  pertencimento
                 </li>
                 <li>
                   Inclusão da promessa de valor: <em>gerenciamento 100% pelo app</em>
@@ -4560,18 +4681,14 @@ const casesData: Record<string, CaseData> = {
               {/* IMAGE PLACEHOLDER 1: Tela inicial do app */}
               <figure className="my-6">
                 <div className="w-full h-64 bg-muted rounded-lg border border-border/30 flex items-center justify-center">
-                  <span className="text-muted-foreground text-sm">
-                    [Placeholder: Imagem da tela inicial do app]
-                  </span>
+                  <span className="text-muted-foreground text-sm">[Placeholder: Imagem da tela inicial do app]</span>
                 </div>
               </figure>
             </div>
 
             {/* 2. Onboarding */}
             <div>
-              <h5 className="font-display font-semibold mb-3">
-                2. Onboarding guiado com tutorial de uso
-              </h5>
+              <h5 className="font-display font-semibold mb-3">2. Onboarding guiado com tutorial de uso</h5>
               <p className="mb-4">Fluxo claro para:</p>
               <ul className="space-y-2 list-disc pl-6 mb-4">
                 <li>escolha da assinatura</li>
@@ -4584,9 +4701,7 @@ const casesData: Record<string, CaseData> = {
               {/* IMAGE PLACEHOLDER 2: Onboarding */}
               <figure className="my-6">
                 <div className="w-full h-64 bg-muted rounded-lg border border-border/30 flex items-center justify-center">
-                  <span className="text-muted-foreground text-sm">
-                    [Placeholder: Imagem do onboarding]
-                  </span>
+                  <span className="text-muted-foreground text-sm">[Placeholder: Imagem do onboarding]</span>
                 </div>
               </figure>
             </div>
@@ -4596,39 +4711,29 @@ const casesData: Record<string, CaseData> = {
               <h5 className="font-display font-semibold mb-3">
                 3. Inclusão de fluxo alternativo para usuários sem CEP válido
               </h5>
-              <p className="mb-4">
-                CTA dedicado para prosseguir com dados pessoais quando o CEP não é reconhecido.
-              </p>
+              <p className="mb-4">CTA dedicado para prosseguir com dados pessoais quando o CEP não é reconhecido.</p>
               {/* IMAGE PLACEHOLDER 3: Fluxo sem CEP */}
               <figure className="my-6">
                 <div className="w-full h-64 bg-muted rounded-lg border border-border/30 flex items-center justify-center">
-                  <span className="text-muted-foreground text-sm">
-                    [Placeholder: Imagem do fluxo sem CEP]
-                  </span>
+                  <span className="text-muted-foreground text-sm">[Placeholder: Imagem do fluxo sem CEP]</span>
                 </div>
               </figure>
             </div>
 
             {/* 4. Pagamento */}
             <div>
-              <h5 className="font-display font-semibold mb-3">
-                4. Sistema de pagamento integrado
-              </h5>
+              <h5 className="font-display font-semibold mb-3">4. Sistema de pagamento integrado</h5>
               <p className="mb-4">Pagamentos via:</p>
               <ul className="space-y-2 list-disc pl-6 mb-4">
                 <li>Pix</li>
                 <li>boleto</li>
                 <li>cartão de crédito à vista</li>
               </ul>
-              <p className="mb-4">
-                Com telas de erros e recuperação, reduzindo fricção na jornada.
-              </p>
+              <p className="mb-4">Com telas de erros e recuperação, reduzindo fricção na jornada.</p>
               {/* IMAGE PLACEHOLDER 4: Pagamento */}
               <figure className="my-6">
                 <div className="w-full h-64 bg-muted rounded-lg border border-border/30 flex items-center justify-center">
-                  <span className="text-muted-foreground text-sm">
-                    [Placeholder: Imagem do sistema de pagamento]
-                  </span>
+                  <span className="text-muted-foreground text-sm">[Placeholder: Imagem do sistema de pagamento]</span>
                 </div>
               </figure>
             </div>
@@ -4645,9 +4750,7 @@ const casesData: Record<string, CaseData> = {
               {/* IMAGE PLACEHOLDER 5: Confirmação */}
               <figure className="my-6">
                 <div className="w-full h-64 bg-muted rounded-lg border border-border/30 flex items-center justify-center">
-                  <span className="text-muted-foreground text-sm">
-                    [Placeholder: Imagem da confirmação]
-                  </span>
+                  <span className="text-muted-foreground text-sm">[Placeholder: Imagem da confirmação]</span>
                 </div>
               </figure>
             </div>
@@ -4667,29 +4770,25 @@ const casesData: Record<string, CaseData> = {
                 <p className="font-semibold mb-2">📧 Assunto: Bem-vindo(a) ao Minha Caixa Postal!</p>
                 <p className="mb-4">Olá, [nome]!</p>
                 <p className="mb-4">
-                  A sua Caixa Postal foi contratada com sucesso e você já pode começar a receber
-                  suas encomendas na agência escolhida e usar o seu novo endereço para comprovante
-                  de residência. 😉
+                  A sua Caixa Postal foi contratada com sucesso e você já pode começar a receber suas encomendas na
+                  agência escolhida e usar o seu novo endereço para comprovante de residência. 😉
                 </p>
                 <p className="mb-2">
                   Aqui está o seu novo endereço: <strong>Caixa Postal 6073</strong>
                 </p>
-                <p className="mb-4">
-                  Antes de começar, gostaríamos de dar algumas instruções:
-                </p>
+                <p className="mb-4">Antes de começar, gostaríamos de dar algumas instruções:</p>
                 <p className="font-semibold mb-1">Agência</p>
                 <p className="mb-1">AC Aeroporto de Congonhas</p>
                 <p className="mb-1">Avenida Washington Luís, s/n - Santo Amaro</p>
                 <p className="mb-4">São Paulo - SP, 04626-970</p>
                 <p className="mb-4">
-                  🔑 Não esqueça de comparecer na agência contratada pelo endereço indicado para
-                  retirar a sua chave, ok?
+                  🔑 Não esqueça de comparecer na agência contratada pelo endereço indicado para retirar a sua chave,
+                  ok?
                 </p>
                 <p className="font-semibold mb-1">Dados de acesso do app</p>
                 <p className="mb-4">E-mail: nome@gmail.com | Senha: 🔒 Redefinir senha (link)</p>
                 <p className="mb-4">
-                  <strong>Importante!</strong> Caso não tenha solicitado o serviço, entre em contato
-                  conosco!
+                  <strong>Importante!</strong> Caso não tenha solicitado o serviço, entre em contato conosco!
                 </p>
                 <p>Abraço, Equipe Minha Caixa Postal</p>
               </blockquote>
@@ -4697,18 +4796,12 @@ const casesData: Record<string, CaseData> = {
 
             {/* 7. Notificações */}
             <div>
-              <h5 className="font-display font-semibold mb-3">
-                7. Notificações de encomenda recebida
-              </h5>
-              <p className="mb-4">
-                Push + SMS + e-mail sempre que houver um novo objeto na Caixa Postal.
-              </p>
+              <h5 className="font-display font-semibold mb-3">7. Notificações de encomenda recebida</h5>
+              <p className="mb-4">Push + SMS + e-mail sempre que houver um novo objeto na Caixa Postal.</p>
               {/* IMAGE PLACEHOLDER 6: Notificações */}
               <figure className="my-6">
                 <div className="w-full h-64 bg-muted rounded-lg border border-border/30 flex items-center justify-center">
-                  <span className="text-muted-foreground text-sm">
-                    [Placeholder: Imagem das notificações]
-                  </span>
+                  <span className="text-muted-foreground text-sm">[Placeholder: Imagem das notificações]</span>
                 </div>
               </figure>
             </div>
@@ -4727,36 +4820,31 @@ const casesData: Record<string, CaseData> = {
                 <div>
                   <p className="font-semibold mb-2">❓ Quanto custa o serviço?</p>
                   <p className="mb-2">
-                    É possível escolher entre três modalidades de assinatura (prazo de vigência):
-                    semestral, anual e bienal. Confira os valores:
+                    É possível escolher entre três modalidades de assinatura (prazo de vigência): semestral, anual e
+                    bienal. Confira os valores:
                   </p>
                   <ul className="space-y-1 list-disc pl-6 mb-2">
                     <li>Valor assinatura semestral: R$ 79,80</li>
                     <li>Valor assinatura anual: R$ 134,70</li>
                     <li>Valor assinatura bienal: R$ 265,90</li>
                   </ul>
-                  <p className="text-sm text-muted-foreground">
-                    O valor é único, sem mensalidade.
-                  </p>
+                  <p className="text-sm text-muted-foreground">O valor é único, sem mensalidade.</p>
                 </div>
 
                 <div>
                   <p className="font-semibold mb-2">❓ Posso receber qualquer coisa?</p>
                   <p>
-                    A sua Caixa Postal permite o recebimento de objetos simples (correspondências) e
-                    encomendas maiores, porém somente de itens enviados pelos Correios. Os produtos
-                    enviados por transportadoras em geral não são entregues nas agências.
+                    A sua Caixa Postal permite o recebimento de objetos simples (correspondências) e encomendas maiores,
+                    porém somente de itens enviados pelos Correios. Os produtos enviados por transportadoras em geral
+                    não são entregues nas agências.
                   </p>
                 </div>
 
                 <div>
-                  <p className="font-semibold mb-2">
-                    ❓ Como eu sei quando chegou uma encomenda?
-                  </p>
+                  <p className="font-semibold mb-2">❓ Como eu sei quando chegou uma encomenda?</p>
                   <p>
-                    Você receberá uma notificação por SMS, no aplicativo e no e-mail a cada nova
-                    encomenda na sua Caixa Postal. Você pode acompanhar as entregas e prazos para
-                    retirada diretamente no seu aplicativo.
+                    Você receberá uma notificação por SMS, no aplicativo e no e-mail a cada nova encomenda na sua Caixa
+                    Postal. Você pode acompanhar as entregas e prazos para retirada diretamente no seu aplicativo.
                   </p>
                 </div>
               </div>
@@ -4768,35 +4856,29 @@ const casesData: Record<string, CaseData> = {
         title: "Resultado",
         content: (
           <div className="space-y-6">
-            <p>
-              O projeto foi fictício, sem implementação, no entanto, o projeto entregou:
-            </p>
+            <p>O projeto foi fictício, sem implementação, no entanto, o projeto entregou:</p>
 
             <ul className="space-y-3 list-disc pl-6">
               <li>
                 <strong>Jornada 100% digital</strong> para um serviço antes totalmente presencial
               </li>
               <li>
-                <strong>Redução potencial significativa de fricção</strong> nos processos de
-                contratação e renovação
+                <strong>Redução potencial significativa de fricção</strong> nos processos de contratação e renovação
               </li>
               <li>
-                <strong>Aumento da clareza e transparência</strong>, especialmente em custos, regras
-                e documentos
+                <strong>Aumento da clareza e transparência</strong>, especialmente em custos, regras e documentos
               </li>
               <li>
-                <strong>Experiência inclusiva</strong> para usuários sem CEP válido - antes
-                completamente desassistidos no processo digital
+                <strong>Experiência inclusiva</strong> para usuários sem CEP válido - antes completamente desassistidos
+                no processo digital
               </li>
               <li>
-                <strong>Maior confiabilidade e percepção de segurança</strong>, graças à introdução
-                das notificações e do painel de acompanhamento de entregas
+                <strong>Maior confiabilidade e percepção de segurança</strong>, graças à introdução das notificações e
+                do painel de acompanhamento de entregas
               </li>
             </ul>
 
-            <p>
-              Mesmo sem dados quantitativos finais, o projeto demonstrou forte potencial para:
-            </p>
+            <p>Mesmo sem dados quantitativos finais, o projeto demonstrou forte potencial para:</p>
 
             <ul className="space-y-2 list-disc pl-6">
               <li>aumentar conversões</li>
