@@ -4595,13 +4595,15 @@ const casesData: Record<string, CaseData> = {
       "discovery",
       "desk research",
       "benchmarking",
-      "mapeamento de público",
-      "tom de voz",
-      "conteúdo para interface",
-      "fluxo de onboarding",
+      "acessibilidade",
       "microcopy",
+      "conteúdos para interface",
+      "fluxo de cadastro",
+      "onboarding",
       "FAQ",
-      "e-mail transacional",
+      "mensagem de erro",
+      "conteúdo para e-mail"
+      "push notification"
     ],
     sections: [
       {
