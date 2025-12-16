@@ -4793,30 +4793,42 @@ const casesData: Record<string, CaseData> = {
               </ul>
 
               <blockquote className="border-l-4 border-primary/30 pl-4 py-2 bg-muted/30 rounded-r-lg my-6">
-                <p className="font-semibold mb-2">📧 Assunto: Bem-vindo(a) ao Minha Caixa Postal!</p>
+                <p className="font-semibold mb-4">📧 Assunto: Bem-vindo(a) ao Minha Caixa Postal!</p>
                 <p className="mb-4">Olá, [nome]!</p>
                 <p className="mb-4">
                   A sua Caixa Postal foi contratada com sucesso e você já pode começar a receber suas encomendas na
                   agência escolhida e usar o seu novo endereço para comprovante de residência. 😉
                 </p>
-                <p className="mb-2">
+                <p className="mb-4">
                   Aqui está o seu novo endereço: <strong>Caixa Postal 6073</strong>
                 </p>
                 <p className="mb-4">Antes de começar, gostaríamos de dar algumas instruções:</p>
+                
                 <p className="font-semibold mb-1">Agência</p>
-                <p className="mb-1">AC Aeroporto de Congonhas</p>
-                <p className="mb-1">Avenida Washington Luís, s/n - Santo Amaro</p>
+                <p className="mb-0">AC Aeroporto de Congonhas</p>
+                <p className="mb-0">Avenida Washington Luís, s/n - Santo Amaro</p>
                 <p className="mb-4">São Paulo - SP, 04626-970</p>
+                
                 <p className="mb-4">
-                  🔑 Não esqueça de comparecer na agência contratada pelo endereço indicado para retirar a sua chave,
-                  ok?
+                  🔑 Não esqueça de comparecer na agência contratada pelo endereço indicado para retirar a sua chave, ok?
                 </p>
+                
                 <p className="font-semibold mb-1">Dados de acesso do app</p>
-                <p className="mb-4">E-mail: nome@gmail.com | Senha: 🔒 Redefinir senha (link)</p>
-                <p className="mb-4">
-                  <strong>Importante!</strong> Caso não tenha solicitado o serviço, entre em contato conosco!
+                <p className="mb-0">E-mail: nome@gmail.com</p>
+                <p className="mb-4">Senha: 🔒 Redefinir senha (link)</p>
+                
+                <ul className="mb-4 list-none pl-0 space-y-1">
+                  <li>Como preencher o remetente com seu novo endereço (link pro FAQ)</li>
+                  <li>Como saber se recebi uma nova encomenda (link pro FAQ)</li>
+                  <li>Acesse outras dúvidas frequentes (link pro FAQ)</li>
+                </ul>
+                
+                <p className="mb-2">
+                  <strong>Importante!</strong><br />
+                  Caso não tenha solicitado o serviço, entre em contato conosco!
                 </p>
-                <p>Abraço, Equipe Minha Caixa Postal</p>
+                
+                <p className="mt-4">Abraço,<br />Equipe Minha Caixa Postal</p>
               </blockquote>
             </div>
 
