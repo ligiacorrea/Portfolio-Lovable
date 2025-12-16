@@ -2231,7 +2231,14 @@ const casesData: Record<string, CaseData> = {
   "melhorando-navegacao-painel": {
     title: "Melhorando a navegação no painel e reduzindo tickets",
     projectType: "Case real",
-    skills: ["ux writing", "arquitetura de informação", "ux research", "teste de cloze", "benchmarking"],
+    skills: [
+      "ux writing",
+      "arquitetura de informação",
+      "ux research",
+      "cloze testing",
+      "benchmarking",
+      "conteúdos para interface",
+    ],
     sections: [
       {
         title: "Problema",
@@ -4803,32 +4810,38 @@ const casesData: Record<string, CaseData> = {
                   Aqui está o seu novo endereço: <strong>Caixa Postal 6073</strong>
                 </p>
                 <p className="mb-4">Antes de começar, gostaríamos de dar algumas instruções:</p>
-                
+
                 <p className="font-semibold mb-1">Agência</p>
                 <p className="mb-0">AC Aeroporto de Congonhas</p>
                 <p className="mb-0">Avenida Washington Luís, s/n - Santo Amaro</p>
                 <p className="mb-4">São Paulo - SP, 04626-970</p>
-                
+
                 <p className="mb-4">
-                  🔑 Não esqueça de comparecer na agência contratada pelo endereço indicado para retirar a sua chave, ok?
+                  🔑 Não esqueça de comparecer na agência contratada pelo endereço indicado para retirar a sua chave,
+                  ok?
                 </p>
-                
+
                 <p className="font-semibold mb-1">Dados de acesso do app</p>
                 <p className="mb-0">E-mail: nome@gmail.com</p>
                 <p className="mb-4">Senha: 🔒 Redefinir senha (link)</p>
-                
+
                 <ul className="mb-4 list-none pl-0 space-y-1">
                   <li>Como preencher o remetente com seu novo endereço (link pro FAQ)</li>
                   <li>Como saber se recebi uma nova encomenda (link pro FAQ)</li>
                   <li>Acesse outras dúvidas frequentes (link pro FAQ)</li>
                 </ul>
-                
+
                 <p className="mb-2">
-                  <strong>Importante!</strong><br />
+                  <strong>Importante!</strong>
+                  <br />
                   Caso não tenha solicitado o serviço, entre em contato conosco!
                 </p>
-                
-                <p className="mt-4">Abraço,<br />Equipe Minha Caixa Postal</p>
+
+                <p className="mt-4">
+                  Abraço,
+                  <br />
+                  Equipe Minha Caixa Postal
+                </p>
               </blockquote>
             </div>
 
@@ -4867,12 +4880,19 @@ const casesData: Record<string, CaseData> = {
                     bienal. Confira os valores abaixo:
                   </p>
                   <ul className="space-y-1 list-disc pl-6 mb-4">
-                    <li>Valor assinatura <strong>semestral</strong>: R$ 79,80</li>
-                    <li>Valor assinatura <strong>anual</strong>: R$ 134,70</li>
-                    <li>Valor assinatura <strong>bienal</strong>: R$ 265,90</li>
+                    <li>
+                      Valor assinatura <strong>semestral</strong>: R$ 79,80
+                    </li>
+                    <li>
+                      Valor assinatura <strong>anual</strong>: R$ 134,70
+                    </li>
+                    <li>
+                      Valor assinatura <strong>bienal</strong>: R$ 265,90
+                    </li>
                   </ul>
                   <p className="mb-4">
-                    Ao selecionar uma modalidade, o valor referente deve ser pago no ato da assinatura do termo do contrato ou da renovação, que podem ser feitas diretamente no seu painel de controle do aplicativo.
+                    Ao selecionar uma modalidade, o valor referente deve ser pago no ato da assinatura do termo do
+                    contrato ou da renovação, que podem ser feitas diretamente no seu painel de controle do aplicativo.
                   </p>
                   <p className="mb-4">O valor é único, sem mensalidade.</p>
                   <p className="mb-2">Além do valor de assinatura, o usuário pode assumir as seguintes taxas:</p>
@@ -4881,11 +4901,13 @@ const casesData: Record<string, CaseData> = {
                     <li>Manutenção, troca de fechaduras e reparos R$ 185,30</li>
                   </ul>
                   <p className="mb-4">
-                    Quero contratar (link pro app)<br />
+                    Quero contratar (link pro app)
+                    <br />
                     Quero renovar (link pro app)
                   </p>
                   <p className="text-sm text-muted-foreground">
-                    Sua dúvida foi resolvida?<br />
+                    Sua dúvida foi resolvida?
+                    <br />
                     sim não
                   </p>
                 </div>
@@ -4901,16 +4923,24 @@ const casesData: Record<string, CaseData> = {
                     não são entregues nas agências.
                   </p>
                   <p className="mb-4">
-                    <strong>Atenção</strong>: Não é permitido em sua Caixa Postal o recebimento de itens que tenham sua comercialização proibida, de contrabando, falsificação e adulteração, ou cópia e réplica de produtos de terceiros.
+                    <strong>Atenção</strong>: Não é permitido em sua Caixa Postal o recebimento de itens que tenham sua
+                    comercialização proibida, de contrabando, falsificação e adulteração, ou cópia e réplica de produtos
+                    de terceiros.
                   </p>
                   <p className="mb-4">
-                    Também não são aceitos itens que violem leis de proteção de direitos autorais, patentes, marcas, modelos e desenhos industriais, licença, programas acadêmicos e/ou desenvolvidos para alguma entidade educacional, segredos industriais, embargados ou afetados por alguma restrição de qualquer espécie quanto ao seu uso, exploração ou transferência de domínio ou posse.
+                    Também não são aceitos itens que violem leis de proteção de direitos autorais, patentes, marcas,
+                    modelos e desenhos industriais, licença, programas acadêmicos e/ou desenvolvidos para alguma
+                    entidade educacional, segredos industriais, embargados ou afetados por alguma restrição de qualquer
+                    espécie quanto ao seu uso, exploração ou transferência de domínio ou posse.
                   </p>
                   <p className="mb-4">
-                    O nosso sistema passa por um rigoroso controle de segurança, porém, caso tenha recebido algum item proibido (como os listados acima), por favor entrar em contato conosco imediatamente no telefone (xx) xxxx-xxxx ou e-mail suporte@minhacaixapostal.com.br
+                    O nosso sistema passa por um rigoroso controle de segurança, porém, caso tenha recebido algum item
+                    proibido (como os listados acima), por favor entrar em contato conosco imediatamente no telefone
+                    (xx) xxxx-xxxx ou e-mail suporte@minhacaixapostal.com.br
                   </p>
                   <p className="text-sm text-muted-foreground">
-                    Sua dúvida foi resolvida?<br />
+                    Sua dúvida foi resolvida?
+                    <br />
                     sim não
                   </p>
                 </div>
@@ -4922,11 +4952,14 @@ const casesData: Record<string, CaseData> = {
                   <p className="font-semibold mb-4">Como eu sei quando chegou uma encomenda?</p>
                   <p className="mb-4">
                     Você receberá uma notificação por SMS, no aplicativo e no e-mail a cada nova encomenda na sua Caixa
-                    Postal. Você pode acompanhar as entregas e prazos para retirada diretamente no seu aplicativo ou pode entrar em contato com o nosso suporte no telefone (xx) xxxx-xxxx ou e-mail suporte@minhacaixapostal.com.br
+                    Postal. Você pode acompanhar as entregas e prazos para retirada diretamente no seu aplicativo ou
+                    pode entrar em contato com o nosso suporte no telefone (xx) xxxx-xxxx ou e-mail
+                    suporte@minhacaixapostal.com.br
                   </p>
                   <p className="mb-4">Acompanhe suas entregas (link pro app)</p>
                   <p className="text-sm text-muted-foreground">
-                    Sua dúvida foi resolvida?<br />
+                    Sua dúvida foi resolvida?
+                    <br />
                     sim não
                   </p>
                 </div>
