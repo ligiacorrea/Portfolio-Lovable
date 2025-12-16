@@ -4858,35 +4858,76 @@ const casesData: Record<string, CaseData> = {
                 <li>como acompanhar entregas</li>
               </ul>
 
-              <div className="space-y-6 bg-muted/30 p-6 rounded-lg border border-border/30">
-                <div>
-                  <p className="font-semibold mb-2">❓ Quanto custa o serviço?</p>
-                  <p className="mb-2">
+              <div className="bg-muted/30 p-6 rounded-lg border border-border/30">
+                {/* Pergunta 1 */}
+                <div className="pb-6">
+                  <p className="font-semibold mb-4">Quanto custa o serviço?</p>
+                  <p className="mb-4">
                     É possível escolher entre três modalidades de assinatura (prazo de vigência): semestral, anual e
-                    bienal. Confira os valores:
+                    bienal. Confira os valores abaixo:
                   </p>
-                  <ul className="space-y-1 list-disc pl-6 mb-2">
-                    <li>Valor assinatura semestral: R$ 79,80</li>
-                    <li>Valor assinatura anual: R$ 134,70</li>
-                    <li>Valor assinatura bienal: R$ 265,90</li>
+                  <ul className="space-y-1 list-disc pl-6 mb-4">
+                    <li>Valor assinatura <strong>semestral</strong>: R$ 79,80</li>
+                    <li>Valor assinatura <strong>anual</strong>: R$ 134,70</li>
+                    <li>Valor assinatura <strong>bienal</strong>: R$ 265,90</li>
                   </ul>
-                  <p className="text-sm text-muted-foreground">O valor é único, sem mensalidade.</p>
+                  <p className="mb-4">
+                    Ao selecionar uma modalidade, o valor referente deve ser pago no ato da assinatura do termo do contrato ou da renovação, que podem ser feitas diretamente no seu painel de controle do aplicativo.
+                  </p>
+                  <p className="mb-4">O valor é único, sem mensalidade.</p>
+                  <p className="mb-2">Além do valor de assinatura, o usuário pode assumir as seguintes taxas:</p>
+                  <ul className="space-y-1 list-disc pl-6 mb-4">
+                    <li>Cópia da chave em caso de perda R$ 32,55</li>
+                    <li>Manutenção, troca de fechaduras e reparos R$ 185,30</li>
+                  </ul>
+                  <p className="mb-4">
+                    Quero contratar (link pro app)<br />
+                    Quero renovar (link pro app)
+                  </p>
+                  <p className="text-sm text-muted-foreground">
+                    Sua dúvida foi resolvida?<br />
+                    sim não
+                  </p>
                 </div>
 
-                <div>
-                  <p className="font-semibold mb-2">❓ Posso receber qualquer coisa?</p>
-                  <p>
+                <hr className="border-border/50 my-0" />
+
+                {/* Pergunta 2 */}
+                <div className="py-6">
+                  <p className="font-semibold mb-4">Posso receber qualquer coisa?</p>
+                  <p className="mb-4">
                     A sua Caixa Postal permite o recebimento de objetos simples (correspondências) e encomendas maiores,
                     porém somente de itens enviados pelos Correios. Os produtos enviados por transportadoras em geral
                     não são entregues nas agências.
                   </p>
+                  <p className="mb-4">
+                    <strong>Atenção</strong>: Não é permitido em sua Caixa Postal o recebimento de itens que tenham sua comercialização proibida, de contrabando, falsificação e adulteração, ou cópia e réplica de produtos de terceiros.
+                  </p>
+                  <p className="mb-4">
+                    Também não são aceitos itens que violem leis de proteção de direitos autorais, patentes, marcas, modelos e desenhos industriais, licença, programas acadêmicos e/ou desenvolvidos para alguma entidade educacional, segredos industriais, embargados ou afetados por alguma restrição de qualquer espécie quanto ao seu uso, exploração ou transferência de domínio ou posse.
+                  </p>
+                  <p className="mb-4">
+                    O nosso sistema passa por um rigoroso controle de segurança, porém, caso tenha recebido algum item proibido (como os listados acima), por favor entrar em contato conosco imediatamente no telefone (xx) xxxx-xxxx ou e-mail suporte@minhacaixapostal.com.br
+                  </p>
+                  <p className="text-sm text-muted-foreground">
+                    Sua dúvida foi resolvida?<br />
+                    sim não
+                  </p>
                 </div>
 
-                <div>
-                  <p className="font-semibold mb-2">❓ Como eu sei quando chegou uma encomenda?</p>
-                  <p>
+                <hr className="border-border/50 my-0" />
+
+                {/* Pergunta 3 */}
+                <div className="pt-6">
+                  <p className="font-semibold mb-4">Como eu sei quando chegou uma encomenda?</p>
+                  <p className="mb-4">
                     Você receberá uma notificação por SMS, no aplicativo e no e-mail a cada nova encomenda na sua Caixa
-                    Postal. Você pode acompanhar as entregas e prazos para retirada diretamente no seu aplicativo.
+                    Postal. Você pode acompanhar as entregas e prazos para retirada diretamente no seu aplicativo ou pode entrar em contato com o nosso suporte no telefone (xx) xxxx-xxxx ou e-mail suporte@minhacaixapostal.com.br
+                  </p>
+                  <p className="mb-4">Acompanhe suas entregas (link pro app)</p>
+                  <p className="text-sm text-muted-foreground">
+                    Sua dúvida foi resolvida?<br />
+                    sim não
                   </p>
                 </div>
               </div>
