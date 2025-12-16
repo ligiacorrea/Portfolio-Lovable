@@ -4602,8 +4602,8 @@ const casesData: Record<string, CaseData> = {
       "onboarding",
       "FAQ",
       "mensagem de erro",
-      "conteúdo para e-mail"
-      "push notification"
+      "conteúdo para e-mail",
+      "push notification",
     ],
     sections: [
       {
