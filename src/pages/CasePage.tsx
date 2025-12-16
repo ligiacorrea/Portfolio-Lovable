@@ -4410,7 +4410,16 @@ const casesData: Record<string, CaseData> = {
   "parceiros-100m": {
     title: "Conquistando mais de 1k parceiros e transacionando mais de R$ 100M em projeto",
     projectType: "Case real",
-    skills: ["ux writing", "growth", "landing page", "email marketing", "help center", "fluxos operacionais"],
+    skills: [
+      "ux writing",
+      "arquitetura de informação",
+      "SEO",
+      "tech writing",
+      "FAQ",
+      "conteúdos para interface",
+      "conteúdo para e-mail",
+      "fluxo de cadastro",
+    ],
     sections: [
       {
         title: "Problema",
