@@ -2578,6 +2578,7 @@ const casesData: Record<string, CaseData> = {
       "benchmarking",
       "GEO",
       "tech writing",
+      "FAQ",
     ],
     sections: [
       {
