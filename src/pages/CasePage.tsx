@@ -148,7 +148,7 @@ interface CaseData {
 
 const casesData: Record<string, CaseData> = {
   "faq-5m-organicos": {
-    title: "Como transacionamos mais de R$ 5M na central de ajuda de forma orgânica",
+    title: "Como transacionei mais de R$ 5M na central de ajuda de forma orgânica",
     projectType: "Case real",
     skills: [
       "ux writing",
@@ -511,7 +511,7 @@ const casesData: Record<string, CaseData> = {
     ],
   },
   "bot-90-satisfacao": {
-    title: "Como construímos fluxos de bot com 90% de satisfação e redução de 73% nos tickets",
+    title: "Como construí fluxos de bot com 90% de satisfação e redução de 73% nos tickets",
     projectType: "Case real",
     skills: [
       "ux writing",
@@ -2568,7 +2568,7 @@ const casesData: Record<string, CaseData> = {
     sections: [],
   },
   "redesign-central-ajuda": {
-    title: "Como redesenhamos a central de ajuda para aumentar autonomia e reduzir tickets",
+    title: "Como redesenhei a central de ajuda para aumentar autonomia e reduzir tickets",
     projectType: "Case real",
     skills: [
       "ux writing",
@@ -3013,7 +3013,7 @@ const casesData: Record<string, CaseData> = {
     ],
   },
   "ong-voluntarios": {
-    title: "Como utilizamos UX para aumentar adesão e retenção de voluntários em ONG",
+    title: "Como utilizei UX para aumentar adesão e retenção de voluntários em ONG",
     projectType: "Case voluntário",
     skills: [
       "ux research",

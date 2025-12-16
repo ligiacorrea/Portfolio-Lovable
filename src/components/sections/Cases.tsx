@@ -14,14 +14,14 @@ const getTagColor = (index: number) => tagColors[index % tagColors.length];
 const mainCases = [
   {
     slug: "faq-5m-organicos",
-    title: "Como transacionamos mais de R$ 5M na central de ajuda de forma orgânica",
+    title: "Como transacionei mais de R$ 5M na central de ajuda de forma orgânica",
     tags: ["ux writing", "arquitetura de informação", "SEO", "GEO"],
     image:
       "https://ligiacorrea.notion.site/image/attachment%3Aa4e72088-8605-430a-9921-05bc88246a22%3ACover.png?id=2228ba4d-245e-80e0-a0c7-dea755cd0829&table=block&spaceId=a4c5fb53-7256-4287-8559-d9881c87a210&width=520&userId=&cache=v2",
   },
   {
     slug: "bot-90-satisfacao",
-    title: "Como construímos fluxos de bot com 90% de satisfação e redução de 73% nos tickets",
+    title: "Como construí fluxos de bot com 90% de satisfação e redução de 73% nos tickets",
     tags: ["ux writing", "ux research", "microcopy", "content ops"],
     image:
       "https://ligiacorrea.notion.site/image/attachment%3Aa4e72088-8605-430a-9921-05bc88246a22%3ACover.png?id=2b28ba4d-245e-8056-9bce-cc4bca3bd8d3&table=block&spaceId=a4c5fb53-7256-4287-8559-d9881c87a210&width=520&userId=&cache=v2",
@@ -35,7 +35,7 @@ const mainCases = [
   },
   {
     slug: "ong-voluntarios",
-    title: "Como utilizamos UX para aumentar adesão e retenção de voluntários em ONG",
+    title: "Como utilizei UX para aumentar adesão e retenção de voluntários em ONG",
     tags: [
       "ux writing",
       "discovery",
@@ -84,7 +84,7 @@ const otherCases = [
   { slug: "revista-digital", title: "Elevando a experiência da revista digital com um processo de redesign" },
   {
     slug: "redesign-central-ajuda",
-    title: "Como redesenhamos a central de ajuda para aumentar autonomia e reduzir tickets",
+    title: "Como redesenhei a central de ajuda para aumentar autonomia e reduzir tickets",
   },
   { slug: "landing-page-lovable", title: "Criando uma landing page de captação com a Lovable" },
   { slug: "parceiros-100m", title: "Conquistando mais de 1k parceiros e transacionando mais de R$ 100M em projeto" },
