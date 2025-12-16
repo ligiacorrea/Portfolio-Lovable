@@ -4106,7 +4106,17 @@ const casesData: Record<string, CaseData> = {
   "landing-page-lovable": {
     title: "Criando uma landing page de captação com a Lovable",
     projectType: "Case real",
-    skills: ["ux writing", "product design", "landing page", "AI tools", "conversão", "growth"],
+    skills: [
+      "ux writing",
+      "arquitetura de informação",
+      "acessibilidade",
+      "taxonomia",
+      "copywriting",
+      "SEO",
+      "microcopy",
+      "fluxo de cadastro",
+      "conteúdos para interface",
+    ],
     sections: [
       {
         title: "Problema",
