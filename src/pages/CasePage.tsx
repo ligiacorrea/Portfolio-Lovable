@@ -2569,7 +2569,7 @@ const casesData: Record<string, CaseData> = {
   },
   "redesign-central-ajuda": {
     title: "Como redesenhamos a central de ajuda para aumentar autonomia e reduzir tickets",
-    projectType: "Case real", "FAQ"
+    projectType: "Case real",
     skills: [
       "ux writing",
       "arquitetura de informação",
