@@ -3027,7 +3027,7 @@ const casesData: Record<string, CaseData> = {
       "onboarding",
       "content ops",
     ],
-    area: "ONG",
+    area: "",
     sections: [
       {
         title: "Problema",
