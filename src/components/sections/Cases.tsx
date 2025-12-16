@@ -95,9 +95,7 @@ export function Cases() {
   return (
     <section id="cases" className="py-16 md:py-24 bg-card">
       <div className="container mx-auto px-4">
-        <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground mb-10">
-          Cases e projetos selecionados
-        </h2>
+        <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground mb-10">Cases selecionados</h2>
 
         {/* Main Cases Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
@@ -128,7 +126,7 @@ export function Cases() {
 
         {/* Other Cases */}
         <div>
-          <h3 className="font-display text-xl font-semibold text-foreground mb-6">Outros cases</h3>
+          <h3 className="font-display text-xl font-semibold text-foreground mb-6">Outros projetos relevantes</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
             {otherCases.map((caseItem) => (
               <Link
