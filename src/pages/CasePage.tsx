@@ -3710,7 +3710,16 @@ const casesData: Record<string, CaseData> = {
   "revista-digital": {
     title: "Elevando a experiência da revista digital com um processo de redesign",
     projectType: "Case real",
-    skills: ["UX writing", "arquitetura de informação", "redesign", "SEO", "acessibilidade", "mobile-first"],
+    skills: [
+      "ux writing",
+      "arquitetura de informação",
+      "GEO",
+      "SEO",
+      "acessibilidade",
+      "taxonomia",
+      "tech writing",
+      "conteúdos para interface",
+    ],
     area: undefined,
     sections: [
       {
