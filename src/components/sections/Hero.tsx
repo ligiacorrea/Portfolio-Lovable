@@ -21,11 +21,11 @@ export function Hero() {
           <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-4 animate-slide-up">
             Ligia Corrêa
           </h1>
-          
+
           <p className="text-lg md:text-xl text-primary font-medium mb-2 animate-slide-up stagger-1">
             UX Writer & Content Designer
           </p>
-          
+
           <p className="text-muted-foreground mb-6 animate-slide-up stagger-2">
             Head of UX Writing & Growth Team Lead no iCasei
           </p>
@@ -39,8 +39,8 @@ export function Hero() {
             <div className="hidden sm:block w-px h-4 bg-border" />
             <div className="flex items-center gap-3">
               <span>🇧🇷 PT nativo</span>
-              <span>🇺🇸 EN avançado</span>
-              <span>🇪🇸 ES básico</span>
+              <span>🇺🇸 EN proficiência profissional</span>
+              <span>🇪🇸 ES iniciante</span>
             </div>
           </div>
         </div>
