@@ -2,9 +2,10 @@ import { Star, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    quote: "Experiência incrível, site bem didático, maravilhoso. Sem comentários, simplesmente perfeito!",
-    author: "E. e C.",
-    role: "Clientes iCasei",
+    quote:
+      "A Li é uma daquelas profissionais raras de se encontrar. Extremamente inteligente, estratégica e ao mesmo tempo muito prática, ela tem uma capacidade impressionante de transformar complexidade em clareza, seja em UX Writing, Content Ops, pesquisa ou Growth.",
+    author: "M.M.",
+    role: "Growth & Product Marketing Lead - iCasei",
   },
   {
     quote:
