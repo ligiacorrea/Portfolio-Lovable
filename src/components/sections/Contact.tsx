@@ -1,7 +1,10 @@
 import { Linkedin, Mail, Phone, FileText, Coffee, MessageSquare } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useTranslation } from "@/hooks/useTranslation";
 
 export function Contact() {
+  const t = useTranslation();
+
   return (
     <section id="contato" className="py-16 md:py-24 bg-secondary/30">
       <div className="container mx-auto px-4">
@@ -10,8 +13,8 @@ export function Contact() {
             <Coffee />
             <MessageSquare />
           </div>
-          <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground mb-4">Contato</h2>
-          <p className="text-muted-foreground mb-8">Que tal um café virtual?</p>
+          <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground mb-4">{t.contact.title}</h2>
+          <p className="text-muted-foreground mb-8">{t.contact.subtitle}</p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
             <Button asChild variant="default" size="lg">
@@ -46,7 +49,7 @@ export function Contact() {
               className="flex items-center gap-2 hover:text-foreground transition-colors"
             >
               <FileText className="h-4 w-4" />
-              Currículo PT
+              {t.contact.resumePT}
             </a>
             <span className="hidden sm:block">•</span>
             <a
@@ -56,7 +59,7 @@ export function Contact() {
               className="flex items-center gap-2 hover:text-foreground transition-colors"
             >
               <FileText className="h-4 w-4" />
-              Currículo EN
+              {t.contact.resumeEN}
             </a>
           </div>
         </div>
