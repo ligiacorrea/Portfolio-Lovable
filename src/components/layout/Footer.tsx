@@ -1,6 +1,9 @@
 import { Linkedin, Mail, Phone, FileText } from "lucide-react";
+import { useTranslation } from "@/hooks/useTranslation";
 
 export function Footer() {
+  const t = useTranslation();
+
   return (
     <footer className="bg-secondary/50 border-t border-border py-12">
       <div className="container mx-auto px-4">
@@ -52,7 +55,7 @@ export function Footer() {
 
         <div className="mt-8 pt-6 border-t border-border text-center">
           <p className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} Ligia Corrêa. Todos os direitos reservados.
+            © {new Date().getFullYear()} Ligia Corrêa. {t.footer.rights}
           </p>
         </div>
       </div>

@@ -10,21 +10,23 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { cn } from "@/lib/utils";
 import { useLanguage } from "@/contexts/LanguageContext";
-
-const navItems = [
-  { label: "Sobre", href: "/#sobre" },
-  { label: "Resultados", href: "/#resultados" },
-  { label: "Cases", href: "/#cases" },
-  { label: "Experiência", href: "/#experiencia" },
-  { label: "Feedbacks", href: "/#feedbacks" },
-  { label: "Contato", href: "/#contato" },
-];
+import { useTranslation } from "@/hooks/useTranslation";
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const location = useLocation();
   const { language, setLanguage } = useLanguage();
+  const t = useTranslation();
+
+  const navItems = [
+    { label: t.nav.about, href: "/#sobre" },
+    { label: t.nav.results, href: "/#resultados" },
+    { label: t.nav.cases, href: "/#cases" },
+    { label: t.nav.experience, href: "/#experiencia" },
+    { label: t.nav.feedbacks, href: "/#feedbacks" },
+    { label: t.nav.contact, href: "/#contato" },
+  ];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -137,6 +139,23 @@ export function Header() {
                 {item.label}
               </a>
             ))}
+            {/* Mobile Language Selector */}
+            <div className="flex gap-2 pt-2 border-t border-border">
+              <Button
+                variant={language === "pt" ? "default" : "outline"}
+                size="sm"
+                onClick={() => setLanguage("pt")}
+              >
+                🇧🇷 PT
+              </Button>
+              <Button
+                variant={language === "en" ? "default" : "outline"}
+                size="sm"
+                onClick={() => setLanguage("en")}
+              >
+                🇺🇸 EN
+              </Button>
+            </div>
           </nav>
         </div>
       )}

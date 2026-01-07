@@ -1,44 +1,24 @@
+import { useTranslation } from "@/hooks/useTranslation";
+
 const books = [
-  {
-    title: "Things are what you make of them - Life advice for creatives",
-    author: "Adam J. Kurtz",
-  },
-  {
-    title: "Pai rico pai pobre",
-    author: "Robert T. Kiyosaki",
-  },
-  {
-    title: "A troca",
-    author: "Beth O'Leary",
-  },
-  {
-    title: "A biblioteca da meia-noite",
-    author: "Matt Haig",
-  },
-  {
-    title: "Em busca de mim",
-    author: "Viola Davis",
-  },
-  {
-    title: "Ponto de inflexão - Uma decisão muda tudo",
-    author: "Flávio Augusto da Silva",
-  },
-  {
-    title: "A arte da felicidade - Um manual para a vida",
-    author: "Dalai Lama e Howard C. Cutler",
-  },
-  {
-    title: "O profissional do futuro",
-    author: "Michelle Schneider",
-  },
+  { title: "Things are what you make of them - Life advice for creatives", author: "Adam J. Kurtz" },
+  { title: "Pai rico pai pobre", author: "Robert T. Kiyosaki" },
+  { title: "A troca", author: "Beth O'Leary" },
+  { title: "A biblioteca da meia-noite", author: "Matt Haig" },
+  { title: "Em busca de mim", author: "Viola Davis" },
+  { title: "Ponto de inflexão - Uma decisão muda tudo", author: "Flávio Augusto da Silva" },
+  { title: "A arte da felicidade - Um manual para a vida", author: "Dalai Lama e Howard C. Cutler" },
+  { title: "O profissional do futuro", author: "Michelle Schneider" },
 ];
 
 export function Books() {
+  const t = useTranslation();
+
   return (
     <section id="livros" className="py-16 md:py-24 bg-background">
       <div className="container mx-auto px-4">
-        <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground mb-2">Sessão leitura</h2>
-        <p className="text-muted-foreground mb-10">Os livros favoritos da estante</p>
+        <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground mb-2">{t.books.title}</h2>
+        <p className="text-muted-foreground mb-10">{t.books.subtitle}</p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {books.map((book, index) => (

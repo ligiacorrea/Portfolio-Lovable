@@ -1,6 +1,9 @@
 import { MapPin } from "lucide-react";
+import { useTranslation } from "@/hooks/useTranslation";
 
 export function Hero() {
+  const t = useTranslation();
+
   return (
     <section className="hero-gradient min-h-screen flex items-center pt-20">
       <div className="container mx-auto px-4 py-12 md:py-20">
@@ -23,24 +26,24 @@ export function Hero() {
           </h1>
 
           <p className="text-lg md:text-xl text-primary font-medium mb-2 animate-slide-up stagger-1">
-            UX Writer & Content Designer
+            {t.hero.role}
           </p>
 
           <p className="text-muted-foreground mb-6 animate-slide-up stagger-2">
-            Head of UX Writing & Growth Team Lead no iCasei
+            {t.hero.position}
           </p>
 
           {/* Location & Languages */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-sm text-muted-foreground animate-slide-up stagger-3">
             <div className="flex items-center gap-1">
               <MapPin className="h-4 w-4" />
-              <span>São Paulo, SP - Brasil</span>
+              <span>{t.hero.location}</span>
             </div>
             <div className="hidden sm:block w-px h-4 bg-border" />
             <div className="flex items-center gap-3">
-              <span>🇧🇷 PT nativo</span>
-              <span>🇺🇸 EN proficiência profissional</span>
-              <span>🇪🇸 ES iniciante</span>
+              <span>{t.hero.languages.pt}</span>
+              <span>{t.hero.languages.en}</span>
+              <span>{t.hero.languages.es}</span>
             </div>
           </div>
         </div>
