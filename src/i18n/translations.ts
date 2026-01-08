@@ -172,6 +172,19 @@ export const translations = {
     footer: {
       rights: "Todos os direitos reservados.",
     },
+    // Case Page
+    casePage: {
+      backToCases: "Voltar para cases",
+      caseNotFound: "Case não encontrado",
+      backToHome: "Voltar para home",
+      contentSoon: "Conteúdo completo em breve.",
+      ctaText: "Quer saber mais sobre este projeto ou conversar sobre UX Writing?",
+      ctaButton: "Vamos conversar no LinkedIn",
+      sectionProblem: "Problema",
+      sectionProcess: "Processo",
+      sectionSolution: "Solução",
+      sectionResult: "Resultado",
+    },
   },
   en: {
     // Header
@@ -345,6 +358,19 @@ export const translations = {
     // Footer
     footer: {
       rights: "All rights reserved.",
+    },
+    // Case Page
+    casePage: {
+      backToCases: "Back to cases",
+      caseNotFound: "Case not found",
+      backToHome: "Back to home",
+      contentSoon: "Full content coming soon.",
+      ctaText: "Want to know more about this project or chat about UX Writing?",
+      ctaButton: "Let's connect on LinkedIn",
+      sectionProblem: "Problem",
+      sectionProcess: "Process",
+      sectionSolution: "Solution",
+      sectionResult: "Result",
     },
   },
 };

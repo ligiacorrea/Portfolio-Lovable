@@ -5,6 +5,8 @@ import { Footer } from "@/components/layout/Footer";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { useTranslation } from "@/hooks/useTranslation";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 // Case images
 import faqCentralAjudaHome from "@/assets/cases/faq-central-ajuda-home.webp";
@@ -5042,15 +5044,35 @@ const casesData: Record<string, CaseData> = {
 
 export default function CasePage() {
   const { slug } = useParams<{ slug: string }>();
+  const { language } = useLanguage();
+  const t = useTranslation();
   const caseData = slug ? casesData[slug] : null;
+
+  // Map section titles based on language
+  const sectionTitleMap: Record<string, string> = {
+    "Problema": t.casePage.sectionProblem,
+    "Processo": t.casePage.sectionProcess,
+    "Solução": t.casePage.sectionSolution,
+    "Resultado": t.casePage.sectionResult,
+  };
+
+  // Get case title from translations if available
+  const getCaseTitle = () => {
+    if (!slug || !caseData) return "";
+    const mainCase = t.cases.mainCases.find(c => c.slug === slug);
+    if (mainCase) return mainCase.title;
+    const otherCase = t.cases.otherCases.find(c => c.slug === slug);
+    if (otherCase) return otherCase.title;
+    return caseData.title;
+  };
 
   if (!caseData) {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
-          <h1 className="text-2xl font-bold mb-4">Case não encontrado</h1>
+          <h1 className="text-2xl font-bold mb-4">{t.casePage.caseNotFound}</h1>
           <Button asChild>
-            <Link to="/">Voltar para home</Link>
+            <Link to="/">{t.casePage.backToHome}</Link>
           </Button>
         </div>
       </div>
@@ -5072,7 +5094,7 @@ export default function CasePage() {
               className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors mb-8"
             >
               <ArrowLeft className="h-4 w-4" />
-              Voltar para cases
+              {t.casePage.backToCases}
             </Link>
 
             <div className="max-w-3xl mx-auto">
@@ -5089,7 +5111,7 @@ export default function CasePage() {
               </div>
 
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-                {caseData.title}
+                {getCaseTitle()}
               </h1>
 
               {/* Skills */}
@@ -5117,7 +5139,7 @@ export default function CasePage() {
                       className="bg-card border border-border rounded-xl px-6 overflow-hidden"
                     >
                       <AccordionTrigger className="text-xl font-display font-semibold hover:no-underline py-6">
-                        {section.title}
+                        {sectionTitleMap[section.title] || section.title}
                       </AccordionTrigger>
                       <AccordionContent className="pb-6 text-foreground leading-relaxed">
                         {section.content}
@@ -5137,7 +5159,7 @@ export default function CasePage() {
           <section className="py-12 md:py-16">
             <div className="container mx-auto px-4">
               <div className="max-w-3xl mx-auto text-center">
-                <p className="text-muted-foreground">Conteúdo completo em breve.</p>
+                <p className="text-muted-foreground">{t.casePage.contentSoon}</p>
               </div>
             </div>
           </section>
@@ -5147,11 +5169,11 @@ export default function CasePage() {
         <section className="py-12 bg-card border-t border-border">
           <div className="container mx-auto px-4 text-center">
             <p className="text-muted-foreground mb-4">
-              Quer saber mais sobre este projeto ou conversar sobre UX Writing?
+              {t.casePage.ctaText}
             </p>
             <Button asChild size="lg">
               <a href="https://www.linkedin.com/in/ligia-correa-ux-writer/" target="_blank" rel="noopener noreferrer">
-                Vamos conversar no LinkedIn
+                {t.casePage.ctaButton}
               </a>
             </Button>
           </div>
