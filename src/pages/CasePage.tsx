@@ -5056,6 +5056,28 @@ export default function CasePage() {
     "Resultado": t.casePage.sectionResult,
   };
 
+  // Translation helpers
+  const getTranslatedProjectType = (projectType: string) => {
+    if (language === "en") {
+      return t.casePage.projectTypes[projectType] || projectType;
+    }
+    return projectType;
+  };
+
+  const getTranslatedSkill = (skill: string) => {
+    if (language === "en") {
+      return t.casePage.skills[skill] || skill;
+    }
+    return skill;
+  };
+
+  const getTranslatedArea = (area: string) => {
+    if (language === "en") {
+      return t.casePage.areas[area] || area;
+    }
+    return area;
+  };
+
   // Get case title from translations if available
   const getCaseTitle = () => {
     if (!slug || !caseData) return "";
@@ -5101,11 +5123,11 @@ export default function CasePage() {
               {/* Tags row */}
               <div className="flex flex-wrap gap-2 mb-6">
                 <Badge variant="default" className="bg-primary text-primary-foreground">
-                  {caseData.projectType}
+                  {getTranslatedProjectType(caseData.projectType)}
                 </Badge>
                 {caseData.area && (
                   <Badge variant="outline" className="bg-accent/20 text-accent-foreground border-accent/30">
-                    {caseData.area}
+                    {getTranslatedArea(caseData.area)}
                   </Badge>
                 )}
               </div>
@@ -5118,7 +5140,7 @@ export default function CasePage() {
               <div className="flex flex-wrap gap-2">
                 {caseData.skills.map((skill) => (
                   <Badge key={skill} variant="secondary" className="text-sm">
-                    {skill}
+                    {getTranslatedSkill(skill)}
                   </Badge>
                 ))}
               </div>
