@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { useTranslation } from "@/hooks/useTranslation";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { useCaseData } from "@/i18n/useCaseData";
 
 // Case images
 import faqCentralAjudaHome from "@/assets/cases/faq-central-ajuda-home.webp";
@@ -5046,7 +5047,8 @@ export default function CasePage() {
   const { slug } = useParams<{ slug: string }>();
   const { language } = useLanguage();
   const t = useTranslation();
-  const caseData = slug ? casesData[slug] : null;
+  // Use translated case data when available for current language
+  const caseData = useCaseData(slug, casesData);
 
   // Map section titles based on language
   const sectionTitleMap: Record<string, string> = {
