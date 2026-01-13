@@ -3079,7 +3079,7 @@ export const casesDataEn: CasesDataRecord = {
     ],
   },
   // Lovable landing page
-  "lp-lovable": {
+  "landing-page-lovable": {
     title: "Creating a lead capture landing page with Lovable",
     projectType: "Real Case",
     skills: ["ux writing", "AI tools", "landing page", "conversion", "interface content", "inclusive design"],
