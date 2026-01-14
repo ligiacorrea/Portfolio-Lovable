@@ -11,7 +11,7 @@ export const translations = {
     },
     // Hero
     hero: {
-      role: "UX Writer & Content Designer",
+      role: "UX Content Strategist",
       position: "Head of UX Writing & Growth Team Lead no iCasei",
       location: "São Paulo, SP - Brasil",
       languages: {
@@ -352,7 +352,7 @@ export const translations = {
     },
     // Hero
     hero: {
-      role: "UX Writer & Content Designer",
+      role: "UX Content Strategist",
       position: "Head of UX Writing & Growth Team Lead at iCasei",
       location: "São Paulo, SP - Brazil",
       languages: {

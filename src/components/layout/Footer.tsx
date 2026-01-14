@@ -12,9 +12,7 @@ export function Footer() {
             <p className="font-display text-xl font-semibold text-foreground">
               Ligia Corrêa <span className="text-accent">🌿</span>
             </p>
-            <p className="text-muted-foreground text-sm mt-1">
-              UX Writer & Content Designer
-            </p>
+            <p className="text-muted-foreground text-sm mt-1">UX Content Strategist</p>
           </div>
 
           <div className="flex items-center gap-4">
