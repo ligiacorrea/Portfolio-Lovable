@@ -549,37 +549,37 @@ export const translations = {
           quote:
             "Li is one of those rare professionals to find. Extremely intelligent, strategic and at the same time very practical, she has an impressive ability to transform complexity into clarity, whether in UX Writing, Content Ops, research or Growth.",
           author: "M.M.",
-          role: "Growth & Product Marketing Lead - iCasei",
+          role: "Growth & Product Marketing Lead",
         },
         {
           quote:
             "A proactive, creative and hardworking person shared her UX Writing knowledge with us. Giving a lot of support both in research and writing for our project for the Kurumins NGO.",
           author: "S.N.",
-          role: "Product Designer - Kurumins Case",
+          role: "Product Designer",
         },
         {
           quote:
             "@ligia612 wow! it's incredible, I think one of the best researches I've seen in iCasei's history <3 Congratulations!",
           author: "D.M.",
-          role: "Chief Product Officer - iCasei",
+          role: "Chief Product Officer",
         },
         {
           quote:
             "I've told you several times how much I admire your work and the way you lead. You always let me participate and there's something you do that I find really cool: you always ask me if any proposal you give makes sense.",
           author: "G.A.",
-          role: "UX Writer Jr. - iCasei",
+          role: "UX Writer Jr.",
         },
         {
           quote:
             "It was the best experience I've ever had, incredible site, everything well explained and easy to access, thank you iCasei!",
           author: "C. and I.",
-          role: "iCasei Customers",
+          role: "Users",
         },
         {
           quote:
             "I always wanted to use this site and I really enjoyed the experience! Everything well explained, with details and guidance. Easy to set up the site, receive the gifts!",
           author: "F. and C.",
-          role: "iCasei Customers",
+          role: "Users",
         },
       ],
     },
