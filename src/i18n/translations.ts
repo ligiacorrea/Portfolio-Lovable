@@ -217,13 +217,13 @@ export const translations = {
           quote:
             "A Li é uma daquelas profissionais raras de se encontrar. Extremamente inteligente, estratégica e ao mesmo tempo muito prática, ela tem uma capacidade impressionante de transformar complexidade em clareza, seja em UX Writing, Content Ops, pesquisa ou Growth.",
           author: "M.M.",
-          role: "Growth & Product Marketing Lead - iCasei",
+          role: "Growth & Product Marketing Lead",
         },
         {
           quote:
             "Uma pessoa proativa, criativa e esforçada compartilhou seu conhecimento conosco de UX Writing. Dando muito apoio e suporte tanto na parte de pesquisa e escrita do nosso projeto para a ONG Kurumins.",
           author: "S.N.",
-          role: "Product Designer - Case Kurumins",
+          role: "Product Designer",
         },
         {
           quote:
