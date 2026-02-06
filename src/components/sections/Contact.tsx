@@ -43,7 +43,7 @@ export function Contact() {
             </a>
             <span className="hidden sm:block">•</span>
             <a
-              href="https://drive.google.com/file/d/1_R_lrTwGB18O1KPw0yHbqucUg0felcKr/view"
+              href="https://drive.google.com/file/d/11ZYVRKRPXkYwRessLX8vOcyaDd4o1Xtz/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 hover:text-foreground transition-colors"
@@ -53,7 +53,7 @@ export function Contact() {
             </a>
             <span className="hidden sm:block">•</span>
             <a
-              href="https://drive.google.com/file/d/1WLcD9s5S02HJKXs30AeebSigYzJF_lwU/view"
+              href="https://drive.google.com/file/d/1-hVWOs0W6QZSGEIL0qNg0464CQAkqSbq/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 hover:text-foreground transition-colors"
