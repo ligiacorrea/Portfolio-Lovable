@@ -40,7 +40,7 @@ export function Footer() {
               <Phone className="h-5 w-5" />
             </a>
             <a
-              href="https://drive.google.com/file/d/1_R_lrTwGB18O1KPw0yHbqucUg0felcKr/view"
+              href="https://drive.google.com/file/d/11ZYVRKRPXkYwRessLX8vOcyaDd4o1Xtz/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full bg-card hover:bg-primary hover:text-primary-foreground transition-colors card-shadow"
