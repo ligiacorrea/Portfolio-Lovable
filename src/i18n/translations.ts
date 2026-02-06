@@ -117,7 +117,7 @@ export const translations = {
           roles: [{ title: "Analista de Marketing", period: "Jun 2014 - Abr 2016" }],
         },
         {
-          company: "Atelier Turismo",
+          company: "Grupo Atelier Turismo (três marcas)",
           roles: [
             { title: "Assistente de Marketing", period: "Nov 2013 - Jun 2014" },
             { title: "Auxiliar de Marketing", period: "Out 2012 - Nov 2013" },
@@ -453,7 +453,7 @@ export const translations = {
           roles: [{ title: "Marketing Analyst", period: "Jun 2014 - Apr 2016" }],
         },
         {
-          company: "Atelier Turismo",
+          company: "Atelier Turismo Group (three brands)",
           roles: [
             { title: "Marketing Assistant", period: "Nov 2013 - Jun 2014" },
             { title: "Marketing Intern", period: "Oct 2012 - Nov 2013" },
