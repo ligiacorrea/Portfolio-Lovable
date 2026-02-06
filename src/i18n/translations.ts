@@ -94,7 +94,7 @@ export const translations = {
       current: "Atual",
       companies: [
         {
-          company: "iCasei",
+          company: "Grupo iCasei (três marcas)",
           roles: [
             { title: "Head of UX Writing & Growth Team Lead", period: "Jul 2024 - Atual" },
             {
@@ -429,7 +429,7 @@ export const translations = {
       current: "Current",
       companies: [
         {
-          company: "iCasei",
+          company: "iCasei Group (three brands)",
           roles: [
             { title: "Head of UX Writing & Growth Team Lead", period: "Jul 2024 - Current" },
             {
