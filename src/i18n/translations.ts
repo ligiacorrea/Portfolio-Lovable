@@ -163,6 +163,7 @@ export const translations = {
         },
       ],
       courses: [
+        { name: "GBO & GEO: Otimização de Marca e Conteúdo para Sistemas de IA Generativa", org: "Escola de Conteúdo", period: "Jan 2026" },
         { name: "GEO: Otimização para IA Generativa", org: "Escola de Conteúdo", period: "Jul 2025" },
         { name: "Introdução a protótipos com Lovable e IA", org: "Tera", period: "Jul 2025" },
         { name: "Introdução ao n8n e agentes de IA", org: "Tera", period: "Jul 2025" },
@@ -170,7 +171,6 @@ export const translations = {
         { name: "Inteligência Artificial para líderes", org: "Escola Conquer", period: "Abr 2025" },
         { name: "Redação para Mídias Digitais na Era da IA", org: "CESAR School", period: "Out 2024" },
         { name: "Product Growth", org: "PM3", period: "Jul 2024", honorableMention: true },
-        { name: "Mergulho em Produtos Digitais", org: "PM3", period: "Nov 2023" },
         { name: "Curso Intensivo de UX Writing", org: "Awari", period: "Out 2023" },
         { name: "Desenvolvimento de Carreira em UX", org: "Alura", period: "Out 2022" },
         { name: "Bootcamp UX Writer e Conteúdo Digital", org: "Aldeia.cc", period: "Out 2021" },
@@ -495,6 +495,7 @@ export const translations = {
         },
       ],
       courses: [
+        { name: "GBO & GEO: Brand and Content Optimization for Generative AI Systems", org: "Escola de Conteúdo", period: "Jan 2026" },
         { name: "GEO: Optimization for Generative AI", org: "Escola de Conteúdo", period: "Jul 2025" },
         { name: "Introduction to prototypes with Lovable and AI", org: "Tera", period: "Jul 2025" },
         { name: "Introduction to n8n and AI agents", org: "Tera", period: "Jul 2025" },
@@ -502,7 +503,6 @@ export const translations = {
         { name: "Artificial Intelligence for leaders", org: "Escola Conquer", period: "Apr 2025" },
         { name: "Writing for Digital Media in the AI Era", org: "CESAR School", period: "Oct 2024" },
         { name: "Product Growth", org: "PM3", period: "Jul 2024", honorableMention: true },
-        { name: "Deep Dive into Digital Products", org: "PM3", period: "Nov 2023" },
         { name: "Intensive UX Writing Course", org: "Awari", period: "Oct 2023" },
         { name: "UX Career Development", org: "Alura", period: "Oct 2022" },
         { name: "UX Writer and Digital Content Bootcamp", org: "Aldeia.cc", period: "Oct 2021" },
