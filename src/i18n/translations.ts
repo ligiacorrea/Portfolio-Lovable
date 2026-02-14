@@ -164,7 +164,7 @@ export const translations = {
       ],
       courses: [
         { name: "GBO & GEO: Otimização de Marca e Conteúdo para Sistemas de IA Generativa", org: "Escola de Conteúdo", period: "Jan 2026" },
-        { name: "GEO: Otimização para IA Generativa", org: "Escola de Conteúdo", period: "Jul 2025" },
+        { name: "GEO: Otimização de Conteúdos para Sistemas de IA Generativa", org: "Escola de Conteúdo", period: "Jul 2025" },
         { name: "Introdução a protótipos com Lovable e IA", org: "Tera", period: "Jul 2025" },
         { name: "Introdução ao n8n e agentes de IA", org: "Tera", period: "Jul 2025" },
         { name: "UX Inclusivo Além da Acessibilidade Técnica", org: "UX Brasília", period: "Jul 2025" },
@@ -496,7 +496,7 @@ export const translations = {
       ],
       courses: [
         { name: "GBO & GEO: Brand and Content Optimization for Generative AI Systems", org: "Escola de Conteúdo", period: "Jan 2026" },
-        { name: "GEO: Optimization for Generative AI", org: "Escola de Conteúdo", period: "Jul 2025" },
+        { name: "GEO: Content Optimization for Generative AI Systems", org: "Escola de Conteúdo", period: "Jul 2025" },
         { name: "Introduction to prototypes with Lovable and AI", org: "Tera", period: "Jul 2025" },
         { name: "Introduction to n8n and AI agents", org: "Tera", period: "Jul 2025" },
         { name: "Inclusive UX Beyond Technical Accessibility", org: "UX Brasília", period: "Jul 2025" },
