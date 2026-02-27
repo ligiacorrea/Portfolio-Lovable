@@ -42,12 +42,12 @@ export const translations = {
     results: {
       title: "Resultados e impactos",
       items: [
-        { value: "R$ 5M+", label: "orgânicos no FAQ" },
+        { value: "R$ 7M+", label: "orgânicos no FAQ e revista digital" },
         { value: "+80%", label: "crescimento de receita no FAQ" },
         { value: "90%", label: "satisfação em fluxos de bot" },
         { value: "73%", label: "redução de tickets no atendimento" },
-        { value: "R$ 100M+", label: "em projeto de parceiros" },
-        { value: "+335%", label: "crescimento em cadastros" },
+        { value: "78%", label: "crescimento em audiência" },
+        { value: "492%", label: "crescimento em cadastros" },
       ],
     },
     // Cases
@@ -163,8 +163,16 @@ export const translations = {
         },
       ],
       courses: [
-        { name: "GBO & GEO: Otimização de Marca e Conteúdo para Sistemas de IA Generativa", org: "Escola de Conteúdo", period: "Jan 2026" },
-        { name: "GEO: Otimização de Conteúdos para Sistemas de IA Generativa", org: "Escola de Conteúdo", period: "Jul 2025" },
+        {
+          name: "GBO & GEO: Otimização de Marca e Conteúdo para Sistemas de IA Generativa",
+          org: "Escola de Conteúdo",
+          period: "Jan 2026",
+        },
+        {
+          name: "GEO: Otimização de Conteúdos para Sistemas de IA Generativa",
+          org: "Escola de Conteúdo",
+          period: "Jul 2025",
+        },
         { name: "Introdução a protótipos com Lovable e IA", org: "Tera", period: "Jul 2025" },
         { name: "Introdução ao n8n e agentes de IA", org: "Tera", period: "Jul 2025" },
         { name: "UX Inclusivo Além da Acessibilidade Técnica", org: "UX Brasília", period: "Jul 2025" },
@@ -383,12 +391,12 @@ export const translations = {
     results: {
       title: "Results and impact",
       items: [
-        { value: "R$ 5M+", label: "organic in FAQ" },
+        { value: "R$ 7M+", label: "organic in FAQ and digital magazine" },
         { value: "+80%", label: "FAQ revenue growth" },
         { value: "90%", label: "satisfaction in bot flows" },
         { value: "73%", label: "ticket reduction in support" },
-        { value: "R$ 100M+", label: "in partner project" },
-        { value: "+335%", label: "growth in registrations" },
+        { value: "78%", label: "audience growth" },
+        { value: "492%", label: "registrations growth" },
       ],
     },
     // Cases
@@ -495,7 +503,11 @@ export const translations = {
         },
       ],
       courses: [
-        { name: "GBO & GEO: Brand and Content Optimization for Generative AI Systems", org: "Escola de Conteúdo", period: "Jan 2026" },
+        {
+          name: "GBO & GEO: Brand and Content Optimization for Generative AI Systems",
+          org: "Escola de Conteúdo",
+          period: "Jan 2026",
+        },
         { name: "GEO: Content Optimization for Generative AI Systems", org: "Escola de Conteúdo", period: "Jul 2025" },
         { name: "Introduction to prototypes with Lovable and AI", org: "Tera", period: "Jul 2025" },
         { name: "Introduction to n8n and AI agents", org: "Tera", period: "Jul 2025" },
