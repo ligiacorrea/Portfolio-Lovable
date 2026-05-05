@@ -247,8 +247,8 @@ export const translations = {
         },
         {
           quote:
-            "Foi a melhor experiência que ja tive site incrível tudo bem explicado e de fácil acesso obrigado iCasei!",
-          author: "C. e I.",
+            "Muito positiva a experiência. O site ajuda muito na organização. É fácil de usar, bem rápido, prático, e todas as dúvidas podem ser tiradas através do chat, de forma simples e rápida. Muito satisfeita, vou sentir saudades de usar! Super recomendo.",
+          author: "R. e R.",
           role: "Usuários",
         },
         {
