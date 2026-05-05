@@ -583,8 +583,8 @@ export const translations = {
         },
         {
           quote:
-            "It was the best experience I've ever had, incredible site, everything well explained and easy to access, thank you iCasei!",
-          author: "C. and I.",
+            "A very positive experience. The website helps a lot with organization. It’s easy to use, fast, and practical, and any questions can be quickly and easily answered through the chat. I’m very satisfied—I’ll miss using it! Highly recommend.",
+          author: "R. and R.",
           role: "Users",
         },
         {
