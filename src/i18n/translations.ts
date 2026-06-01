@@ -42,7 +42,7 @@ export const translations = {
     results: {
       title: "Resultados e impactos",
       items: [
-        { value: "R$ 7M+", label: "orgânicos no FAQ e revista digital" },
+        { value: "R$ 10M+", label: "orgânicos no FAQ e revista digital" },
         { value: "+80%", label: "crescimento de receita no FAQ" },
         { value: "90%", label: "satisfação em fluxos de bot" },
         { value: "73%", label: "redução de tickets no atendimento" },
@@ -391,7 +391,7 @@ export const translations = {
     results: {
       title: "Results and impact",
       items: [
-        { value: "R$ 7M+", label: "organic in FAQ and digital magazine" },
+        { value: "R$ 10M+", label: "organic in FAQ and digital magazine" },
         { value: "+80%", label: "FAQ revenue growth" },
         { value: "90%", label: "satisfaction in bot flows" },
         { value: "73%", label: "ticket reduction in support" },
