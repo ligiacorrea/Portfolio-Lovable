@@ -55,7 +55,7 @@ export const translations = {
       title: "Cases selecionados",
       otherTitle: "Outros projetos relevantes",
       mainCases: [
-        { slug: "faq-5m-organicos", title: "Como transacionei mais de R$ 5M na central de ajuda de forma orgânica" },
+        { slug: "faq-5m-organicos", title: "Como transacionei mais de R$ 6M na central de ajuda de forma orgânica" },
         {
           slug: "bot-90-satisfacao",
           title: "Como construí fluxos de bot com 90% de satisfação e redução de 73% nos tickets",

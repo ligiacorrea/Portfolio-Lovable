@@ -151,7 +151,7 @@ interface CaseData {
 
 const casesData: Record<string, CaseData> = {
   "faq-5m-organicos": {
-    title: "Como transacionei mais de R$ 5M na central de ajuda de forma orgânica",
+    title: "Como transacionei mais de R$ 6M na central de ajuda de forma orgânica",
     projectType: "Case real",
     skills: [
       "ux writing",
