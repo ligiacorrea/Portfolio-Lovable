@@ -40,7 +40,7 @@ export function Footer() {
               <Phone className="h-5 w-5" />
             </a>
             <a
-              href="https://drive.google.com/file/d/11ZYVRKRPXkYwRessLX8vOcyaDd4o1Xtz/view?usp=sharing"
+              href="/__l5e/assets-v1/864b60f7-3aa5-4587-813a-aaf911b759c0/CV-Ligia-Correa-Jun2026-PT.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full bg-card hover:bg-primary hover:text-primary-foreground transition-colors card-shadow"
