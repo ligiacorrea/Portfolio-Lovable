@@ -360,8 +360,8 @@ export const translations = {
     },
     // Hero
     hero: {
-      role: "Estrategista de Conteúdo UX",
-      position: "Head de UX Writing & Comunicação no iCasei",
+      role: "UX Content Strategist",
+      position: "Head of UX Writing & Communication at iCasei",
       location: "São Paulo, SP - Brazil",
       languages: {
         pt: "🇧🇷 PT native",
