@@ -43,7 +43,7 @@ export function Contact() {
             </a>
             <span className="hidden sm:block">•</span>
             <a
-              href="https://drive.google.com/file/d/11ZYVRKRPXkYwRessLX8vOcyaDd4o1Xtz/view?usp=sharing"
+              href="/__l5e/assets-v1/864b60f7-3aa5-4587-813a-aaf911b759c0/CV-Ligia-Correa-Jun2026-PT.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 hover:text-foreground transition-colors"
@@ -53,7 +53,7 @@ export function Contact() {
             </a>
             <span className="hidden sm:block">•</span>
             <a
-              href="https://drive.google.com/file/d/1-hVWOs0W6QZSGEIL0qNg0464CQAkqSbq/view?usp=sharing"
+              href="/__l5e/assets-v1/fc56abdd-ec10-4ca2-a653-0c145465c07f/CV-Ligia-Correa-Jun2026-EN.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 hover:text-foreground transition-colors"
