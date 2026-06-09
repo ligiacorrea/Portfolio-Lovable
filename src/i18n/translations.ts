@@ -381,10 +381,10 @@ export const translations = {
       },
       p2: {
         start: "At iCasei, I was the ",
-        highlight1: "first UX Writer",
+        highlight1: "first Content Designer",
         middle: " of the company and today ",
-        highlight2: "I lead the UX Writing and Growth areas",
-        end: ". On a daily basis, I transform complex needs into simple journeys, creating content that guides, reduces friction, and reinforces value proposition, always connecting content strategy with the real experience of people who use the product.",
+        highlight2: "I lead the UX Writing and Growth areas, strategically influencing communication decisions",
+        end: ". On a daily basis, I transform complex needs into simple journeys, creating content that guides, reduces friction, and reinforces value proposition, always connecting content strategy with the experience of people who use the product.",
       },
     },
     // Results
@@ -439,7 +439,7 @@ export const translations = {
         {
           company: "iCasei Group (three brands)",
           roles: [
-            { title: "Head of UX Writing & Growth Team Lead", period: "Jul 2024 - Current" },
+            { title: "Head of UX Writing & Communication", period: "Jul 2024 - Current" },
             {
               title: "UX Writer",
               description:
