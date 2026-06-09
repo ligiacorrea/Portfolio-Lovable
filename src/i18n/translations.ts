@@ -11,8 +11,8 @@ export const translations = {
     },
     // Hero
     hero: {
-      role: "UX Content Strategist",
-      position: "Head of UX Writing & Growth Team Lead no iCasei",
+      role: "Estrategista de Conteúdo UX",
+      position: "Head de UX Writing & Comunicação no iCasei",
       location: "São Paulo, SP - Brasil",
       languages: {
         pt: "🇧🇷 PT nativo",
@@ -32,10 +32,10 @@ export const translations = {
       },
       p2: {
         start: "No iCasei, fui a ",
-        highlight1: "primeira UX Writer",
+        highlight1: "primeira Content Designer",
         middle: " da empresa e hoje ",
-        highlight2: "lidero as áreas de UX Writing e Growth",
-        end: ". No dia a dia, transformo necessidades complexas em jornadas simples, criando conteúdos que orientam, reduzem fricção e reforçam a proposta de valor, sempre conectando estratégia de conteúdo com a experiência real das pessoas que usam o produto.",
+        highlight2: "lidero as áreas de UX Writing e Growth, influenciando estrategicamente as decisões de comunicação",
+        end: ". No dia a dia, transformo necessidades complexas em jornadas simples, criando conteúdos que orientam, reduzem fricção e reforçam a proposta de valor, sempre conectando estratégia de conteúdo com a experiência das pessoas que usam o produto.",
       },
     },
     // Results
@@ -96,7 +96,7 @@ export const translations = {
         {
           company: "Grupo iCasei (três marcas)",
           roles: [
-            { title: "Head of UX Writing & Growth Team Lead", period: "Jul 2024 - Atual" },
+            { title: "Head de UX Writing & Comunicação", period: "Jul 2024 - Atual" },
             {
               title: "UX Writer",
               description: "1ª UXW da empresa, responsável por estruturar a área, criar processos e boas práticas",
@@ -360,8 +360,8 @@ export const translations = {
     },
     // Hero
     hero: {
-      role: "UX Content Strategist",
-      position: "Head of UX Writing & Growth Team Lead at iCasei",
+      role: "Estrategista de Conteúdo UX",
+      position: "Head de UX Writing & Comunicação no iCasei",
       location: "São Paulo, SP - Brazil",
       languages: {
         pt: "🇧🇷 PT native",
