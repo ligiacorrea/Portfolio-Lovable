@@ -228,7 +228,7 @@ export const casesDataEn: CasesDataRecord = {
             </p>
 
             <div className="bg-primary/10 p-6 rounded-xl border border-primary/20">
-              <div className="text-3xl font-bold text-primary mb-2">🚀 R$ 5 million</div>
+              <div className="text-3xl font-bold text-primary mb-2">🚀 R$ 6 million</div>
               <p className="text-muted-foreground">
                 transacted solely through the help center, in gift list transactions, without paid media.
               </p>
