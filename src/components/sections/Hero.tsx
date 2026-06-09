@@ -13,7 +13,7 @@ export function Hero() {
             <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-card card-shadow mx-auto">
               <img
                 src="https://ligiacorrea.notion.site/image/attachment%3Ae3c825d3-910b-44b8-b84d-032c2ef5acf1%3ACopia_de_ITALOCESAR_CONFRA_LDN_ICASEI-0301.jpg?id=f4b3560d-aabb-4ec9-b71e-bc64233830fd&table=block&spaceId=a4c5fb53-7256-4287-8559-d9881c87a210&width=250&userId=&cache=v2"
-                alt="Ligia Corrêa - UX Content Strategist"
+                alt="Ligia Corrêa - Estrategista de Conteúdo UX"
                 className="w-full h-full object-cover"
               />
             </div>
