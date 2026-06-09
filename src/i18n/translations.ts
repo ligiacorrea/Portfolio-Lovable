@@ -404,7 +404,7 @@ export const translations = {
       title: "Selected cases",
       otherTitle: "Other relevant projects",
       mainCases: [
-        { slug: "faq-5m-organicos", title: "How I transacted over R$ 5M in the help center organically" },
+        { slug: "faq-5m-organicos", title: "How I transacted over R$ 6M in the help center organically" },
         { slug: "bot-90-satisfacao", title: "How I built bot flows with 90% satisfaction and 73% ticket reduction" },
         {
           slug: "content-system-ops",
