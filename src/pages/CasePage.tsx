@@ -377,7 +377,7 @@ const casesData: Record<string, CaseData> = {
             </p>
 
             <div className="bg-primary/10 p-6 rounded-xl border border-primary/20">
-              <div className="text-3xl font-bold text-primary mb-2">🚀 R$ 5 milhões</div>
+              <div className="text-3xl font-bold text-primary mb-2">🚀 R$ 6 milhões</div>
               <p className="text-muted-foreground">
                 transacionados somente pela central de ajuda, em transações da lista de presentes, sem mídia paga.
               </p>
