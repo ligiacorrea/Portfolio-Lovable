@@ -361,7 +361,7 @@ export const translations = {
     // Hero
     hero: {
       role: "UX Content Strategist",
-      position: "Head of UX Writing & Communication at iCasei",
+      position: "UX Writer & Content Manager at iCasei",
       location: "São Paulo, SP - Brazil",
       languages: {
         pt: "🇧🇷 PT native",
@@ -381,10 +381,10 @@ export const translations = {
       },
       p2: {
         start: "At iCasei, I was the ",
-        highlight1: "first Content Designer",
+        highlight1: "first UX Writer",
         middle: " of the company and today ",
-        highlight2: "I lead the UX Writing and Growth areas, strategically influencing communication decisions",
-        end: ". On a daily basis, I transform complex needs into simple journeys, creating content that guides, reduces friction, and reinforces value proposition, always connecting content strategy with the experience of people who use the product.",
+        highlight2: "UX Writer & Content Manager, strategically influencing communication decisions",
+        end: ". On a daily basis, I transform complex needs into simple journeys, creating content flows and processes that guide, reduce friction, and reinforce the value proposition, always connecting user experience with business needs.",
       },
     },
     // Results
@@ -437,9 +437,9 @@ export const translations = {
       current: "Current",
       companies: [
         {
-          company: "iCasei Group (three brands)",
+          company: "iCasei",
           roles: [
-            { title: "Head of UX Writing & Communication", period: "Jul 2024 - Current" },
+            { title: "UX Writer & Content Manager", period: "Jul 2024 - Current" },
             {
               title: "UX Writer",
               description:
