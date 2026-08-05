@@ -147,6 +147,11 @@ export const translations = {
       honorableMention: "Menção Honrosa",
       degrees: [
         {
+          institution: "Pontifícia Universidade Católica do Rio Grande do Sul 🇧🇷",
+          degree: "Pós-graduação em User Experience Design and Beyond",
+          period: "Jul 2026 – Jul 2027",
+        },
+        {
           institution: "Universidade Anhembi Morumbi 🇧🇷",
           degree: "MBA em Marketing Digital",
           period: "Mar 2019 - Nov 2020",
