@@ -147,6 +147,11 @@ export const translations = {
       honorableMention: "Menção Honrosa",
       degrees: [
         {
+          institution: "Pontifícia Universidade Católica do Rio Grande do Sul 🇧🇷",
+          degree: "Pós-graduação em User Experience Design and Beyond",
+          period: "Jul 2026 – Jul 2027",
+        },
+        {
           institution: "Universidade Anhembi Morumbi 🇧🇷",
           degree: "MBA em Marketing Digital",
           period: "Mar 2019 - Nov 2020",
@@ -486,6 +491,11 @@ export const translations = {
       viewMore: "View more certificates on LinkedIn →",
       honorableMention: "Honorable Mention",
       degrees: [
+        {
+          institution: "Pontifícia Universidade Católica do Rio Grande do Sul 🇧🇷",
+          degree: "Postgraduate in User Experience Design and Beyond",
+          period: "Jul 2026 – Jul 2027",
+        },
         {
           institution: "Universidade Anhembi Morumbi 🇧🇷",
           degree: "MBA in Digital Marketing",
