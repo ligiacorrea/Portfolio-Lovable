@@ -1,4 +1,4 @@
-import { Linkedin, Mail, Phone, FileText } from "lucide-react";
+import { Linkedin, Mail, Phone } from "lucide-react";
 import { useTranslation } from "@/hooks/useTranslation";
 
 export function Footer() {
@@ -38,15 +38,6 @@ export function Footer() {
               aria-label="Telefone"
             >
               <Phone className="h-5 w-5" />
-            </a>
-            <a
-              href="/__l5e/assets-v1/864b60f7-3aa5-4587-813a-aaf911b759c0/CV-Ligia-Correa-Jun2026-PT.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-2 rounded-full bg-card hover:bg-primary hover:text-primary-foreground transition-colors card-shadow"
-              aria-label="Currículo"
-            >
-              <FileText className="h-5 w-5" />
             </a>
           </div>
         </div>
