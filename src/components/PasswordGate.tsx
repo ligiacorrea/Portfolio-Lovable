@@ -54,8 +54,8 @@ export const PasswordGate = ({ children }: { children: ReactNode }) => {
             <Lock className="h-5 w-5 text-primary" aria-hidden="true" />
           </div>
           <h1 className="font-serif text-3xl text-foreground">Ligia Corrêa 🌿</h1>
-          <p className="text-sm text-muted-foreground">
-            Este portfólio é privado. Digite a senha de acesso para continuar.
+          <p className="text-sm text-muted-foreground whitespace-pre-line">
+            Este portfólio é privado. Digite a senha para continuar.{"\n"}
           </p>
         </div>
 
