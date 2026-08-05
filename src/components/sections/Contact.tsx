@@ -1,4 +1,4 @@
-import { Linkedin, Mail, Phone, FileText, Coffee, MessageSquare } from "lucide-react";
+import { Linkedin, Mail, Phone, Coffee, MessageSquare } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "@/hooks/useTranslation";
 
@@ -40,26 +40,6 @@ export function Contact() {
             <a href="tel:+5511999673847" className="flex items-center gap-2 hover:text-foreground transition-colors">
               <Phone className="h-4 w-4" />
               +55 (11) 99967-3847
-            </a>
-            <span className="hidden sm:block">•</span>
-            <a
-              href="/__l5e/assets-v1/864b60f7-3aa5-4587-813a-aaf911b759c0/CV-Ligia-Correa-Jun2026-PT.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 hover:text-foreground transition-colors"
-            >
-              <FileText className="h-4 w-4" />
-              {t.contact.resumePT}
-            </a>
-            <span className="hidden sm:block">•</span>
-            <a
-              href="/__l5e/assets-v1/fc56abdd-ec10-4ca2-a653-0c145465c07f/CV-Ligia-Correa-Jun2026-EN.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 hover:text-foreground transition-colors"
-            >
-              <FileText className="h-4 w-4" />
-              {t.contact.resumeEN}
             </a>
           </div>
         </div>
