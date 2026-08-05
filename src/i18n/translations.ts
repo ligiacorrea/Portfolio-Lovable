@@ -33,7 +33,7 @@ export const translations = {
       p2: {
         start: "No iCasei, fui a ",
         highlight1: "primeira UX Writer",
-        middle: " da empresa e hoje ",
+        middle: " da empresa e hoje atuo como ",
         highlight2: "UX Writer & Content Manager, influenciando estrategicamente as decisões de comunicação",
         end: ". No dia a dia, transformo necessidades complexas em jornadas simples, criando fluxos de processos de conteúdos, que orientam, reduzem fricção e reforçam a proposta de valor, sempre conectando experiência do usuário e necessidade do negócio.",
       },
