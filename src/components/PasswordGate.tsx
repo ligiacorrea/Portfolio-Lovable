@@ -15,7 +15,14 @@ export const PasswordGate = ({ children }: { children: ReactNode }) => {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    setUnlocked(sessionStorage.getItem(STORAGE_KEY) === "true");
+    try {
+      setUnlocked(
+        sessionStorage.getItem(STORAGE_KEY) === "true" ||
+          localStorage.getItem(STORAGE_KEY) === "true",
+      );
+    } catch {
+      setUnlocked(false);
+    }
     setChecking(false);
   }, []);
 
@@ -24,17 +31,38 @@ export const PasswordGate = ({ children }: { children: ReactNode }) => {
     if (!password.trim()) return;
     setLoading(true);
     setError(null);
+
+    const timeout = new Promise<never>((_, reject) =>
+      setTimeout(() => reject(new Error("timeout")), 15000),
+    );
+
     try {
-      const { data, error: fnError } = await supabase.functions.invoke("verify-site-password", {
-        body: { password },
-      });
-      if (fnError) throw fnError;
+      const res = await Promise.race([
+        fetch(
+          `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/verify-site-password`,
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              apikey: import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY,
+            },
+            body: JSON.stringify({ password: password.trim() }),
+          },
+        ),
+        timeout,
+      ]);
+      const data = await res.json().catch(() => null);
       if (data?.valid) {
-        sessionStorage.setItem(STORAGE_KEY, "true");
+        try {
+          sessionStorage.setItem(STORAGE_KEY, "true");
+          localStorage.setItem(STORAGE_KEY, "true");
+        } catch {
+          /* storage indisponível */
+        }
         setUnlocked(true);
-      } else {
-        setError("Senha incorreta. Tente novamente.");
+        return;
       }
+      setError("Senha incorreta. Tente novamente.");
     } catch {
       setError("Não foi possível verificar a senha. Tente novamente.");
     } finally {

@@ -13,13 +13,13 @@ Deno.serve(async (req) => {
 
   try {
     const body = await req.json().catch(() => null);
-    const password = body && typeof body.password === 'string' ? body.password : null;
+    const password = body && typeof body.password === 'string' ? body.password.trim() : null;
 
     if (!password || password.length > 200) {
       return json({ valid: false, error: 'Senha inválida' }, 400);
     }
 
-    const expected = Deno.env.get('SITE_PASSWORD');
+    const expected = Deno.env.get('SITE_PASSWORD')?.trim();
     if (!expected) {
       return json({ valid: false, error: 'Senha não configurada' }, 500);
     }
