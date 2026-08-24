@@ -64,8 +64,7 @@ export const PasswordGate = ({ children }: { children: ReactNode }) => {
       const data = await res.json().catch(() => null);
       if (data?.valid) {
         try {
-          sessionStorage.setItem(STORAGE_KEY, "true");
-          localStorage.setItem(STORAGE_KEY, "true");
+          localStorage.setItem(STORAGE_KEY, String(Date.now()));
         } catch {
           /* storage indisponível */
         }
