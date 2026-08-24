@@ -6,6 +6,22 @@ import { Label } from "@/components/ui/label";
 import { Lock } from "lucide-react";
 
 const STORAGE_KEY = "portfolio-unlocked";
+const MAX_AGE_MS = 12 * 60 * 60 * 1000; // 12h
+
+const readUnlocked = () => {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) return false;
+    const ts = Number(raw);
+    if (!Number.isFinite(ts) || Date.now() - ts > MAX_AGE_MS) {
+      localStorage.removeItem(STORAGE_KEY);
+      return false;
+    }
+    return true;
+  } catch {
+    return false;
+  }
+};
 
 export const PasswordGate = ({ children }: { children: ReactNode }) => {
   const [unlocked, setUnlocked] = useState(false);
@@ -15,16 +31,10 @@ export const PasswordGate = ({ children }: { children: ReactNode }) => {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    try {
-      setUnlocked(
-        sessionStorage.getItem(STORAGE_KEY) === "true" ||
-          localStorage.getItem(STORAGE_KEY) === "true",
-      );
-    } catch {
-      setUnlocked(false);
-    }
+    setUnlocked(readUnlocked());
     setChecking(false);
   }, []);
+
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -54,8 +64,7 @@ export const PasswordGate = ({ children }: { children: ReactNode }) => {
       const data = await res.json().catch(() => null);
       if (data?.valid) {
         try {
-          sessionStorage.setItem(STORAGE_KEY, "true");
-          localStorage.setItem(STORAGE_KEY, "true");
+          localStorage.setItem(STORAGE_KEY, String(Date.now()));
         } catch {
           /* storage indisponível */
         }
